@@ -16,6 +16,7 @@ def extract_all_list_items(list_ctrl: UIAWrapper, scroll_step=1, max_iter=100) -
         try:
             children = list_ctrl.children()
         except Exception:
+            print("[DEBUG] Failed to retrieve children from the list control.")
             break
         changed = False
         for child in children:
@@ -27,10 +28,13 @@ def extract_all_list_items(list_ctrl: UIAWrapper, scroll_step=1, max_iter=100) -
                 changed = True
         # 尝试滚动
         try:
-            list_ctrl.type_keys('{DOWN}')  # 或 send_keys('{PGDN}')、list_ctrl.scroll等
+            list_ctrl.set_focus()
+            list_ctrl.type_keys('{PGDN}')  # 或 send_keys('{PGDN}')、list_ctrl.scroll等
         except Exception:
+            print("[DEBUG] Failed to scroll the list control.")
             break
         if not changed:  # 若本轮无新增条目，认为已滚至底部
+            print("[DEBUG] No new items found, stopping extraction.")
             break
     return all_items_info
 
@@ -98,5 +102,5 @@ if __name__ == "__main__":
         app_path="WeChat.exe",
         window_title="微信",      # 支持正则匹配
         output_dir="gui_export",
-        screenshot=True          # 可设置为 False 关闭截图
+        screenshot=False          # 可设置为 False 关闭截图
     )
