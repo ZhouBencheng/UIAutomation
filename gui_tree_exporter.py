@@ -5,14 +5,6 @@ from pywinauto.controls.uiawrapper import UIAWrapper
 from pywinauto.keyboard import send_keys
 from datetime import datetime
 
-def scrollable(ctrl: UIAWrapper) -> bool:
-    """检查控件是否支持滚动"""
-    try:
-        scroll_pattern = ctrl.element_info.GetCurrentPattern(10004)  # 10004 是 ScrollPattern 的 ID
-        return True
-    except Exception:
-        return False
-
 def extract_all_list_items(list_ctrl: UIAWrapper, scroll_step=1, max_iter=100) -> list:
     """自动滚动容器并递归解析所有子项，返回去重后的完整元素列表"""
     print("[DEBUG] Start extracting list items")
