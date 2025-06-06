@@ -1,12 +1,11 @@
 import time
 from pywinauto import Application
 from pywinauto.keyboard import send_keys
+from utils import get_wrapper_object
 
 def wechat_send_message():
     """发送消息到文件传输助手"""
-    app = Application(backend='uia').connect(path='WeChat.exe')
-    dlg_spec = app.window(title='微信')
-    dlg_wrapper = dlg_spec.wrapper_object()
+    dlg_wrapper = get_wrapper_object('WeChat.exe', '微信')
     # 确保窗口可见
     if not dlg_wrapper.is_visible():
         dlg_wrapper.set_focus()

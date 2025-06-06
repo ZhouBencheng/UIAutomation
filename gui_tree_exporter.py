@@ -1,10 +1,10 @@
 import os
 import json
-from pywinauto import Application
 from pywinauto.controls.uiawrapper import UIAWrapper
 import xml.etree.ElementTree as ET
 from datetime import datetime
 from pywinauto.keyboard import send_keys
+from utils import get_wrapper_object
 
 ############################### 容器滚动器 ###############################
 
@@ -81,7 +81,7 @@ def control_info_to_xml(ctrl: UIAWrapper, depth: int = 0, max_depth: int = 10, p
         "auto_id": ctrl.element_info.automation_id or "",
         "rect": str(ctrl.rectangle()),
         "depth": str(depth),
-        "path": prefix
+        "path": prefix.replace("->", "→")
     })
 
     try:
@@ -134,12 +134,7 @@ def extract_control_info(ctrl: UIAWrapper, depth: int = 0, max_depth: int = 10, 
 
 def export_gui_structure(app_path: str, window_title: str, output_dir="gui_export", screenshot=False):
     """ 将GUI导出为JSON和XML两种形式 """
-    app = Application(backend="uia").connect(path=app_path)
-    print(f"[INFO] Successfully connect to {app_path}")
-    dlg = app.window(title_re=window_title)
-    dlg.wait("visible", timeout=3)
-
-    dlg_wrapper = dlg.wrapper_object()
+    dlg_wrapper = get_wrapper_object(app_path, window_title)
 
     # 创建输出目录
     timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
