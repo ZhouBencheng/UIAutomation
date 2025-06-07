@@ -1,10 +1,11 @@
 """
 Task 1: Send a message to WeChat's File Transfer Assistant （给文件传输助手发一则消息）
 """
-import os.path
+import os
 
 from utils.connector import get_window_specification
 from utils.gui_tree_exporter import export_gui_xml_structure
+import yaml
 
 def send_message_to_wechat():
     """发送消息到微信"""
@@ -19,9 +20,10 @@ def send_message_to_wechat():
         dlg_wrapper.set_focus()
 
     # 解析微信初始GUI状态
-    output_dir = "../task/task1"
+    action_trace = []
+    output_dir = "../tasks/task1"
     state_num  = 1
-    export_gui_xml_structure(app_path, window_title, output_dir, state_num)
+    state_path = export_gui_xml_structure(app_path, window_title, output_dir, state_num)
 
     # 打开搜索框并输入联系人名称
     search_input_spec = dlg_spec.child_window(title='搜索', control_type='Edit')
@@ -32,12 +34,87 @@ def send_message_to_wechat():
 
     # 解析搜索完成后的GUI状态
     state_num += 1
-    export_gui_xml_structure(app_path, window_title, output_dir, state_num)
+    new_state_path = export_gui_xml_structure(app_path, window_title, output_dir, state_num)
+
+    action_trace.append({
+        'Action': 'Input',
+        'Control': {
+            'type': 'Edit',
+            'title': '搜索',
+        },
+        'Input': contact,
+        'State': state_path,
+        'New_State': new_state_path
+    })
 
     # 点击联系人
-    contact_spec = dlg_spec.child_window(title_re=f"{contact}", control_type='Button')
+    contact_spec = dlg_spec.child_window(title_re=f"{contact}", control_type='Button', depth=9)
     contact_wrapper = contact_spec.wrapper_object()
     contact_wrapper.click_input()
+
+    # 解析点击联系人后的GUI状态
+    state_num += 1
+    state_path = new_state_path
+    new_state_path = export_gui_xml_structure(app_path, window_title, output_dir, state_num)
+
+    action_trace.append({
+        'Action': 'click',
+        'Control': {
+            'type': 'Button',
+            'title': contact,
+            'depth': 9
+        },
+        'Input': 'null',
+        'State': state_path,
+        'New_State': new_state_path
+    })
+
+    # 输入消息内容
+    message = 'Hello, this is a test message from the automation script!'
+    message_input_spec = dlg_spec.child_window(title=contact, control_type='Edit')
+    message_input = message_input_spec.wrapper_object()
+    message_input.type_keys(message, with_spaces=True)
+
+    # 解析输入消息后的GUI状态
+    state_num += 1
+    state_path = new_state_path
+    new_state_path = export_gui_xml_structure(app_path, window_title, output_dir, state_num)
+
+    action_trace.append({
+        'Action': 'Input',
+        'Control': {
+            'type': 'Edit',
+            'title': contact,
+        },
+        'Input': message,
+        'State': state_path,
+        'New_State': new_state_path
+    })
+
+    # 发送消息
+    send_button_spec = dlg_spec.child_window(title='发送(S)', control_type='Button')
+    send_button = send_button_spec.wrapper_object()
+    send_button.click_input()
+
+    # 解析发送消息后的GUI状态
+    state_num += 1
+    state_path = new_state_path
+    new_state_path = export_gui_xml_structure(app_path, window_title, output_dir, state_num)
+
+    action_trace.append({
+        'Action': 'click',
+        'Control': {
+            'type': 'Button',
+            'title': '发送(S)',
+        },
+        'Input': 'null',
+        'State': state_path,
+        'New_State': new_state_path
+    })
+
+    with open(os.path.join(output_dir, 'utg1.yaml'), 'w', encoding='utf-8') as f:
+        yaml.dump(action_trace, f, allow_unicode=True)
+
 
 if __name__ == '__main__':
     send_message_to_wechat()

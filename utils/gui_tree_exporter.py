@@ -65,6 +65,7 @@ def extract_all_list_items(list_ctrl: UIAWrapper, depth=0, prefix: str="", flag=
 ############################### 将GUI解析为XML结构 ###############################
 
 def indent_xml(elem, level=0):
+    """xml格式化工具"""
     i = "\n" + level * "  "
     if len(elem):
         if not elem.text or not elem.text.strip():
@@ -106,6 +107,26 @@ def control_info_to_xml(ctrl: UIAWrapper, depth: int = 0, prefix: str = "", max_
                 elem.append(child_elem)
     return elem
 
+def export_gui_xml_structure(app_path: str, window_title: str, output_dir="gui_export", state_num=0) -> str:
+    """ 将GUI导出为XML格式 """
+    dlg_wrapper = get_wrapper_object(app_path, window_title)
+
+    # 创建输出目录
+    output_path = os.path.join(output_dir)
+    os.makedirs(output_path, exist_ok=True)
+
+    logging.info(f" Start extracting GUI structure for: {window_title}")
+
+    # 控件XML结构导出
+    root = control_info_to_xml(dlg_wrapper)
+    indent_xml(root)
+    tree = ET.ElementTree(root)
+    xml_path = os.path.join(output_path, f"state{state_num}.xml")
+    tree.write(xml_path, encoding="utf-8", xml_declaration=True)
+    logging.info(f"XML structure exported to: {xml_path}")
+
+    return xml_path # 返回输出路径
+
 ############################### 将GUI解析为JSON结构 ###############################
 
 def extract_control_info(ctrl: UIAWrapper, depth: int = 0, prefix: str = "", max_depth: int = 15) -> dict:
@@ -134,9 +155,7 @@ def extract_control_info(ctrl: UIAWrapper, depth: int = 0, prefix: str = "", max
     ]
     return info
 
-############################### GUI解析器 ###############################
-
-def export_gui_json_structure(app_path: str, window_title: str, output_dir="gui_export", state_num=0):
+def export_gui_json_structure(app_path: str, window_title: str, output_dir="gui_export", state_num=0) -> str:
     """ 将GUI导出为JSON格式 """
     dlg_wrapper = get_wrapper_object(app_path, window_title)
 
@@ -148,28 +167,14 @@ def export_gui_json_structure(app_path: str, window_title: str, output_dir="gui_
 
     # 控件JSON结构导出
     gui_structure = extract_control_info(dlg_wrapper)
-    with open(os.path.join(output_path, f"state{state_num}.json"), "w", encoding="utf-8") as f:
+    json_path = os.path.join(output_path, f"state{state_num}.json")
+    with open(json_path, "w", encoding="utf-8") as f:
         json.dump(gui_structure, f, ensure_ascii=False, indent=2)
     logging.info(f"JSON structure exported to: {output_path}")
 
-def export_gui_xml_structure(app_path: str, window_title: str, output_dir="gui_export", state_num=0):
-    """ 将GUI导出为XML格式 """
-    dlg_wrapper = get_wrapper_object(app_path, window_title)
+    return json_path # 返回输出路径
 
-    # 创建输出目录
-    output_path = os.path.join(output_dir)
-    os.makedirs(output_path, exist_ok=True)
-
-    logging.info(f" Start extracting GUI structure for: {window_title}")
-
-    # 控件XML结构导出
-    root = control_info_to_xml(dlg_wrapper)
-    indent_xml(root)
-    tree = ET.ElementTree(root)
-    xml_path = os.path.join(output_path, f"state{state_num}.xml")
-    tree.write(xml_path, encoding="utf-8", xml_declaration=True)
-    logging.info(f"XML structure exported to: {xml_path}")
-
+"""将GUI导出为JSON和XML两种形式，并可选截图功能，该函数在本文件调用，用于测试和演示"""
 def export_gui_structure(app_path: str, window_title: str, output_dir="gui_export", screenshot=False):
     """ 将GUI导出为JSON和XML两种形式 """
     timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
