@@ -2,7 +2,7 @@ from pywinauto import Application
 from pywinauto.controls.uiawrapper import UIAWrapper
 import logging
 
-logging.basicConfig(level=logging.DEBUG)
+logging.basicConfig(level=logging.INFO)
 
 def get_wrapper_object(app_path: str, title: str) -> UIAWrapper:
     """连接到微信应用并返回窗口的UIA包装对象"""

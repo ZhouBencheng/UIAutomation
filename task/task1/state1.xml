@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Dialog title="微信" auto_id="" class_name="WeChatMainWndForPC" rect="(L497, T106, R1702, B920)" depth="0" path="">
+  <Pane title="" auto_id="" class_name="popupshadow" rect="(L477, T86, R1722, B940)" depth="1" path=" → Pane[]" />
+  <Pane title="" auto_id="" class_name="" rect="(L497, T106, R1702, B921)" depth="1" path=" → Pane[]">
+    <Pane title="" auto_id="" class_name="" rect="(L497, T106, R1702, B921)" depth="2" path=" → Pane[] → Pane[]">
+      <Toolbar title="导航" auto_id="" class_name="" rect="(L497, T106, R565, B921)" depth="3" path=" → Pane[] → Pane[] → Toolbar[导航]">
+        <Button title="ben" auto_id="" class_name="" rect="(L508, T151, R553, B196)" depth="4" path=" → Pane[] → Pane[] → Toolbar[导航] → Button[ben]" />
+        <Button title="聊天" auto_id="" class_name="" rect="(L500, T215, R563, B270)" depth="4" path=" → Pane[] → Pane[] → Toolbar[导航] → Button[聊天]" />
+        <Button title="通讯录" auto_id="" class_name="" rect="(L500, T266, R563, B321)" depth="4" path=" → Pane[] → Pane[] → Toolbar[导航] → Button[通讯录]" />
+        <Button title="收藏" auto_id="" class_name="" rect="(L500, T317, R563, B372)" depth="4" path=" → Pane[] → Pane[] → Toolbar[导航] → Button[收藏]" />
+        <Button title="聊天文件" auto_id="" class_name="" rect="(L500, T369, R563, B424)" depth="4" path=" → Pane[] → Pane[] → Toolbar[导航] → Button[聊天文件]" />
+        <Button title="朋友圈" auto_id="" class_name="" rect="(L500, T420, R563, B475)" depth="4" path=" → Pane[] → Pane[] → Toolbar[导航] → Button[朋友圈]" />
+        <Pane title="" auto_id="" class_name="" rect="(L497, T475, R565, B751)" depth="4" path=" → Pane[] → Pane[] → Toolbar[导航] → Pane[]">
+          <Pane title="" auto_id="" class_name="" rect="(L497, T475, R565, B751)" depth="5" path=" → Pane[] → Pane[] → Toolbar[导航] → Pane[] → Pane[]" />
+          </Pane>
+        <Pane title="" auto_id="" class_name="" rect="(L500, T764, R563, B799)" depth="4" path=" → Pane[] → Pane[] → Toolbar[导航] → Pane[]">
+          <Pane title="" auto_id="" class_name="" rect="(L500, T764, R563, B799)" depth="5" path=" → Pane[] → Pane[] → Toolbar[导航] → Pane[] → Pane[]">
+            <Button title="小程序面板" auto_id="" class_name="" rect="(L515, T767, R546, B798)" depth="6" path=" → Pane[] → Pane[] → Toolbar[导航] → Pane[] → Pane[] → Button[小程序面板]" />
+            </Pane>
+          </Pane>
+        <Pane title="" auto_id="" class_name="" rect="(L511, T811, R551, B851)" depth="4" path=" → Pane[] → Pane[] → Toolbar[导航] → Pane[]">
+          <Button title="手机" auto_id="" class_name="" rect="(L515, T821, R546, B852)" depth="5" path=" → Pane[] → Pane[] → Toolbar[导航] → Pane[] → Button[手机]" />
+          </Pane>
+        <Pane title="" auto_id="" class_name="" rect="(L515, T871, R548, B901)" depth="4" path=" → Pane[] → Pane[] → Toolbar[导航] → Pane[]">
+          <Button title="设置及其他" auto_id="" class_name="" rect="(L515, T871, R546, B902)" depth="5" path=" → Pane[] → Pane[] → Toolbar[导航] → Pane[] → Button[设置及其他]" />
+          </Pane>
+        </Toolbar>
+      <Pane title="" auto_id="" class_name="" rect="(L565, T106, R827, B921)" depth="3" path=" → Pane[] → Pane[] → Pane[]">
+        <Pane title="" auto_id="" class_name="" rect="(L565, T106, R826, B184)" depth="4" path=" → Pane[] → Pane[] → Pane[] → Pane[]">
+          <Pane title="" auto_id="" class_name="" rect="(L580, T137, R767, B168)" depth="5" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[]">
+            <Static title="" auto_id="" class_name="" rect="(L580, T137, R767, B168)" depth="6" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Static[]" />
+            <Pane title="" auto_id="" class_name="" rect="(L580, T137, R767, B168)" depth="6" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[]">
+              <Edit title="搜索" auto_id="" class_name="" rect="(L605, T137, R767, B166)" depth="7" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Edit[搜索]" />
+              <Static title="" auto_id="" class_name="" rect="(L585, T145, R605, B165)" depth="7" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Static[]" />
+              </Pane>
+            </Pane>
+          <Pane title="" auto_id="" class_name="" rect="(L780, T137, R811, B168)" depth="5" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[]">
+            <Button title="发起群聊" auto_id="" class_name="" rect="(L780, T137, R811, B168)" depth="6" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Button[发起群聊]" />
+            </Pane>
+          </Pane>
+        <Pane title="" auto_id="" class_name="" rect="(L565, T184, R826, B922)" depth="4" path=" → Pane[] → Pane[] → Pane[] → Pane[]">
+          <Pane title="" auto_id="" class_name="" rect="(L565, T184, R826, B922)" depth="5" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[]">
+            <Pane title="" auto_id="" class_name="" rect="(L565, T184, R826, B922)" depth="6" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[]">
+              <Pane title="" auto_id="" class_name="" rect="(L565, T184, R826, B922)" depth="7" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[]">
+                <ListItem title="白婧譞已置顶" control_type="ListItem" auto_id="" class_name="" rect="(L565, T184, R826, B264)" depth="8" path="" children="[{'title': '', 'control_type': 'Pane', 'auto_id': '', 'class_name': '', 'rect': '(L565, T184, R826, B264)', 'depth': '9', 'path': ' -> Pane[]', 'children': [{'title': '白婧譞', 'control_type': 'Button', 'auto_id': '', 'class_name': '', 'rect': '(L580, T199, R630, B249)', 'depth': '10', 'path': ' -> Pane[] -> Button[白婧譞]', 'children': []}, {'title': '', 'control_type': 'Pane', 'auto_id': '', 'class_name': '', 'rect': '(L642, T199, R811, B252)', 'depth': '10', 'path': ' -> Pane[] -> Pane[]', 'children': [{}, {}]}]}]" />
+                <ListItem title="北科大智慧校园已置顶" control_type="ListItem" auto_id="" class_name="" rect="(L565, T264, R826, B344)" depth="8" path="" children="[{'title': '', 'control_type': 'Pane', 'auto_id': '', 'class_name': '', 'rect': '(L565, T264, R826, B344)', 'depth': '9', 'path': ' -> Pane[]', 'children': [{'title': '北科大智慧校园', 'control_type': 'Button', 'auto_id': '', 'class_name': '', 'rect': '(L580, T279, R630, B329)', 'depth': '10', 'path': ' -> Pane[] -> Button[北科大智慧校园]', 'children': []}, {'title': '', 'control_type': 'Pane', 'auto_id': '', 'class_name': '', 'rect': '(L642, T279, R811, B331)', 'depth': '10', 'path': ' -> Pane[] -> Pane[]', 'children': [{}, {}]}]}]" />
+                <ListItem title="文件传输助手已置顶" control_type="ListItem" auto_id="" class_name="" rect="(L565, T344, R826, B424)" depth="8" path="" children="[{'title': '', 'control_type': 'Pane', 'auto_id': '', 'class_name': '', 'rect': '(L565, T344, R826, B424)', 'depth': '9', 'path': ' -> Pane[]', 'children': [{'title': '文件传输助手', 'control_type': 'Button', 'auto_id': '', 'class_name': '', 'rect': '(L580, T359, R630, B409)', 'depth': '10', 'path': ' -> Pane[] -> Button[文件传输助手]', 'children': []}, {'title': '', 'control_type': 'Pane', 'auto_id': '', 'class_name': '', 'rect': '(L642, T359, R811, B412)', 'depth': '10', 'path': ' -> Pane[] -> Pane[]', 'children': [{}, {}]}]}]" />
+                <ListItem title="【十五周】计通2022级已置顶" control_type="ListItem" auto_id="" class_name="" rect="(L565, T424, R826, B504)" depth="8" path="" children="[{'title': '', 'control_type': 'Pane', 'auto_id': '', 'class_name': '', 'rect': '(L565, T424, R826, B504)', 'depth': '9', 'path': ' -> Pane[]', 'children': [{'title': '【十五周】计通2022级', 'control_type': 'Button', 'auto_id': '', 'class_name': '', 'rect': '(L580, T439, R630, B489)', 'depth': '10', 'path': ' -> Pane[] -> Button[【十五周】计通2022级]', 'children': []}, {'title': '', 'control_type': 'Pane', 'auto_id': '', 'class_name': '', 'rect': '(L642, T439, R811, B492)', 'depth': '10', 'path': ' -> Pane[] -> Pane[]', 'children': [{}, {}]}]}]" />
+                <ListItem title="雨课堂已置顶" control_type="ListItem" auto_id="" class_name="" rect="(L565, T504, R826, B584)" depth="8" path="" children="[{'title': '', 'control_type': 'Pane', 'auto_id': '', 'class_name': '', 'rect': '(L565, T504, R826, B584)', 'depth': '9', 'path': ' -> Pane[]', 'children': [{'title': '雨课堂', 'control_type': 'Button', 'auto_id': '', 'class_name': '', 'rect': '(L580, T519, R630, B569)', 'depth': '10', 'path': ' -> Pane[] -> Button[雨课堂]', 'children': []}, {'title': '', 'control_type': 'Pane', 'auto_id': '', 'class_name': '', 'rect': '(L642, T519, R811, B572)', 'depth': '10', 'path': ' -> Pane[] -> Pane[]', 'children': [{}, {}]}]}]" />
+                <ListItem title="翔宇2022届高三（11）班" control_type="ListItem" auto_id="" class_name="" rect="(L565, T584, R826, B664)" depth="8" path="" children="[{'title': '', 'control_type': 'Pane', 'auto_id': '', 'class_name': '', 'rect': '(L565, T584, R826, B664)', 'depth': '9', 'path': ' -> Pane[]', 'children': [{'title': '翔宇2022届高三（11）班', 'control_type': 'Button', 'auto_id': '', 'class_name': '', 'rect': '(L580, T599, R630, B649)', 'depth': '10', 'path': ' -> Pane[] -> Button[翔宇2022届高三（11）班]', 'children': []}, {'title': '', 'control_type': 'Pane', 'auto_id': '', 'class_name': '', 'rect': '(L642, T599, R811, B652)', 'depth': '10', 'path': ' -> Pane[] -> Pane[]', 'children': [{}, {}]}]}]" />
+                <ListItem title="订阅号" control_type="ListItem" auto_id="" class_name="" rect="(L565, T664, R826, B744)" depth="8" path="" children="[{'title': '', 'control_type': 'Pane', 'auto_id': '', 'class_name': '', 'rect': '(L565, T664, R826, B744)', 'depth': '9', 'path': ' -> Pane[]', 'children': [{'title': 'SessionListItem', 'control_type': 'Button', 'auto_id': '', 'class_name': '', 'rect': '(L580, T679, R630, B729)', 'depth': '10', 'path': ' -> Pane[] -> Button[SessionListItem]', 'children': []}, {'title': '', 'control_type': 'Pane', 'auto_id': '', 'class_name': '', 'rect': '(L642, T679, R811, B732)', 'depth': '10', 'path': ' -> Pane[] -> Pane[]', 'children': [{}, {}]}]}]" />
+                <ListItem title="吉祥三宝" control_type="ListItem" auto_id="" class_name="" rect="(L565, T744, R826, B824)" depth="8" path="" children="[{'title': '', 'control_type': 'Pane', 'auto_id': '', 'class_name': '', 'rect': '(L565, T744, R826, B824)', 'depth': '9', 'path': ' -> Pane[]', 'children': [{'title': '吉祥三宝', 'control_type': 'Button', 'auto_id': '', 'class_name': '', 'rect': '(L580, T759, R630, B809)', 'depth': '10', 'path': ' -> Pane[] -> Button[吉祥三宝]', 'children': []}, {'title': '', 'control_type': 'Pane', 'auto_id': '', 'class_name': '', 'rect': '(L642, T759, R811, B812)', 'depth': '10', 'path': ' -> Pane[] -> Pane[]', 'children': [{}, {}]}]}]" />
+                <ListItem title="泡泡玛特北京壹号店群38" control_type="ListItem" auto_id="" class_name="" rect="(L565, T824, R826, B904)" depth="8" path="" children="[{'title': '', 'control_type': 'Pane', 'auto_id': '', 'class_name': '', 'rect': '(L565, T824, R826, B904)', 'depth': '9', 'path': ' -> Pane[]', 'children': [{'title': '泡泡玛特北京壹号店群38', 'control_type': 'Button', 'auto_id': '', 'class_name': '', 'rect': '(L580, T839, R630, B889)', 'depth': '10', 'path': ' -> Pane[] -> Button[泡泡玛特北京壹号店群38]', 'children': []}, {'title': '', 'control_type': 'Pane', 'auto_id': '', 'class_name': '', 'rect': '(L642, T839, R811, B892)', 'depth': '10', 'path': ' -> Pane[] -> Pane[]', 'children': [{}, {}]}]}]" />
+                <ListItem title="泡泡🫧补货交流群" control_type="ListItem" auto_id="" class_name="" rect="(L565, T904, R826, B984)" depth="8" path="" children="[{'title': '', 'control_type': 'Pane', 'auto_id': '', 'class_name': '', 'rect': '(L565, T904, R826, B984)', 'depth': '9', 'path': ' -> Pane[]', 'children': [{'title': '泡泡🫧补货交流群', 'control_type': 'Button', 'auto_id': '', 'class_name': '', 'rect': '(L580, T919, R630, B969)', 'depth': '10', 'path': ' -> Pane[] -> Button[泡泡🫧补货交流群]', 'children': []}, {'title': '', 'control_type': 'Pane', 'auto_id': '', 'class_name': '', 'rect': '(L642, T919, R811, B972)', 'depth': '10', 'path': ' -> Pane[] -> Pane[]', 'children': [{}, {}]}]}]" />
+                </Pane>
+              </Pane>
+            </Pane>
+          </Pane>
+        </Pane>
+      <Pane title="" auto_id="" class_name="" rect="(L827, T106, R1702, B921)" depth="3" path=" → Pane[] → Pane[] → Pane[]">
+        <Pane title="" auto_id="" class_name="" rect="(L827, T106, R1702, B921)" depth="4" path=" → Pane[] → Pane[] → Pane[] → Pane[]">
+          <Pane title="" auto_id="" class_name="" rect="(L827, T106, R1196, B921)" depth="5" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[]" />
+          <Pane title="" auto_id="" class_name="" rect="(L1196, T106, R1334, B921)" depth="5" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[]">
+            <Pane title="" auto_id="" class_name="" rect="(L1196, T106, R1334, B445)" depth="6" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[]" />
+            <Pane title="" auto_id="" class_name="" rect="(L1196, T445, R1334, B583)" depth="6" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[]" />
+            <Pane title="" auto_id="" class_name="" rect="(L1196, T582, R1334, B921)" depth="6" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[]" />
+            </Pane>
+          <Pane title="" auto_id="" class_name="" rect="(L1333, T106, R1702, B921)" depth="5" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[]" />
+          </Pane>
+        <Toolbar title="" auto_id="" class_name="" rect="(L1537, T106, R1702, B137)" depth="4" path=" → Pane[] → Pane[] → Pane[] → Toolbar[]">
+          <Button title="置顶" auto_id="" class_name="" rect="(L1537, T106, R1578, B137)" depth="5" path=" → Pane[] → Pane[] → Pane[] → Toolbar[] → Button[置顶]" />
+          <Button title="最小化" auto_id="" class_name="" rect="(L1578, T106, R1619, B137)" depth="5" path=" → Pane[] → Pane[] → Pane[] → Toolbar[] → Button[最小化]" />
+          <Button title="最大化" auto_id="" class_name="" rect="(L1620, T106, R1661, B137)" depth="5" path=" → Pane[] → Pane[] → Pane[] → Toolbar[] → Button[最大化]" />
+          <Button title="关闭" auto_id="" class_name="" rect="(L1661, T106, R1702, B137)" depth="5" path=" → Pane[] → Pane[] → Pane[] → Toolbar[] → Button[关闭]" />
+          </Toolbar>
+        </Pane>
+      </Pane>
+    </Pane>
+  </Dialog>
