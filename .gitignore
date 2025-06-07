@@ -1,2 +1,5 @@
 /gui_export/
 /.idea/
+__pycache__/
+
+*.pyc
