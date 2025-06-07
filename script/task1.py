@@ -3,7 +3,7 @@ Task 1: Send a message to WeChat's File Transfer Assistant （给文件传输助
 """
 
 import time
-from utils import get_window_specification
+from utils.connector import get_window_specification
 
 def send_message_to_wechat():
     """发送消息到微信"""

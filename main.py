@@ -1,7 +1,7 @@
 import time
 from pywinauto import Application
 from pywinauto.keyboard import send_keys
-from utils import get_wrapper_object
+from utils.connector import get_wrapper_object
 
 def wechat_send_message():
     """发送消息到文件传输助手"""

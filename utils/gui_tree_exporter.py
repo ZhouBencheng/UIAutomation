@@ -1,29 +1,30 @@
+import logging
 import os
 import json
 from pywinauto.controls.uiawrapper import UIAWrapper
 import xml.etree.ElementTree as ET
 from datetime import datetime
 from pywinauto.keyboard import send_keys
-from utils import get_wrapper_object
+from utils.connector import get_wrapper_object
 
 ############################### 容器滚动器 ###############################
 
 def scroll_back(list_ctrl: UIAWrapper, scroll_step=1, max_iter=100):
     """向上滚动容器"""
-    print("[DEBUG] Start scrolling back in the list control")
+    logging.debug(f"Start scrolling back in the list control")
     for _ in range(max_iter):
         try:
             list_ctrl.set_focus()
             send_keys('{PGUP}')  # 或 send_keys('{PGUP}')、list_ctrl.scroll等
         except Exception:
-            print("[DEBUG] Failed to scroll back in the list control.")
+            logging.debug("Failed to scroll back in the list control.")
             break
         # 等待一小段时间以确保滚动完成
         # send_keys('{WAIT}')
 
 def extract_all_list_items(list_ctrl: UIAWrapper, scroll_step=1, max_iter=100) -> list:
     """自动滚动容器并递归解析所有子项，返回去重后的完整元素列表"""
-    print("[DEBUG] Start extracting list items")
+    logging.debug(f"Start extracting list items")
     seen_items = set()   # 记录已采集的唯一标识（如title、auto_id等）
     all_items_info = []
 
@@ -32,7 +33,7 @@ def extract_all_list_items(list_ctrl: UIAWrapper, scroll_step=1, max_iter=100) -
         try:
             children = list_ctrl.children()
         except Exception:
-            print("[DEBUG] Failed to retrieve children from the list control.")
+            logging.debug("Failed to retrieve children from the list control.")
             break
         changed = False
         for child in children:
@@ -48,10 +49,10 @@ def extract_all_list_items(list_ctrl: UIAWrapper, scroll_step=1, max_iter=100) -
             send_keys('{PGDN}')
             # list_ctrl.type_keys('{PGDN}')
         except Exception:
-            print("[DEBUG] Failed to scroll the list control.")
+            logging.debug("Failed to scroll the list control.")
             break
         if not changed:  # 若本轮无新增条目，认为已滚至底部
-            print("[DEBUG] No new items found, stopping extraction.")
+            logging.debug("No new items found, stopping extraction.")
             break
 
     scroll_back(list_ctrl)
@@ -141,13 +142,13 @@ def export_gui_structure(app_path: str, window_title: str, output_dir="gui_expor
     output_path = os.path.join(output_dir, f"{window_title}_{timestamp}")
     os.makedirs(output_path, exist_ok=True)
 
-    print(f"[INFO] Start extracting GUI structure for: {window_title}")
+    logging.info(f" Start extracting GUI structure for: {window_title}")
 
     # 控件JSON结构导出
     gui_structure = extract_control_info(dlg_wrapper)
     with open(os.path.join(output_path, "structure.json"), "w", encoding="utf-8") as f:
         json.dump(gui_structure, f, ensure_ascii=False, indent=2)
-    print(f"[INFO] JSON structure exported to: {output_path}")
+    logging.info(f"JSON structure exported to: {output_path}")
 
     # 控件XML结构导出
     root = control_info_to_xml(dlg_wrapper)
@@ -155,14 +156,14 @@ def export_gui_structure(app_path: str, window_title: str, output_dir="gui_expor
     tree = ET.ElementTree(root)
     xml_path = os.path.join(output_path, "structure.xml")
     tree.write(xml_path, encoding="utf-8", xml_declaration=True)
-    print(f"[INFO] XML structure exported to: {xml_path}")
+    logging.info(f"XML structure exported to: {xml_path}")
 
     # 可选截图
     if screenshot:
         image_path = os.path.join(output_path, "screenshot.png")
         image = dlg_wrapper.capture_as_image()
         image.save(image_path)
-        print(f"[INFO] Screenshot saved to: {image_path}")
+        logging.info(f"Screenshot exported to: {image_path}")
 
 
 if __name__ == "__main__":
@@ -170,6 +171,6 @@ if __name__ == "__main__":
     export_gui_structure(
         app_path="WeChat.exe",
         window_title="微信",       # 支持正则匹配
-        output_dir="gui_export",
+        output_dir="../gui_export",
         screenshot=False          # 可设置为 False 关闭截图
     )
