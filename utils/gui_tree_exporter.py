@@ -107,15 +107,13 @@ def control_info_to_xml(ctrl: UIAWrapper, depth: int = 0, prefix: str = "", max_
                 elem.append(child_elem)
     return elem
 
-def export_gui_xml_structure(app_path: str, window_title: str, output_dir="gui_export", state_num=0) -> str:
+def export_gui_xml_structure(dlg_wrapper: UIAWrapper, output_dir="gui_export", state_num=0) -> str:
     """ 将GUI导出为XML格式 """
-    dlg_wrapper = get_wrapper_object(app_path, window_title)
-
     # 创建输出目录
     output_path = os.path.join(output_dir)
     os.makedirs(output_path, exist_ok=True)
 
-    logging.info(f" Start extracting GUI structure for: {window_title}")
+    logging.info(f" Start extracting GUI structure for: {dlg_wrapper.window_text()}")
 
     # 控件XML结构导出
     root = control_info_to_xml(dlg_wrapper)
@@ -155,15 +153,13 @@ def extract_control_info(ctrl: UIAWrapper, depth: int = 0, prefix: str = "", max
     ]
     return info
 
-def export_gui_json_structure(app_path: str, window_title: str, output_dir="gui_export", state_num=0) -> str:
+def export_gui_json_structure(dlg_wrapper: UIAWrapper, output_dir="gui_export", state_num=0) -> str:
     """ 将GUI导出为JSON格式 """
-    dlg_wrapper = get_wrapper_object(app_path, window_title)
-
     # 创建输出目录
     output_path = os.path.join(output_dir)
     os.makedirs(output_path, exist_ok=True)
 
-    logging.info(f" Start extracting GUI structure for: {window_title}")
+    logging.info(f" Start extracting GUI structure for: {dlg_wrapper.window_text()}")
 
     # 控件JSON结构导出
     gui_structure = extract_control_info(dlg_wrapper)
@@ -179,12 +175,12 @@ def export_gui_structure(app_path: str, window_title: str, output_dir="gui_expor
     """ 将GUI导出为JSON和XML两种形式 """
     timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
     output_dir += f"/{window_title}_{timestamp}"
-    export_gui_json_structure(app_path, window_title, output_dir)
-    export_gui_xml_structure(app_path, window_title, output_dir)
+    dlg_wrapper = get_wrapper_object(app_path, window_title)
+    export_gui_json_structure(dlg_wrapper, output_dir)
+    export_gui_xml_structure(dlg_wrapper, output_dir)
 
     # 可选截图
     if screenshot:
-        dlg_wrapper = get_wrapper_object(app_path, window_title)
         image_path = os.path.join(output_dir, f"{window_title}_screenshot.png")
         image = dlg_wrapper.capture_as_image()
         image.save(image_path)

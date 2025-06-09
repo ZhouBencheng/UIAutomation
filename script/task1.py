@@ -2,7 +2,6 @@
 Task 1: Send a message to WeChat's File Transfer Assistant （给文件传输助手发一则消息）
 """
 import os
-
 from utils.connector import get_window_specification
 from utils.gui_tree_exporter import export_gui_xml_structure
 import yaml
@@ -23,7 +22,7 @@ def send_message_to_wechat():
     action_trace = []
     output_dir = r"..\tasks\task1"
     state_num  = 1
-    state_path = os.path.split(export_gui_xml_structure(app_path, window_title, output_dir, state_num))[1]
+    state_path = os.path.split(export_gui_xml_structure(dlg_wrapper, output_dir, state_num))[1]
 
     # 打开搜索框并输入联系人名称
     search_input_spec = dlg_spec.child_window(title='搜索', control_type='Edit')
@@ -34,7 +33,7 @@ def send_message_to_wechat():
 
     # 解析搜索完成后的GUI状态
     state_num += 1
-    new_state_path = os.path.split(export_gui_xml_structure(app_path, window_title, output_dir, state_num))[1]
+    new_state_path = os.path.split(export_gui_xml_structure(dlg_wrapper, output_dir, state_num))[1]
 
     action_trace.append({
         'Action': 'Input',
@@ -55,7 +54,7 @@ def send_message_to_wechat():
     # 解析点击联系人后的GUI状态
     state_num += 1
     state_path = new_state_path
-    new_state_path = os.path.split(export_gui_xml_structure(app_path, window_title, output_dir, state_num))[1]
+    new_state_path = os.path.split(export_gui_xml_structure(dlg_wrapper, output_dir, state_num))[1]
 
     action_trace.append({
         'Action': 'click',
@@ -78,7 +77,7 @@ def send_message_to_wechat():
     # 解析输入消息后的GUI状态
     state_num += 1
     state_path = new_state_path
-    new_state_path = os.path.split(export_gui_xml_structure(app_path, window_title, output_dir, state_num))[1]
+    new_state_path = os.path.split(export_gui_xml_structure(dlg_wrapper, output_dir, state_num))[1]
 
     action_trace.append({
         'Action': 'Input',
@@ -99,7 +98,7 @@ def send_message_to_wechat():
     # 解析发送消息后的GUI状态
     state_num += 1
     state_path = new_state_path
-    new_state_path = os.path.split(export_gui_xml_structure(app_path, window_title, output_dir, state_num))[1]
+    new_state_path = os.path.split(export_gui_xml_structure(dlg_wrapper, output_dir, state_num))[1]
 
     action_trace.append({
         'Action': 'click',
