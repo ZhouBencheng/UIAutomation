@@ -21,9 +21,9 @@ def send_message_to_wechat():
 
     # 解析微信初始GUI状态
     action_trace = []
-    output_dir = "../tasks/task1"
+    output_dir = r"..\tasks\task1"
     state_num  = 1
-    state_path = export_gui_xml_structure(app_path, window_title, output_dir, state_num)
+    state_path = os.path.split(export_gui_xml_structure(app_path, window_title, output_dir, state_num))[1]
 
     # 打开搜索框并输入联系人名称
     search_input_spec = dlg_spec.child_window(title='搜索', control_type='Edit')
@@ -34,7 +34,7 @@ def send_message_to_wechat():
 
     # 解析搜索完成后的GUI状态
     state_num += 1
-    new_state_path = export_gui_xml_structure(app_path, window_title, output_dir, state_num)
+    new_state_path = os.path.split(export_gui_xml_structure(app_path, window_title, output_dir, state_num))[1]
 
     action_trace.append({
         'Action': 'Input',
@@ -48,14 +48,14 @@ def send_message_to_wechat():
     })
 
     # 点击联系人
-    contact_spec = dlg_spec.child_window(title_re=f"{contact}", control_type='Button', depth=9)
+    contact_spec = dlg_spec.child_window(title=f"{contact}", control_type='Button', depth=9)
     contact_wrapper = contact_spec.wrapper_object()
     contact_wrapper.click_input()
 
     # 解析点击联系人后的GUI状态
     state_num += 1
     state_path = new_state_path
-    new_state_path = export_gui_xml_structure(app_path, window_title, output_dir, state_num)
+    new_state_path = os.path.split(export_gui_xml_structure(app_path, window_title, output_dir, state_num))[1]
 
     action_trace.append({
         'Action': 'click',
@@ -78,7 +78,7 @@ def send_message_to_wechat():
     # 解析输入消息后的GUI状态
     state_num += 1
     state_path = new_state_path
-    new_state_path = export_gui_xml_structure(app_path, window_title, output_dir, state_num)
+    new_state_path = os.path.split(export_gui_xml_structure(app_path, window_title, output_dir, state_num))[1]
 
     action_trace.append({
         'Action': 'Input',
@@ -99,7 +99,7 @@ def send_message_to_wechat():
     # 解析发送消息后的GUI状态
     state_num += 1
     state_path = new_state_path
-    new_state_path = export_gui_xml_structure(app_path, window_title, output_dir, state_num)
+    new_state_path = os.path.split(export_gui_xml_structure(app_path, window_title, output_dir, state_num))[1]
 
     action_trace.append({
         'Action': 'click',

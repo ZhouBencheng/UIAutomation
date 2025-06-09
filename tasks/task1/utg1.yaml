@@ -3,27 +3,27 @@
     title: 搜索
     type: Edit
   Input: 文件传输助手
-  New_State: ../tasks/task1\state2.xml
-  State: ../tasks/task1\state1.xml
+  New_State: state2.xml
+  State: state1.xml
 - Action: click
   Control:
     depth: 9
     title: 文件传输助手
     type: Button
   Input: 'null'
-  New_State: ../tasks/task1\state3.xml
-  State: ../tasks/task1\state2.xml
+  New_State: state3.xml
+  State: state2.xml
 - Action: Input
   Control:
     title: 文件传输助手
     type: Edit
   Input: Hello, this is a test message from the automation script!
-  New_State: ../tasks/task1\state4.xml
-  State: ../tasks/task1\state3.xml
+  New_State: state4.xml
+  State: state3.xml
 - Action: click
   Control:
     title: 发送(S)
     type: Button
   Input: 'null'
-  New_State: ../tasks/task1\state5.xml
-  State: ../tasks/task1\state4.xml
+  New_State: state5.xml
+  State: state4.xml

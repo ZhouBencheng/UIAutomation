@@ -26,7 +26,7 @@
 - [ ] 对动态控件类型进行抽象汇总
 - [x] `ListItem`控件的`depth`解析始终为0，待修复
 - [x] 对`ListItem`的XML解析中，child误解为JSON，待修复
-- [ ] utg中状态文件路径存在错误（相对路径）
+- [x] utg中状态文件路径存在错误（相对路径），待修复
 
 ## Vulnerabilities
 
