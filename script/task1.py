@@ -36,7 +36,7 @@ def send_message_to_wechat():
     new_state_path = os.path.split(export_gui_xml_structure(dlg_wrapper, output_dir, state_num))[1]
 
     action_trace.append({
-        'Action': 'Input',
+        'Action': 'input',
         'Control': {
             'type': 'Edit',
             'title': '搜索',
@@ -80,7 +80,7 @@ def send_message_to_wechat():
     new_state_path = os.path.split(export_gui_xml_structure(dlg_wrapper, output_dir, state_num))[1]
 
     action_trace.append({
-        'Action': 'Input',
+        'Action': 'input',
         'Control': {
             'type': 'Edit',
             'title': contact,

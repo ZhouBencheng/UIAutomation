@@ -1,0 +1,161 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Dialog title="ben" auto_id="" rect="(L616, T115, R1304, B965)" depth="0" path="">
+  <Pane title="" auto_id="" rect="(L596, T95, R1324, B985)" depth="1" path=" → Pane[]" />
+  <Pane title="" auto_id="" rect="(L616, T115, R1305, B965)" depth="1" path=" → Pane[]">
+    <Pane title="" auto_id="" rect="(L616, T115, R1305, B158)" depth="2" path=" → Pane[] → Pane[]">
+      <Static title="ben" auto_id="" rect="(L631, T123, R1222, B158)" depth="3" path=" → Pane[] → Pane[] → Static[ben]" />
+      <Button title="最小化" auto_id="" rect="(L1222, T115, R1263, B146)" depth="3" path=" → Pane[] → Pane[] → Button[最小化]" />
+      <Button title="关闭" auto_id="" rect="(L1264, T115, R1305, B146)" depth="3" path=" → Pane[] → Pane[] → Button[关闭]" />
+      </Pane>
+    <Pane title="" auto_id="" rect="(L641, T169, R1280, B219)" depth="2" path=" → Pane[] → Pane[]">
+      <Pane title="" auto_id="" rect="(L641, T169, R1280, B219)" depth="3" path=" → Pane[] → Pane[] → Pane[]">
+        <Pane title="" auto_id="" rect="(L651, T169, R681, B219)" depth="4" path=" → Pane[] → Pane[] → Pane[] → Pane[]">
+          <Static title="" auto_id="" rect="(L651, T179, R681, B209)" depth="5" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Static[]" />
+          </Pane>
+        <Edit title="搜索" auto_id="" rect="(L687, T169, R1272, B209)" depth="4" path=" → Pane[] → Pane[] → Pane[] → Edit[搜索]" />
+        </Pane>
+      </Pane>
+    <Pane title="" auto_id="" rect="(L616, T219, R1305, B965)" depth="2" path=" → Pane[] → Pane[]">
+      <Pane title="" auto_id="" rect="(L616, T219, R1305, B965)" depth="3" path=" → Pane[] → Pane[] → Pane[]">
+        <Pane title="" auto_id="" rect="(L641, T235, R1280, B279)" depth="4" path=" → Pane[] → Pane[] → Pane[] → Pane[]">
+          <Pane title="" auto_id="" rect="(L0, T0, R0, B0)" depth="5" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[]" />
+          <Pane title="" auto_id="" rect="(L641, T235, R1289, B279)" depth="5" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[]">
+            <TabControl title="消息类型" auto_id="" rect="(L641, T235, R1289, B270)" depth="6" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → TabControl[消息类型]">
+              <TabItem title="文件" auto_id="" rect="(L641, T235, R701, B270)" depth="7" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → TabControl[消息类型] → TabItem[文件]">
+                <Pane title="" auto_id="" rect="(L641, T235, R701, B270)" depth="8" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → TabControl[消息类型] → TabItem[文件] → Pane[]">
+                  <Static title="文件" auto_id="" rect="(L641, T235, R682, B263)" depth="9" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → TabControl[消息类型] → TabItem[文件] → Pane[] → Static[文件]" />
+                  </Pane>
+                </TabItem>
+              <TabItem title="图片与视频" auto_id="" rect="(L701, T235, R814, B270)" depth="7" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → TabControl[消息类型] → TabItem[图片与视频]">
+                <Pane title="" auto_id="" rect="(L701, T235, R814, B270)" depth="8" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → TabControl[消息类型] → TabItem[图片与视频] → Pane[]">
+                  <Static title="图片与视频" auto_id="" rect="(L701, T235, R795, B263)" depth="9" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → TabControl[消息类型] → TabItem[图片与视频] → Pane[] → Static[图片与视频]" />
+                  </Pane>
+                </TabItem>
+              <TabItem title="链接" auto_id="" rect="(L814, T235, R874, B270)" depth="7" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → TabControl[消息类型] → TabItem[链接]">
+                <Pane title="" auto_id="" rect="(L814, T235, R874, B270)" depth="8" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → TabControl[消息类型] → TabItem[链接] → Pane[]">
+                  <Static title="链接" auto_id="" rect="(L814, T235, R855, B263)" depth="9" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → TabControl[消息类型] → TabItem[链接] → Pane[] → Static[链接]" />
+                  </Pane>
+                </TabItem>
+              <TabItem title="音乐与音频" auto_id="" rect="(L874, T235, R987, B270)" depth="7" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → TabControl[消息类型] → TabItem[音乐与音频]">
+                <Pane title="" auto_id="" rect="(L874, T235, R987, B270)" depth="8" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → TabControl[消息类型] → TabItem[音乐与音频] → Pane[]">
+                  <Static title="音乐与音频" auto_id="" rect="(L874, T235, R968, B263)" depth="9" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → TabControl[消息类型] → TabItem[音乐与音频] → Pane[] → Static[音乐与音频]" />
+                  </Pane>
+                </TabItem>
+              <TabItem title="小程序" auto_id="" rect="(L986, T235, R1064, B270)" depth="7" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → TabControl[消息类型] → TabItem[小程序]">
+                <Pane title="" auto_id="" rect="(L986, T235, R1064, B270)" depth="8" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → TabControl[消息类型] → TabItem[小程序] → Pane[]">
+                  <Static title="小程序" auto_id="" rect="(L986, T235, R1045, B263)" depth="9" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → TabControl[消息类型] → TabItem[小程序] → Pane[] → Static[小程序]" />
+                  </Pane>
+                </TabItem>
+              <TabItem title="视频号" auto_id="" rect="(L1064, T235, R1142, B270)" depth="7" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → TabControl[消息类型] → TabItem[视频号]">
+                <Pane title="" auto_id="" rect="(L1064, T235, R1142, B270)" depth="8" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → TabControl[消息类型] → TabItem[视频号] → Pane[]">
+                  <Static title="视频号" auto_id="" rect="(L1064, T235, R1123, B263)" depth="9" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → TabControl[消息类型] → TabItem[视频号] → Pane[] → Static[视频号]" />
+                  </Pane>
+                </TabItem>
+              <TabItem title="日期" auto_id="" rect="(L1141, T235, R1201, B270)" depth="7" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → TabControl[消息类型] → TabItem[日期]">
+                <Pane title="" auto_id="" rect="(L1141, T235, R1201, B270)" depth="8" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → TabControl[消息类型] → TabItem[日期] → Pane[]">
+                  <Static title="日期" auto_id="" rect="(L1141, T235, R1182, B263)" depth="9" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → TabControl[消息类型] → TabItem[日期] → Pane[] → Static[日期]" />
+                  </Pane>
+                </TabItem>
+              </TabControl>
+            </Pane>
+          <Pane title="" auto_id="" rect="(L0, T0, R0, B0)" depth="5" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[]" />
+          </Pane>
+        <Pane title="" auto_id="" rect="(L616, T279, R1305, B965)" depth="4" path=" → Pane[] → Pane[] → Pane[] → Pane[]">
+          <Pane title="" auto_id="" rect="(L616, T279, R1304, B965)" depth="5" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[]">
+            <ListBox title="全部" auto_id="" rect="(L616, T279, R1304, B965)" depth="6" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[全部]">
+              <ListItem title="" auto_id="" rect="(L616, T279, R1304, B423)" depth="7" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[全部] → ListItem[]">
+                <Pane title="" auto_id="" rect="(L666, T304, R1254, B423)" depth="8" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[全部] → ListItem[] → Pane[]">
+                  <Button title="ben" auto_id="" rect="(L666, T308, R709, B351)" depth="9" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[全部] → ListItem[] → Pane[] → Button[ben]" />
+                  <Pane title="" auto_id="" rect="(L721, T304, R1254, B423)" depth="9" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[全部] → ListItem[] → Pane[] → Pane[]">
+                    <Pane title="" auto_id="" rect="(L721, T304, R1254, B324)" depth="10" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[全部] → ListItem[] → Pane[] → Pane[] → Pane[]">
+                      <Static title="ben" auto_id="" rect="(L721, T304, R1027, B324)" depth="11" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[全部] → ListItem[] → Pane[] → Pane[] → Pane[] → Static[ben]" />
+                      <Pane title="" auto_id="" rect="(L1027, T304, R1166, B324)" depth="11" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[全部] → ListItem[] → Pane[] → Pane[] → Pane[] → Pane[]" />
+                      <Static title="10:23 AM" auto_id="" rect="(L1166, T304, R1254, B324)" depth="11" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[全部] → ListItem[] → Pane[] → Pane[] → Pane[] → Static[10:23 AM]" />
+                      </Pane>
+                    <Pane title="" auto_id="" rect="(L721, T324, R1254, B395)" depth="10" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[全部] → ListItem[] → Pane[] → Pane[] → Pane[]">
+                      <Pane title="" auto_id="" rect="(L721, T328, R807, B396)" depth="11" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[全部] → ListItem[] → Pane[] → Pane[] → Pane[] → Pane[]">
+                        <Pane title="" auto_id="" rect="(L721, T328, R807, B396)" depth="12" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[全部] → ListItem[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[]">
+                          <Static title="Hello, ben" auto_id="" rect="(L721, T328, R807, B396)" depth="13" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[全部] → ListItem[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Static[Hello, ben]" />
+                          </Pane>
+                        </Pane>
+                      <Pane title="" auto_id="" rect="(L807, T324, R1253, B395)" depth="11" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[全部] → ListItem[] → Pane[] → Pane[] → Pane[] → Pane[]" />
+                      </Pane>
+                    <Pane title="" auto_id="" rect="(L721, T421, R1254, B422)" depth="10" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[全部] → ListItem[] → Pane[] → Pane[] → Pane[]" />
+                    </Pane>
+                  </Pane>
+                </ListItem>
+              <ListItem title="" auto_id="" rect="(L616, T423, R1304, B567)" depth="7" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[全部] → ListItem[]">
+                <Pane title="" auto_id="" rect="(L666, T448, R1254, B567)" depth="8" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[全部] → ListItem[] → Pane[]">
+                  <Button title="ben" auto_id="" rect="(L666, T451, R709, B494)" depth="9" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[全部] → ListItem[] → Pane[] → Button[ben]" />
+                  <Pane title="" auto_id="" rect="(L721, T448, R1254, B567)" depth="9" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[全部] → ListItem[] → Pane[] → Pane[]">
+                    <Pane title="" auto_id="" rect="(L721, T448, R1254, B468)" depth="10" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[全部] → ListItem[] → Pane[] → Pane[] → Pane[]">
+                      <Static title="ben" auto_id="" rect="(L721, T448, R1027, B468)" depth="11" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[全部] → ListItem[] → Pane[] → Pane[] → Pane[] → Static[ben]" />
+                      <Pane title="" auto_id="" rect="(L1027, T448, R1166, B468)" depth="11" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[全部] → ListItem[] → Pane[] → Pane[] → Pane[] → Pane[]" />
+                      <Static title="10:24 AM" auto_id="" rect="(L1166, T448, R1254, B468)" depth="11" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[全部] → ListItem[] → Pane[] → Pane[] → Pane[] → Static[10:24 AM]" />
+                      </Pane>
+                    <Pane title="" auto_id="" rect="(L721, T468, R1254, B539)" depth="10" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[全部] → ListItem[] → Pane[] → Pane[] → Pane[]">
+                      <Pane title="" auto_id="" rect="(L721, T471, R762, B539)" depth="11" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[全部] → ListItem[] → Pane[] → Pane[] → Pane[] → Pane[]">
+                        <Pane title="" auto_id="" rect="(L721, T471, R762, B539)" depth="12" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[全部] → ListItem[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[]">
+                          <Static title="hello" auto_id="" rect="(L721, T471, R762, B539)" depth="13" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[全部] → ListItem[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Static[hello]" />
+                          </Pane>
+                        </Pane>
+                      <Pane title="" auto_id="" rect="(L762, T468, R1253, B539)" depth="11" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[全部] → ListItem[] → Pane[] → Pane[] → Pane[] → Pane[]" />
+                      </Pane>
+                    <Pane title="" auto_id="" rect="(L721, T565, R1254, B566)" depth="10" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[全部] → ListItem[] → Pane[] → Pane[] → Pane[]" />
+                    </Pane>
+                  </Pane>
+                </ListItem>
+              <ListItem title="" auto_id="" rect="(L616, T566, R1304, B710)" depth="7" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[全部] → ListItem[]">
+                <Pane title="" auto_id="" rect="(L666, T591, R1254, B710)" depth="8" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[全部] → ListItem[] → Pane[]">
+                  <Button title="ben" auto_id="" rect="(L666, T595, R709, B638)" depth="9" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[全部] → ListItem[] → Pane[] → Button[ben]" />
+                  <Pane title="" auto_id="" rect="(L721, T591, R1254, B710)" depth="9" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[全部] → ListItem[] → Pane[] → Pane[]">
+                    <Pane title="" auto_id="" rect="(L721, T591, R1254, B611)" depth="10" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[全部] → ListItem[] → Pane[] → Pane[] → Pane[]">
+                      <Static title="ben" auto_id="" rect="(L721, T591, R1027, B611)" depth="11" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[全部] → ListItem[] → Pane[] → Pane[] → Pane[] → Static[ben]" />
+                      <Pane title="" auto_id="" rect="(L1027, T591, R1166, B611)" depth="11" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[全部] → ListItem[] → Pane[] → Pane[] → Pane[] → Pane[]" />
+                      <Static title="10:24 AM" auto_id="" rect="(L1166, T591, R1254, B611)" depth="11" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[全部] → ListItem[] → Pane[] → Pane[] → Pane[] → Static[10:24 AM]" />
+                      </Pane>
+                    <Pane title="" auto_id="" rect="(L721, T611, R1254, B682)" depth="10" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[全部] → ListItem[] → Pane[] → Pane[] → Pane[]">
+                      <Pane title="" auto_id="" rect="(L721, T615, R750, B683)" depth="11" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[全部] → ListItem[] → Pane[] → Pane[] → Pane[] → Pane[]">
+                        <Pane title="" auto_id="" rect="(L721, T615, R750, B683)" depth="12" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[全部] → ListItem[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[]">
+                          <Static title="Hel" auto_id="" rect="(L721, T615, R752, B683)" depth="13" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[全部] → ListItem[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Static[Hel]" />
+                          </Pane>
+                        </Pane>
+                      <Pane title="" auto_id="" rect="(L750, T611, R1254, B682)" depth="11" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[全部] → ListItem[] → Pane[] → Pane[] → Pane[] → Pane[]" />
+                      </Pane>
+                    <Pane title="" auto_id="" rect="(L721, T709, R1254, B710)" depth="10" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[全部] → ListItem[] → Pane[] → Pane[] → Pane[]" />
+                    </Pane>
+                  </Pane>
+                </ListItem>
+              <ListItem title="" auto_id="" rect="(L616, T710, R1304, B854)" depth="7" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[全部] → ListItem[]">
+                <Pane title="" auto_id="" rect="(L666, T735, R1254, B854)" depth="8" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[全部] → ListItem[] → Pane[]">
+                  <Button title="ben" auto_id="" rect="(L666, T739, R709, B782)" depth="9" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[全部] → ListItem[] → Pane[] → Button[ben]" />
+                  <Pane title="" auto_id="" rect="(L721, T735, R1254, B854)" depth="9" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[全部] → ListItem[] → Pane[] → Pane[]">
+                    <Pane title="" auto_id="" rect="(L721, T735, R1254, B755)" depth="10" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[全部] → ListItem[] → Pane[] → Pane[] → Pane[]">
+                      <Static title="ben" auto_id="" rect="(L721, T735, R1027, B755)" depth="11" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[全部] → ListItem[] → Pane[] → Pane[] → Pane[] → Static[ben]" />
+                      <Pane title="" auto_id="" rect="(L1027, T735, R1166, B755)" depth="11" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[全部] → ListItem[] → Pane[] → Pane[] → Pane[] → Pane[]" />
+                      <Static title="10:24 AM" auto_id="" rect="(L1166, T735, R1254, B755)" depth="11" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[全部] → ListItem[] → Pane[] → Pane[] → Pane[] → Static[10:24 AM]" />
+                      </Pane>
+                    <Pane title="" auto_id="" rect="(L721, T755, R1254, B826)" depth="10" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[全部] → ListItem[] → Pane[] → Pane[] → Pane[]">
+                      <Pane title="" auto_id="" rect="(L721, T759, R754, B827)" depth="11" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[全部] → ListItem[] → Pane[] → Pane[] → Pane[] → Pane[]">
+                        <Pane title="" auto_id="" rect="(L721, T759, R754, B827)" depth="12" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[全部] → ListItem[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[]">
+                          <Static title="ben" auto_id="" rect="(L721, T759, R754, B827)" depth="13" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[全部] → ListItem[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Static[ben]" />
+                          </Pane>
+                        </Pane>
+                      <Pane title="" auto_id="" rect="(L754, T755, R1254, B826)" depth="11" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[全部] → ListItem[] → Pane[] → Pane[] → Pane[] → Pane[]" />
+                      </Pane>
+                    <Pane title="" auto_id="" rect="(L721, T853, R1254, B854)" depth="10" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[全部] → ListItem[] → Pane[] → Pane[] → Pane[]" />
+                    </Pane>
+                  </Pane>
+                </ListItem>
+              <Pane title="" auto_id="" rect="(L616, T854, R1304, B959)" depth="7" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[全部] → Pane[]">
+                <Pane title="" auto_id="" rect="(L616, T854, R916, B959)" depth="8" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[全部] → Pane[] → Pane[]" />
+                <Pane title="" auto_id="" rect="(L916, T904, R1002, B909)" depth="8" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[全部] → Pane[] → Pane[]" />
+                <Pane title="" auto_id="" rect="(L1002, T854, R1303, B959)" depth="8" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[全部] → Pane[] → Pane[]" />
+                </Pane>
+              </ListBox>
+            </Pane>
+          </Pane>
+        </Pane>
+      </Pane>
+    </Pane>
+  </Dialog>

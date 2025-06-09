@@ -113,7 +113,7 @@ def export_gui_xml_structure(dlg_wrapper: UIAWrapper, output_dir="gui_export", s
     output_path = os.path.join(output_dir)
     os.makedirs(output_path, exist_ok=True)
 
-    logging.info(f" Start extracting GUI structure for: {dlg_wrapper.window_text()}")
+    logging.info(f"Start extracting GUI structure for: {dlg_wrapper.window_text()}")
 
     # 控件XML结构导出
     root = control_info_to_xml(dlg_wrapper)
@@ -159,7 +159,7 @@ def export_gui_json_structure(dlg_wrapper: UIAWrapper, output_dir="gui_export", 
     output_path = os.path.join(output_dir)
     os.makedirs(output_path, exist_ok=True)
 
-    logging.info(f" Start extracting GUI structure for: {dlg_wrapper.window_text()}")
+    logging.info(f"Start extracting GUI structure for: {dlg_wrapper.window_text()}")
 
     # 控件JSON结构导出
     gui_structure = extract_control_info(dlg_wrapper)
