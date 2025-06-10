@@ -73,7 +73,7 @@ def indent_xml(elem, level=0):
         for child in elem:
             indent_xml(child, level + 1)
         if not elem.tail or not elem.tail.strip():
-            elem.tail = i
+            elem.tail = "\n" + (level - 1) * "  " if level > 0 else ""
     else:
         if level and (not elem.tail or not elem.tail.strip()):
             elem.tail = i

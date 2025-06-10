@@ -1,339 +1,306 @@
 <?xml version='1.0' encoding='utf-8'?>
-<Dialog title="微信" auto_id="" rect="(L316, T131, R1521, B936)" depth="0" path="">
-  <Pane title="" auto_id="" rect="(L296, T111, R1541, B956)" depth="1" path=" → Pane[]" />
-  <Pane title="" auto_id="" rect="(L316, T131, R1521, B936)" depth="1" path=" → Pane[]">
-    <Pane title="" auto_id="" rect="(L316, T131, R1521, B936)" depth="2" path=" → Pane[] → Pane[]">
-      <Toolbar title="导航" auto_id="" rect="(L316, T131, R383, B936)" depth="3" path=" → Pane[] → Pane[] → Toolbar[导航]">
-        <Button title="ben" auto_id="" rect="(L327, T176, R372, B221)" depth="4" path=" → Pane[] → Pane[] → Toolbar[导航] → Button[ben]" />
-        <Button title="聊天" auto_id="" rect="(L319, T240, R381, B295)" depth="4" path=" → Pane[] → Pane[] → Toolbar[导航] → Button[聊天]" />
-        <Button title="通讯录" auto_id="" rect="(L319, T291, R381, B346)" depth="4" path=" → Pane[] → Pane[] → Toolbar[导航] → Button[通讯录]" />
-        <Button title="收藏" auto_id="" rect="(L319, T342, R381, B397)" depth="4" path=" → Pane[] → Pane[] → Toolbar[导航] → Button[收藏]" />
-        <Button title="聊天文件" auto_id="" rect="(L319, T394, R381, B449)" depth="4" path=" → Pane[] → Pane[] → Toolbar[导航] → Button[聊天文件]" />
-        <Button title="朋友圈" auto_id="" rect="(L319, T445, R381, B500)" depth="4" path=" → Pane[] → Pane[] → Toolbar[导航] → Button[朋友圈]" />
-        <Pane title="" auto_id="" rect="(L316, T500, R383, B766)" depth="4" path=" → Pane[] → Pane[] → Toolbar[导航] → Pane[]">
-          <Pane title="" auto_id="" rect="(L316, T500, R383, B766)" depth="5" path=" → Pane[] → Pane[] → Toolbar[导航] → Pane[] → Pane[]" />
+<Dialog title="微信" auto_id="" rect="(L376, T124, R1531, B899)" depth="0" path="">
+  <Pane title="" auto_id="" rect="(L356, T104, R1551, B919)" depth="1" path=" → Pane[]" />
+  <Pane title="" auto_id="" rect="(L376, T124, R1531, B899)" depth="1" path=" → Pane[]">
+    <Pane title="" auto_id="" rect="(L376, T124, R1531, B899)" depth="2" path=" → Pane[] → Pane[]">
+      <Toolbar title="导航" auto_id="" rect="(L376, T124, R444, B899)" depth="3" path=" → Pane[] → Pane[] → Toolbar[导航]">
+        <Button title="ben" auto_id="" rect="(L387, T169, R432, B214)" depth="4" path=" → Pane[] → Pane[] → Toolbar[导航] → Button[ben]" />
+        <Button title="聊天" auto_id="" rect="(L379, T233, R442, B288)" depth="4" path=" → Pane[] → Pane[] → Toolbar[导航] → Button[聊天]" />
+        <Button title="通讯录" auto_id="" rect="(L379, T284, R442, B339)" depth="4" path=" → Pane[] → Pane[] → Toolbar[导航] → Button[通讯录]" />
+        <Button title="收藏" auto_id="" rect="(L379, T335, R442, B390)" depth="4" path=" → Pane[] → Pane[] → Toolbar[导航] → Button[收藏]" />
+        <Button title="聊天文件" auto_id="" rect="(L379, T387, R442, B442)" depth="4" path=" → Pane[] → Pane[] → Toolbar[导航] → Button[聊天文件]" />
+        <Button title="朋友圈" auto_id="" rect="(L379, T438, R442, B493)" depth="4" path=" → Pane[] → Pane[] → Toolbar[导航] → Button[朋友圈]" />
+        <Pane title="" auto_id="" rect="(L376, T493, R444, B729)" depth="4" path=" → Pane[] → Pane[] → Toolbar[导航] → Pane[]">
+          <Pane title="" auto_id="" rect="(L376, T493, R444, B729)" depth="5" path=" → Pane[] → Pane[] → Toolbar[导航] → Pane[] → Pane[]" />
           </Pane>
-        <Pane title="" auto_id="" rect="(L319, T779, R381, B814)" depth="4" path=" → Pane[] → Pane[] → Toolbar[导航] → Pane[]">
-          <Pane title="" auto_id="" rect="(L319, T779, R381, B814)" depth="5" path=" → Pane[] → Pane[] → Toolbar[导航] → Pane[] → Pane[]">
-            <Button title="小程序面板" auto_id="" rect="(L334, T782, R365, B813)" depth="6" path=" → Pane[] → Pane[] → Toolbar[导航] → Pane[] → Pane[] → Button[小程序面板]" />
+      <Pane title="" auto_id="" rect="(L379, T742, R442, B777)" depth="4" path=" → Pane[] → Pane[] → Toolbar[导航] → Pane[]">
+          <Pane title="" auto_id="" rect="(L379, T742, R442, B777)" depth="5" path=" → Pane[] → Pane[] → Toolbar[导航] → Pane[] → Pane[]">
+            <Button title="小程序面板" auto_id="" rect="(L394, T745, R425, B776)" depth="6" path=" → Pane[] → Pane[] → Toolbar[导航] → Pane[] → Pane[] → Button[小程序面板]" />
             </Pane>
-          </Pane>
-        <Pane title="" auto_id="" rect="(L330, T826, R370, B866)" depth="4" path=" → Pane[] → Pane[] → Toolbar[导航] → Pane[]">
-          <Button title="手机" auto_id="" rect="(L334, T836, R365, B867)" depth="5" path=" → Pane[] → Pane[] → Toolbar[导航] → Pane[] → Button[手机]" />
-          </Pane>
-        <Pane title="" auto_id="" rect="(L334, T886, R367, B916)" depth="4" path=" → Pane[] → Pane[] → Toolbar[导航] → Pane[]">
-          <Button title="设置及其他" auto_id="" rect="(L334, T886, R365, B917)" depth="5" path=" → Pane[] → Pane[] → Toolbar[导航] → Pane[] → Button[设置及其他]" />
-          </Pane>
-        </Toolbar>
-      <Pane title="" auto_id="" rect="(L384, T131, R647, B936)" depth="3" path=" → Pane[] → Pane[] → Pane[]">
-        <Pane title="" auto_id="" rect="(L384, T131, R645, B209)" depth="4" path=" → Pane[] → Pane[] → Pane[] → Pane[]">
-          <Pane title="" auto_id="" rect="(L399, T162, R587, B193)" depth="5" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[]">
-            <Static title="" auto_id="" rect="(L399, T162, R587, B193)" depth="6" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Static[]" />
-            <Pane title="" auto_id="" rect="(L399, T162, R587, B193)" depth="6" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[]">
-              <Edit title="搜索" auto_id="" rect="(L424, T162, R587, B191)" depth="7" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Edit[搜索]" />
-              <Static title="" auto_id="" rect="(L404, T170, R424, B190)" depth="7" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Static[]" />
-              <Button title="清空" auto_id="" rect="(L561, T167, R581, B187)" depth="7" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Button[清空]" />
-              </Pane>
-            </Pane>
-          <Pane title="" auto_id="" rect="(L599, T162, R630, B193)" depth="5" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[]">
-            <Button title="发起群聊" auto_id="" rect="(L599, T162, R630, B193)" depth="6" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Button[发起群聊]" />
-            </Pane>
-          </Pane>
-        <Pane title="" auto_id="" rect="(L384, T209, R645, B937)" depth="4" path=" → Pane[] → Pane[] → Pane[] → Pane[]">
-          <Pane title="" auto_id="" rect="(L384, T209, R645, B937)" depth="5" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[]">
-            <Pane title="" auto_id="" rect="(L384, T209, R645, B937)" depth="6" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[]">
-              <Pane title="" auto_id="" rect="(L384, T209, R645, B937)" depth="7" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[]">
-                <ListBox title="会话" auto_id="" rect="(L384, T209, R645, B937)" depth="8" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[会话]">
-                  <ListItem title="文件传输助手已置顶" auto_id="" rect="(L384, T209, R645, B289)" depth="9" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[会话] → ListItem[文件传输助手已置顶]">
-                    <Pane title="" auto_id="" rect="(L384, T209, R645, B289)" depth="10" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[会话] → ListItem[文件传输助手已置顶] → Pane[]">
-                      <Button title="文件传输助手" auto_id="" rect="(L399, T224, R449, B274)" depth="11" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[会话] → ListItem[文件传输助手已置顶] → Pane[] → Button[文件传输助手]" />
-                      <Pane title="" auto_id="" rect="(L461, T224, R630, B277)" depth="11" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[会话] → ListItem[文件传输助手已置顶] → Pane[] → Pane[]">
-                        <Pane title="" auto_id="" rect="(L461, T224, R630, B254)" depth="12" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[会话] → ListItem[文件传输助手已置顶] → Pane[] → Pane[] → Pane[]">
-                          <Static title="文件传输助手" auto_id="" rect="(L461, T224, R596, B254)" depth="13" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[会话] → ListItem[文件传输助手已置顶] → Pane[] → Pane[] → Pane[] → Static[文件传输助手]" />
-                          <Pane title="" auto_id="" rect="(L0, T0, R0, B0)" depth="13" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[会话] → ListItem[文件传输助手已置顶] → Pane[] → Pane[] → Pane[] → Pane[]" />
-                          <Static title="昨天" auto_id="" rect="(L596, T224, R630, B254)" depth="13" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[会话] → ListItem[文件传输助手已置顶] → Pane[] → Pane[] → Pane[] → Static[昨天]" />
-                          </Pane>
-                        <Pane title="" auto_id="" rect="(L461, T254, R630, B277)" depth="12" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[会话] → ListItem[文件传输助手已置顶] → Pane[] → Pane[] → Pane[]">
-                          <Static title="https://workspace.jianguoyun.com/inbox/collect/6c5d8729b5e44ecfbac1502a7995952e/submitv2" auto_id="" rect="(L461, T254, R617, B277)" depth="13" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[会话] → ListItem[文件传输助手已置顶] → Pane[] → Pane[] → Pane[] → Static[https://workspace.jianguoyun.com/inbox/collect/6c5d8729b5e44ecfbac1502a7995952e/submitv2]" />
-                          </Pane>
-                        </Pane>
-                      </Pane>
-                    </ListItem>
-                  <ListItem title="白婧譞已置顶" auto_id="" rect="(L384, T289, R645, B369)" depth="9" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[会话] → ListItem[白婧譞已置顶]">
-                    <Pane title="" auto_id="" rect="(L384, T289, R645, B369)" depth="10" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[会话] → ListItem[白婧譞已置顶] → Pane[]">
-                      <Button title="白婧譞" auto_id="" rect="(L399, T304, R449, B354)" depth="11" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[会话] → ListItem[白婧譞已置顶] → Pane[] → Button[白婧譞]" />
-                      <Pane title="" auto_id="" rect="(L461, T304, R630, B356)" depth="11" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[会话] → ListItem[白婧譞已置顶] → Pane[] → Pane[]">
-                        <Pane title="" auto_id="" rect="(L461, T304, R630, B334)" depth="12" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[会话] → ListItem[白婧譞已置顶] → Pane[] → Pane[] → Pane[]">
-                          <Static title="白婧譞" auto_id="" rect="(L461, T304, R566, B334)" depth="13" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[会话] → ListItem[白婧譞已置顶] → Pane[] → Pane[] → Pane[] → Static[白婧譞]" />
-                          <Pane title="" auto_id="" rect="(L0, T0, R0, B0)" depth="13" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[会话] → ListItem[白婧譞已置顶] → Pane[] → Pane[] → Pane[] → Pane[]" />
-                          <Static title="9:25 AM" auto_id="" rect="(L566, T304, R630, B334)" depth="13" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[会话] → ListItem[白婧譞已置顶] → Pane[] → Pane[] → Pane[] → Static[9:25 AM]" />
-                          </Pane>
-                        <Pane title="" auto_id="" rect="(L461, T334, R630, B357)" depth="12" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[会话] → ListItem[白婧譞已置顶] → Pane[] → Pane[] → Pane[]">
-                          <Static title="[动画表情]" auto_id="" rect="(L461, T334, R617, B357)" depth="13" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[会话] → ListItem[白婧譞已置顶] → Pane[] → Pane[] → Pane[] → Static[[动画表情]]" />
-                          </Pane>
-                        </Pane>
-                      </Pane>
-                    </ListItem>
-                  <ListItem title="【十六周】计通2022级已置顶" auto_id="" rect="(L384, T369, R645, B449)" depth="9" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[会话] → ListItem[【十六周】计通2022级已置顶]">
-                    <Pane title="" auto_id="" rect="(L384, T369, R645, B449)" depth="10" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[会话] → ListItem[【十六周】计通2022级已置顶] → Pane[]">
-                      <Button title="【十六周】计通2022级" auto_id="" rect="(L399, T384, R449, B434)" depth="11" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[会话] → ListItem[【十六周】计通2022级已置顶] → Pane[] → Button[【十六周】计通2022级]" />
-                      <Pane title="" auto_id="" rect="(L461, T384, R630, B437)" depth="11" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[会话] → ListItem[【十六周】计通2022级已置顶] → Pane[] → Pane[]">
-                        <Pane title="" auto_id="" rect="(L461, T384, R630, B414)" depth="12" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[会话] → ListItem[【十六周】计通2022级已置顶] → Pane[] → Pane[] → Pane[]">
-                          <Static title="【十六周】计通2022级" auto_id="" rect="(L461, T384, R566, B414)" depth="13" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[会话] → ListItem[【十六周】计通2022级已置顶] → Pane[] → Pane[] → Pane[] → Static[【十六周】计通2022级]" />
-                          <Pane title="" auto_id="" rect="(L0, T0, R0, B0)" depth="13" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[会话] → ListItem[【十六周】计通2022级已置顶] → Pane[] → Pane[] → Pane[] → Pane[]" />
-                          <Static title="9:15 AM" auto_id="" rect="(L566, T384, R630, B414)" depth="13" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[会话] → ListItem[【十六周】计通2022级已置顶] → Pane[] → Pane[] → Pane[] → Static[9:15 AM]" />
-                          </Pane>
-                        <Pane title="" auto_id="" rect="(L461, T414, R630, B437)" depth="12" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[会话] → ListItem[【十六周】计通2022级已置顶] → Pane[] → Pane[] → Pane[]">
-                          <Static title="&quot;崔园昕&quot;修改群名为“【十六周】计通2022级”" auto_id="" rect="(L461, T414, R595, B437)" depth="13" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[会话] → ListItem[【十六周】计通2022级已置顶] → Pane[] → Pane[] → Pane[] → Static[&quot;崔园昕&quot;修改群名为“【十六周】计通2022级”]" />
-                          <Pane title="" auto_id="" rect="(L611, T417, R630, B436)" depth="13" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[会话] → ListItem[【十六周】计通2022级已置顶] → Pane[] → Pane[] → Pane[] → Pane[]" />
-                          </Pane>
-                        </Pane>
-                      </Pane>
-                    </ListItem>
-                  <ListItem title="北科大智慧校园已置顶" auto_id="" rect="(L384, T449, R645, B529)" depth="9" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[会话] → ListItem[北科大智慧校园已置顶]">
-                    <Pane title="" auto_id="" rect="(L384, T449, R645, B529)" depth="10" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[会话] → ListItem[北科大智慧校园已置顶] → Pane[]">
-                      <Button title="北科大智慧校园" auto_id="" rect="(L399, T464, R449, B514)" depth="11" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[会话] → ListItem[北科大智慧校园已置顶] → Pane[] → Button[北科大智慧校园]" />
-                      <Pane title="" auto_id="" rect="(L461, T464, R630, B517)" depth="11" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[会话] → ListItem[北科大智慧校园已置顶] → Pane[] → Pane[]">
-                        <Pane title="" auto_id="" rect="(L461, T464, R630, B494)" depth="12" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[会话] → ListItem[北科大智慧校园已置顶] → Pane[] → Pane[] → Pane[]">
-                          <Static title="北科大智慧校园" auto_id="" rect="(L461, T464, R569, B494)" depth="13" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[会话] → ListItem[北科大智慧校园已置顶] → Pane[] → Pane[] → Pane[] → Static[北科大智慧校园]" />
-                          <Pane title="" auto_id="" rect="(L0, T0, R0, B0)" depth="13" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[会话] → ListItem[北科大智慧校园已置顶] → Pane[] → Pane[] → Pane[] → Pane[]" />
-                          <Static title="25/4/22" auto_id="" rect="(L569, T464, R630, B494)" depth="13" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[会话] → ListItem[北科大智慧校园已置顶] → Pane[] → Pane[] → Pane[] → Static[25/4/22]" />
-                          </Pane>
-                        <Pane title="" auto_id="" rect="(L461, T494, R630, B517)" depth="12" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[会话] → ListItem[北科大智慧校园已置顶] → Pane[] → Pane[] → Pane[]">
-                          <Static title="当校庆遇上信息化？科技 buff 叠满！" auto_id="" rect="(L461, T494, R595, B517)" depth="13" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[会话] → ListItem[北科大智慧校园已置顶] → Pane[] → Pane[] → Pane[] → Static[当校庆遇上信息化？科技 buff 叠满！]" />
-                          <Pane title="" auto_id="" rect="(L611, T497, R630, B516)" depth="13" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[会话] → ListItem[北科大智慧校园已置顶] → Pane[] → Pane[] → Pane[] → Pane[]" />
-                          </Pane>
-                        </Pane>
-                      </Pane>
-                    </ListItem>
-                  <ListItem title="雨课堂已置顶" auto_id="" rect="(L384, T529, R645, B609)" depth="9" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[会话] → ListItem[雨课堂已置顶]">
-                    <Pane title="" auto_id="" rect="(L384, T529, R645, B609)" depth="10" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[会话] → ListItem[雨课堂已置顶] → Pane[]">
-                      <Button title="雨课堂" auto_id="" rect="(L399, T544, R449, B594)" depth="11" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[会话] → ListItem[雨课堂已置顶] → Pane[] → Button[雨课堂]" />
-                      <Pane title="" auto_id="" rect="(L461, T544, R630, B597)" depth="11" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[会话] → ListItem[雨课堂已置顶] → Pane[] → Pane[]">
-                        <Pane title="" auto_id="" rect="(L461, T544, R630, B574)" depth="12" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[会话] → ListItem[雨课堂已置顶] → Pane[] → Pane[] → Pane[]">
-                          <Static title="雨课堂" auto_id="" rect="(L461, T544, R577, B574)" depth="13" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[会话] → ListItem[雨课堂已置顶] → Pane[] → Pane[] → Pane[] → Static[雨课堂]" />
-                          <Pane title="" auto_id="" rect="(L0, T0, R0, B0)" depth="13" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[会话] → ListItem[雨课堂已置顶] → Pane[] → Pane[] → Pane[] → Pane[]" />
-                          <Static title="25/6/6" auto_id="" rect="(L577, T544, R630, B574)" depth="13" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[会话] → ListItem[雨课堂已置顶] → Pane[] → Pane[] → Pane[] → Static[25/6/6]" />
-                          </Pane>
-                        <Pane title="" auto_id="" rect="(L461, T574, R630, B597)" depth="12" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[会话] → ListItem[雨课堂已置顶] → Pane[] → Pane[] → Pane[]">
-                          <Static title="作业提交提醒" auto_id="" rect="(L461, T574, R595, B597)" depth="13" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[会话] → ListItem[雨课堂已置顶] → Pane[] → Pane[] → Pane[] → Static[作业提交提醒]" />
-                          <Pane title="" auto_id="" rect="(L611, T577, R630, B596)" depth="13" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[会话] → ListItem[雨课堂已置顶] → Pane[] → Pane[] → Pane[] → Pane[]" />
-                          </Pane>
-                        </Pane>
-                      </Pane>
-                    </ListItem>
-                  <ListItem title="监督少杰打胶群" auto_id="" rect="(L0, T0, R0, B0)" depth="9" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[会话] → ListItem[监督少杰打胶群]">
-                    <Pane title="" auto_id="" rect="(L0, T0, R0, B0)" depth="10" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[会话] → ListItem[监督少杰打胶群] → Pane[]">
-                      <Button title="监督少杰打胶群" auto_id="" rect="(L399, T624, R449, B674)" depth="11" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[会话] → ListItem[监督少杰打胶群] → Pane[] → Button[监督少杰打胶群]" />
-                      <Pane title="" auto_id="" rect="(L0, T0, R0, B0)" depth="11" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[会话] → ListItem[监督少杰打胶群] → Pane[] → Pane[]">
-                        <Pane title="" auto_id="" rect="(L461, T624, R630, B654)" depth="12" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[会话] → ListItem[监督少杰打胶群] → Pane[] → Pane[] → Pane[]">
-                          <Static title="监督少杰打胶群" auto_id="" rect="(L461, T624, R566, B654)" depth="13" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[会话] → ListItem[监督少杰打胶群] → Pane[] → Pane[] → Pane[] → Static[监督少杰打胶群]" />
-                          <Pane title="" auto_id="" rect="(L0, T0, R0, B0)" depth="13" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[会话] → ListItem[监督少杰打胶群] → Pane[] → Pane[] → Pane[] → Pane[]" />
-                          <Static title="9:47 AM" auto_id="" rect="(L566, T624, R630, B654)" depth="13" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[会话] → ListItem[监督少杰打胶群] → Pane[] → Pane[] → Pane[] → Static[9:47 AM]" />
-                          </Pane>
-                        <Pane title="" auto_id="" rect="(L461, T654, R630, B677)" depth="12" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[会话] → ListItem[监督少杰打胶群] → Pane[] → Pane[] → Pane[]">
-                          <Static title="子杰的爆能器" auto_id="" rect="(L461, T654, R595, B677)" depth="13" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[会话] → ListItem[监督少杰打胶群] → Pane[] → Pane[] → Pane[] → Static[子杰的爆能器]" />
-                          <Pane title="" auto_id="" rect="(L611, T657, R630, B676)" depth="13" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[会话] → ListItem[监督少杰打胶群] → Pane[] → Pane[] → Pane[] → Pane[]" />
-                          </Pane>
-                        </Pane>
-                      </Pane>
-                    </ListItem>
-                  <ListItem title="订阅号" auto_id="" rect="(L384, T609, R645, B689)" depth="9" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[会话] → ListItem[订阅号]">
-                    <Pane title="" auto_id="" rect="(L384, T609, R645, B689)" depth="10" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[会话] → ListItem[订阅号] → Pane[]">
-                      <Button title="SessionListItem" auto_id="" rect="(L399, T624, R449, B674)" depth="11" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[会话] → ListItem[订阅号] → Pane[] → Button[SessionListItem]" />
-                      <Pane title="" auto_id="" rect="(L461, T624, R630, B677)" depth="11" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[会话] → ListItem[订阅号] → Pane[] → Pane[]">
-                        <Pane title="" auto_id="" rect="(L461, T624, R630, B654)" depth="12" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[会话] → ListItem[订阅号] → Pane[] → Pane[] → Pane[]">
-                          <Static title="订阅号" auto_id="" rect="(L461, T624, R566, B654)" depth="13" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[会话] → ListItem[订阅号] → Pane[] → Pane[] → Pane[] → Static[订阅号]" />
-                          <Pane title="" auto_id="" rect="(L0, T0, R0, B0)" depth="13" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[会话] → ListItem[订阅号] → Pane[] → Pane[] → Pane[] → Pane[]" />
-                          <Static title="9:36 AM" auto_id="" rect="(L566, T624, R630, B654)" depth="13" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[会话] → ListItem[订阅号] → Pane[] → Pane[] → Pane[] → Static[9:36 AM]" />
-                          </Pane>
-                        <Pane title="" auto_id="" rect="(L461, T654, R630, B677)" depth="12" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[会话] → ListItem[订阅号] → Pane[] → Pane[] → Pane[]">
-                          <Static title="北科大创新创业竞赛: 报名启动！6.30前均可报名！直通“挑战杯”揭榜挂帅国赛！" auto_id="" rect="(L461, T654, R617, B677)" depth="13" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[会话] → ListItem[订阅号] → Pane[] → Pane[] → Pane[] → Static[北科大创新创业竞赛: 报名启动！6.30前均可报名！直通“挑战杯”揭榜挂帅国赛！]" />
-                          </Pane>
-                        </Pane>
-                      <Pane title="" auto_id="" rect="(L440, T616, R453, B629)" depth="11" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[会话] → ListItem[订阅号] → Pane[] → Pane[]" />
-                      </Pane>
-                    </ListItem>
-                  <ListItem title="服务通知" auto_id="" rect="(L384, T689, R645, B769)" depth="9" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[会话] → ListItem[服务通知]">
-                    <Pane title="" auto_id="" rect="(L384, T689, R645, B769)" depth="10" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[会话] → ListItem[服务通知] → Pane[]">
-                      <Button title="服务通知" auto_id="" rect="(L399, T704, R449, B754)" depth="11" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[会话] → ListItem[服务通知] → Pane[] → Button[服务通知]" />
-                      <Pane title="" auto_id="" rect="(L461, T704, R630, B757)" depth="11" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[会话] → ListItem[服务通知] → Pane[] → Pane[]">
-                        <Pane title="" auto_id="" rect="(L461, T704, R630, B734)" depth="12" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[会话] → ListItem[服务通知] → Pane[] → Pane[] → Pane[]">
-                          <Static title="服务通知" auto_id="" rect="(L461, T704, R566, B734)" depth="13" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[会话] → ListItem[服务通知] → Pane[] → Pane[] → Pane[] → Static[服务通知]" />
-                          <Pane title="" auto_id="" rect="(L0, T0, R0, B0)" depth="13" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[会话] → ListItem[服务通知] → Pane[] → Pane[] → Pane[] → Pane[]" />
-                          <Static title="8:23 AM" auto_id="" rect="(L566, T704, R630, B734)" depth="13" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[会话] → ListItem[服务通知] → Pane[] → Pane[] → Pane[] → Static[8:23 AM]" />
-                          </Pane>
-                        <Pane title="" auto_id="" rect="(L461, T734, R630, B757)" depth="12" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[会话] → ListItem[服务通知] → Pane[] → Pane[] → Pane[]">
-                          <Static title="订单状态通知" auto_id="" rect="(L461, T734, R617, B757)" depth="13" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[会话] → ListItem[服务通知] → Pane[] → Pane[] → Pane[] → Static[订单状态通知]" />
-                          </Pane>
-                        </Pane>
-                      </Pane>
-                    </ListItem>
-                  <ListItem title="微信支付" auto_id="" rect="(L384, T769, R645, B849)" depth="9" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[会话] → ListItem[微信支付]">
-                    <Pane title="" auto_id="" rect="(L384, T769, R645, B849)" depth="10" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[会话] → ListItem[微信支付] → Pane[]">
-                      <Button title="微信支付" auto_id="" rect="(L399, T784, R449, B834)" depth="11" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[会话] → ListItem[微信支付] → Pane[] → Button[微信支付]" />
-                      <Pane title="" auto_id="" rect="(L461, T784, R630, B837)" depth="11" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[会话] → ListItem[微信支付] → Pane[] → Pane[]">
-                        <Pane title="" auto_id="" rect="(L461, T784, R630, B814)" depth="12" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[会话] → ListItem[微信支付] → Pane[] → Pane[] → Pane[]">
-                          <Static title="微信支付" auto_id="" rect="(L461, T784, R566, B814)" depth="13" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[会话] → ListItem[微信支付] → Pane[] → Pane[] → Pane[] → Static[微信支付]" />
-                          <Pane title="" auto_id="" rect="(L0, T0, R0, B0)" depth="13" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[会话] → ListItem[微信支付] → Pane[] → Pane[] → Pane[] → Pane[]" />
-                          <Static title="8:22 AM" auto_id="" rect="(L566, T784, R630, B814)" depth="13" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[会话] → ListItem[微信支付] → Pane[] → Pane[] → Pane[] → Static[8:22 AM]" />
-                          </Pane>
-                        <Pane title="" auto_id="" rect="(L461, T814, R630, B837)" depth="12" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[会话] → ListItem[微信支付] → Pane[] → Pane[] → Pane[]">
-                          <Static title="已支付¥15.00" auto_id="" rect="(L461, T814, R595, B837)" depth="13" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[会话] → ListItem[微信支付] → Pane[] → Pane[] → Pane[] → Static[已支付¥15.00]" />
-                          <Pane title="" auto_id="" rect="(L611, T817, R630, B836)" depth="13" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[会话] → ListItem[微信支付] → Pane[] → Pane[] → Pane[] → Pane[]" />
-                          </Pane>
-                        </Pane>
-                      </Pane>
-                    </ListItem>
-                  <ListItem title="泡泡玛特北京壹号店群38" auto_id="" rect="(L384, T849, R645, B929)" depth="9" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[会话] → ListItem[泡泡玛特北京壹号店群38]">
-                    <Pane title="" auto_id="" rect="(L384, T849, R645, B929)" depth="10" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[会话] → ListItem[泡泡玛特北京壹号店群38] → Pane[]">
-                      <Button title="泡泡玛特北京壹号店群38" auto_id="" rect="(L399, T864, R449, B914)" depth="11" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[会话] → ListItem[泡泡玛特北京壹号店群38] → Pane[] → Button[泡泡玛特北京壹号店群38]" />
-                      <Pane title="" auto_id="" rect="(L461, T864, R630, B917)" depth="11" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[会话] → ListItem[泡泡玛特北京壹号店群38] → Pane[] → Pane[]">
-                        <Pane title="" auto_id="" rect="(L461, T864, R630, B894)" depth="12" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[会话] → ListItem[泡泡玛特北京壹号店群38] → Pane[] → Pane[] → Pane[]">
-                          <Static title="泡泡玛特北京壹号店群38" auto_id="" rect="(L461, T864, R541, B894)" depth="13" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[会话] → ListItem[泡泡玛特北京壹号店群38] → Pane[] → Pane[] → Pane[] → Static[泡泡玛特北京壹号店群38]" />
-                          <Pane title="" auto_id="" rect="(L541, T866, R566, B891)" depth="13" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[会话] → ListItem[泡泡玛特北京壹号店群38] → Pane[] → Pane[] → Pane[] → Pane[]" />
-                          <Pane title="" auto_id="" rect="(L0, T0, R0, B0)" depth="13" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[会话] → ListItem[泡泡玛特北京壹号店群38] → Pane[] → Pane[] → Pane[] → Pane[]" />
-                          <Static title="8:17 AM" auto_id="" rect="(L569, T864, R633, B894)" depth="13" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[会话] → ListItem[泡泡玛特北京壹号店群38] → Pane[] → Pane[] → Pane[] → Static[8:17 AM]" />
-                          </Pane>
-                        <Pane title="" auto_id="" rect="(L461, T894, R630, B917)" depth="12" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[会话] → ListItem[泡泡玛特北京壹号店群38] → Pane[] → Pane[] → Pane[]">
-                          <Static title="洛洛：[小程序]欧气布布喊你来签到啦！" auto_id="" rect="(L461, T894, R595, B917)" depth="13" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[会话] → ListItem[泡泡玛特北京壹号店群38] → Pane[] → Pane[] → Pane[] → Static[洛洛：[小程序]欧气布布喊你来签到啦！]" />
-                          <Pane title="" auto_id="" rect="(L611, T897, R630, B916)" depth="13" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[会话] → ListItem[泡泡玛特北京壹号店群38] → Pane[] → Pane[] → Pane[] → Pane[]" />
-                          </Pane>
-                        </Pane>
-                      </Pane>
-                    </ListItem>
-                  <ListItem title="备孕注意事项" auto_id="" rect="(L384, T929, R645, B1009)" depth="9" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[会话] → ListItem[备孕注意事项]">
-                    <Pane title="" auto_id="" rect="(L384, T929, R645, B1009)" depth="10" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[会话] → ListItem[备孕注意事项] → Pane[]">
-                      <Button title="备孕注意事项" auto_id="" rect="(L399, T944, R449, B994)" depth="11" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[会话] → ListItem[备孕注意事项] → Pane[] → Button[备孕注意事项]" />
-                      <Pane title="" auto_id="" rect="(L461, T944, R630, B997)" depth="11" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[会话] → ListItem[备孕注意事项] → Pane[] → Pane[]">
-                        <Pane title="" auto_id="" rect="(L461, T944, R630, B974)" depth="12" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[会话] → ListItem[备孕注意事项] → Pane[] → Pane[] → Pane[]">
-                          <Static title="备孕注意事项" auto_id="" rect="(L461, T944, R596, B974)" depth="13" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[会话] → ListItem[备孕注意事项] → Pane[] → Pane[] → Pane[] → Static[备孕注意事项]" />
-                          <Pane title="" auto_id="" rect="(L0, T0, R0, B0)" depth="13" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[会话] → ListItem[备孕注意事项] → Pane[] → Pane[] → Pane[] → Pane[]" />
-                          <Static title="昨天" auto_id="" rect="(L596, T944, R630, B974)" depth="13" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[会话] → ListItem[备孕注意事项] → Pane[] → Pane[] → Pane[] → Static[昨天]" />
-                          </Pane>
-                        <Pane title="" auto_id="" rect="(L461, T974, R630, B997)" depth="12" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[会话] → ListItem[备孕注意事项] → Pane[] → Pane[] → Pane[]">
-                          <Static title="李帼瑞：别跳了" auto_id="" rect="(L461, T974, R595, B997)" depth="13" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[会话] → ListItem[备孕注意事项] → Pane[] → Pane[] → Pane[] → Static[李帼瑞：别跳了]" />
-                          <Pane title="" auto_id="" rect="(L611, T977, R630, B996)" depth="13" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[会话] → ListItem[备孕注意事项] → Pane[] → Pane[] → Pane[] → Pane[]" />
-                          </Pane>
-                        </Pane>
-                      </Pane>
-                    </ListItem>
-                  </ListBox>
-                </Pane>
-              </Pane>
-            </Pane>
-          <Pane title="" auto_id="" rect="(L384, T209, R645, B937)" depth="5" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[]">
-            <ListBox title="@str:IDS_FAV_SEARCH_RESULT:3780" auto_id="" rect="(L384, T209, R645, B937)" depth="6" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[@str:IDS_FAV_SEARCH_RESULT:3780]">
-              <Pane title="" auto_id="" rect="(L384, T209, R645, B247)" depth="7" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[@str:IDS_FAV_SEARCH_RESULT:3780] → Pane[]">
-                <Static title="联系人" auto_id="" rect="(L384, T209, R645, B247)" depth="8" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[@str:IDS_FAV_SEARCH_RESULT:3780] → Pane[] → Static[联系人]" />
-                </Pane>
-              <ListItem title="文件传输助手" auto_id="" rect="(L384, T246, R645, B321)" depth="7" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[@str:IDS_FAV_SEARCH_RESULT:3780] → ListItem[文件传输助手]">
-                <Pane title="" auto_id="" rect="(L384, T246, R645, B321)" depth="8" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[@str:IDS_FAV_SEARCH_RESULT:3780] → ListItem[文件传输助手] → Pane[]">
-                  <Button title="文件传输助手" auto_id="" rect="(L399, T262, R442, B305)" depth="9" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[@str:IDS_FAV_SEARCH_RESULT:3780] → ListItem[文件传输助手] → Pane[] → Button[文件传输助手]" />
-                  <Pane title="" auto_id="" rect="(L441, T246, R645, B321)" depth="9" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[@str:IDS_FAV_SEARCH_RESULT:3780] → ListItem[文件传输助手] → Pane[] → Pane[]">
-                    <Pane title="" auto_id="" rect="(L456, T267, R620, B302)" depth="10" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[@str:IDS_FAV_SEARCH_RESULT:3780] → ListItem[文件传输助手] → Pane[] → Pane[] → Pane[]">
-                      <Static title="&lt;em&gt;文件传输助手&lt;/em&gt;" auto_id="" rect="(L456, T267, R624, B302)" depth="11" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[@str:IDS_FAV_SEARCH_RESULT:3780] → ListItem[文件传输助手] → Pane[] → Pane[] → Pane[] → Static[&lt;em&gt;文件传输助手&lt;/em&gt;]" />
-                      </Pane>
-                    </Pane>
-                  </Pane>
-                </ListItem>
-              <ListItem title="搜索 文件传输助手" auto_id="" rect="(L384, T331, R645, B406)" depth="7" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[@str:IDS_FAV_SEARCH_RESULT:3780] → ListItem[搜索 文件传输助手]">
-                <Pane title="" auto_id="" rect="(L384, T331, R645, B406)" depth="8" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[@str:IDS_FAV_SEARCH_RESULT:3780] → ListItem[搜索 文件传输助手] → Pane[]">
-                  <Static title="WebSearchWnd" auto_id="" rect="(L399, T346, R442, B389)" depth="9" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[@str:IDS_FAV_SEARCH_RESULT:3780] → ListItem[搜索 文件传输助手] → Pane[] → Static[WebSearchWnd]" />
-                  <Pane title="" auto_id="" rect="(L441, T331, R616, B406)" depth="9" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[@str:IDS_FAV_SEARCH_RESULT:3780] → ListItem[搜索 文件传输助手] → Pane[] → Pane[]">
-                    <Static title="搜索 文件传输助手" auto_id="" rect="(L456, T340, R591, B373)" depth="10" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[@str:IDS_FAV_SEARCH_RESULT:3780] → ListItem[搜索 文件传输助手] → Pane[] → Pane[] → Static[搜索 文件传输助手]" />
-                    <Pane title="" auto_id="" rect="(L441, T372, R616, B406)" depth="10" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[@str:IDS_FAV_SEARCH_RESULT:3780] → ListItem[搜索 文件传输助手] → Pane[] → Pane[] → Pane[]">
-                      <Static title="文章、公众号、视频号等" auto_id="" rect="(L456, T372, R616, B392)" depth="11" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[@str:IDS_FAV_SEARCH_RESULT:3780] → ListItem[搜索 文件传输助手] → Pane[] → Pane[] → Pane[] → Static[文章、公众号、视频号等]" />
-                      </Pane>
-                    </Pane>
-                  <Pane title="" auto_id="" rect="(L622, T331, R635, B406)" depth="9" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[@str:IDS_FAV_SEARCH_RESULT:3780] → ListItem[搜索 文件传输助手] → Pane[] → Pane[]">
-                    <Pane title="" auto_id="" rect="(L622, T331, R635, B354)" depth="10" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[@str:IDS_FAV_SEARCH_RESULT:3780] → ListItem[搜索 文件传输助手] → Pane[] → Pane[] → Pane[]" />
-                    <Pane title="" auto_id="" rect="(L622, T354, R635, B384)" depth="10" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[@str:IDS_FAV_SEARCH_RESULT:3780] → ListItem[搜索 文件传输助手] → Pane[] → Pane[] → Pane[]" />
-                    <Pane title="" auto_id="" rect="(L622, T384, R635, B407)" depth="10" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[@str:IDS_FAV_SEARCH_RESULT:3780] → ListItem[搜索 文件传输助手] → Pane[] → Pane[] → Pane[]" />
-                    </Pane>
-                  </Pane>
-                </ListItem>
-              <ListItem title="文件传输助手" auto_id="" rect="(L384, T406, R645, B445)" depth="7" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[@str:IDS_FAV_SEARCH_RESULT:3780] → ListItem[文件传输助手]">
-                <Pane title="" auto_id="" rect="(L384, T406, R645, B445)" depth="8" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[@str:IDS_FAV_SEARCH_RESULT:3780] → ListItem[文件传输助手] → Pane[]">
-                  <Pane title="" auto_id="" rect="(L396, T416, R414, B434)" depth="9" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[@str:IDS_FAV_SEARCH_RESULT:3780] → ListItem[文件传输助手] → Pane[] → Pane[]" />
-                  <Static title="文件传输助手" auto_id="" rect="(L426, T415, R645, B435)" depth="9" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[@str:IDS_FAV_SEARCH_RESULT:3780] → ListItem[文件传输助手] → Pane[] → Static[文件传输助手]" />
-                  </Pane>
-                </ListItem>
-              <ListItem title="文件传输助手恢复历史记录" auto_id="" rect="(L384, T445, R645, B484)" depth="7" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[@str:IDS_FAV_SEARCH_RESULT:3780] → ListItem[文件传输助手恢复历史记录]">
-                <Pane title="" auto_id="" rect="(L384, T445, R645, B484)" depth="8" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[@str:IDS_FAV_SEARCH_RESULT:3780] → ListItem[文件传输助手恢复历史记录] → Pane[]">
-                  <Pane title="" auto_id="" rect="(L396, T455, R414, B473)" depth="9" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[@str:IDS_FAV_SEARCH_RESULT:3780] → ListItem[文件传输助手恢复历史记录] → Pane[] → Pane[]" />
-                  <Static title="文件传输助手恢复历史记录" auto_id="" rect="(L426, T454, R645, B474)" depth="9" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[@str:IDS_FAV_SEARCH_RESULT:3780] → ListItem[文件传输助手恢复历史记录] → Pane[] → Static[文件传输助手恢复历史记录]" />
-                  </Pane>
-                </ListItem>
-              <ListItem title="文件传输助手打开微信" auto_id="" rect="(L384, T484, R645, B523)" depth="7" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[@str:IDS_FAV_SEARCH_RESULT:3780] → ListItem[文件传输助手打开微信]">
-                <Pane title="" auto_id="" rect="(L384, T484, R645, B523)" depth="8" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[@str:IDS_FAV_SEARCH_RESULT:3780] → ListItem[文件传输助手打开微信] → Pane[]">
-                  <Pane title="" auto_id="" rect="(L396, T494, R414, B512)" depth="9" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[@str:IDS_FAV_SEARCH_RESULT:3780] → ListItem[文件传输助手打开微信] → Pane[] → Pane[]" />
-                  <Static title="文件传输助手打开微信" auto_id="" rect="(L426, T492, R645, B512)" depth="9" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[@str:IDS_FAV_SEARCH_RESULT:3780] → ListItem[文件传输助手打开微信] → Pane[] → Static[文件传输助手打开微信]" />
-                  </Pane>
-                </ListItem>
-              <ListItem title="文件传输助手怎么开启" auto_id="" rect="(L384, T522, R645, B561)" depth="7" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[@str:IDS_FAV_SEARCH_RESULT:3780] → ListItem[文件传输助手怎么开启]">
-                <Pane title="" auto_id="" rect="(L384, T522, R645, B561)" depth="8" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[@str:IDS_FAV_SEARCH_RESULT:3780] → ListItem[文件传输助手怎么开启] → Pane[]">
-                  <Pane title="" auto_id="" rect="(L396, T532, R414, B550)" depth="9" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[@str:IDS_FAV_SEARCH_RESULT:3780] → ListItem[文件传输助手怎么开启] → Pane[] → Pane[]" />
-                  <Static title="文件传输助手怎么开启" auto_id="" rect="(L426, T531, R645, B551)" depth="9" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[@str:IDS_FAV_SEARCH_RESULT:3780] → ListItem[文件传输助手怎么开启] → Pane[] → Static[文件传输助手怎么开启]" />
-                  </Pane>
-                </ListItem>
-              <ListItem title="文件传输助手是干什么用的" auto_id="" rect="(L384, T561, R645, B600)" depth="7" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[@str:IDS_FAV_SEARCH_RESULT:3780] → ListItem[文件传输助手是干什么用的]">
-                <Pane title="" auto_id="" rect="(L384, T561, R645, B600)" depth="8" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[@str:IDS_FAV_SEARCH_RESULT:3780] → ListItem[文件传输助手是干什么用的] → Pane[]">
-                  <Pane title="" auto_id="" rect="(L396, T571, R414, B589)" depth="9" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[@str:IDS_FAV_SEARCH_RESULT:3780] → ListItem[文件传输助手是干什么用的] → Pane[] → Pane[]" />
-                  <Static title="文件传输助手是干什么用的" auto_id="" rect="(L426, T570, R645, B590)" depth="9" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[@str:IDS_FAV_SEARCH_RESULT:3780] → ListItem[文件传输助手是干什么用的] → Pane[] → Static[文件传输助手是干什么用的]" />
-                  </Pane>
-                </ListItem>
-              <ListItem title="文件传输助手添加" auto_id="" rect="(L384, T600, R645, B639)" depth="7" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[@str:IDS_FAV_SEARCH_RESULT:3780] → ListItem[文件传输助手添加]">
-                <Pane title="" auto_id="" rect="(L384, T600, R645, B639)" depth="8" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[@str:IDS_FAV_SEARCH_RESULT:3780] → ListItem[文件传输助手添加] → Pane[]">
-                  <Pane title="" auto_id="" rect="(L396, T610, R414, B628)" depth="9" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[@str:IDS_FAV_SEARCH_RESULT:3780] → ListItem[文件传输助手添加] → Pane[] → Pane[]" />
-                  <Static title="文件传输助手添加" auto_id="" rect="(L426, T609, R645, B629)" depth="9" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[@str:IDS_FAV_SEARCH_RESULT:3780] → ListItem[文件传输助手添加] → Pane[] → Static[文件传输助手添加]" />
-                  </Pane>
-                </ListItem>
-              <ListItem title="文件传输助手打开" auto_id="" rect="(L384, T639, R645, B678)" depth="7" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[@str:IDS_FAV_SEARCH_RESULT:3780] → ListItem[文件传输助手打开]">
-                <Pane title="" auto_id="" rect="(L384, T639, R645, B678)" depth="8" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[@str:IDS_FAV_SEARCH_RESULT:3780] → ListItem[文件传输助手打开] → Pane[]">
-                  <Pane title="" auto_id="" rect="(L396, T649, R414, B667)" depth="9" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[@str:IDS_FAV_SEARCH_RESULT:3780] → ListItem[文件传输助手打开] → Pane[] → Pane[]" />
-                  <Static title="文件传输助手打开" auto_id="" rect="(L426, T647, R645, B667)" depth="9" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[@str:IDS_FAV_SEARCH_RESULT:3780] → ListItem[文件传输助手打开] → Pane[] → Static[文件传输助手打开]" />
-                  </Pane>
-                </ListItem>
-              <ListItem title="文件传输助手打开微信https阅续" auto_id="" rect="(L384, T677, R645, B716)" depth="7" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[@str:IDS_FAV_SEARCH_RESULT:3780] → ListItem[文件传输助手打开微信https阅续]">
-                <Pane title="" auto_id="" rect="(L384, T677, R645, B716)" depth="8" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[@str:IDS_FAV_SEARCH_RESULT:3780] → ListItem[文件传输助手打开微信https阅续] → Pane[]">
-                  <Pane title="" auto_id="" rect="(L396, T687, R414, B705)" depth="9" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[@str:IDS_FAV_SEARCH_RESULT:3780] → ListItem[文件传输助手打开微信https阅续] → Pane[] → Pane[]" />
-                  <Static title="文件传输助手打开微信https阅续" auto_id="" rect="(L426, T686, R645, B706)" depth="9" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[@str:IDS_FAV_SEARCH_RESULT:3780] → ListItem[文件传输助手打开微信https阅续] → Pane[] → Static[文件传输助手打开微信https阅续]" />
-                  </Pane>
-                </ListItem>
-              <ListItem title="文件传输助手打开链接" auto_id="" rect="(L384, T716, R645, B755)" depth="7" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[@str:IDS_FAV_SEARCH_RESULT:3780] → ListItem[文件传输助手打开链接]">
-                <Pane title="" auto_id="" rect="(L384, T716, R645, B755)" depth="8" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[@str:IDS_FAV_SEARCH_RESULT:3780] → ListItem[文件传输助手打开链接] → Pane[]">
-                  <Pane title="" auto_id="" rect="(L396, T726, R414, B744)" depth="9" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[@str:IDS_FAV_SEARCH_RESULT:3780] → ListItem[文件传输助手打开链接] → Pane[] → Pane[]" />
-                  <Static title="文件传输助手打开链接" auto_id="" rect="(L426, T725, R645, B745)" depth="9" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[@str:IDS_FAV_SEARCH_RESULT:3780] → ListItem[文件传输助手打开链接] → Pane[] → Static[文件传输助手打开链接]" />
-                  </Pane>
-                </ListItem>
-              <ListItem title="文件传输助手的信息删了怎么恢复" auto_id="" rect="(L384, T755, R645, B794)" depth="7" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[@str:IDS_FAV_SEARCH_RESULT:3780] → ListItem[文件传输助手的信息删了怎么恢复]">
-                <Pane title="" auto_id="" rect="(L384, T755, R645, B794)" depth="8" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[@str:IDS_FAV_SEARCH_RESULT:3780] → ListItem[文件传输助手的信息删了怎么恢复] → Pane[]">
-                  <Pane title="" auto_id="" rect="(L396, T765, R414, B783)" depth="9" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[@str:IDS_FAV_SEARCH_RESULT:3780] → ListItem[文件传输助手的信息删了怎么恢复] → Pane[] → Pane[]" />
-                  <Static title="文件传输助手的信息删了怎么恢复" auto_id="" rect="(L426, T764, R645, B784)" depth="9" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[@str:IDS_FAV_SEARCH_RESULT:3780] → ListItem[文件传输助手的信息删了怎么恢复] → Pane[] → Static[文件传输助手的信息删了怎么恢复]" />
-                  </Pane>
-                </ListItem>
-              </ListBox>
-            </Pane>
-          </Pane>
         </Pane>
-      <Pane title="" auto_id="" rect="(L646, T131, R1521, B936)" depth="3" path=" → Pane[] → Pane[] → Pane[]">
-        <Pane title="" auto_id="" rect="(L646, T131, R1521, B936)" depth="4" path=" → Pane[] → Pane[] → Pane[] → Pane[]">
-          <Pane title="" auto_id="" rect="(L646, T131, R1015, B936)" depth="5" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[]" />
-          <Pane title="" auto_id="" rect="(L1015, T131, R1153, B936)" depth="5" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[]">
-            <Pane title="" auto_id="" rect="(L1015, T131, R1153, B465)" depth="6" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[]" />
-            <Pane title="" auto_id="" rect="(L1015, T465, R1153, B603)" depth="6" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[]" />
-            <Pane title="" auto_id="" rect="(L1015, T602, R1153, B936)" depth="6" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[]" />
-            </Pane>
-          <Pane title="" auto_id="" rect="(L1152, T131, R1521, B936)" depth="5" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[]" />
+      <Pane title="" auto_id="" rect="(L390, T789, R430, B829)" depth="4" path=" → Pane[] → Pane[] → Toolbar[导航] → Pane[]">
+          <Button title="手机" auto_id="" rect="(L394, T799, R425, B830)" depth="5" path=" → Pane[] → Pane[] → Toolbar[导航] → Pane[] → Button[手机]" />
           </Pane>
-        <Toolbar title="" auto_id="" rect="(L1356, T131, R1521, B162)" depth="4" path=" → Pane[] → Pane[] → Pane[] → Toolbar[]">
-          <Button title="置顶" auto_id="" rect="(L1356, T131, R1397, B162)" depth="5" path=" → Pane[] → Pane[] → Pane[] → Toolbar[] → Button[置顶]" />
-          <Button title="最小化" auto_id="" rect="(L1397, T131, R1438, B162)" depth="5" path=" → Pane[] → Pane[] → Pane[] → Toolbar[] → Button[最小化]" />
-          <Button title="最大化" auto_id="" rect="(L1439, T131, R1480, B162)" depth="5" path=" → Pane[] → Pane[] → Pane[] → Toolbar[] → Button[最大化]" />
-          <Button title="关闭" auto_id="" rect="(L1480, T131, R1521, B162)" depth="5" path=" → Pane[] → Pane[] → Pane[] → Toolbar[] → Button[关闭]" />
-          </Toolbar>
+      <Pane title="" auto_id="" rect="(L394, T849, R427, B879)" depth="4" path=" → Pane[] → Pane[] → Toolbar[导航] → Pane[]">
+          <Button title="设置及其他" auto_id="" rect="(L394, T849, R425, B880)" depth="5" path=" → Pane[] → Pane[] → Toolbar[导航] → Pane[] → Button[设置及其他]" />
+          </Pane>
+      </Toolbar>
+    <Pane title="" auto_id="" rect="(L444, T124, R707, B899)" depth="3" path=" → Pane[] → Pane[] → Pane[]">
+        <Pane title="" auto_id="" rect="(L444, T124, R705, B202)" depth="4" path=" → Pane[] → Pane[] → Pane[] → Pane[]">
+          <Pane title="" auto_id="" rect="(L459, T155, R647, B186)" depth="5" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[]">
+            <Static title="" auto_id="" rect="(L459, T155, R647, B186)" depth="6" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Static[]" />
+            <Pane title="" auto_id="" rect="(L459, T155, R647, B186)" depth="6" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[]">
+              <Edit title="搜索" auto_id="" rect="(L484, T155, R647, B184)" depth="7" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Edit[搜索]" />
+              <Static title="" auto_id="" rect="(L464, T163, R484, B183)" depth="7" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Static[]" />
+              <Button title="清空" auto_id="" rect="(L621, T160, R641, B180)" depth="7" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Button[清空]" />
+              </Pane>
+          </Pane>
+        <Pane title="" auto_id="" rect="(L659, T155, R690, B186)" depth="5" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[]">
+            <Button title="发起群聊" auto_id="" rect="(L659, T155, R690, B186)" depth="6" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Button[发起群聊]" />
+            </Pane>
+        </Pane>
+      <Pane title="" auto_id="" rect="(L444, T202, R705, B900)" depth="4" path=" → Pane[] → Pane[] → Pane[] → Pane[]">
+          <Pane title="" auto_id="" rect="(L444, T202, R705, B900)" depth="5" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[]">
+            <Pane title="" auto_id="" rect="(L444, T202, R705, B900)" depth="6" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[]">
+              <Pane title="" auto_id="" rect="(L444, T202, R705, B900)" depth="7" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[]">
+                <ListBox title="会话" auto_id="" rect="(L444, T202, R705, B900)" depth="8" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[会话]">
+                  <ListItem title="文件传输助手已置顶" auto_id="" rect="(L444, T202, R705, B282)" depth="9" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[会话] → ListItem[文件传输助手已置顶]">
+                    <Pane title="" auto_id="" rect="(L444, T202, R705, B282)" depth="10" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[会话] → ListItem[文件传输助手已置顶] → Pane[]">
+                      <Button title="文件传输助手" auto_id="" rect="(L459, T217, R509, B267)" depth="11" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[会话] → ListItem[文件传输助手已置顶] → Pane[] → Button[文件传输助手]" />
+                      <Pane title="" auto_id="" rect="(L521, T217, R690, B270)" depth="11" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[会话] → ListItem[文件传输助手已置顶] → Pane[] → Pane[]">
+                        <Pane title="" auto_id="" rect="(L521, T217, R690, B247)" depth="12" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[会话] → ListItem[文件传输助手已置顶] → Pane[] → Pane[] → Pane[]">
+                          <Static title="文件传输助手" auto_id="" rect="(L521, T217, R656, B247)" depth="13" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[会话] → ListItem[文件传输助手已置顶] → Pane[] → Pane[] → Pane[] → Static[文件传输助手]" />
+                          <Pane title="" auto_id="" rect="(L0, T0, R0, B0)" depth="13" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[会话] → ListItem[文件传输助手已置顶] → Pane[] → Pane[] → Pane[] → Pane[]" />
+                          <Static title="昨天" auto_id="" rect="(L656, T217, R690, B247)" depth="13" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[会话] → ListItem[文件传输助手已置顶] → Pane[] → Pane[] → Pane[] → Static[昨天]" />
+                          </Pane>
+                      <Pane title="" auto_id="" rect="(L521, T247, R690, B270)" depth="12" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[会话] → ListItem[文件传输助手已置顶] → Pane[] → Pane[] → Pane[]">
+                          <Static title="[图片]" auto_id="" rect="(L521, T247, R677, B270)" depth="13" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[会话] → ListItem[文件传输助手已置顶] → Pane[] → Pane[] → Pane[] → Static[[图片]]" />
+                          </Pane>
+                      </Pane>
+                    </Pane>
+                  </ListItem>
+                <ListItem title="白婧譞已置顶" auto_id="" rect="(L444, T282, R705, B362)" depth="9" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[会话] → ListItem[白婧譞已置顶]">
+                    <Pane title="" auto_id="" rect="(L444, T282, R705, B362)" depth="10" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[会话] → ListItem[白婧譞已置顶] → Pane[]">
+                      <Button title="白婧譞" auto_id="" rect="(L459, T297, R509, B347)" depth="11" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[会话] → ListItem[白婧譞已置顶] → Pane[] → Button[白婧譞]" />
+                      <Pane title="" auto_id="" rect="(L521, T297, R690, B350)" depth="11" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[会话] → ListItem[白婧譞已置顶] → Pane[] → Pane[]">
+                        <Pane title="" auto_id="" rect="(L521, T297, R690, B327)" depth="12" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[会话] → ListItem[白婧譞已置顶] → Pane[] → Pane[] → Pane[]">
+                          <Static title="白婧譞" auto_id="" rect="(L521, T297, R626, B327)" depth="13" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[会话] → ListItem[白婧譞已置顶] → Pane[] → Pane[] → Pane[] → Static[白婧譞]" />
+                          <Pane title="" auto_id="" rect="(L0, T0, R0, B0)" depth="13" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[会话] → ListItem[白婧譞已置顶] → Pane[] → Pane[] → Pane[] → Pane[]" />
+                          <Static title="8:56 AM" auto_id="" rect="(L626, T297, R690, B327)" depth="13" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[会话] → ListItem[白婧譞已置顶] → Pane[] → Pane[] → Pane[] → Static[8:56 AM]" />
+                          </Pane>
+                      <Pane title="" auto_id="" rect="(L521, T327, R690, B350)" depth="12" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[会话] → ListItem[白婧譞已置顶] → Pane[] → Pane[] → Pane[]">
+                          <Static title="ok" auto_id="" rect="(L521, T327, R677, B350)" depth="13" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[会话] → ListItem[白婧譞已置顶] → Pane[] → Pane[] → Pane[] → Static[ok]" />
+                          </Pane>
+                      </Pane>
+                    </Pane>
+                  </ListItem>
+                <ListItem title="【十六周】计通2022级已置顶" auto_id="" rect="(L444, T362, R705, B442)" depth="9" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[会话] → ListItem[【十六周】计通2022级已置顶]">
+                    <Pane title="" auto_id="" rect="(L444, T362, R705, B442)" depth="10" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[会话] → ListItem[【十六周】计通2022级已置顶] → Pane[]">
+                      <Button title="【十六周】计通2022级" auto_id="" rect="(L459, T377, R509, B427)" depth="11" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[会话] → ListItem[【十六周】计通2022级已置顶] → Pane[] → Button[【十六周】计通2022级]" />
+                      <Pane title="" auto_id="" rect="(L521, T377, R690, B430)" depth="11" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[会话] → ListItem[【十六周】计通2022级已置顶] → Pane[] → Pane[]">
+                        <Pane title="" auto_id="" rect="(L521, T377, R690, B407)" depth="12" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[会话] → ListItem[【十六周】计通2022级已置顶] → Pane[] → Pane[] → Pane[]">
+                          <Static title="【十六周】计通2022级" auto_id="" rect="(L521, T377, R626, B407)" depth="13" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[会话] → ListItem[【十六周】计通2022级已置顶] → Pane[] → Pane[] → Pane[] → Static[【十六周】计通2022级]" />
+                          <Pane title="" auto_id="" rect="(L0, T0, R0, B0)" depth="13" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[会话] → ListItem[【十六周】计通2022级已置顶] → Pane[] → Pane[] → Pane[] → Pane[]" />
+                          <Static title="8:04 AM" auto_id="" rect="(L626, T377, R690, B407)" depth="13" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[会话] → ListItem[【十六周】计通2022级已置顶] → Pane[] → Pane[] → Pane[] → Static[8:04 AM]" />
+                          </Pane>
+                      <Pane title="" auto_id="" rect="(L521, T407, R690, B430)" depth="12" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[会话] → ListItem[【十六周】计通2022级已置顶] → Pane[] → Pane[] → Pane[]">
+                          <Static title="CC･墨染：链接时间截止到6.11下午三点" auto_id="" rect="(L521, T407, R655, B430)" depth="13" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[会话] → ListItem[【十六周】计通2022级已置顶] → Pane[] → Pane[] → Pane[] → Static[CC･墨染：链接时间截止到6.11下午三点]" />
+                          <Pane title="" auto_id="" rect="(L671, T410, R690, B429)" depth="13" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[会话] → ListItem[【十六周】计通2022级已置顶] → Pane[] → Pane[] → Pane[] → Pane[]" />
+                          </Pane>
+                      </Pane>
+                    </Pane>
+                  </ListItem>
+                <ListItem title="雨课堂已置顶" auto_id="" rect="(L444, T442, R705, B522)" depth="9" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[会话] → ListItem[雨课堂已置顶]">
+                    <Pane title="" auto_id="" rect="(L444, T442, R705, B522)" depth="10" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[会话] → ListItem[雨课堂已置顶] → Pane[]">
+                      <Button title="雨课堂" auto_id="" rect="(L459, T457, R509, B507)" depth="11" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[会话] → ListItem[雨课堂已置顶] → Pane[] → Button[雨课堂]" />
+                      <Pane title="" auto_id="" rect="(L521, T457, R690, B510)" depth="11" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[会话] → ListItem[雨课堂已置顶] → Pane[] → Pane[]">
+                        <Pane title="" auto_id="" rect="(L521, T457, R690, B487)" depth="12" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[会话] → ListItem[雨课堂已置顶] → Pane[] → Pane[] → Pane[]">
+                          <Static title="雨课堂" auto_id="" rect="(L521, T457, R656, B487)" depth="13" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[会话] → ListItem[雨课堂已置顶] → Pane[] → Pane[] → Pane[] → Static[雨课堂]" />
+                          <Pane title="" auto_id="" rect="(L0, T0, R0, B0)" depth="13" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[会话] → ListItem[雨课堂已置顶] → Pane[] → Pane[] → Pane[] → Pane[]" />
+                          <Static title="昨天" auto_id="" rect="(L656, T457, R690, B487)" depth="13" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[会话] → ListItem[雨课堂已置顶] → Pane[] → Pane[] → Pane[] → Static[昨天]" />
+                          </Pane>
+                      <Pane title="" auto_id="" rect="(L521, T487, R690, B510)" depth="12" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[会话] → ListItem[雨课堂已置顶] → Pane[] → Pane[] → Pane[]">
+                          <Static title="课堂报告提醒" auto_id="" rect="(L521, T487, R655, B510)" depth="13" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[会话] → ListItem[雨课堂已置顶] → Pane[] → Pane[] → Pane[] → Static[课堂报告提醒]" />
+                          <Pane title="" auto_id="" rect="(L671, T490, R690, B509)" depth="13" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[会话] → ListItem[雨课堂已置顶] → Pane[] → Pane[] → Pane[] → Pane[]" />
+                          </Pane>
+                      </Pane>
+                    </Pane>
+                  </ListItem>
+                <ListItem title="北科大智慧校园已置顶" auto_id="" rect="(L444, T522, R705, B602)" depth="9" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[会话] → ListItem[北科大智慧校园已置顶]">
+                    <Pane title="" auto_id="" rect="(L444, T522, R705, B602)" depth="10" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[会话] → ListItem[北科大智慧校园已置顶] → Pane[]">
+                      <Button title="北科大智慧校园" auto_id="" rect="(L459, T537, R509, B587)" depth="11" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[会话] → ListItem[北科大智慧校园已置顶] → Pane[] → Button[北科大智慧校园]" />
+                      <Pane title="" auto_id="" rect="(L521, T537, R690, B590)" depth="11" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[会话] → ListItem[北科大智慧校园已置顶] → Pane[] → Pane[]">
+                        <Pane title="" auto_id="" rect="(L521, T537, R690, B567)" depth="12" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[会话] → ListItem[北科大智慧校园已置顶] → Pane[] → Pane[] → Pane[]">
+                          <Static title="北科大智慧校园" auto_id="" rect="(L521, T537, R629, B567)" depth="13" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[会话] → ListItem[北科大智慧校园已置顶] → Pane[] → Pane[] → Pane[] → Static[北科大智慧校园]" />
+                          <Pane title="" auto_id="" rect="(L0, T0, R0, B0)" depth="13" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[会话] → ListItem[北科大智慧校园已置顶] → Pane[] → Pane[] → Pane[] → Pane[]" />
+                          <Static title="25/4/22" auto_id="" rect="(L629, T537, R690, B567)" depth="13" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[会话] → ListItem[北科大智慧校园已置顶] → Pane[] → Pane[] → Pane[] → Static[25/4/22]" />
+                          </Pane>
+                      <Pane title="" auto_id="" rect="(L521, T567, R690, B590)" depth="12" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[会话] → ListItem[北科大智慧校园已置顶] → Pane[] → Pane[] → Pane[]">
+                          <Static title="当校庆遇上信息化？科技 buff 叠满！" auto_id="" rect="(L521, T567, R655, B590)" depth="13" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[会话] → ListItem[北科大智慧校园已置顶] → Pane[] → Pane[] → Pane[] → Static[当校庆遇上信息化？科技 buff 叠满！]" />
+                          <Pane title="" auto_id="" rect="(L671, T570, R690, B589)" depth="13" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[会话] → ListItem[北科大智慧校园已置顶] → Pane[] → Pane[] → Pane[] → Pane[]" />
+                          </Pane>
+                      </Pane>
+                    </Pane>
+                  </ListItem>
+                <ListItem title="订阅号" auto_id="" rect="(L444, T602, R705, B682)" depth="9" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[会话] → ListItem[订阅号]">
+                    <Pane title="" auto_id="" rect="(L444, T602, R705, B682)" depth="10" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[会话] → ListItem[订阅号] → Pane[]">
+                      <Button title="SessionListItem" auto_id="" rect="(L459, T617, R509, B667)" depth="11" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[会话] → ListItem[订阅号] → Pane[] → Button[SessionListItem]" />
+                      <Pane title="" auto_id="" rect="(L521, T617, R690, B670)" depth="11" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[会话] → ListItem[订阅号] → Pane[] → Pane[]">
+                        <Pane title="" auto_id="" rect="(L521, T617, R690, B647)" depth="12" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[会话] → ListItem[订阅号] → Pane[] → Pane[] → Pane[]">
+                          <Static title="订阅号" auto_id="" rect="(L521, T617, R626, B647)" depth="13" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[会话] → ListItem[订阅号] → Pane[] → Pane[] → Pane[] → Static[订阅号]" />
+                          <Pane title="" auto_id="" rect="(L0, T0, R0, B0)" depth="13" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[会话] → ListItem[订阅号] → Pane[] → Pane[] → Pane[] → Pane[]" />
+                          <Static title="9:49 AM" auto_id="" rect="(L626, T617, R690, B647)" depth="13" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[会话] → ListItem[订阅号] → Pane[] → Pane[] → Pane[] → Static[9:49 AM]" />
+                          </Pane>
+                      <Pane title="" auto_id="" rect="(L521, T647, R690, B670)" depth="12" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[会话] → ListItem[订阅号] → Pane[] → Pane[] → Pane[]">
+                          <Static title="浙江大学: 温馨提醒！强基考生请注意" auto_id="" rect="(L521, T647, R677, B670)" depth="13" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[会话] → ListItem[订阅号] → Pane[] → Pane[] → Pane[] → Static[浙江大学: 温馨提醒！强基考生请注意]" />
+                          </Pane>
+                      </Pane>
+                    <Pane title="" auto_id="" rect="(L500, T609, R513, B622)" depth="11" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[会话] → ListItem[订阅号] → Pane[] → Pane[]" />
+                      </Pane>
+                  </ListItem>
+                <ListItem title="服务通知" auto_id="" rect="(L444, T682, R705, B762)" depth="9" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[会话] → ListItem[服务通知]">
+                    <Pane title="" auto_id="" rect="(L444, T682, R705, B762)" depth="10" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[会话] → ListItem[服务通知] → Pane[]">
+                      <Button title="服务通知" auto_id="" rect="(L459, T697, R509, B747)" depth="11" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[会话] → ListItem[服务通知] → Pane[] → Button[服务通知]" />
+                      <Pane title="" auto_id="" rect="(L521, T697, R690, B750)" depth="11" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[会话] → ListItem[服务通知] → Pane[] → Pane[]">
+                        <Pane title="" auto_id="" rect="(L521, T697, R690, B727)" depth="12" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[会话] → ListItem[服务通知] → Pane[] → Pane[] → Pane[]">
+                          <Static title="服务通知" auto_id="" rect="(L521, T697, R626, B727)" depth="13" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[会话] → ListItem[服务通知] → Pane[] → Pane[] → Pane[] → Static[服务通知]" />
+                          <Pane title="" auto_id="" rect="(L0, T0, R0, B0)" depth="13" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[会话] → ListItem[服务通知] → Pane[] → Pane[] → Pane[] → Pane[]" />
+                          <Static title="8:38 AM" auto_id="" rect="(L626, T697, R690, B727)" depth="13" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[会话] → ListItem[服务通知] → Pane[] → Pane[] → Pane[] → Static[8:38 AM]" />
+                          </Pane>
+                      <Pane title="" auto_id="" rect="(L521, T727, R690, B750)" depth="12" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[会话] → ListItem[服务通知] → Pane[] → Pane[] → Pane[]">
+                          <Static title="订单状态通知" auto_id="" rect="(L521, T727, R677, B750)" depth="13" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[会话] → ListItem[服务通知] → Pane[] → Pane[] → Pane[] → Static[订单状态通知]" />
+                          </Pane>
+                      </Pane>
+                    </Pane>
+                  </ListItem>
+                <ListItem title="微信支付" auto_id="" rect="(L444, T762, R705, B842)" depth="9" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[会话] → ListItem[微信支付]">
+                    <Pane title="" auto_id="" rect="(L444, T762, R705, B842)" depth="10" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[会话] → ListItem[微信支付] → Pane[]">
+                      <Button title="微信支付" auto_id="" rect="(L459, T777, R509, B827)" depth="11" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[会话] → ListItem[微信支付] → Pane[] → Button[微信支付]" />
+                      <Pane title="" auto_id="" rect="(L521, T777, R690, B830)" depth="11" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[会话] → ListItem[微信支付] → Pane[] → Pane[]">
+                        <Pane title="" auto_id="" rect="(L521, T777, R690, B807)" depth="12" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[会话] → ListItem[微信支付] → Pane[] → Pane[] → Pane[]">
+                          <Static title="微信支付" auto_id="" rect="(L521, T777, R626, B807)" depth="13" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[会话] → ListItem[微信支付] → Pane[] → Pane[] → Pane[] → Static[微信支付]" />
+                          <Pane title="" auto_id="" rect="(L0, T0, R0, B0)" depth="13" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[会话] → ListItem[微信支付] → Pane[] → Pane[] → Pane[] → Pane[]" />
+                          <Static title="8:36 AM" auto_id="" rect="(L626, T777, R690, B807)" depth="13" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[会话] → ListItem[微信支付] → Pane[] → Pane[] → Pane[] → Static[8:36 AM]" />
+                          </Pane>
+                      <Pane title="" auto_id="" rect="(L521, T807, R690, B830)" depth="12" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[会话] → ListItem[微信支付] → Pane[] → Pane[] → Pane[]">
+                          <Static title="[服务通知]已支付¥15.00" auto_id="" rect="(L521, T807, R655, B830)" depth="13" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[会话] → ListItem[微信支付] → Pane[] → Pane[] → Pane[] → Static[[服务通知]已支付¥15.00]" />
+                          <Pane title="" auto_id="" rect="(L671, T810, R690, B829)" depth="13" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[会话] → ListItem[微信支付] → Pane[] → Pane[] → Pane[] → Pane[]" />
+                          </Pane>
+                      </Pane>
+                    </Pane>
+                  </ListItem>
+                <ListItem title="泡泡🫧补货交流群" auto_id="" rect="(L444, T842, R705, B922)" depth="9" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[会话] → ListItem[泡泡🫧补货交流群]">
+                    <Pane title="" auto_id="" rect="(L444, T842, R705, B922)" depth="10" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[会话] → ListItem[泡泡🫧补货交流群] → Pane[]">
+                      <Button title="泡泡🫧补货交流群" auto_id="" rect="(L459, T857, R509, B907)" depth="11" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[会话] → ListItem[泡泡🫧补货交流群] → Pane[] → Button[泡泡🫧补货交流群]" />
+                      <Pane title="" auto_id="" rect="(L521, T857, R690, B910)" depth="11" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[会话] → ListItem[泡泡🫧补货交流群] → Pane[] → Pane[]">
+                        <Pane title="" auto_id="" rect="(L521, T857, R690, B887)" depth="12" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[会话] → ListItem[泡泡🫧补货交流群] → Pane[] → Pane[] → Pane[]">
+                          <Static title="泡泡🫧补货交流群" auto_id="" rect="(L521, T857, R626, B887)" depth="13" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[会话] → ListItem[泡泡🫧补货交流群] → Pane[] → Pane[] → Pane[] → Static[泡泡🫧补货交流群]" />
+                          <Pane title="" auto_id="" rect="(L0, T0, R0, B0)" depth="13" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[会话] → ListItem[泡泡🫧补货交流群] → Pane[] → Pane[] → Pane[] → Pane[]" />
+                          <Static title="7:24 AM" auto_id="" rect="(L626, T857, R690, B887)" depth="13" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[会话] → ListItem[泡泡🫧补货交流群] → Pane[] → Pane[] → Pane[] → Static[7:24 AM]" />
+                          </Pane>
+                      <Pane title="" auto_id="" rect="(L521, T887, R690, B910)" depth="12" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[会话] → ListItem[泡泡🫧补货交流群] → Pane[] → Pane[] → Pane[]">
+                          <Static title="一只迷途小羔羊。：啥意思" auto_id="" rect="(L521, T887, R655, B910)" depth="13" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[会话] → ListItem[泡泡🫧补货交流群] → Pane[] → Pane[] → Pane[] → Static[一只迷途小羔羊。：啥意思]" />
+                          <Pane title="" auto_id="" rect="(L671, T890, R690, B909)" depth="13" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[会话] → ListItem[泡泡🫧补货交流群] → Pane[] → Pane[] → Pane[] → Pane[]" />
+                          </Pane>
+                      </Pane>
+                    </Pane>
+                  </ListItem>
+                </ListBox>
+              </Pane>
+            </Pane>
+          </Pane>
+        <Pane title="" auto_id="" rect="(L444, T202, R705, B900)" depth="5" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[]">
+            <ListBox title="@str:IDS_FAV_SEARCH_RESULT:3780" auto_id="" rect="(L444, T202, R705, B900)" depth="6" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[@str:IDS_FAV_SEARCH_RESULT:3780]">
+              <Pane title="" auto_id="" rect="(L444, T202, R705, B240)" depth="7" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[@str:IDS_FAV_SEARCH_RESULT:3780] → Pane[]">
+                <Static title="联系人" auto_id="" rect="(L444, T202, R705, B240)" depth="8" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[@str:IDS_FAV_SEARCH_RESULT:3780] → Pane[] → Static[联系人]" />
+                </Pane>
+            <ListItem title="文件传输助手" auto_id="" rect="(L444, T239, R705, B314)" depth="7" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[@str:IDS_FAV_SEARCH_RESULT:3780] → ListItem[文件传输助手]">
+                <Pane title="" auto_id="" rect="(L444, T239, R705, B314)" depth="8" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[@str:IDS_FAV_SEARCH_RESULT:3780] → ListItem[文件传输助手] → Pane[]">
+                  <Button title="文件传输助手" auto_id="" rect="(L459, T255, R502, B298)" depth="9" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[@str:IDS_FAV_SEARCH_RESULT:3780] → ListItem[文件传输助手] → Pane[] → Button[文件传输助手]" />
+                  <Pane title="" auto_id="" rect="(L501, T239, R705, B314)" depth="9" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[@str:IDS_FAV_SEARCH_RESULT:3780] → ListItem[文件传输助手] → Pane[] → Pane[]">
+                    <Pane title="" auto_id="" rect="(L516, T260, R680, B295)" depth="10" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[@str:IDS_FAV_SEARCH_RESULT:3780] → ListItem[文件传输助手] → Pane[] → Pane[] → Pane[]">
+                      <Static title="&lt;em&gt;文件传输助手&lt;/em&gt;" auto_id="" rect="(L516, T260, R684, B295)" depth="11" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[@str:IDS_FAV_SEARCH_RESULT:3780] → ListItem[文件传输助手] → Pane[] → Pane[] → Pane[] → Static[&lt;em&gt;文件传输助手&lt;/em&gt;]" />
+                      </Pane>
+                  </Pane>
+                </Pane>
+              </ListItem>
+            <ListItem title="搜索 文件传输助手" auto_id="" rect="(L444, T324, R705, B399)" depth="7" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[@str:IDS_FAV_SEARCH_RESULT:3780] → ListItem[搜索 文件传输助手]">
+                <Pane title="" auto_id="" rect="(L444, T324, R705, B399)" depth="8" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[@str:IDS_FAV_SEARCH_RESULT:3780] → ListItem[搜索 文件传输助手] → Pane[]">
+                  <Static title="WebSearchWnd" auto_id="" rect="(L459, T339, R502, B382)" depth="9" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[@str:IDS_FAV_SEARCH_RESULT:3780] → ListItem[搜索 文件传输助手] → Pane[] → Static[WebSearchWnd]" />
+                  <Pane title="" auto_id="" rect="(L501, T324, R676, B399)" depth="9" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[@str:IDS_FAV_SEARCH_RESULT:3780] → ListItem[搜索 文件传输助手] → Pane[] → Pane[]">
+                    <Static title="搜索 文件传输助手" auto_id="" rect="(L516, T333, R651, B366)" depth="10" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[@str:IDS_FAV_SEARCH_RESULT:3780] → ListItem[搜索 文件传输助手] → Pane[] → Pane[] → Static[搜索 文件传输助手]" />
+                    <Pane title="" auto_id="" rect="(L501, T365, R676, B399)" depth="10" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[@str:IDS_FAV_SEARCH_RESULT:3780] → ListItem[搜索 文件传输助手] → Pane[] → Pane[] → Pane[]">
+                      <Static title="文章、公众号、视频号等" auto_id="" rect="(L516, T365, R676, B385)" depth="11" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[@str:IDS_FAV_SEARCH_RESULT:3780] → ListItem[搜索 文件传输助手] → Pane[] → Pane[] → Pane[] → Static[文章、公众号、视频号等]" />
+                      </Pane>
+                  </Pane>
+                <Pane title="" auto_id="" rect="(L682, T324, R695, B399)" depth="9" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[@str:IDS_FAV_SEARCH_RESULT:3780] → ListItem[搜索 文件传输助手] → Pane[] → Pane[]">
+                    <Pane title="" auto_id="" rect="(L682, T324, R695, B347)" depth="10" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[@str:IDS_FAV_SEARCH_RESULT:3780] → ListItem[搜索 文件传输助手] → Pane[] → Pane[] → Pane[]" />
+                    <Pane title="" auto_id="" rect="(L682, T347, R695, B377)" depth="10" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[@str:IDS_FAV_SEARCH_RESULT:3780] → ListItem[搜索 文件传输助手] → Pane[] → Pane[] → Pane[]" />
+                    <Pane title="" auto_id="" rect="(L682, T377, R695, B400)" depth="10" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[@str:IDS_FAV_SEARCH_RESULT:3780] → ListItem[搜索 文件传输助手] → Pane[] → Pane[] → Pane[]" />
+                    </Pane>
+                </Pane>
+              </ListItem>
+            <ListItem title="文件传输助手" auto_id="" rect="(L444, T399, R705, B438)" depth="7" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[@str:IDS_FAV_SEARCH_RESULT:3780] → ListItem[文件传输助手]">
+                <Pane title="" auto_id="" rect="(L444, T399, R705, B438)" depth="8" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[@str:IDS_FAV_SEARCH_RESULT:3780] → ListItem[文件传输助手] → Pane[]">
+                  <Pane title="" auto_id="" rect="(L456, T409, R474, B427)" depth="9" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[@str:IDS_FAV_SEARCH_RESULT:3780] → ListItem[文件传输助手] → Pane[] → Pane[]" />
+                  <Static title="文件传输助手" auto_id="" rect="(L486, T408, R705, B428)" depth="9" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[@str:IDS_FAV_SEARCH_RESULT:3780] → ListItem[文件传输助手] → Pane[] → Static[文件传输助手]" />
+                  </Pane>
+              </ListItem>
+            <ListItem title="文件传输助手恢复历史记录" auto_id="" rect="(L444, T438, R705, B477)" depth="7" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[@str:IDS_FAV_SEARCH_RESULT:3780] → ListItem[文件传输助手恢复历史记录]">
+                <Pane title="" auto_id="" rect="(L444, T438, R705, B477)" depth="8" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[@str:IDS_FAV_SEARCH_RESULT:3780] → ListItem[文件传输助手恢复历史记录] → Pane[]">
+                  <Pane title="" auto_id="" rect="(L456, T448, R474, B466)" depth="9" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[@str:IDS_FAV_SEARCH_RESULT:3780] → ListItem[文件传输助手恢复历史记录] → Pane[] → Pane[]" />
+                  <Static title="文件传输助手恢复历史记录" auto_id="" rect="(L486, T447, R705, B467)" depth="9" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[@str:IDS_FAV_SEARCH_RESULT:3780] → ListItem[文件传输助手恢复历史记录] → Pane[] → Static[文件传输助手恢复历史记录]" />
+                  </Pane>
+              </ListItem>
+            <ListItem title="文件传输助手打开微信" auto_id="" rect="(L444, T477, R705, B516)" depth="7" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[@str:IDS_FAV_SEARCH_RESULT:3780] → ListItem[文件传输助手打开微信]">
+                <Pane title="" auto_id="" rect="(L444, T477, R705, B516)" depth="8" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[@str:IDS_FAV_SEARCH_RESULT:3780] → ListItem[文件传输助手打开微信] → Pane[]">
+                  <Pane title="" auto_id="" rect="(L456, T487, R474, B505)" depth="9" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[@str:IDS_FAV_SEARCH_RESULT:3780] → ListItem[文件传输助手打开微信] → Pane[] → Pane[]" />
+                  <Static title="文件传输助手打开微信" auto_id="" rect="(L486, T485, R705, B505)" depth="9" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[@str:IDS_FAV_SEARCH_RESULT:3780] → ListItem[文件传输助手打开微信] → Pane[] → Static[文件传输助手打开微信]" />
+                  </Pane>
+              </ListItem>
+            <ListItem title="文件传输助手怎么开启" auto_id="" rect="(L444, T515, R705, B554)" depth="7" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[@str:IDS_FAV_SEARCH_RESULT:3780] → ListItem[文件传输助手怎么开启]">
+                <Pane title="" auto_id="" rect="(L444, T515, R705, B554)" depth="8" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[@str:IDS_FAV_SEARCH_RESULT:3780] → ListItem[文件传输助手怎么开启] → Pane[]">
+                  <Pane title="" auto_id="" rect="(L456, T525, R474, B543)" depth="9" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[@str:IDS_FAV_SEARCH_RESULT:3780] → ListItem[文件传输助手怎么开启] → Pane[] → Pane[]" />
+                  <Static title="文件传输助手怎么开启" auto_id="" rect="(L486, T524, R705, B544)" depth="9" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[@str:IDS_FAV_SEARCH_RESULT:3780] → ListItem[文件传输助手怎么开启] → Pane[] → Static[文件传输助手怎么开启]" />
+                  </Pane>
+              </ListItem>
+            <ListItem title="文件传输助手是干什么用的" auto_id="" rect="(L444, T554, R705, B593)" depth="7" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[@str:IDS_FAV_SEARCH_RESULT:3780] → ListItem[文件传输助手是干什么用的]">
+                <Pane title="" auto_id="" rect="(L444, T554, R705, B593)" depth="8" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[@str:IDS_FAV_SEARCH_RESULT:3780] → ListItem[文件传输助手是干什么用的] → Pane[]">
+                  <Pane title="" auto_id="" rect="(L456, T564, R474, B582)" depth="9" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[@str:IDS_FAV_SEARCH_RESULT:3780] → ListItem[文件传输助手是干什么用的] → Pane[] → Pane[]" />
+                  <Static title="文件传输助手是干什么用的" auto_id="" rect="(L486, T563, R705, B583)" depth="9" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[@str:IDS_FAV_SEARCH_RESULT:3780] → ListItem[文件传输助手是干什么用的] → Pane[] → Static[文件传输助手是干什么用的]" />
+                  </Pane>
+              </ListItem>
+            <ListItem title="文件传输助手打开" auto_id="" rect="(L444, T593, R705, B632)" depth="7" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[@str:IDS_FAV_SEARCH_RESULT:3780] → ListItem[文件传输助手打开]">
+                <Pane title="" auto_id="" rect="(L444, T593, R705, B632)" depth="8" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[@str:IDS_FAV_SEARCH_RESULT:3780] → ListItem[文件传输助手打开] → Pane[]">
+                  <Pane title="" auto_id="" rect="(L456, T603, R474, B621)" depth="9" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[@str:IDS_FAV_SEARCH_RESULT:3780] → ListItem[文件传输助手打开] → Pane[] → Pane[]" />
+                  <Static title="文件传输助手打开" auto_id="" rect="(L486, T602, R705, B622)" depth="9" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[@str:IDS_FAV_SEARCH_RESULT:3780] → ListItem[文件传输助手打开] → Pane[] → Static[文件传输助手打开]" />
+                  </Pane>
+              </ListItem>
+            <ListItem title="文件传输助手打开微信https阅续" auto_id="" rect="(L444, T632, R705, B671)" depth="7" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[@str:IDS_FAV_SEARCH_RESULT:3780] → ListItem[文件传输助手打开微信https阅续]">
+                <Pane title="" auto_id="" rect="(L444, T632, R705, B671)" depth="8" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[@str:IDS_FAV_SEARCH_RESULT:3780] → ListItem[文件传输助手打开微信https阅续] → Pane[]">
+                  <Pane title="" auto_id="" rect="(L456, T642, R474, B660)" depth="9" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[@str:IDS_FAV_SEARCH_RESULT:3780] → ListItem[文件传输助手打开微信https阅续] → Pane[] → Pane[]" />
+                  <Static title="文件传输助手打开微信https阅续" auto_id="" rect="(L486, T640, R705, B660)" depth="9" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[@str:IDS_FAV_SEARCH_RESULT:3780] → ListItem[文件传输助手打开微信https阅续] → Pane[] → Static[文件传输助手打开微信https阅续]" />
+                  </Pane>
+              </ListItem>
+            <ListItem title="文件传输助手添加" auto_id="" rect="(L444, T670, R705, B709)" depth="7" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[@str:IDS_FAV_SEARCH_RESULT:3780] → ListItem[文件传输助手添加]">
+                <Pane title="" auto_id="" rect="(L444, T670, R705, B709)" depth="8" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[@str:IDS_FAV_SEARCH_RESULT:3780] → ListItem[文件传输助手添加] → Pane[]">
+                  <Pane title="" auto_id="" rect="(L456, T680, R474, B698)" depth="9" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[@str:IDS_FAV_SEARCH_RESULT:3780] → ListItem[文件传输助手添加] → Pane[] → Pane[]" />
+                  <Static title="文件传输助手添加" auto_id="" rect="(L486, T679, R705, B699)" depth="9" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[@str:IDS_FAV_SEARCH_RESULT:3780] → ListItem[文件传输助手添加] → Pane[] → Static[文件传输助手添加]" />
+                  </Pane>
+              </ListItem>
+            <ListItem title="文件传输助手打开链接" auto_id="" rect="(L444, T709, R705, B748)" depth="7" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[@str:IDS_FAV_SEARCH_RESULT:3780] → ListItem[文件传输助手打开链接]">
+                <Pane title="" auto_id="" rect="(L444, T709, R705, B748)" depth="8" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[@str:IDS_FAV_SEARCH_RESULT:3780] → ListItem[文件传输助手打开链接] → Pane[]">
+                  <Pane title="" auto_id="" rect="(L456, T719, R474, B737)" depth="9" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[@str:IDS_FAV_SEARCH_RESULT:3780] → ListItem[文件传输助手打开链接] → Pane[] → Pane[]" />
+                  <Static title="文件传输助手打开链接" auto_id="" rect="(L486, T718, R705, B738)" depth="9" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[@str:IDS_FAV_SEARCH_RESULT:3780] → ListItem[文件传输助手打开链接] → Pane[] → Static[文件传输助手打开链接]" />
+                  </Pane>
+              </ListItem>
+            <ListItem title="文件传输助手二" auto_id="" rect="(L444, T748, R705, B787)" depth="7" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[@str:IDS_FAV_SEARCH_RESULT:3780] → ListItem[文件传输助手二]">
+                <Pane title="" auto_id="" rect="(L444, T748, R705, B787)" depth="8" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[@str:IDS_FAV_SEARCH_RESULT:3780] → ListItem[文件传输助手二] → Pane[]">
+                  <Pane title="" auto_id="" rect="(L456, T758, R474, B776)" depth="9" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[@str:IDS_FAV_SEARCH_RESULT:3780] → ListItem[文件传输助手二] → Pane[] → Pane[]" />
+                  <Static title="文件传输助手二" auto_id="" rect="(L486, T757, R705, B777)" depth="9" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → ListBox[@str:IDS_FAV_SEARCH_RESULT:3780] → ListItem[文件传输助手二] → Pane[] → Static[文件传输助手二]" />
+                  </Pane>
+              </ListItem>
+            </ListBox>
+          </Pane>
         </Pane>
       </Pane>
+    <Pane title="" auto_id="" rect="(L706, T124, R1531, B899)" depth="3" path=" → Pane[] → Pane[] → Pane[]">
+        <Pane title="" auto_id="" rect="(L706, T124, R1531, B899)" depth="4" path=" → Pane[] → Pane[] → Pane[] → Pane[]">
+          <Pane title="" auto_id="" rect="(L706, T124, R1050, B899)" depth="5" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[]" />
+          <Pane title="" auto_id="" rect="(L1050, T124, R1188, B899)" depth="5" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[]">
+            <Pane title="" auto_id="" rect="(L1050, T124, R1188, B443)" depth="6" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[]" />
+            <Pane title="" auto_id="" rect="(L1050, T443, R1188, B581)" depth="6" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[]" />
+            <Pane title="" auto_id="" rect="(L1050, T580, R1188, B899)" depth="6" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[]" />
+            </Pane>
+        <Pane title="" auto_id="" rect="(L1187, T124, R1531, B899)" depth="5" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Pane[]" />
+          </Pane>
+      <Toolbar title="" auto_id="" rect="(L1366, T124, R1531, B155)" depth="4" path=" → Pane[] → Pane[] → Pane[] → Toolbar[]">
+          <Button title="置顶" auto_id="" rect="(L1366, T124, R1407, B155)" depth="5" path=" → Pane[] → Pane[] → Pane[] → Toolbar[] → Button[置顶]" />
+          <Button title="最小化" auto_id="" rect="(L1407, T124, R1448, B155)" depth="5" path=" → Pane[] → Pane[] → Pane[] → Toolbar[] → Button[最小化]" />
+          <Button title="最大化" auto_id="" rect="(L1449, T124, R1490, B155)" depth="5" path=" → Pane[] → Pane[] → Pane[] → Toolbar[] → Button[最大化]" />
+          <Button title="关闭" auto_id="" rect="(L1490, T124, R1531, B155)" depth="5" path=" → Pane[] → Pane[] → Pane[] → Toolbar[] → Button[关闭]" />
+          </Toolbar>
+      </Pane>
     </Pane>
-  </Dialog>
+  </Pane>
+</Dialog>

@@ -1,4 +1,4 @@
-- Action: Input
+- Action: input
   Control:
     title: 搜索
     type: Edit
@@ -13,7 +13,7 @@
   Input: 'null'
   New_State: state3.xml
   State: state2.xml
-- Action: Input
+- Action: input
   Control:
     title: 文件传输助手
     type: Edit
