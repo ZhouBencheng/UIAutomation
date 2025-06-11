@@ -2,14 +2,16 @@
 Task 1: Send a message to WeChat's File Transfer Assistant （给文件传输助手发一则消息）
 """
 import os
-from utils.connector import get_window_specification
+import time
+
+from utils.connector import get_window_specification, weixin_app_path, weixin_title
 from utils.gui_tree_exporter import export_gui_xml_structure
 import yaml
 
 def send_message_to_wechat():
     """发送消息到微信"""
-    app_path = 'WeChat.exe'
-    window_title = '微信'
+    app_path = weixin_app_path
+    window_title = weixin_title
     # 连接到微信应用
     dlg_spec = get_window_specification(app_path, window_title)
     dlg_wrapper = dlg_spec.wrapper_object()
@@ -25,11 +27,12 @@ def send_message_to_wechat():
     state_path = os.path.split(export_gui_xml_structure(dlg_wrapper, output_dir, state_num))[1]
 
     # 打开搜索框并输入联系人名称
-    search_input_spec = dlg_spec.child_window(title='搜索', control_type='Edit')
+    search_input_spec = dlg_spec.child_window(control_type='Edit', class_name='mmui::XValidatorTextEdit')
     search_input = search_input_spec.wrapper_object()
     contact = '文件传输助手'
     search_input.click_input()
     search_input.type_keys(contact)
+    time.sleep(1)
 
     # 解析搜索完成后的GUI状态
     state_num += 1
@@ -39,7 +42,7 @@ def send_message_to_wechat():
         'Action': 'input',
         'Control': {
             'type': 'Edit',
-            'title': '搜索',
+            'title': '',
         },
         'Input': contact,
         'State': state_path,
@@ -47,7 +50,7 @@ def send_message_to_wechat():
     })
 
     # 点击联系人
-    contact_spec = dlg_spec.child_window(title=f"{contact}", control_type='Button', depth=9)
+    contact_spec = dlg_spec.child_window(title=f"{contact}", control_type='ListItem', depth=4)
     contact_wrapper = contact_spec.wrapper_object()
     contact_wrapper.click_input()
 
@@ -59,9 +62,9 @@ def send_message_to_wechat():
     action_trace.append({
         'Action': 'click',
         'Control': {
-            'type': 'Button',
+            'type': 'ListItem',
             'title': contact,
-            'depth': 9
+            'depth': 4
         },
         'Input': 'null',
         'State': state_path,
@@ -70,7 +73,7 @@ def send_message_to_wechat():
 
     # 输入消息内容
     message = 'Hello, this is a test message from the automation script!'
-    message_input_spec = dlg_spec.child_window(title=contact, control_type='Edit')
+    message_input_spec = dlg_spec.child_window(auto_id='chat_input_field', control_type='Edit')
     message_input = message_input_spec.wrapper_object()
     message_input.type_keys(message, with_spaces=True)
 
@@ -83,7 +86,8 @@ def send_message_to_wechat():
         'Action': 'input',
         'Control': {
             'type': 'Edit',
-            'title': contact,
+            'title': '',
+            'auto_id': 'chat_input_field',
         },
         'Input': message,
         'State': state_path,

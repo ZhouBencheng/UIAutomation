@@ -1,21 +1,22 @@
 - Action: input
   Control:
-    title: 搜索
+    title: ''
     type: Edit
   Input: 文件传输助手
   New_State: state2.xml
   State: state1.xml
 - Action: click
   Control:
-    depth: 9
+    depth: 4
     title: 文件传输助手
-    type: Button
+    type: ListItem
   Input: 'null'
   New_State: state3.xml
   State: state2.xml
 - Action: input
   Control:
-    title: 文件传输助手
+    auto_id: chat_input_field
+    title: ''
     type: Edit
   Input: Hello, this is a test message from the automation script!
   New_State: state4.xml

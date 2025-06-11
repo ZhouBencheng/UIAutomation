@@ -4,8 +4,7 @@ import json
 from pywinauto.controls.uiawrapper import UIAWrapper
 import xml.etree.ElementTree as ET
 from datetime import datetime
-from pywinauto.keyboard import send_keys
-from utils.connector import get_wrapper_object
+from utils.connector import get_wrapper_object, weixin_app_path, weixin_title
 
 ############################### 容器滚动器 ###############################
 
@@ -14,8 +13,9 @@ def scroll_back(list_ctrl: UIAWrapper, max_iter=100):
     logging.debug(f"Start scrolling back in the list control")
     for _ in range(max_iter):
         try:
-            list_ctrl.set_focus()
-            send_keys('{PGUP}')  # 或 send_keys('{PGUP}')、list_ctrl.scroll等
+            # list_ctrl.set_focus()
+            # send_keys('{PGUP}')  # 或 send_keys('{PGUP}')、list_ctrl.scroll等
+            list_ctrl.type_keys('{PGUP}')
         except Exception:
             logging.debug("Failed to scroll back in the list control.")
             break
@@ -49,9 +49,9 @@ def extract_all_list_items(list_ctrl: UIAWrapper, depth=0, prefix: str="", flag=
                 changed = True
         # 尝试滚动
         try:
-            list_ctrl.set_focus()
-            send_keys('{PGDN}')
-            # list_ctrl.type_keys('{PGDN}')
+            # list_ctrl.set_focus()
+            # send_keys('{PGDN}')
+            list_ctrl.type_keys('{PGDN}')
         except Exception:
             logging.debug("Failed to scroll the list control.")
             break
@@ -70,10 +70,13 @@ def indent_xml(elem, level=0):
     if len(elem):
         if not elem.text or not elem.text.strip():
             elem.text = i + "  "
-        for child in elem:
+        for idx, child in enumerate(elem):
             indent_xml(child, level + 1)
-        if not elem.tail or not elem.tail.strip():
-            elem.tail = "\n" + (level - 1) * "  " if level > 0 else ""
+            # 判断是不是最后一个子节点
+            if idx == len(elem) - 1:
+                child.tail = i
+            else:
+                child.tail = "\n" + (level + 1) * "  " if level > 0 else "\n"
     else:
         if level and (not elem.tail or not elem.tail.strip()):
             elem.tail = i
@@ -84,6 +87,8 @@ def control_info_to_xml(ctrl: UIAWrapper, depth: int = 0, prefix: str = "", max_
 
     elem = ET.Element(ctrl.friendly_class_name(), {
         "title": ctrl.window_text(),
+        "name": ctrl.element_info.name,
+        "class_name": ctrl.element_info.class_name,
         "auto_id": ctrl.element_info.automation_id,
         "rect": str(ctrl.rectangle()),
         "depth": str(depth),
@@ -95,16 +100,20 @@ def control_info_to_xml(ctrl: UIAWrapper, depth: int = 0, prefix: str = "", max_
     except Exception as e:
         children = []
 
-    if ctrl.friendly_class_name() == "ListBox":
-        # 对于 ListBox 控件，提取所有子项
-        items = extract_all_list_items(ctrl, depth + 1, prefix, flag=False)
-        for item in items:
-            elem.append(item)
-    else:
-        for child in children:
-            child_elem = control_info_to_xml(child, depth + 1, prefix + f" -> {child.friendly_class_name()}[{child.window_text()}]")
-            if child_elem is not None:
-                elem.append(child_elem)
+    # if ctrl.friendly_class_name() == "ListBox":
+    #     # 对于 ListBox 控件，提取所有子项
+    #     items = extract_all_list_items(ctrl, depth + 1, prefix, flag=False)
+    #     for item in items:
+    #         elem.append(item)
+    # else:
+    #     for child in children:
+    #         child_elem = control_info_to_xml(child, depth + 1, prefix + f" -> {child.friendly_class_name()}[{child.window_text()}]")
+    #         if child_elem is not None:
+    #             elem.append(child_elem)
+    for child in children:
+        child_elem = control_info_to_xml(child, depth + 1, prefix + f" -> {child.friendly_class_name()}[{child.window_text()}]")
+        if child_elem is not None:
+            elem.append(child_elem)
     return elem
 
 def export_gui_xml_structure(dlg_wrapper: UIAWrapper, output_dir="gui_export", state_num=0) -> str:
@@ -147,7 +156,7 @@ def extract_control_info(ctrl: UIAWrapper, depth: int = 0, prefix: str = "", max
         children = []
 
     info["children"] = [
-        extract_all_list_items(child, depth + 1, flag=True) if child.friendly_class_name() == "ListBox" else
+        # extract_all_list_items(child, depth + 1, flag=True) if child.friendly_class_name() == "ListBox" else
         extract_control_info(child, depth + 1, prefix + f" -> {child.friendly_class_name()}[{child.window_text()}]")
         for child in children
     ]
@@ -189,8 +198,8 @@ def export_gui_structure(app_path: str, window_title: str, output_dir="gui_expor
 if __name__ == "__main__":
     # 以 Windows Wechat 为例
     export_gui_structure(
-        app_path="WeChat.exe",
-        window_title="微信",       # 支持正则匹配
+        app_path=weixin_app_path,
+        window_title=weixin_title,       # 支持正则匹配
         output_dir="../gui_export",
         screenshot=False          # 可设置为 False 关闭截图
     )

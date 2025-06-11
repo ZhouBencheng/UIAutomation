@@ -4,9 +4,10 @@ import os
 from pywinauto import Desktop, WindowSpecification
 from pywinauto.controls.uiawrapper import UIAWrapper
 from pywinauto.keyboard import send_keys
-from utils.connector import get_window_specification
+from utils.connector import get_window_specification, weixin_app_path, weixin_title
 from utils.gui_tree_exporter import export_gui_xml_structure
 import yaml
+import re
 
 def get_contact(contact:str, list_box_spec: WindowSpecification) -> UIAWrapper:
     """获取联系人的Button Wrapper"""
@@ -22,10 +23,9 @@ def get_contact(contact:str, list_box_spec: WindowSpecification) -> UIAWrapper:
             if item not in seen_titles:
                 seen_titles.add(unique_key)
                 changed = True
-                if unique_key == contact:
+                if re.search(contact, unique_key):
                     # item中将只存在一个button，descentdants()方法返回wrapper列表
-                    contact_button_wrapper = item.descendants(control_type='Button')[0]
-                    return contact_button_wrapper
+                    return item
 
         try:
             list_box_wrapper.set_focus()
@@ -39,13 +39,13 @@ def get_contact(contact:str, list_box_spec: WindowSpecification) -> UIAWrapper:
             break
 
     logging.debug("No new button found")
-    return list_box_spec.child_window(title=contact, control_type='Button').wrapper_object()
+    return list_box_spec.child_window(title_re=f'{contact}.*', control_type='ListItem').wrapper_object()
 
 
 def search_message_in_contact():
     """在微信联系人聊天记录中搜索特定消息"""
-    app_path = 'WeChat.exe'
-    window_title = '微信'
+    app_path = weixin_app_path
+    window_title = weixin_title
     # 连接到微信应用
     dlg_spec = get_window_specification(app_path, window_title)
     dlg_wrapper = dlg_spec.wrapper_object()
@@ -87,7 +87,7 @@ def search_message_in_contact():
     chat_history_button_wrapper.click_input()
 
     # 解析点击聊天记录后的GUI状态
-    chat_history_window_spec = Desktop(backend='uia').window(title='ben')
+    chat_history_window_spec = Desktop(backend='uia').window(title=f'与“{contact}”的聊天记录')
     chat_history_window_wrapper = chat_history_window_spec.wrapper_object()
     state_num += 1 # 3
     state_path = new_state_path
@@ -105,7 +105,7 @@ def search_message_in_contact():
     })
 
     # 搜索框输入待查找内容
-    search_input_spec = chat_history_window_spec.child_window(title='搜索', control_type='Edit')
+    search_input_spec = chat_history_window_spec.child_window(class_name='mmui::XValidatorTextEdit', control_type='Edit')
     search_input_wrapper = search_input_spec.wrapper_object()
     message = 'Hello, ben'
     search_input_wrapper.click_input()
@@ -119,7 +119,8 @@ def search_message_in_contact():
         'Action': 'input',
         'Control':{
             'type': 'Edit',
-            'title': '搜索'
+            'title': '',
+            'class_name': 'mmui::XValidatorTextEdit'
         },
         'Input': message,
         'State': state_path,
