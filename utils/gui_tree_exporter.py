@@ -4,7 +4,9 @@ import json
 from pywinauto.controls.uiawrapper import UIAWrapper
 import xml.etree.ElementTree as ET
 from datetime import datetime
+import classifier
 from utils.connector import get_wrapper_object, weixin_app_path, weixin_title
+
 
 ############################### 容器滚动器 ###############################
 
@@ -85,7 +87,7 @@ def control_info_to_xml(ctrl: UIAWrapper, depth: int = 0, prefix: str = "", max_
     if depth > max_depth:
         return None
 
-    elem = ET.Element(ctrl.friendly_class_name(), {
+    attrs = {
         "title": ctrl.window_text(),
         "name": ctrl.element_info.name,
         "class_name": ctrl.element_info.class_name,
@@ -93,23 +95,16 @@ def control_info_to_xml(ctrl: UIAWrapper, depth: int = 0, prefix: str = "", max_
         "rect": str(ctrl.rectangle()),
         "depth": str(depth),
         "path": prefix.replace("->", "→")
-    })
+    }
+    if ctrl.friendly_class_name() not in classifier.static_containers:
+        attrs["is_dynamic"] = str(classifier.is_dynamic_control(ctrl))
+    elem = ET.Element(ctrl.friendly_class_name(), attrs)
 
     try:
         children = ctrl.children()
     except Exception as e:
         children = []
 
-    # if ctrl.friendly_class_name() == "ListBox":
-    #     # 对于 ListBox 控件，提取所有子项
-    #     items = extract_all_list_items(ctrl, depth + 1, prefix, flag=False)
-    #     for item in items:
-    #         elem.append(item)
-    # else:
-    #     for child in children:
-    #         child_elem = control_info_to_xml(child, depth + 1, prefix + f" -> {child.friendly_class_name()}[{child.window_text()}]")
-    #         if child_elem is not None:
-    #             elem.append(child_elem)
     for child in children:
         child_elem = control_info_to_xml(child, depth + 1, prefix + f" -> {child.friendly_class_name()}[{child.window_text()}]")
         if child_elem is not None:
@@ -197,6 +192,7 @@ def export_gui_structure(app_path: str, window_title: str, output_dir="gui_expor
 
 if __name__ == "__main__":
     # 以 Windows Wechat 为例
+    classifier.clear_group_semantics_cache()
     export_gui_structure(
         app_path=weixin_app_path,
         window_title=weixin_title,       # 支持正则匹配
