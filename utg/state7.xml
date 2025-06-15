@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Menu title="System" name="System" class_name="#32768" auto_id="" handle="789652" rect="(L0, T60, R221, B233)" depth="0" path="">
+  <MenuItem title="Restore" name="Restore" class_name="" auto_id="61728" handle="None" rect="(L3, T63, R218, B89)" depth="1" path=" → MenuItem[Restore]" is_dynamic="False" />
+<MenuItem title="Move" name="Move" class_name="" auto_id="61456" handle="None" rect="(L3, T89, R218, B115)" depth="1" path=" → MenuItem[Move]" is_dynamic="False" />
+<MenuItem title="Size" name="Size" class_name="" auto_id="61440" handle="None" rect="(L3, T115, R218, B141)" depth="1" path=" → MenuItem[Size]" is_dynamic="False" />
+<MenuItem title="Minimize" name="Minimize" class_name="" auto_id="61472" handle="None" rect="(L3, T141, R218, B167)" depth="1" path=" → MenuItem[Minimize]" is_dynamic="False" />
+<MenuItem title="Maximize" name="Maximize" class_name="" auto_id="61488" handle="None" rect="(L3, T167, R218, B193)" depth="1" path=" → MenuItem[Maximize]" is_dynamic="False" />
+<MenuItem title="Close" name="Close" class_name="" auto_id="61536" handle="None" rect="(L3, T204, R218, B230)" depth="1" path=" → MenuItem[Close]" is_dynamic="False" />
+</Menu>

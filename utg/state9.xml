@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Dialog title="搜索聊天记录" name="搜索聊天记录" class_name="mmui::SearchMsgWindow" auto_id="" handle="2822214" rect="(L516, T140, R1403, B940)" depth="0" path="">
+  <GroupBox title="" name="" class_name="QWidget" auto_id="" handle="None" rect="(L516, T140, R1403, B940)" depth="1" path=" → GroupBox[]">
+    <GroupBox title="" name="" class_name="mmui::XView" auto_id="" handle="None" rect="(L516, T140, R1403, B940)" depth="2" path=" → GroupBox[] → GroupBox[]">
+      <Static title="搜索聊天记录" name="搜索聊天记录" class_name="mmui::XTextView" auto_id="" handle="None" rect="(L516, T140, R1403, B190)" depth="3" path=" → GroupBox[] → GroupBox[] → Static[搜索聊天记录]" />
+      <GroupBox title="" name="" class_name="mmui::XView" auto_id="" handle="None" rect="(L516, T190, R1403, B315)" depth="3" path=" → GroupBox[] → GroupBox[] → GroupBox[]">
+        <GroupBox title="" name="" class_name="mmui::XSearchField" auto_id="" handle="None" rect="(L636, T227, R1283, B277)" depth="4" path=" → GroupBox[] → GroupBox[] → GroupBox[] → GroupBox[]">
+          <Button title="清空" name="清空" class_name="mmui::XButton" auto_id="" handle="None" rect="(L1248, T240, R1273, B265)" depth="5" path=" → GroupBox[] → GroupBox[] → GroupBox[] → GroupBox[] → Button[清空]" is_dynamic="False">
+            <GroupBox title="" name="" class_name="QWidget" auto_id="" handle="None" rect="(L1248, T240, R1273, B265)" depth="6" path=" → GroupBox[] → GroupBox[] → GroupBox[] → GroupBox[] → Button[清空] → GroupBox[]">
+              <Button title="" name="" class_name="mmui::XImage" auto_id="" handle="None" rect="(L1248, T240, R1273, B265)" depth="7" path=" → GroupBox[] → GroupBox[] → GroupBox[] → GroupBox[] → Button[清空] → GroupBox[] → Button[]" is_dynamic="False" />
+            </GroupBox>
+          </Button>
+          <GroupBox title="" name="" class_name="QWidget" auto_id="" handle="None" rect="(L646, T240, R671, B265)" depth="5" path=" → GroupBox[] → GroupBox[] → GroupBox[] → GroupBox[] → GroupBox[]">
+            <Button title="" name="" class_name="mmui::XImage" auto_id="" handle="None" rect="(L646, T240, R671, B265)" depth="6" path=" → GroupBox[] → GroupBox[] → GroupBox[] → GroupBox[] → GroupBox[] → Button[]" is_dynamic="False" />
+          </GroupBox>
+          <Edit title="测试" name="搜索" class_name="mmui::XValidatorTextEdit" auto_id="" handle="None" rect="(L676, T237, R1243, B267)" depth="5" path=" → GroupBox[] → GroupBox[] → GroupBox[] → GroupBox[] → Edit[测试]" is_dynamic="False">
+            <GroupBox title="" name="" class_name="QWidget" auto_id="qt_scrollarea_viewport" handle="None" rect="(L676, T237, R1243, B267)" depth="6" path=" → GroupBox[] → GroupBox[] → GroupBox[] → GroupBox[] → Edit[测试] → GroupBox[]" />
+          </Edit>
+        </GroupBox>
+      </GroupBox>
+      <GroupBox title="" name="" class_name="mmui::XView" auto_id="" handle="None" rect="(L516, T315, R1403, B316)" depth="3" path=" → GroupBox[] → GroupBox[] → GroupBox[]" />
+      <GroupBox title="" name="" class_name="mmui::XView" auto_id="" handle="None" rect="(L516, T316, R1403, B939)" depth="3" path=" → GroupBox[] → GroupBox[] → GroupBox[]">
+        <ListBox title="" name="" class_name="mmui::XTableView" auto_id="search_list" handle="None" rect="(L516, T316, R816, B939)" depth="4" path=" → GroupBox[] → GroupBox[] → GroupBox[] → ListBox[]" is_dynamic="False">
+          <ListItem title="2025内核赛道技术支持-ByteOS ...bm.so.6时，测试libctest的dynamic在测试出现了这样的问题" name="2025内核赛道技术支持-ByteOS ...bm.so.6时，测试libctest的dynamic在测试出现了这样的问题" class_name="mmui::SearchContentCellView" auto_id="" handle="None" rect="(L516, T316, R816, B396)" depth="5" path=" → GroupBox[] → GroupBox[] → GroupBox[] → ListBox[] → ListItem[2025内核赛道技术支持-ByteOS ...bm.so.6时，测试libctest的dynamic在测试出现了这样的问题]" is_dynamic="True" />
+          <ListItem title="2025内核赛道技术支持-RTTHREAD 2条相关聊天记录" name="2025内核赛道技术支持-RTTHREAD 2条相关聊天记录" class_name="mmui::SearchContentCellView" auto_id="" handle="None" rect="(L516, T396, R816, B476)" depth="5" path=" → GroupBox[] → GroupBox[] → GroupBox[] → ListBox[] → ListItem[2025内核赛道技术支持-RTTHREAD 2条相关聊天记录]" is_dynamic="True" />
+          <ListItem title="文件传输助手 3条相关聊天记录" name="文件传输助手 3条相关聊天记录" class_name="mmui::SearchContentCellView" auto_id="" handle="None" rect="(L516, T476, R816, B556)" depth="5" path=" → GroupBox[] → GroupBox[] → GroupBox[] → ListBox[] → ListItem[文件传输助手 3条相关聊天记录]" is_dynamic="True" />
+          <ListItem title="乐一然 3条相关聊天记录" name="乐一然 3条相关聊天记录" class_name="mmui::SearchContentCellView" auto_id="" handle="None" rect="(L516, T556, R816, B636)" depth="5" path=" → GroupBox[] → GroupBox[] → GroupBox[] → ListBox[] → ListItem[乐一然 3条相关聊天记录]" is_dynamic="True" />
+          <ListItem title="【十六周】计通2022级 5条相关聊天记录" name="【十六周】计通2022级 5条相关聊天记录" class_name="mmui::SearchContentCellView" auto_id="" handle="None" rect="(L516, T636, R816, B716)" depth="5" path=" → GroupBox[] → GroupBox[] → GroupBox[] → ListBox[] → ListItem[【十六周】计通2022级 5条相关聊天记录]" is_dynamic="True" />
+          <ListItem title="杨兴 2条相关聊天记录" name="杨兴 2条相关聊天记录" class_name="mmui::SearchContentCellView" auto_id="" handle="None" rect="(L516, T716, R816, B796)" depth="5" path=" → GroupBox[] → GroupBox[] → GroupBox[] → ListBox[] → ListItem[杨兴 2条相关聊天记录]" is_dynamic="True" />
+          <ListItem title="金建 ...试之前做一个编程题测试" name="金建 ...试之前做一个编程题测试" class_name="mmui::SearchContentCellView" auto_id="" handle="None" rect="(L516, T796, R816, B876)" depth="5" path=" → GroupBox[] → GroupBox[] → GroupBox[] → ListBox[] → ListItem[金建 ...试之前做一个编程题测试]" is_dynamic="True" />
+          <ListItem title="谈圣昀 34条相关聊天记录" name="谈圣昀 34条相关聊天记录" class_name="mmui::SearchContentCellView" auto_id="" handle="None" rect="(L516, T876, R816, B956)" depth="5" path=" → GroupBox[] → GroupBox[] → GroupBox[] → ListBox[] → ListItem[谈圣昀 34条相关聊天记录]" is_dynamic="True" />
+        </ListBox>
+        <GroupBox title="" name="" class_name="mmui::XView" auto_id="" handle="None" rect="(L816, T316, R817, B939)" depth="4" path=" → GroupBox[] → GroupBox[] → GroupBox[] → GroupBox[]" />
+        <GroupBox title="" name="" class_name="mmui::XView" auto_id="" handle="None" rect="(L817, T316, R1403, B939)" depth="4" path=" → GroupBox[] → GroupBox[] → GroupBox[] → GroupBox[]">
+          <GroupBox title="" name="" class_name="mmui::XView" auto_id="" handle="None" rect="(L817, T316, R1403, B361)" depth="5" path=" → GroupBox[] → GroupBox[] → GroupBox[] → GroupBox[] → GroupBox[]">
+            <Static title="5条与“测试”的聊天记录" name="5条与“测试”的聊天记录" class_name="mmui::XTextView" auto_id="" handle="None" rect="(L837, T321, R1018, B361)" depth="6" path=" → GroupBox[] → GroupBox[] → GroupBox[] → GroupBox[] → GroupBox[] → Static[5条与“测试”的聊天记录]" />
+            <Button title="进入聊天" name="进入聊天" class_name="mmui::XButton" auto_id="" handle="None" rect="(L1283, T321, R1388, B361)" depth="6" path=" → GroupBox[] → GroupBox[] → GroupBox[] → GroupBox[] → GroupBox[] → Button[进入聊天]" is_dynamic="False">
+              <Static title="进入聊天" name="进入聊天" class_name="mmui::XTextView" auto_id="" handle="None" rect="(L1288, T330, R1358, B352)" depth="7" path=" → GroupBox[] → GroupBox[] → GroupBox[] → GroupBox[] → GroupBox[] → Button[进入聊天] → Static[进入聊天]" />
+              <GroupBox title="" name="" class_name="QWidget" auto_id="" handle="None" rect="(L1368, T326, R1383, B356)" depth="7" path=" → GroupBox[] → GroupBox[] → GroupBox[] → GroupBox[] → GroupBox[] → Button[进入聊天] → GroupBox[]">
+                <Button title="" name="" class_name="mmui::XImage" auto_id="" handle="None" rect="(L1368, T326, R1383, B356)" depth="8" path=" → GroupBox[] → GroupBox[] → GroupBox[] → GroupBox[] → GroupBox[] → Button[进入聊天] → GroupBox[] → Button[]" is_dynamic="False" />
+              </GroupBox>
+            </Button>
+          </GroupBox>
+          <GroupBox title="" name="" class_name="mmui::SearchMsgDetailView" auto_id="" handle="None" rect="(L817, T361, R1403, B939)" depth="5" path=" → GroupBox[] → GroupBox[] → GroupBox[] → GroupBox[] → GroupBox[]">
+            <ListBox title="" name="" class_name="mmui::RecyclerListView" auto_id="message_list" handle="None" rect="(L817, T361, R1403, B939)" depth="6" path=" → GroupBox[] → GroupBox[] → GroupBox[] → GroupBox[] → GroupBox[] → ListBox[]" is_dynamic="False">
+              <ListItem title="星期二 10:40 广州铁科智控有限公司（北京分公司）测试研发工程师招聘信息&#10;公司简介：&#10;铁科智控是一家专注于轨道交通信号系统研发与应用的高科技企业。致力于为城市轨道交通提供智能、高效、可靠的信号解决方案，推动行业技术进步。&#10;职位名称：&#10;测试研发工程师&#10;工作地点：&#10;北京/广州 &#10;薪资范围：&#10;面议，具体薪资视经验而定，提供有竞争力的薪酬包。&#10;若实习：每天150元&#10;岗位职责：&#10;1.&#09;参与轨道交通信号系统的测试仿真方案设计、实施和优化。&#10;2.&#09;参与轨道交通课题研发的编写代码任务&#10;3.&#09;协助研发团队解决技术难题，提升系统性能和稳定性。&#10;任职资格：&#10;1.&#09;熟练掌握Python/C++编程语言，具备自动化测试脚本开发能力。&#10;2.&#09;具备良好的分析和解决问题的能力，沟通能力佳，有团队合作精神。&#10;工作地点：&#10;•&#09;北京：大柳树路2号院中国铁道科学院中铁科大厦。&#10;•&#09;广州：荔胜广场30层&#10;•&#09;两地可选择&#10;申请方式：&#10;请将个人简历发送至shiningjuan0225@126.com，邮件标题格式为“测试研发工程师申请-姓名”。" name="星期二 10:40 广州铁科智控有限公司（北京分公司）测试研发工程师招聘信息&#10;公司简介：&#10;铁科智控是一家专注于轨道交通信号系统研发与应用的高科技企业。致力于为城市轨道交通提供智能、高效、可靠的信号解决方案，推动行业技术进步。&#10;职位名称：&#10;测试研发工程师&#10;工作地点：&#10;北京/广州 &#10;薪资范围：&#10;面议，具体薪资视经验而定，提供有竞争力的薪酬包。&#10;若实习：每天150元&#10;岗位职责：&#10;1.&#09;参与轨道交通信号系统的测试仿真方案设计、实施和优化。&#10;2.&#09;参与轨道交通课题研发的编写代码任务&#10;3.&#09;协助研发团队解决技术难题，提升系统性能和稳定性。&#10;任职资格：&#10;1.&#09;熟练掌握Python/C++编程语言，具备自动化测试脚本开发能力。&#10;2.&#09;具备良好的分析和解决问题的能力，沟通能力佳，有团队合作精神。&#10;工作地点：&#10;•&#09;北京：大柳树路2号院中国铁道科学院中铁科大厦。&#10;•&#09;广州：荔胜广场30层&#10;•&#09;两地可选择&#10;申请方式：&#10;请将个人简历发送至shiningjuan0225@126.com，邮件标题格式为“测试研发工程师申请-姓名”。" class_name="mmui::ChatTextItemView" auto_id="message_list.qt_scrollarea_viewport.chat_bubble_item_view" handle="None" rect="(L817, T97, R1403, B939)" depth="7" path=" → GroupBox[] → GroupBox[] → GroupBox[] → GroupBox[] → GroupBox[] → ListBox[] → ListItem[星期二 10:40 广州铁科智控有限公司（北京分公司）测试研发工程师招聘信息&#10;公司简介：&#10;铁科智控是一家专注于轨道交通信号系统研发与应用的高科技企业。致力于为城市轨道交通提供智能、高效、可靠的信号解决方案，推动行业技术进步。&#10;职位名称：&#10;测试研发工程师&#10;工作地点：&#10;北京/广州 &#10;薪资范围：&#10;面议，具体薪资视经验而定，提供有竞争力的薪酬包。&#10;若实习：每天150元&#10;岗位职责：&#10;1.&#09;参与轨道交通信号系统的测试仿真方案设计、实施和优化。&#10;2.&#09;参与轨道交通课题研发的编写代码任务&#10;3.&#09;协助研发团队解决技术难题，提升系统性能和稳定性。&#10;任职资格：&#10;1.&#09;熟练掌握Python/C++编程语言，具备自动化测试脚本开发能力。&#10;2.&#09;具备良好的分析和解决问题的能力，沟通能力佳，有团队合作精神。&#10;工作地点：&#10;•&#09;北京：大柳树路2号院中国铁道科学院中铁科大厦。&#10;•&#09;广州：荔胜广场30层&#10;•&#09;两地可选择&#10;申请方式：&#10;请将个人简历发送至shiningjuan0225@126.com，邮件标题格式为“测试研发工程师申请-姓名”。]" is_dynamic="False" />
+            </ListBox>
+          </GroupBox>
+        </GroupBox>
+      </GroupBox>
+    </GroupBox>
+    <Toolbar title="" name="" class_name="mmui::TitleBar" auto_id="" handle="None" rect="(L1221, T140, R1403, B190)" depth="2" path=" → GroupBox[] → Toolbar[]">
+      <Button title="最小化" name="最小化" class_name="mmui::XButton" auto_id="" handle="None" rect="(L1231, T140, R1288, B190)" depth="3" path=" → GroupBox[] → Toolbar[] → Button[最小化]" is_dynamic="False">
+        <GroupBox title="" name="" class_name="QWidget" auto_id="" handle="None" rect="(L1245, T150, R1275, B180)" depth="4" path=" → GroupBox[] → Toolbar[] → Button[最小化] → GroupBox[]">
+          <Button title="" name="" class_name="mmui::XImage" auto_id="" handle="None" rect="(L1245, T150, R1275, B180)" depth="5" path=" → GroupBox[] → Toolbar[] → Button[最小化] → GroupBox[] → Button[]" is_dynamic="False" />
+        </GroupBox>
+      </Button>
+      <Button title="最大化" name="最大化" class_name="mmui::XButton" auto_id="" handle="None" rect="(L1288, T140, R1345, B190)" depth="3" path=" → GroupBox[] → Toolbar[] → Button[最大化]" is_dynamic="False">
+        <GroupBox title="" name="" class_name="QWidget" auto_id="" handle="None" rect="(L1302, T150, R1332, B180)" depth="4" path=" → GroupBox[] → Toolbar[] → Button[最大化] → GroupBox[]">
+          <Button title="" name="" class_name="mmui::XImage" auto_id="" handle="None" rect="(L1302, T150, R1332, B180)" depth="5" path=" → GroupBox[] → Toolbar[] → Button[最大化] → GroupBox[] → Button[]" is_dynamic="False" />
+        </GroupBox>
+      </Button>
+      <Button title="关闭" name="关闭" class_name="mmui::XButton" auto_id="" handle="None" rect="(L1346, T140, R1403, B190)" depth="3" path=" → GroupBox[] → Toolbar[] → Button[关闭]" is_dynamic="False">
+        <GroupBox title="" name="" class_name="QWidget" auto_id="" handle="None" rect="(L1360, T150, R1390, B180)" depth="4" path=" → GroupBox[] → Toolbar[] → Button[关闭] → GroupBox[]">
+          <Button title="" name="" class_name="mmui::XImage" auto_id="" handle="None" rect="(L1360, T150, R1390, B180)" depth="5" path=" → GroupBox[] → Toolbar[] → Button[关闭] → GroupBox[] → Button[]" is_dynamic="False" />
+        </GroupBox>
+      </Button>
+    </Toolbar>
+    <GroupBox title="" name="" class_name="QWidget" auto_id="" handle="1706950" rect="(L1402, T938, R1403, B939)" depth="2" path=" → GroupBox[] → GroupBox[]" />
+  </GroupBox>
+</Dialog>

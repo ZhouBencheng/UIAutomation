@@ -1,6 +1,7 @@
 import time
 
 from pywinauto import Desktop, Application
+from pywinauto.keyboard import send_keys
 
 from utils.connector import get_wrapper_object, weixin_app_path, weixin_title, get_window_specification
 
@@ -59,6 +60,25 @@ def test_new_window():
     new_window = get_latest_window_handle(before_handles)
     new_window.close()
 
+def test_search_input():
+    dlg_spec = get_window_specification(weixin_title)
+    dlg_wrapper = dlg_spec.wrapper_object()
+    search_input_spec = dlg_spec.child_window(control_type='Edit')
+    search_input = search_input_spec.wrapper_object()
+    search_input.set_text('测试输入')
+    time.sleep(1)  # 等待输入完成
+    search_input.type_keys('^A{BACKSPACE}' + '清除输入')  # 清除输入
+
+def test_restore():
+    """测试恢复窗口"""
+    dlg_spec = get_window_specification(weixin_title)
+    dlg_wrapper = dlg_spec.wrapper_object()
+    # prog_button_spec = dlg_spec.child_window(control_type='Button', title='通讯录')
+    # prog_button_wrapper = prog_button_spec.wrapper_object()
+    # prog_button_wrapper.click_input()
+    dlg_wrapper.minimize()
+    time.sleep(1)
+    dlg_wrapper.restore()  # 恢复窗口
 
 if __name__ == '__main__':
-    test_new_window()
+    test_restore()

@@ -78,17 +78,15 @@ def is_dynamic_control(control: UIAWrapper) -> bool:
         siblings = []
 
     if len(siblings) > 1:
-        parent_id = parent_control.element_info.handle or parent_control.element_info.automation_id or id(parent_control)
-        group_key = (parent_id, control.friendly_class_name(), control.class_name(), len(siblings))
-
         global _group_semantics_cache
-        if group_key in _group_semantics_cache:
-            return _group_semantics_cache[group_key]
         text_list = list(sib.element_info.name or sib.window_text() for sib in siblings)
-        distinct = analyze_control_texts(text_list) # 二次分类
+        text_tuple = tuple(text_list)
+        if text_tuple in _group_semantics_cache:
+            logger.debug(f"Hit the group semantics cache.")
+            return _group_semantics_cache[text_tuple]
 
-        global _group_semantics_cache
-        _group_semantics_cache[group_key] = distinct
+        distinct = analyze_control_texts(text_list) # 二次分类
+        _group_semantics_cache[text_tuple] = distinct
         return distinct
     else:
         return False
