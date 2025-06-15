@@ -1,3 +1,5 @@
+import time
+
 from pywinauto import Desktop, Application
 
 from utils.connector import get_wrapper_object, weixin_app_path, weixin_title, get_window_specification
@@ -22,7 +24,7 @@ def wechat_send_message():
           search_input.element_info.name)
 
 def test_elem_info():
-    dlg_spec = get_window_specification(weixin_app_path, weixin_title)
+    dlg_spec = get_window_specification(weixin_title)
     dlg_wrapper = dlg_spec.wrapper_object()
     print(dlg_wrapper.element_info.control_type, '\n',
           dlg_wrapper.element_info.handle, '\n',
@@ -34,7 +36,6 @@ def test_elem_info():
           dlg_wrapper.element_info.name)
     handle = dlg_wrapper.element_info.handle
     test_spec = Desktop(backend='uia').window(handle=handle)
-    test_spec.print_control_identifiers()
     test_wrapper = test_spec.wrapper_object()
     test_wrapper.maximize()
 
@@ -42,15 +43,22 @@ def test_new_window():
     app = Application(backend="uia").connect(title=weixin_title)
     dlg_spec = app.top_window()
     dlg_wrapper = dlg_spec.wrapper_object()
-    handle = dlg_wrapper.element_info.handle
-    # dlg_wrapper.close()
-    test_app = Application(backend='uia').connect(handle=handle)
-    test_wrapper = test_app.window(handle=handle)
-    test_wrapper.restore()
-    # moments_button_spec = dlg_spec.child_window(control_type='Button', title='朋友圈')
-    # moments_button_spec.print_control_identifiers()
-    # moments_button_wrapper = moments_button_spec.window(control_type='Button').wrapper_object()
-    # moments_button_wrapper.invoke()
+    prog_button_spec = dlg_spec.child_window(control_type='Button', title='朋友圈')
+    prog_button_wrapper = prog_button_spec.wrapper_object()
+    before_handles = [w.element_info.handle for w in Desktop(backend="uia").windows()]
+    prog_button_wrapper.click_input()
+    time.sleep(1)  # 等待小程序面板打开
+    def get_latest_window_handle(before_handles: list):
+        time.sleep(0.5)  # 等待新窗口打开
+        after_handles = [w.element_info.handle for w in Desktop(backend="uia").windows()]
+        new_handles = set(after_handles) - set(before_handles)
+        if new_handles:
+            handle = new_handles.pop()
+            return Desktop(backend="uia").window(handle=handle).wrapper_object()
+
+    new_window = get_latest_window_handle(before_handles)
+    new_window.close()
+
 
 if __name__ == '__main__':
     test_new_window()

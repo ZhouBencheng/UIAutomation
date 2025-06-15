@@ -4,22 +4,23 @@ import json
 from pywinauto.controls.uiawrapper import UIAWrapper
 import xml.etree.ElementTree as ET
 from datetime import datetime
-import classifier
+import utils.classifier as classifier
 from utils.connector import get_wrapper_object, weixin_app_path, weixin_title
 
+logger = logging.getLogger()
 
 ############################### 容器滚动器 ###############################
 
 def scroll_back(list_ctrl: UIAWrapper, max_iter=100):
     """向上滚动容器"""
-    logging.debug(f"Start scrolling back in the list control")
+    logger.debug(f"Start scrolling back in the list control")
     for _ in range(max_iter):
         try:
             # list_ctrl.set_focus()
             # send_keys('{PGUP}')  # 或 send_keys('{PGUP}')、list_ctrl.scroll等
             list_ctrl.type_keys('{PGUP}')
         except Exception:
-            logging.debug("Failed to scroll back in the list control.")
+            logger.debug("Failed to scroll back in the list control.")
             break
         # 等待一小段时间以确保滚动完成
         # send_keys('{WAIT}')
@@ -27,7 +28,7 @@ def scroll_back(list_ctrl: UIAWrapper, max_iter=100):
 """动态返回类型 List[dict] 或 List[ET.Element]"""
 def extract_all_list_items(list_ctrl: UIAWrapper, depth=0, prefix: str="", flag=True, max_iter=100):
     """自动滚动容器并递归解析所有子项，返回去重后的完整元素列表"""
-    logging.debug(f"Start extracting list items")
+    logger.debug(f"Start extracting list items")
     seen_items = set()   # 记录已采集的唯一标识（如title、auto_id等）
     all_items_info = []
 
@@ -36,7 +37,7 @@ def extract_all_list_items(list_ctrl: UIAWrapper, depth=0, prefix: str="", flag=
         try:
             children = list_ctrl.children()
         except Exception:
-            logging.debug("Failed to retrieve children from the list control.")
+            logger.debug("Failed to retrieve children from the list control.")
             break
         changed = False
         for child in children:
@@ -55,10 +56,10 @@ def extract_all_list_items(list_ctrl: UIAWrapper, depth=0, prefix: str="", flag=
             # send_keys('{PGDN}')
             list_ctrl.type_keys('{PGDN}')
         except Exception:
-            logging.debug("Failed to scroll the list control.")
+            logger.debug("Failed to scroll the list control.")
             break
         if not changed:  # 若本轮无新增条目，认为已滚至底部
-            logging.debug("No new items found, stopping extraction.")
+            logger.debug("No new items found, stopping extraction.")
             break
 
     scroll_back(list_ctrl)
@@ -83,7 +84,7 @@ def indent_xml(elem, level=0):
         if level and (not elem.tail or not elem.tail.strip()):
             elem.tail = i
 
-def control_info_to_xml(ctrl: UIAWrapper, depth: int = 0, prefix: str = "", max_depth: int = 15) -> ET.Element:
+def control_info_to_xml(ctrl: UIAWrapper, depth: int = 0, prefix: str = "", llm_trigger: bool = True, max_depth: int = 15) -> ET.Element:
     if depth > max_depth:
         return None
 
@@ -92,11 +93,12 @@ def control_info_to_xml(ctrl: UIAWrapper, depth: int = 0, prefix: str = "", max_
         "name": ctrl.element_info.name,
         "class_name": ctrl.element_info.class_name,
         "auto_id": ctrl.element_info.automation_id,
+        "handle": str(ctrl.element_info.handle),
         "rect": str(ctrl.rectangle()),
         "depth": str(depth),
         "path": prefix.replace("->", "→")
     }
-    if ctrl.friendly_class_name() not in classifier.static_containers:
+    if llm_trigger and ctrl.friendly_class_name() not in classifier.non_interactive_containers:
         attrs["is_dynamic"] = str(classifier.is_dynamic_control(ctrl))
     elem = ET.Element(ctrl.friendly_class_name(), attrs)
 
@@ -117,15 +119,15 @@ def export_gui_xml_structure(dlg_wrapper: UIAWrapper, output_dir="gui_export", s
     output_path = os.path.join(output_dir)
     os.makedirs(output_path, exist_ok=True)
 
-    logging.info(f"Start extracting GUI structure for: {dlg_wrapper.window_text()}")
+    logger.info(f"Start extracting GUI structure for: {dlg_wrapper.window_text()}")
 
     # 控件XML结构导出
-    root = control_info_to_xml(dlg_wrapper)
+    root = control_info_to_xml(dlg_wrapper, llm_trigger=False)
     indent_xml(root)
     tree = ET.ElementTree(root)
     xml_path = os.path.join(output_path, f"state{state_num}.xml")
     tree.write(xml_path, encoding="utf-8", xml_declaration=True)
-    logging.info(f"XML structure exported to: {xml_path}")
+    logger.info(f"XML structure exported to: {xml_path}")
 
     return xml_path # 返回输出路径
 
@@ -163,14 +165,14 @@ def export_gui_json_structure(dlg_wrapper: UIAWrapper, output_dir="gui_export", 
     output_path = os.path.join(output_dir)
     os.makedirs(output_path, exist_ok=True)
 
-    logging.info(f"Start extracting GUI structure for: {dlg_wrapper.window_text()}")
+    logger.info(f"Start extracting GUI structure for: {dlg_wrapper.window_text()}")
 
     # 控件JSON结构导出
     gui_structure = extract_control_info(dlg_wrapper)
     json_path = os.path.join(output_path, f"state{state_num}.json")
     with open(json_path, "w", encoding="utf-8") as f:
         json.dump(gui_structure, f, ensure_ascii=False, indent=2)
-    logging.info(f"JSON structure exported to: {output_path}")
+    logger.info(f"JSON structure exported to: {output_path}")
 
     return json_path # 返回输出路径
 
@@ -179,7 +181,7 @@ def export_gui_structure(app_path: str, window_title: str, output_dir="gui_expor
     """ 将GUI导出为JSON和XML两种形式 """
     timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
     output_dir += f"/{window_title}_{timestamp}"
-    dlg_wrapper = get_wrapper_object(app_path, window_title)
+    dlg_wrapper = get_wrapper_object(window_title)
     export_gui_json_structure(dlg_wrapper, output_dir)
     export_gui_xml_structure(dlg_wrapper, output_dir)
 
@@ -188,7 +190,7 @@ def export_gui_structure(app_path: str, window_title: str, output_dir="gui_expor
         image_path = os.path.join(output_dir, f"{window_title}_screenshot.png")
         image = dlg_wrapper.capture_as_image()
         image.save(image_path)
-        logging.info(f"Screenshot exported to: {image_path}")
+        logger.info(f"Screenshot exported to: {image_path}")
 
 if __name__ == "__main__":
     # 以 Windows Wechat 为例

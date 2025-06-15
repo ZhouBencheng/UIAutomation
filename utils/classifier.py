@@ -1,15 +1,14 @@
-import logging
-import openai
 import os
-
 from openai import OpenAI
 from pywinauto.controls.uiawrapper import UIAWrapper
+import logging
 
-static_containers = ["Pane", "Dialog", "Window", "Group",
+non_interactive_containers = ["Pane", "Dialog", "Window", "Group",
                      "Image", "GroupBox", "Toolbar", "Custom",
                      "Static", "Text", "Thumb"]
 
 _group_semantics_cache = {}
+logger = logging.getLogger()
 
 def clear_group_semantics_cache():
     global _group_semantics_cache
@@ -30,6 +29,7 @@ def analyze_control_texts(text_list: list) -> bool:
     """
     if not text_list:
         return False
+    logger.debug(f"Analyzing control texts: {text_list}")
     message = [
         {
             "role": "system",
@@ -59,7 +59,7 @@ def analyze_control_texts(text_list: list) -> bool:
         answer = response.choices[0].message.content.strip().lower()
         return answer == 'true'
     except Exception as e:
-        logging.error(f"Fail to call {model} from the backend")
+        logger.error(f"Fail to call {model} from the backend")
         return  False
 
 # 第一次分类，判断控件是否存在一系列结构相同的兄弟控件
@@ -67,7 +67,7 @@ def is_dynamic_control(control: UIAWrapper) -> bool:
     try:
         parent_control = control.parent()
     except Exception:
-        logging.debug(f'Parent control not found for {control.window_text()}')
+        logger.debug(f'Parent control not found for {control.window_text()}')
         return False # 没有父容器则认为是静态控件
 
     try: # 获取兄弟节点列表
@@ -80,12 +80,14 @@ def is_dynamic_control(control: UIAWrapper) -> bool:
     if len(siblings) > 1:
         parent_id = parent_control.element_info.handle or parent_control.element_info.automation_id or id(parent_control)
         group_key = (parent_id, control.friendly_class_name(), control.class_name(), len(siblings))
+
+        global _group_semantics_cache
         if group_key in _group_semantics_cache:
             return _group_semantics_cache[group_key]
         text_list = list(sib.element_info.name or sib.window_text() for sib in siblings)
-        # 二次分类
-        distinct = analyze_control_texts(text_list)
+        distinct = analyze_control_texts(text_list) # 二次分类
 
+        global _group_semantics_cache
         _group_semantics_cache[group_key] = distinct
         return distinct
     else:
