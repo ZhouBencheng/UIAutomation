@@ -1,4 +1,4 @@
-from pywinauto import Application, Desktop
+from pywinauto import Desktop
 from pywinauto.controls.uiawrapper import UIAWrapper
 import logging
 

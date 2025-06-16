@@ -99,7 +99,7 @@ def is_state_similar(state1: ET.ElementTree, state2: ET.ElementTree) -> bool:
     """判断两个界面结构是否相似（忽略内容差异）"""
     def normalize(elem):
         # 删除会随内容变化的属性
-        for attr in ["title", "name", "path", "rect", "handle", "is_dynamic"]:
+        for attr in ["title", "name", "path", "rect", "handle", "auto_id", "is_dynamic"]:
             if attr in elem.attrib:
                 elem.attrib.pop(attr)
         # 对所有子节点递归处理
@@ -118,12 +118,6 @@ def is_state_similar(state1: ET.ElementTree, state2: ET.ElementTree) -> bool:
         return True
     else:
         return False
-
-def export_utg_yaml(transitions: list):
-    """将状态跳转记录导出为YAML文件"""
-    utg_data = {"transitions": transitions}
-    with open("utg/UTG.yaml", "w", encoding="utf-8") as f:
-        yaml.safe_dump(utg_data, f, allow_unicode=True)
 
 def collect_interactive_controls(wrapper: UIAWrapper) -> list:
     """收集当前界面中的可交互控件，注意该方法会过滤所有祖先控件为可交互的可交互控件"""
@@ -167,7 +161,7 @@ def get_latest_window_handle(before_handles: list):
     return new_handles.pop() if len(new_handles) == 1 else None
 
 class Explorer:
-    def __init__(self, main_handle: int):
+    def __init__(self, main_handle: int, output_dir: str):
         """使用给定窗口句柄初始化Explorer"""
         self.stack_path = []
         self.main_window_spec = Desktop(backend="uia").window(handle=main_handle)
@@ -175,9 +169,10 @@ class Explorer:
         self.state_counter = 0
         self.visited_states = {}      # 保存每个状态的结构表示用于比较
         self.transitions = []         # 保存状态跳转记录 (UTG 边集合)，待解析为yaml
-        shutil.rmtree("utg", ignore_errors=True)  # 清空上次的UTG目录shutil.rmtree("utg", ignore_errors=True)  # 清空上次的UTG目录
+        self.output_dir = output_dir
+        shutil.rmtree(self.output_dir, ignore_errors=True)  # 清空上次的UTG目录shutil.rmtree("utg", ignore_errors=True)  # 清空上次的UTG目录
         # 解析初始状态
-        initial_xml = export_gui_xml_structure(self.main_wrapper, output_dir="utg", state_num=self.state_counter)
+        initial_xml = export_gui_xml_structure(self.main_wrapper, output_dir=self.output_dir, state_num=self.state_counter)
         self.visited_states[self.state_counter] = ET.parse(initial_xml)
 
     def log_interaction(self, current_state_num: int, target_state_num: int, control_identifier: str, action: str, content: str):
@@ -189,6 +184,14 @@ class Explorer:
             "New_State_Num": target_state_num,
         }
         self.transitions.append(transition)
+
+    def export_utg_yaml(self, transitions: list):
+        """将状态跳转记录导出为YAML文件"""
+        utg_data = {"transitions": transitions}
+        output_utg_yaml = os.path.join(self.output_dir, 'UTG.yaml')  # "utg/UTG.yaml"
+        os.makedirs(os.path.dirname(output_utg_yaml), exist_ok=True)
+        with open(output_utg_yaml, "w", encoding="utf-8") as f:
+            yaml.safe_dump(utg_data, f, allow_unicode=True)
 
     def try_new_state(self, current_wrapper: UIAWrapper, new_win_handle) -> [int, UIAWrapper, ET.ElementTree]:
         """检查是否产生新状态，新状态则返回新状态值，否则返回-1"""
@@ -202,7 +205,7 @@ class Explorer:
 
         self.state_counter += 1
         new_state_id = self.state_counter
-        new_xml_path = export_gui_xml_structure(new_state_wrapper, output_dir="utg", state_num=new_state_id)
+        new_xml_path = export_gui_xml_structure(new_state_wrapper, output_dir=self.output_dir, state_num=new_state_id)
         new_state = ET.parse(new_xml_path)
         # 检查新状态是否已存在（或与已有状态结构相似）
         target_state_num = new_state_id  # 默认假定为新状态
@@ -230,7 +233,7 @@ class Explorer:
         except Exception as e:
             logger.error(f"Explorer crashed: {e}", exc_info=True)
         finally:
-            export_utg_yaml(self.transitions)
+            self.export_utg_yaml(self.transitions)
 
     def _dfs_explore(self, current_state_num: int, current_wrapper: UIAWrapper, current_xml_tree: ET.ElementTree, depth:int = 0):
         """从状态current_state_num开始深度优先搜索"""
@@ -330,40 +333,3 @@ class Explorer:
         self.stack_path.pop()
         logger.info(f"回退到状态 {self.stack_path[-1] if self.stack_path else 'None'}，当前路径栈: {self.stack_path}")
 
-if __name__ == '__main__':
-    # dlg_spec = Desktop(backend="uia").window(title_re=".*微信.*")
-    # dlg_wrapper = dlg_spec.wrapper_object()
-    # prog_button_spec = dlg_spec.child_window(control_type='Button', title='小程序面板')
-    # prog_button_wrapper = prog_button_spec.wrapper_object()
-    # before_handles = [w.element_info.handle for w in Desktop(backend="uia").windows()]
-    # prog_button_wrapper.click_input()
-    # new_handle = get_latest_window_handle(before_handles)
-    # prog_wrapper = Desktop(backend="uia").window(handle=new_handle).wrapper_object()
-    # export_gui_xml_structure(prog_wrapper, output_dir='gui_export', state_num=0)
-    # prog_wrapper.close()
-    #
-    # before_handles = [w.element_info.handle for w in Desktop(backend="uia").windows()]
-    # prog_button_wrapper.click_input()
-    # new_handle = get_latest_window_handle(before_handles)
-    # prog_wrapper = Desktop(backend="uia").window(handle=new_handle).wrapper_object()
-    # export_gui_xml_structure(prog_wrapper, output_dir='gui_export', state_num=1)
-    # prog_wrapper.close()
-
-    state0 = ET.parse('gui_export/state0.xml')
-    state1 = ET.parse('gui_export/state1.xml')
-    def normalize(elem):
-        # 删除会随内容变化的属性
-        for attr in ["title", "name", "path", "rect", "handle", "is_dynamic"]:
-            if attr in elem.attrib:
-                elem.attrib.pop(attr)
-        # 对所有子节点递归处理
-        for child in list(elem):
-            normalize(child)
-    normalize(state0.getroot())
-    normalize(state1.getroot())
-    indent_xml(state0.getroot())
-    indent_xml(state1.getroot())
-
-    state0.write('gui_export/state3.xml', encoding='utf-8', xml_declaration=True)
-    state1.write('gui_export/state4.xml', encoding='utf-8', xml_declaration=True)
-    # print(is_state_similar(state0, state1))

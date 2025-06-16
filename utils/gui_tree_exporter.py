@@ -26,8 +26,10 @@ def scroll_back(list_ctrl: UIAWrapper, max_iter=100):
         # send_keys('{WAIT}')
 
 """动态返回类型 List[dict] 或 List[ET.Element]"""
-def extract_all_list_items(list_ctrl: UIAWrapper, depth=0, prefix: str="", flag=True, max_iter=100):
-    """自动滚动容器并递归解析所有子项，返回去重后的完整元素列表"""
+def extract_all_list_items(list_ctrl: UIAWrapper, depth=0, prefix: str="", max_iter=100):
+    """
+    自动滚动容器并递归解析所有子项，返回去重后的完整元素列表
+    """
     logger.debug(f"Start extracting list items")
     seen_items = set()   # 记录已采集的唯一标识（如title、auto_id等）
     all_items_info = []
@@ -46,8 +48,7 @@ def extract_all_list_items(list_ctrl: UIAWrapper, depth=0, prefix: str="", flag=
             if unique_key not in seen_items:
                 seen_items.add(unique_key)
                 all_items_info.append(
-                    extract_control_info(child, depth, prefix + f" -> {child.friendly_class_name()}[{child.window_text()}]")
-                    if flag else control_info_to_xml(child, depth, prefix + f" -> {child.friendly_class_name()}[{child.window_text()}]")
+                    control_info_to_xml(child, depth, prefix + f" -> {child.friendly_class_name()}[{child.window_text()}]")
                 )
                 changed = True
         # 尝试滚动
@@ -68,7 +69,9 @@ def extract_all_list_items(list_ctrl: UIAWrapper, depth=0, prefix: str="", flag=
 ############################### 将GUI解析为XML结构 ###############################
 
 def indent_xml(elem, level=0):
-    """xml格式化工具"""
+    """
+    xml格式化工具
+    """
     i = "\n" + level * "  "
     if len(elem):
         if not elem.text or not elem.text.strip():
@@ -114,7 +117,9 @@ def control_info_to_xml(ctrl: UIAWrapper, depth: int = 0, prefix: str = "", llm_
     return elem
 
 def export_gui_xml_structure(dlg_wrapper: UIAWrapper, output_dir="gui_export", state_num=0) -> str:
-    """ 将GUI导出为XML格式 """
+    """
+    将GUI导出为XML格式
+    """
     # 创建输出目录
     output_path = os.path.join(output_dir)
     os.makedirs(output_path, exist_ok=True)
@@ -131,58 +136,12 @@ def export_gui_xml_structure(dlg_wrapper: UIAWrapper, output_dir="gui_export", s
 
     return xml_path # 返回输出路径
 
-############################### 将GUI解析为JSON结构 ###############################
-
-def extract_control_info(ctrl: UIAWrapper, depth: int = 0, prefix: str = "", max_depth: int = 15) -> dict:
-    """递归提取控件信息并解析为JSON结构"""
-    if depth > max_depth:
-        return {}
-
-    info = {
-        "title": ctrl.window_text(),
-        "control_type": ctrl.friendly_class_name(),
-        "auto_id": ctrl.element_info.automation_id,
-        "rect": str(ctrl.rectangle()),
-        "depth": str(depth),
-        "path": prefix,
-    }
-
-    try:
-        children = ctrl.children()
-    except Exception as e:
-        children = []
-
-    info["children"] = [
-        # extract_all_list_items(child, depth + 1, flag=True) if child.friendly_class_name() == "ListBox" else
-        extract_control_info(child, depth + 1, prefix + f" -> {child.friendly_class_name()}[{child.window_text()}]")
-        for child in children
-    ]
-    return info
-
-def export_gui_json_structure(dlg_wrapper: UIAWrapper, output_dir="gui_export", state_num=0) -> str:
-    """ 将GUI导出为JSON格式 """
-    # 创建输出目录
-    output_path = os.path.join(output_dir)
-    os.makedirs(output_path, exist_ok=True)
-
-    logger.info(f"Start extracting GUI structure for: {dlg_wrapper.window_text()}")
-
-    # 控件JSON结构导出
-    gui_structure = extract_control_info(dlg_wrapper)
-    json_path = os.path.join(output_path, f"state{state_num}.json")
-    with open(json_path, "w", encoding="utf-8") as f:
-        json.dump(gui_structure, f, ensure_ascii=False, indent=2)
-    logger.info(f"JSON structure exported to: {output_path}")
-
-    return json_path # 返回输出路径
-
-"""将GUI导出为JSON和XML两种形式，并可选截图功能，该函数在本文件调用，用于测试和演示"""
+"""将GUI导出为XML，并可选截图功能，该函数在本文件调用，用于测试和演示"""
 def export_gui_structure(app_path: str, window_title: str, output_dir="gui_export", screenshot=False):
     """ 将GUI导出为JSON和XML两种形式 """
     timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
     output_dir += f"/{window_title}_{timestamp}"
     dlg_wrapper = get_wrapper_object(window_title)
-    export_gui_json_structure(dlg_wrapper, output_dir)
     export_gui_xml_structure(dlg_wrapper, output_dir)
 
     # 可选截图

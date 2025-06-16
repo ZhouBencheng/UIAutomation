@@ -32,515 +32,350 @@ transitions:
 - Action: click
   Content: 'null'
   Control_Identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Custom[@auto_id="main_window_splitter_view"]/GroupBox[0]/GroupBox[0]/GroupBox[0]/GroupBox[0]/Button[0]
-  New_State_Num: 7
+  New_State_Num: 2
   State: 0
 - Action: click
   Content: 'null'
   Control_Identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Custom[@auto_id="main_window_splitter_view"]/GroupBox[1]/GroupBox[0]/GroupBox[0]/GroupBox[0]/Button[@title="快捷操作"]
-  New_State_Num: 7
+  New_State_Num: 2
   State: 0
 - Action: click
   Content: 'null'
-  Control_Identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Custom[@auto_id="main_window_splitter_view"]/GroupBox[1]/GroupBox[0]/GroupBox[0]/GroupBox[0]/GroupBox[0]/GroupBox[0]/Button[0]
+  Control_Identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Toolbar[@auto_id="main_tabbar"]/Button[@title="通讯录"]
+  New_State_Num: 1
+  State: 2
+- Action: click
+  Content: 'null'
+  Control_Identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Toolbar[@auto_id="main_tabbar"]/Button[@title="朋友圈"]
+  New_State_Num: 3
+  State: 2
+- Action: click
+  Content: 'null'
+  Control_Identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Toolbar[@auto_id="main_tabbar"]/Button[@title="小程序面板"]
+  New_State_Num: 4
+  State: 2
+- Action: click
+  Content: 'null'
+  Control_Identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Toolbar[@auto_id="main_tabbar"]/Button[@auto_id="main_tabbar.tabbar_handoff"]
+  New_State_Num: 5
+  State: 2
+- Action: click
+  Content: 'null'
+  Control_Identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Toolbar[@auto_id="main_tabbar"]/Button[@auto_id="main_tabbar.tabbar_setting"]
+  New_State_Num: 6
+  State: 2
+- Action: click
+  Content: 'null'
+  Control_Identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Custom[@auto_id="main_window_splitter_view"]/GroupBox[0]/GroupBox[0]/GroupBox[1]/Custom[0]/Custom[0]/ListBox[@auto_id="fav_browser_list"]
   New_State_Num: 7
+  State: 2
+- Action: input
+  Content: 测试
+  Control_Identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Custom[@auto_id="main_window_splitter_view"]/GroupBox[1]/GroupBox[0]/GroupBox[0]/GroupBox[0]/Edit[@name="搜索"]
+  New_State_Num: 8
+  State: 2
+- Action: input
+  Content: 文件传输助手
+  Control_Identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Custom[@auto_id="main_window_splitter_view"]/GroupBox[1]/GroupBox[0]/GroupBox[0]/GroupBox[0]/Edit[@name="搜索"]
+  New_State_Num: 9
+  State: 2
+- Action: input
+  Content: Hello
+  Control_Identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Custom[@auto_id="main_window_splitter_view"]/GroupBox[1]/GroupBox[0]/GroupBox[0]/GroupBox[0]/Edit[@name="搜索"]
+  New_State_Num: 9
+  State: 2
+- Action: input
+  Content: '12345'
+  Control_Identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Custom[@auto_id="main_window_splitter_view"]/GroupBox[1]/GroupBox[0]/GroupBox[0]/GroupBox[0]/Edit[@name="搜索"]
+  New_State_Num: 9
+  State: 2
+- Action: input
+  Content: '!@#$%'
+  Control_Identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Custom[@auto_id="main_window_splitter_view"]/GroupBox[1]/GroupBox[0]/GroupBox[0]/GroupBox[0]/Edit[@name="搜索"]
+  New_State_Num: 9
+  State: 2
+- Action: click
+  Content: 'null'
+  Control_Identifier: /Dialog/GroupBox[0]/Toolbar[0]/Button[@title="关闭"]
+  New_State_Num: 10
+  State: 2
+- Action: click
+  Content: 'null'
+  Control_Identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Custom[@auto_id="main_window_splitter_view"]/GroupBox[1]/GroupBox[0]/GroupBox[0]/GroupBox[0]/GroupBox[0]/GroupBox[0]/Button[0]
+  New_State_Num: 2
   State: 0
+- Action: click
+  Content: 'null'
+  Control_Identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Toolbar[@auto_id="main_tabbar"]/Button[@title="通讯录"]
+  New_State_Num: 1
+  State: 2
+- Action: click
+  Content: 'null'
+  Control_Identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Toolbar[@auto_id="main_tabbar"]/Button[@title="朋友圈"]
+  New_State_Num: 3
+  State: 2
+- Action: click
+  Content: 'null'
+  Control_Identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Toolbar[@auto_id="main_tabbar"]/Button[@title="小程序面板"]
+  New_State_Num: 4
+  State: 2
+- Action: click
+  Content: 'null'
+  Control_Identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Toolbar[@auto_id="main_tabbar"]/Button[@auto_id="main_tabbar.tabbar_handoff"]
+  New_State_Num: 5
+  State: 2
+- Action: click
+  Content: 'null'
+  Control_Identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Toolbar[@auto_id="main_tabbar"]/Button[@auto_id="main_tabbar.tabbar_setting"]
+  New_State_Num: 6
+  State: 2
+- Action: click
+  Content: 'null'
+  Control_Identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Custom[@auto_id="main_window_splitter_view"]/GroupBox[0]/GroupBox[0]/GroupBox[1]/Custom[0]/Custom[0]/ListBox[@auto_id="fav_browser_list"]
+  New_State_Num: 7
+  State: 2
+- Action: input
+  Content: 测试
+  Control_Identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Custom[@auto_id="main_window_splitter_view"]/GroupBox[1]/GroupBox[0]/GroupBox[0]/GroupBox[0]/Edit[@name="搜索"]
+  New_State_Num: 8
+  State: 2
+- Action: input
+  Content: 文件传输助手
+  Control_Identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Custom[@auto_id="main_window_splitter_view"]/GroupBox[1]/GroupBox[0]/GroupBox[0]/GroupBox[0]/Edit[@name="搜索"]
+  New_State_Num: 9
+  State: 2
+- Action: input
+  Content: Hello
+  Control_Identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Custom[@auto_id="main_window_splitter_view"]/GroupBox[1]/GroupBox[0]/GroupBox[0]/GroupBox[0]/Edit[@name="搜索"]
+  New_State_Num: 9
+  State: 2
+- Action: input
+  Content: '12345'
+  Control_Identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Custom[@auto_id="main_window_splitter_view"]/GroupBox[1]/GroupBox[0]/GroupBox[0]/GroupBox[0]/Edit[@name="搜索"]
+  New_State_Num: 9
+  State: 2
+- Action: input
+  Content: '!@#$%'
+  Control_Identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Custom[@auto_id="main_window_splitter_view"]/GroupBox[1]/GroupBox[0]/GroupBox[0]/GroupBox[0]/Edit[@name="搜索"]
+  New_State_Num: 9
+  State: 2
+- Action: click
+  Content: 'null'
+  Control_Identifier: /Dialog/GroupBox[0]/Toolbar[0]/Button[@title="关闭"]
+  New_State_Num: 10
+  State: 2
 - Action: input
   Content: 测试
   Control_Identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Custom[@auto_id="main_window_splitter_view"]/GroupBox[1]/GroupBox[0]/GroupBox[0]/GroupBox[0]/GroupBox[0]/Edit[@name="搜索"]
   New_State_Num: 8
   State: 0
+- Action: input
+  Content: 文件传输助手
+  Control_Identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Custom[@auto_id="main_window_splitter_view"]/GroupBox[1]/GroupBox[0]/GroupBox[0]/GroupBox[0]/GroupBox[0]/Edit[@name="搜索"]
+  New_State_Num: 11
+  State: 0
 - Action: click
   Content: 'null'
   Control_Identifier: /Dialog/Dialog[@title="Weixin"]/GroupBox[0]/ListBox[@auto_id="search_list"]
-  New_State_Num: 9
-  State: 8
+  New_State_Num: 12
+  State: 11
 - Action: click
   Content: 'null'
   Control_Identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Toolbar[@auto_id="main_tabbar"]/Button[@title="微信"]
   New_State_Num: 0
-  State: 8
+  State: 11
 - Action: click
   Content: 'null'
   Control_Identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Toolbar[@auto_id="main_tabbar"]/Button[@title="通讯录"]
   New_State_Num: 1
-  State: 8
+  State: 11
 - Action: click
   Content: 'null'
   Control_Identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Toolbar[@auto_id="main_tabbar"]/Button[@title="收藏"]
   New_State_Num: 2
-  State: 8
+  State: 11
 - Action: click
   Content: 'null'
   Control_Identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Toolbar[@auto_id="main_tabbar"]/Button[@title="朋友圈"]
   New_State_Num: 3
-  State: 8
+  State: 11
 - Action: click
   Content: 'null'
   Control_Identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Toolbar[@auto_id="main_tabbar"]/Button[@title="小程序面板"]
-  New_State_Num: 10
-  State: 8
+  New_State_Num: 13
+  State: 11
 - Action: click
   Content: 'null'
   Control_Identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Toolbar[@auto_id="main_tabbar"]/Button[@auto_id="main_tabbar.tabbar_handoff"]
   New_State_Num: 5
-  State: 8
+  State: 11
 - Action: click
   Content: 'null'
   Control_Identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Toolbar[@auto_id="main_tabbar"]/Button[@auto_id="main_tabbar.tabbar_setting"]
   New_State_Num: 6
-  State: 8
+  State: 11
 - Action: click
   Content: 'null'
   Control_Identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Custom[@auto_id="main_window_splitter_view"]/GroupBox[0]/GroupBox[0]/GroupBox[1]/Custom[0]/Custom[0]/ListBox[@auto_id="fav_browser_list"]
-  New_State_Num: 11
-  State: 8
+  New_State_Num: 7
+  State: 11
 - Action: click
   Content: 'null'
   Control_Identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Custom[@auto_id="main_window_splitter_view"]/GroupBox[1]/GroupBox[0]/GroupBox[0]/GroupBox[0]/GroupBox[0]/Button[0]
   New_State_Num: 2
-  State: 8
+  State: 11
 - Action: input
   Content: 测试
   Control_Identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Custom[@auto_id="main_window_splitter_view"]/GroupBox[1]/GroupBox[0]/GroupBox[0]/GroupBox[0]/Edit[@name="搜索"]
-  New_State_Num: 12
-  State: 8
+  New_State_Num: 8
+  State: 11
 - Action: input
   Content: 文件传输助手
   Control_Identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Custom[@auto_id="main_window_splitter_view"]/GroupBox[1]/GroupBox[0]/GroupBox[0]/GroupBox[0]/Edit[@name="搜索"]
-  New_State_Num: 13
-  State: 8
+  New_State_Num: 9
+  State: 11
 - Action: input
   Content: Hello
   Control_Identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Custom[@auto_id="main_window_splitter_view"]/GroupBox[1]/GroupBox[0]/GroupBox[0]/GroupBox[0]/Edit[@name="搜索"]
-  New_State_Num: 13
-  State: 8
+  New_State_Num: 9
+  State: 11
 - Action: input
   Content: '12345'
   Control_Identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Custom[@auto_id="main_window_splitter_view"]/GroupBox[1]/GroupBox[0]/GroupBox[0]/GroupBox[0]/Edit[@name="搜索"]
-  New_State_Num: 13
-  State: 8
+  New_State_Num: 9
+  State: 11
 - Action: input
   Content: '!@#$%'
   Control_Identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Custom[@auto_id="main_window_splitter_view"]/GroupBox[1]/GroupBox[0]/GroupBox[0]/GroupBox[0]/Edit[@name="搜索"]
-  New_State_Num: 13
-  State: 8
+  New_State_Num: 9
+  State: 11
 - Action: click
   Content: 'null'
   Control_Identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Custom[@auto_id="main_window_splitter_view"]/GroupBox[1]/GroupBox[0]/ListBox[@auto_id="fav_navbar_list"]
-  New_State_Num: 14
-  State: 8
+  New_State_Num: 2
+  State: 11
 - Action: click
   Content: 'null'
   Control_Identifier: /Dialog/GroupBox[0]/Toolbar[0]/Button[@title="最小化"]
-  New_State_Num: 14
-  State: 8
+  New_State_Num: 2
+  State: 11
 - Action: click
   Content: 'null'
   Control_Identifier: /Dialog/GroupBox[0]/Toolbar[0]/Button[@title="最大化"]
-  New_State_Num: 14
-  State: 8
+  New_State_Num: 2
+  State: 11
 - Action: click
   Content: 'null'
   Control_Identifier: /Dialog/GroupBox[0]/Toolbar[0]/Button[@title="关闭"]
-  New_State_Num: 15
-  State: 8
+  New_State_Num: 10
+  State: 11
 - Action: input
-  Content: 文件传输助手
+  Content: Hello
   Control_Identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Custom[@auto_id="main_window_splitter_view"]/GroupBox[1]/GroupBox[0]/GroupBox[0]/GroupBox[0]/GroupBox[0]/Edit[@name="搜索"]
+  New_State_Num: 8
+  State: 0
+- Action: input
+  Content: '12345'
+  Control_Identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Custom[@auto_id="main_window_splitter_view"]/GroupBox[1]/GroupBox[0]/GroupBox[0]/GroupBox[0]/GroupBox[0]/Edit[@name="搜索"]
+  New_State_Num: 14
+  State: 0
+- Action: click
+  Content: 'null'
+  Control_Identifier: /Dialog/Dialog[@title="Weixin"]/GroupBox[0]/ListBox[@auto_id="search_list"]
+  New_State_Num: 15
+  State: 14
+- Action: click
+  Content: 'null'
+  Control_Identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Toolbar[@auto_id="main_tabbar"]/Button[@title="微信"]
+  New_State_Num: 15
+  State: 14
+- Action: click
+  Content: 'null'
+  Control_Identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Toolbar[@auto_id="main_tabbar"]/Button[@title="通讯录"]
+  New_State_Num: 1
+  State: 14
+- Action: click
+  Content: 'null'
+  Control_Identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Toolbar[@auto_id="main_tabbar"]/Button[@title="收藏"]
+  New_State_Num: 2
+  State: 14
+- Action: click
+  Content: 'null'
+  Control_Identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Toolbar[@auto_id="main_tabbar"]/Button[@title="朋友圈"]
+  New_State_Num: 3
+  State: 14
+- Action: click
+  Content: 'null'
+  Control_Identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Toolbar[@auto_id="main_tabbar"]/Button[@title="小程序面板"]
   New_State_Num: 16
-  State: 0
-- Action: click
-  Content: 'null'
-  Control_Identifier: /Dialog/Dialog[@title="Weixin"]/GroupBox[0]/ListBox[@auto_id="search_list"]
-  New_State_Num: 17
-  State: 16
-- Action: click
-  Content: 'null'
-  Control_Identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Toolbar[@auto_id="main_tabbar"]/Button[@title="微信"]
-  New_State_Num: 0
-  State: 16
-- Action: click
-  Content: 'null'
-  Control_Identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Toolbar[@auto_id="main_tabbar"]/Button[@title="通讯录"]
-  New_State_Num: 1
-  State: 16
-- Action: click
-  Content: 'null'
-  Control_Identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Toolbar[@auto_id="main_tabbar"]/Button[@title="收藏"]
-  New_State_Num: 14
-  State: 16
-- Action: click
-  Content: 'null'
-  Control_Identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Toolbar[@auto_id="main_tabbar"]/Button[@title="朋友圈"]
-  New_State_Num: 3
-  State: 16
-- Action: click
-  Content: 'null'
-  Control_Identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Toolbar[@auto_id="main_tabbar"]/Button[@title="小程序面板"]
-  New_State_Num: 18
-  State: 16
+  State: 14
 - Action: click
   Content: 'null'
   Control_Identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Toolbar[@auto_id="main_tabbar"]/Button[@auto_id="main_tabbar.tabbar_handoff"]
   New_State_Num: 5
-  State: 16
+  State: 14
 - Action: click
   Content: 'null'
   Control_Identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Toolbar[@auto_id="main_tabbar"]/Button[@auto_id="main_tabbar.tabbar_setting"]
-  New_State_Num: 19
-  State: 16
+  New_State_Num: 6
+  State: 14
 - Action: click
   Content: 'null'
   Control_Identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Custom[@auto_id="main_window_splitter_view"]/GroupBox[0]/GroupBox[0]/GroupBox[1]/Custom[0]/Custom[0]/ListBox[@auto_id="fav_browser_list"]
-  New_State_Num: 20
-  State: 16
+  New_State_Num: 7
+  State: 14
 - Action: click
   Content: 'null'
   Control_Identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Custom[@auto_id="main_window_splitter_view"]/GroupBox[1]/GroupBox[0]/GroupBox[0]/GroupBox[0]/GroupBox[0]/Button[0]
-  New_State_Num: 14
-  State: 16
+  New_State_Num: 2
+  State: 14
 - Action: input
   Content: 测试
   Control_Identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Custom[@auto_id="main_window_splitter_view"]/GroupBox[1]/GroupBox[0]/GroupBox[0]/GroupBox[0]/Edit[@name="搜索"]
-  New_State_Num: 21
-  State: 16
+  New_State_Num: 8
+  State: 14
 - Action: input
   Content: 文件传输助手
   Control_Identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Custom[@auto_id="main_window_splitter_view"]/GroupBox[1]/GroupBox[0]/GroupBox[0]/GroupBox[0]/Edit[@name="搜索"]
-  New_State_Num: 13
-  State: 16
+  New_State_Num: 9
+  State: 14
 - Action: input
   Content: Hello
   Control_Identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Custom[@auto_id="main_window_splitter_view"]/GroupBox[1]/GroupBox[0]/GroupBox[0]/GroupBox[0]/Edit[@name="搜索"]
-  New_State_Num: 13
-  State: 16
+  New_State_Num: 9
+  State: 14
 - Action: input
   Content: '12345'
   Control_Identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Custom[@auto_id="main_window_splitter_view"]/GroupBox[1]/GroupBox[0]/GroupBox[0]/GroupBox[0]/Edit[@name="搜索"]
-  New_State_Num: 13
-  State: 16
+  New_State_Num: 9
+  State: 14
 - Action: input
   Content: '!@#$%'
   Control_Identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Custom[@auto_id="main_window_splitter_view"]/GroupBox[1]/GroupBox[0]/GroupBox[0]/GroupBox[0]/Edit[@name="搜索"]
-  New_State_Num: 13
-  State: 16
+  New_State_Num: 9
+  State: 14
 - Action: click
   Content: 'null'
   Control_Identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Custom[@auto_id="main_window_splitter_view"]/GroupBox[1]/GroupBox[0]/ListBox[@auto_id="fav_navbar_list"]
-  New_State_Num: 14
-  State: 16
+  New_State_Num: 2
+  State: 14
 - Action: click
   Content: 'null'
   Control_Identifier: /Dialog/GroupBox[0]/Toolbar[0]/Button[@title="最小化"]
-  New_State_Num: 14
-  State: 16
+  New_State_Num: 2
+  State: 14
 - Action: click
   Content: 'null'
   Control_Identifier: /Dialog/GroupBox[0]/Toolbar[0]/Button[@title="最大化"]
-  New_State_Num: 14
-  State: 16
+  New_State_Num: 2
+  State: 14
 - Action: click
   Content: 'null'
   Control_Identifier: /Dialog/GroupBox[0]/Toolbar[0]/Button[@title="关闭"]
-  New_State_Num: 15
-  State: 16
-- Action: input
-  Content: Hello
-  Control_Identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Custom[@auto_id="main_window_splitter_view"]/GroupBox[1]/GroupBox[0]/GroupBox[0]/GroupBox[0]/GroupBox[0]/Edit[@name="搜索"]
-  New_State_Num: 22
-  State: 0
-- Action: click
-  Content: 'null'
-  Control_Identifier: /Dialog/Dialog[@title="Weixin"]/GroupBox[0]/ListBox[@auto_id="search_list"]
-  New_State_Num: 23
-  State: 22
-- Action: click
-  Content: 'null'
-  Control_Identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Toolbar[@auto_id="main_tabbar"]/Button[@title="微信"]
-  New_State_Num: 0
-  State: 22
-- Action: click
-  Content: 'null'
-  Control_Identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Toolbar[@auto_id="main_tabbar"]/Button[@title="通讯录"]
-  New_State_Num: 1
-  State: 22
-- Action: click
-  Content: 'null'
-  Control_Identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Toolbar[@auto_id="main_tabbar"]/Button[@title="收藏"]
-  New_State_Num: 14
-  State: 22
-- Action: click
-  Content: 'null'
-  Control_Identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Toolbar[@auto_id="main_tabbar"]/Button[@title="朋友圈"]
-  New_State_Num: 3
-  State: 22
-- Action: click
-  Content: 'null'
-  Control_Identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Toolbar[@auto_id="main_tabbar"]/Button[@title="小程序面板"]
-  New_State_Num: 24
-  State: 22
-- Action: click
-  Content: 'null'
-  Control_Identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Toolbar[@auto_id="main_tabbar"]/Button[@auto_id="main_tabbar.tabbar_handoff"]
-  New_State_Num: 5
-  State: 22
-- Action: click
-  Content: 'null'
-  Control_Identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Toolbar[@auto_id="main_tabbar"]/Button[@auto_id="main_tabbar.tabbar_setting"]
-  New_State_Num: 19
-  State: 22
-- Action: click
-  Content: 'null'
-  Control_Identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Custom[@auto_id="main_window_splitter_view"]/GroupBox[0]/GroupBox[0]/GroupBox[1]/Custom[0]/Custom[0]/ListBox[@auto_id="fav_browser_list"]
-  New_State_Num: 25
-  State: 22
-- Action: click
-  Content: 'null'
-  Control_Identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Custom[@auto_id="main_window_splitter_view"]/GroupBox[1]/GroupBox[0]/GroupBox[0]/GroupBox[0]/GroupBox[0]/Button[0]
-  New_State_Num: 14
-  State: 22
-- Action: input
-  Content: 测试
-  Control_Identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Custom[@auto_id="main_window_splitter_view"]/GroupBox[1]/GroupBox[0]/GroupBox[0]/GroupBox[0]/Edit[@name="搜索"]
-  New_State_Num: 21
-  State: 22
-- Action: input
-  Content: 文件传输助手
-  Control_Identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Custom[@auto_id="main_window_splitter_view"]/GroupBox[1]/GroupBox[0]/GroupBox[0]/GroupBox[0]/Edit[@name="搜索"]
-  New_State_Num: 13
-  State: 22
-- Action: input
-  Content: Hello
-  Control_Identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Custom[@auto_id="main_window_splitter_view"]/GroupBox[1]/GroupBox[0]/GroupBox[0]/GroupBox[0]/Edit[@name="搜索"]
-  New_State_Num: 13
-  State: 22
-- Action: input
-  Content: '12345'
-  Control_Identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Custom[@auto_id="main_window_splitter_view"]/GroupBox[1]/GroupBox[0]/GroupBox[0]/GroupBox[0]/Edit[@name="搜索"]
-  New_State_Num: 13
-  State: 22
-- Action: input
-  Content: '!@#$%'
-  Control_Identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Custom[@auto_id="main_window_splitter_view"]/GroupBox[1]/GroupBox[0]/GroupBox[0]/GroupBox[0]/Edit[@name="搜索"]
-  New_State_Num: 13
-  State: 22
-- Action: click
-  Content: 'null'
-  Control_Identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Custom[@auto_id="main_window_splitter_view"]/GroupBox[1]/GroupBox[0]/ListBox[@auto_id="fav_navbar_list"]
-  New_State_Num: 14
-  State: 22
-- Action: click
-  Content: 'null'
-  Control_Identifier: /Dialog/GroupBox[0]/Toolbar[0]/Button[@title="最小化"]
-  New_State_Num: 14
-  State: 22
-- Action: click
-  Content: 'null'
-  Control_Identifier: /Dialog/GroupBox[0]/Toolbar[0]/Button[@title="最大化"]
-  New_State_Num: 14
-  State: 22
-- Action: click
-  Content: 'null'
-  Control_Identifier: /Dialog/GroupBox[0]/Toolbar[0]/Button[@title="关闭"]
-  New_State_Num: 15
-  State: 22
-- Action: input
-  Content: '12345'
-  Control_Identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Custom[@auto_id="main_window_splitter_view"]/GroupBox[1]/GroupBox[0]/GroupBox[0]/GroupBox[0]/GroupBox[0]/Edit[@name="搜索"]
-  New_State_Num: 26
-  State: 0
-- Action: click
-  Content: 'null'
-  Control_Identifier: /Dialog/Dialog[@title="Weixin"]/GroupBox[0]/ListBox[@auto_id="search_list"]
-  New_State_Num: 27
-  State: 26
-- Action: click
-  Content: 'null'
-  Control_Identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Toolbar[@auto_id="main_tabbar"]/Button[@title="微信"]
-  New_State_Num: 27
-  State: 26
-- Action: click
-  Content: 'null'
-  Control_Identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Toolbar[@auto_id="main_tabbar"]/Button[@title="通讯录"]
-  New_State_Num: 1
-  State: 26
-- Action: click
-  Content: 'null'
-  Control_Identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Toolbar[@auto_id="main_tabbar"]/Button[@title="收藏"]
-  New_State_Num: 14
-  State: 26
-- Action: click
-  Content: 'null'
-  Control_Identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Toolbar[@auto_id="main_tabbar"]/Button[@title="朋友圈"]
-  New_State_Num: 3
-  State: 26
-- Action: click
-  Content: 'null'
-  Control_Identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Toolbar[@auto_id="main_tabbar"]/Button[@title="小程序面板"]
-  New_State_Num: 28
-  State: 26
-- Action: click
-  Content: 'null'
-  Control_Identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Toolbar[@auto_id="main_tabbar"]/Button[@auto_id="main_tabbar.tabbar_handoff"]
-  New_State_Num: 5
-  State: 26
-- Action: click
-  Content: 'null'
-  Control_Identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Toolbar[@auto_id="main_tabbar"]/Button[@auto_id="main_tabbar.tabbar_setting"]
-  New_State_Num: 19
-  State: 26
-- Action: click
-  Content: 'null'
-  Control_Identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Custom[@auto_id="main_window_splitter_view"]/GroupBox[0]/GroupBox[0]/GroupBox[1]/Custom[0]/Custom[0]/ListBox[@auto_id="fav_browser_list"]
-  New_State_Num: 29
-  State: 26
-- Action: click
-  Content: 'null'
-  Control_Identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Custom[@auto_id="main_window_splitter_view"]/GroupBox[1]/GroupBox[0]/GroupBox[0]/GroupBox[0]/GroupBox[0]/Button[0]
-  New_State_Num: 14
-  State: 26
-- Action: input
-  Content: 测试
-  Control_Identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Custom[@auto_id="main_window_splitter_view"]/GroupBox[1]/GroupBox[0]/GroupBox[0]/GroupBox[0]/Edit[@name="搜索"]
-  New_State_Num: 21
-  State: 26
-- Action: input
-  Content: 文件传输助手
-  Control_Identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Custom[@auto_id="main_window_splitter_view"]/GroupBox[1]/GroupBox[0]/GroupBox[0]/GroupBox[0]/Edit[@name="搜索"]
-  New_State_Num: 13
-  State: 26
-- Action: input
-  Content: Hello
-  Control_Identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Custom[@auto_id="main_window_splitter_view"]/GroupBox[1]/GroupBox[0]/GroupBox[0]/GroupBox[0]/Edit[@name="搜索"]
-  New_State_Num: 13
-  State: 26
-- Action: input
-  Content: '12345'
-  Control_Identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Custom[@auto_id="main_window_splitter_view"]/GroupBox[1]/GroupBox[0]/GroupBox[0]/GroupBox[0]/Edit[@name="搜索"]
-  New_State_Num: 13
-  State: 26
-- Action: input
-  Content: '!@#$%'
-  Control_Identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Custom[@auto_id="main_window_splitter_view"]/GroupBox[1]/GroupBox[0]/GroupBox[0]/GroupBox[0]/Edit[@name="搜索"]
-  New_State_Num: 13
-  State: 26
-- Action: click
-  Content: 'null'
-  Control_Identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Custom[@auto_id="main_window_splitter_view"]/GroupBox[1]/GroupBox[0]/ListBox[@auto_id="fav_navbar_list"]
-  New_State_Num: 14
-  State: 26
-- Action: click
-  Content: 'null'
-  Control_Identifier: /Dialog/GroupBox[0]/Toolbar[0]/Button[@title="最小化"]
-  New_State_Num: 14
-  State: 26
-- Action: click
-  Content: 'null'
-  Control_Identifier: /Dialog/GroupBox[0]/Toolbar[0]/Button[@title="最大化"]
-  New_State_Num: 14
-  State: 26
-- Action: click
-  Content: 'null'
-  Control_Identifier: /Dialog/GroupBox[0]/Toolbar[0]/Button[@title="关闭"]
-  New_State_Num: 15
-  State: 26
+  New_State_Num: 10
+  State: 14
 - Action: input
   Content: '!@#$%'
   Control_Identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Custom[@auto_id="main_window_splitter_view"]/GroupBox[1]/GroupBox[0]/GroupBox[0]/GroupBox[0]/GroupBox[0]/Edit[@name="搜索"]
-  New_State_Num: 30
+  New_State_Num: 8
   State: 0
-- Action: click
-  Content: 'null'
-  Control_Identifier: /Dialog/Dialog[@title="Weixin"]/GroupBox[0]/ListBox[@auto_id="search_list"]
-  New_State_Num: 31
-  State: 30
-- Action: click
-  Content: 'null'
-  Control_Identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Toolbar[@auto_id="main_tabbar"]/Button[@title="微信"]
-  New_State_Num: 27
-  State: 30
-- Action: click
-  Content: 'null'
-  Control_Identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Toolbar[@auto_id="main_tabbar"]/Button[@title="通讯录"]
-  New_State_Num: 1
-  State: 30
-- Action: click
-  Content: 'null'
-  Control_Identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Toolbar[@auto_id="main_tabbar"]/Button[@title="收藏"]
-  New_State_Num: 14
-  State: 30
-- Action: click
-  Content: 'null'
-  Control_Identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Toolbar[@auto_id="main_tabbar"]/Button[@title="朋友圈"]
-  New_State_Num: 3
-  State: 30
-- Action: click
-  Content: 'null'
-  Control_Identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Toolbar[@auto_id="main_tabbar"]/Button[@title="小程序面板"]
-  New_State_Num: 32
-  State: 30
-- Action: click
-  Content: 'null'
-  Control_Identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Toolbar[@auto_id="main_tabbar"]/Button[@auto_id="main_tabbar.tabbar_handoff"]
-  New_State_Num: 5
-  State: 30
-- Action: click
-  Content: 'null'
-  Control_Identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Toolbar[@auto_id="main_tabbar"]/Button[@auto_id="main_tabbar.tabbar_setting"]
-  New_State_Num: 19
-  State: 30
-- Action: click
-  Content: 'null'
-  Control_Identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Custom[@auto_id="main_window_splitter_view"]/GroupBox[0]/GroupBox[0]/GroupBox[1]/Custom[0]/Custom[0]/ListBox[@auto_id="fav_browser_list"]
-  New_State_Num: 33
-  State: 30
-- Action: click
-  Content: 'null'
-  Control_Identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Custom[@auto_id="main_window_splitter_view"]/GroupBox[1]/GroupBox[0]/GroupBox[0]/GroupBox[0]/GroupBox[0]/Button[0]
-  New_State_Num: 14
-  State: 30
-- Action: input
-  Content: 测试
-  Control_Identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Custom[@auto_id="main_window_splitter_view"]/GroupBox[1]/GroupBox[0]/GroupBox[0]/GroupBox[0]/Edit[@name="搜索"]
-  New_State_Num: 21
-  State: 30
-- Action: input
-  Content: 文件传输助手
-  Control_Identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Custom[@auto_id="main_window_splitter_view"]/GroupBox[1]/GroupBox[0]/GroupBox[0]/GroupBox[0]/Edit[@name="搜索"]
-  New_State_Num: 13
-  State: 30
-- Action: input
-  Content: Hello
-  Control_Identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Custom[@auto_id="main_window_splitter_view"]/GroupBox[1]/GroupBox[0]/GroupBox[0]/GroupBox[0]/Edit[@name="搜索"]
-  New_State_Num: 13
-  State: 30
-- Action: input
-  Content: '12345'
-  Control_Identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Custom[@auto_id="main_window_splitter_view"]/GroupBox[1]/GroupBox[0]/GroupBox[0]/GroupBox[0]/Edit[@name="搜索"]
-  New_State_Num: 13
-  State: 30
-- Action: input
-  Content: '!@#$%'
-  Control_Identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Custom[@auto_id="main_window_splitter_view"]/GroupBox[1]/GroupBox[0]/GroupBox[0]/GroupBox[0]/Edit[@name="搜索"]
-  New_State_Num: 13
-  State: 30
-- Action: click
-  Content: 'null'
-  Control_Identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Custom[@auto_id="main_window_splitter_view"]/GroupBox[1]/GroupBox[0]/ListBox[@auto_id="fav_navbar_list"]
-  New_State_Num: 14
-  State: 30
-- Action: click
-  Content: 'null'
-  Control_Identifier: /Dialog/GroupBox[0]/Toolbar[0]/Button[@title="最小化"]
-  New_State_Num: 14
-  State: 30
-- Action: click
-  Content: 'null'
-  Control_Identifier: /Dialog/GroupBox[0]/Toolbar[0]/Button[@title="最大化"]
-  New_State_Num: 14
-  State: 30
-- Action: click
-  Content: 'null'
-  Control_Identifier: /Dialog/GroupBox[0]/Toolbar[0]/Button[@title="关闭"]
-  New_State_Num: 15
-  State: 30

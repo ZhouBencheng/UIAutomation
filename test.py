@@ -73,12 +73,8 @@ def test_restore():
     """测试恢复窗口"""
     dlg_spec = get_window_specification(weixin_title)
     dlg_wrapper = dlg_spec.wrapper_object()
-    # prog_button_spec = dlg_spec.child_window(control_type='Button', title='通讯录')
-    # prog_button_wrapper = prog_button_spec.wrapper_object()
-    # prog_button_wrapper.click_input()
-    dlg_wrapper.minimize()
+    prog_button_spec = dlg_spec.child_window(control_type='Button', title='通讯录')
+    prog_button_wrapper = prog_button_spec.wrapper_object()
+    prog_button_wrapper.click_input()
     time.sleep(1)
     dlg_wrapper.restore()  # 恢复窗口
-
-if __name__ == '__main__':
-    test_restore()

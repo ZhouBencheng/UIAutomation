@@ -4,8 +4,8 @@ from pywinauto.controls.uiawrapper import UIAWrapper
 import logging
 
 non_interactive_containers = ["Pane", "Dialog", "Window", "Group",
-                     "Image", "GroupBox", "Toolbar", "Custom",
-                     "Static", "Text", "Thumb"]
+                             "Image", "GroupBox", "Toolbar", "Custom",
+                             "Static", "Text", "Thumb"]
 
 _group_semantics_cache = {}
 logger = logging.getLogger()
@@ -36,9 +36,10 @@ def analyze_control_texts(text_list: list) -> bool:
             "content": (
                 "You are an expert in GUI control classification for software applications."
                 "You will be given a list of visible text labels or content strings, each representing the main information shown on a GUI control"
-                "Your task is to infer—based only on these texts—whether these controls are intended to perform the same kind of core function within the context of their interface."
-                "If the controls serve clearly different core functions, return False."
-                "If the controls serve the same kind of core function, or if it is impossible to determine any functional distinction based only on their text, return True."
+                "Your tasks are as follows: "
+                "1. Dynamic Content Detection: Based solely on the provided texts, infer whether these controls represent 'dynamic content controls'—that is, controls whose main information (such as file names, article titles, links, messages, or data-driven entries) is likely to change frequently depending on user or external data."
+                "2. If all the controls in the list represent dynamic content, return True. If any control is clearly static (e.g., fixed function buttons like 'Send', 'Delete', 'Settings'), return False."
+                "3. Dynamic content controls' are those whose primary text or data is likely to be different each time the interface loads, such as document titles, chat messages, or feed items."
                 "Note: You must return only a boolean value."
             )
         },
@@ -48,9 +49,9 @@ def analyze_control_texts(text_list: list) -> bool:
         }
     ]
     model = 'gpt-4.1'
-    client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
+    agent = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
     try:
-        response = client.chat.completions.create(
+        response = agent.chat.completions.create(
             model=model,
             messages=message,
             max_tokens=10,
