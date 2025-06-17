@@ -1,0 +1,121 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Dialog title="微信" name="微信" class_name="mmui::MainWindow" auto_id="" handle="199442" rect="(L356, T92, R1618, B963)" depth="0" path="">
+  <GroupBox title="" name="" class_name="QWidget" auto_id="" handle="None" rect="(L356, T92, R1618, B963)" depth="1" path=" → GroupBox[]">
+    <Custom title="" name="" class_name="QStackedWidget" auto_id="" handle="None" rect="(L356, T92, R1618, B963)" depth="2" path=" → GroupBox[] → Custom[]">
+      <GroupBox title="" name="" class_name="QWidget" auto_id="" handle="None" rect="(L356, T92, R1618, B963)" depth="3" path=" → GroupBox[] → Custom[] → GroupBox[]">
+        <Toolbar title="导航" name="导航" class_name="mmui::MainTabBar" auto_id="main_tabbar" handle="None" rect="(L356, T92, R431, B963)" depth="4" path=" → GroupBox[] → Custom[] → GroupBox[] → Toolbar[导航]">
+          <Button title="微信" name="微信" class_name="mmui::XTabBarItem" auto_id="" handle="None" rect="(L356, T187, R431, B237)" depth="5" path=" → GroupBox[] → Custom[] → GroupBox[] → Toolbar[导航] → Button[微信]" is_dynamic="False">
+            <GroupBox title="" name="" class_name="QWidget" auto_id="" handle="None" rect="(L378, T197, R408, B227)" depth="6" path=" → GroupBox[] → Custom[] → GroupBox[] → Toolbar[导航] → Button[微信] → GroupBox[]">
+              <Button title="" name="" class_name="mmui::XImage" auto_id="" handle="None" rect="(L378, T197, R408, B227)" depth="7" path=" → GroupBox[] → Custom[] → GroupBox[] → Toolbar[导航] → Button[微信] → GroupBox[] → Button[]" is_dynamic="False" />
+            </GroupBox>
+            <GroupBox title="" name="" class_name="mmui::XSkiaWidget" auto_id="" handle="None" rect="(L378, T190, R428, B211)" depth="6" path=" → GroupBox[] → Custom[] → GroupBox[] → Toolbar[导航] → Button[微信] → GroupBox[]" />
+          </Button>
+          <Button title="通讯录" name="通讯录" class_name="mmui::XTabBarItem" auto_id="" handle="None" rect="(L356, T247, R431, B297)" depth="5" path=" → GroupBox[] → Custom[] → GroupBox[] → Toolbar[导航] → Button[通讯录]" is_dynamic="False">
+            <GroupBox title="" name="" class_name="QWidget" auto_id="" handle="None" rect="(L378, T257, R408, B287)" depth="6" path=" → GroupBox[] → Custom[] → GroupBox[] → Toolbar[导航] → Button[通讯录] → GroupBox[]">
+              <Button title="" name="" class_name="mmui::XImage" auto_id="" handle="None" rect="(L378, T257, R408, B287)" depth="7" path=" → GroupBox[] → Custom[] → GroupBox[] → Toolbar[导航] → Button[通讯录] → GroupBox[] → Button[]" is_dynamic="False" />
+            </GroupBox>
+            <GroupBox title="" name="" class_name="mmui::XSkiaWidget" auto_id="" handle="None" rect="(L378, T250, R428, B271)" depth="6" path=" → GroupBox[] → Custom[] → GroupBox[] → Toolbar[导航] → Button[通讯录] → GroupBox[]" />
+          </Button>
+          <Button title="收藏" name="收藏" class_name="mmui::XTabBarItem" auto_id="" handle="None" rect="(L356, T307, R431, B357)" depth="5" path=" → GroupBox[] → Custom[] → GroupBox[] → Toolbar[导航] → Button[收藏]" is_dynamic="False">
+            <GroupBox title="" name="" class_name="QWidget" auto_id="" handle="None" rect="(L378, T317, R408, B347)" depth="6" path=" → GroupBox[] → Custom[] → GroupBox[] → Toolbar[导航] → Button[收藏] → GroupBox[]">
+              <Button title="" name="" class_name="mmui::XImage" auto_id="" handle="None" rect="(L378, T317, R408, B347)" depth="7" path=" → GroupBox[] → Custom[] → GroupBox[] → Toolbar[导航] → Button[收藏] → GroupBox[] → Button[]" is_dynamic="False" />
+            </GroupBox>
+            <GroupBox title="" name="" class_name="mmui::XSkiaWidget" auto_id="" handle="None" rect="(L378, T310, R428, B331)" depth="6" path=" → GroupBox[] → Custom[] → GroupBox[] → Toolbar[导航] → Button[收藏] → GroupBox[]" />
+          </Button>
+          <Button title="朋友圈" name="朋友圈" class_name="mmui::XTabBarItem" auto_id="" handle="None" rect="(L356, T367, R431, B417)" depth="5" path=" → GroupBox[] → Custom[] → GroupBox[] → Toolbar[导航] → Button[朋友圈]" is_dynamic="False">
+            <GroupBox title="" name="" class_name="QWidget" auto_id="" handle="None" rect="(L378, T377, R408, B407)" depth="6" path=" → GroupBox[] → Custom[] → GroupBox[] → Toolbar[导航] → Button[朋友圈] → GroupBox[]">
+              <Button title="" name="" class_name="mmui::XImage" auto_id="" handle="None" rect="(L378, T377, R408, B407)" depth="7" path=" → GroupBox[] → Custom[] → GroupBox[] → Toolbar[导航] → Button[朋友圈] → GroupBox[] → Button[]" is_dynamic="False" />
+            </GroupBox>
+            <GroupBox title="" name="" class_name="mmui::XSkiaWidget" auto_id="" handle="None" rect="(L378, T370, R428, B391)" depth="6" path=" → GroupBox[] → Custom[] → GroupBox[] → Toolbar[导航] → Button[朋友圈] → GroupBox[]" />
+          </Button>
+          <Button title="小程序面板" name="小程序面板" class_name="mmui::XTabBarItem" auto_id="" handle="None" rect="(L356, T427, R431, B477)" depth="5" path=" → GroupBox[] → Custom[] → GroupBox[] → Toolbar[导航] → Button[小程序面板]" is_dynamic="False">
+            <GroupBox title="" name="" class_name="QWidget" auto_id="" handle="None" rect="(L378, T437, R408, B467)" depth="6" path=" → GroupBox[] → Custom[] → GroupBox[] → Toolbar[导航] → Button[小程序面板] → GroupBox[]">
+              <Button title="" name="" class_name="mmui::XImage" auto_id="" handle="None" rect="(L378, T437, R408, B467)" depth="7" path=" → GroupBox[] → Custom[] → GroupBox[] → Toolbar[导航] → Button[小程序面板] → GroupBox[] → Button[]" is_dynamic="False" />
+            </GroupBox>
+            <GroupBox title="" name="" class_name="mmui::XSkiaWidget" auto_id="" handle="None" rect="(L378, T430, R428, B451)" depth="6" path=" → GroupBox[] → Custom[] → GroupBox[] → Toolbar[导航] → Button[小程序面板] → GroupBox[]" />
+          </Button>
+          <Button title="手机" name="手机" class_name="mmui::HandoffTabbarView" auto_id="main_tabbar.tabbar_handoff" handle="None" rect="(L356, T823, R431, B873)" depth="5" path=" → GroupBox[] → Custom[] → GroupBox[] → Toolbar[导航] → Button[手机]" is_dynamic="False">
+            <Button title="手机" name="手机" class_name="mmui::XButton" auto_id="" handle="None" rect="(L368, T823, R418, B873)" depth="6" path=" → GroupBox[] → Custom[] → GroupBox[] → Toolbar[导航] → Button[手机] → Button[手机]" is_dynamic="False">
+              <GroupBox title="" name="" class_name="QWidget" auto_id="" handle="None" rect="(L378, T833, R408, B863)" depth="7" path=" → GroupBox[] → Custom[] → GroupBox[] → Toolbar[导航] → Button[手机] → Button[手机] → GroupBox[]">
+                <Button title="" name="" class_name="mmui::XImage" auto_id="" handle="None" rect="(L378, T833, R408, B863)" depth="8" path=" → GroupBox[] → Custom[] → GroupBox[] → Toolbar[导航] → Button[手机] → Button[手机] → GroupBox[] → Button[]" is_dynamic="False" />
+              </GroupBox>
+            </Button>
+          </Button>
+          <Button title="更多" name="更多" class_name="mmui::MainTabBarSettingView" auto_id="main_tabbar.tabbar_setting" handle="None" rect="(L368, T883, R418, B933)" depth="5" path=" → GroupBox[] → Custom[] → GroupBox[] → Toolbar[导航] → Button[更多]" is_dynamic="False">
+            <Button title="更多" name="更多" class_name="mmui::XButton" auto_id="" handle="None" rect="(L368, T883, R418, B933)" depth="6" path=" → GroupBox[] → Custom[] → GroupBox[] → Toolbar[导航] → Button[更多] → Button[更多]" is_dynamic="False">
+              <GroupBox title="" name="" class_name="QWidget" auto_id="" handle="None" rect="(L378, T893, R408, B923)" depth="7" path=" → GroupBox[] → Custom[] → GroupBox[] → Toolbar[导航] → Button[更多] → Button[更多] → GroupBox[]">
+                <Button title="" name="" class_name="mmui::XImage" auto_id="" handle="None" rect="(L378, T893, R408, B923)" depth="8" path=" → GroupBox[] → Custom[] → GroupBox[] → Toolbar[导航] → Button[更多] → Button[更多] → GroupBox[] → Button[]" is_dynamic="False" />
+              </GroupBox>
+            </Button>
+          </Button>
+        </Toolbar>
+        <GroupBox title="" name="" class_name="mmui::XView" auto_id="" handle="None" rect="(L431, T92, R432, B963)" depth="4" path=" → GroupBox[] → Custom[] → GroupBox[] → GroupBox[]" />
+        <Custom title="" name="" class_name="mmui::XSplitterView" auto_id="main_window_splitter_view" handle="None" rect="(L432, T92, R1618, B963)" depth="4" path=" → GroupBox[] → Custom[] → GroupBox[] → Custom[]">
+          <GroupBox title="" name="" class_name="mmui::XView" auto_id="" handle="None" rect="(L696, T92, R1618, B963)" depth="5" path=" → GroupBox[] → Custom[] → GroupBox[] → Custom[] → GroupBox[]">
+            <GroupBox title="" name="" class_name="mmui::XView" auto_id="" handle="None" rect="(L696, T92, R1618, B963)" depth="6" path=" → GroupBox[] → Custom[] → GroupBox[] → Custom[] → GroupBox[] → GroupBox[]">
+              <Static title="“文件传输助手" name="“文件传输助手" class_name="mmui::XTextView" auto_id="" handle="None" rect="(L716, T132, R844, B158)" depth="7" path=" → GroupBox[] → Custom[] → GroupBox[] → Custom[] → GroupBox[] → GroupBox[] → Static[“文件传输助手]" />
+              <Static title="”的搜索结果" name="”的搜索结果" class_name="mmui::XTextView" auto_id="" handle="None" rect="(L845, T132, R953, B158)" depth="7" path=" → GroupBox[] → Custom[] → GroupBox[] → Custom[] → GroupBox[] → GroupBox[] → Static[”的搜索结果]" />
+              <GroupBox title="" name="" class_name="mmui::XView" auto_id="" handle="None" rect="(L696, T173, R1618, B174)" depth="7" path=" → GroupBox[] → Custom[] → GroupBox[] → Custom[] → GroupBox[] → GroupBox[] → GroupBox[]" />
+              <GroupBox title="" name="" class_name="mmui::XView" auto_id="" handle="None" rect="(L696, T175, R1618, B963)" depth="7" path=" → GroupBox[] → Custom[] → GroupBox[] → Custom[] → GroupBox[] → GroupBox[] → GroupBox[]">
+                <GroupBox title="" name="" class_name="mmui::XView" auto_id="" handle="None" rect="(L696, T175, R1618, B963)" depth="8" path=" → GroupBox[] → Custom[] → GroupBox[] → Custom[] → GroupBox[] → GroupBox[] → GroupBox[] → GroupBox[]">
+                  <GroupBox title="" name="" class_name="mmui::XView" auto_id="" handle="None" rect="(L696, T175, R1618, B963)" depth="9" path=" → GroupBox[] → Custom[] → GroupBox[] → Custom[] → GroupBox[] → GroupBox[] → GroupBox[] → GroupBox[] → GroupBox[]">
+                    <Static title="无结果" name="无结果" class_name="mmui::XTextView" auto_id="" handle="None" rect="(L696, T175, R1618, B876)" depth="10" path=" → GroupBox[] → Custom[] → GroupBox[] → Custom[] → GroupBox[] → GroupBox[] → GroupBox[] → GroupBox[] → GroupBox[] → Static[无结果]" />
+                  </GroupBox>
+                </GroupBox>
+              </GroupBox>
+            </GroupBox>
+          </GroupBox>
+          <GroupBox title="" name="" class_name="mmui::XView" auto_id="" handle="None" rect="(L432, T92, R694, B963)" depth="5" path=" → GroupBox[] → Custom[] → GroupBox[] → Custom[] → GroupBox[]">
+            <GroupBox title="" name="" class_name="mmui::XView" auto_id="" handle="None" rect="(L432, T92, R694, B963)" depth="6" path=" → GroupBox[] → Custom[] → GroupBox[] → Custom[] → GroupBox[] → GroupBox[]">
+              <GroupBox title="" name="" class_name="QWidget" auto_id="" handle="None" rect="(L432, T92, R694, B177)" depth="7" path=" → GroupBox[] → Custom[] → GroupBox[] → Custom[] → GroupBox[] → GroupBox[] → GroupBox[]">
+                <GroupBox title="" name="" class_name="mmui::XSearchField" auto_id="" handle="None" rect="(L447, T127, R679, B162)" depth="8" path=" → GroupBox[] → Custom[] → GroupBox[] → Custom[] → GroupBox[] → GroupBox[] → GroupBox[] → GroupBox[]">
+                  <Button title="清空" name="清空" class_name="mmui::XButton" auto_id="" handle="None" rect="(L650, T135, R670, B155)" depth="9" path=" → GroupBox[] → Custom[] → GroupBox[] → Custom[] → GroupBox[] → GroupBox[] → GroupBox[] → GroupBox[] → Button[清空]" is_dynamic="False">
+                    <GroupBox title="" name="" class_name="QWidget" auto_id="" handle="None" rect="(L650, T135, R670, B155)" depth="10" path=" → GroupBox[] → Custom[] → GroupBox[] → Custom[] → GroupBox[] → GroupBox[] → GroupBox[] → GroupBox[] → Button[清空] → GroupBox[]">
+                      <Button title="" name="" class_name="mmui::XImage" auto_id="" handle="None" rect="(L650, T135, R670, B155)" depth="11" path=" → GroupBox[] → Custom[] → GroupBox[] → Custom[] → GroupBox[] → GroupBox[] → GroupBox[] → GroupBox[] → Button[清空] → GroupBox[] → Button[]" is_dynamic="False" />
+                    </GroupBox>
+                  </Button>
+                  <GroupBox title="" name="" class_name="QWidget" auto_id="" handle="None" rect="(L457, T135, R477, B155)" depth="9" path=" → GroupBox[] → Custom[] → GroupBox[] → Custom[] → GroupBox[] → GroupBox[] → GroupBox[] → GroupBox[] → GroupBox[]">
+                    <Button title="" name="" class_name="mmui::XImage" auto_id="" handle="None" rect="(L457, T135, R477, B155)" depth="10" path=" → GroupBox[] → Custom[] → GroupBox[] → Custom[] → GroupBox[] → GroupBox[] → GroupBox[] → GroupBox[] → GroupBox[] → Button[]" is_dynamic="False" />
+                  </GroupBox>
+                  <Edit title="文件传输助手" name="搜索" class_name="mmui::XValidatorTextEdit" auto_id="" handle="None" rect="(L482, T132, R644, B157)" depth="9" path=" → GroupBox[] → Custom[] → GroupBox[] → Custom[] → GroupBox[] → GroupBox[] → GroupBox[] → GroupBox[] → Edit[文件传输助手]" is_dynamic="False">
+                    <GroupBox title="" name="" class_name="QWidget" auto_id="qt_scrollarea_viewport" handle="None" rect="(L482, T132, R644, B157)" depth="10" path=" → GroupBox[] → Custom[] → GroupBox[] → Custom[] → GroupBox[] → GroupBox[] → GroupBox[] → GroupBox[] → Edit[文件传输助手] → GroupBox[]" />
+                  </Edit>
+                </GroupBox>
+              </GroupBox>
+              <ListBox title="收藏" name="收藏" class_name="mmui::RecyclerListView" auto_id="fav_navbar_list" handle="None" rect="(L432, T177, R694, B914)" depth="7" path=" → GroupBox[] → Custom[] → GroupBox[] → Custom[] → GroupBox[] → GroupBox[] → ListBox[收藏]" is_dynamic="False">
+                <ListItem title="" name="" class_name="mmui::FavNavBarAddNoteCell" auto_id="" handle="None" rect="(L432, T177, R694, B242)" depth="8" path=" → GroupBox[] → Custom[] → GroupBox[] → Custom[] → GroupBox[] → GroupBox[] → ListBox[收藏] → ListItem[]" is_dynamic="False" />
+                <ListItem title="全部收藏" name="全部收藏" class_name="mmui::FavNavBarCategoryCell" auto_id="" handle="None" rect="(L432, T242, R694, B289)" depth="8" path=" → GroupBox[] → Custom[] → GroupBox[] → Custom[] → GroupBox[] → GroupBox[] → ListBox[收藏] → ListItem[全部收藏]" is_dynamic="False" />
+                <ListItem title="最近使用" name="最近使用" class_name="mmui::FavNavBarCategoryCell" auto_id="" handle="None" rect="(L432, T290, R694, B337)" depth="8" path=" → GroupBox[] → Custom[] → GroupBox[] → Custom[] → GroupBox[] → GroupBox[] → ListBox[收藏] → ListItem[最近使用]" is_dynamic="False" />
+                <ListItem title="链接" name="链接" class_name="mmui::FavNavBarCategoryCell" auto_id="" handle="None" rect="(L432, T337, R694, B384)" depth="8" path=" → GroupBox[] → Custom[] → GroupBox[] → Custom[] → GroupBox[] → GroupBox[] → ListBox[收藏] → ListItem[链接]" is_dynamic="False" />
+                <ListItem title="图片与视频" name="图片与视频" class_name="mmui::FavNavBarCategoryCell" auto_id="" handle="None" rect="(L432, T385, R694, B432)" depth="8" path=" → GroupBox[] → Custom[] → GroupBox[] → Custom[] → GroupBox[] → GroupBox[] → ListBox[收藏] → ListItem[图片与视频]" is_dynamic="False" />
+                <ListItem title="文件" name="文件" class_name="mmui::FavNavBarCategoryCell" auto_id="" handle="None" rect="(L432, T432, R694, B479)" depth="8" path=" → GroupBox[] → Custom[] → GroupBox[] → Custom[] → GroupBox[] → GroupBox[] → ListBox[收藏] → ListItem[文件]" is_dynamic="False" />
+                <ListItem title="" name="" class_name="mmui::FavNavBarLineCell" auto_id="" handle="None" rect="(L432, T480, R694, B501)" depth="8" path=" → GroupBox[] → Custom[] → GroupBox[] → Custom[] → GroupBox[] → GroupBox[] → ListBox[收藏] → ListItem[]" is_dynamic="False" />
+                <ListItem title="标签" name="标签" class_name="mmui::FavNavBarTagHeadCell" auto_id="" handle="None" rect="(L432, T501, R694, B548)" depth="8" path=" → GroupBox[] → Custom[] → GroupBox[] → Custom[] → GroupBox[] → GroupBox[] → ListBox[收藏] → ListItem[标签]" is_dynamic="False" />
+              </ListBox>
+              <Static title="已使用34.6M 还剩2.0G" name="已使用34.6M 还剩2.0G" class_name="mmui::XTextView" auto_id="" handle="None" rect="(L432, T925, R694, B943)" depth="7" path=" → GroupBox[] → Custom[] → GroupBox[] → Custom[] → GroupBox[] → GroupBox[] → Static[已使用34.6M 还剩2.0G]" />
+            </GroupBox>
+          </GroupBox>
+          <Thumb title="" name="" class_name="QSplitterHandle" auto_id="main_window_splitter_view.qt_splithandle_" handle="None" rect="(L692, T92, R698, B963)" depth="5" path=" → GroupBox[] → Custom[] → GroupBox[] → Custom[] → Thumb[]" />
+        </Custom>
+      </GroupBox>
+    </Custom>
+    <Toolbar title="" name="" class_name="mmui::TitleBar" auto_id="" handle="None" rect="(L1436, T92, R1618, B132)" depth="2" path=" → GroupBox[] → Toolbar[]">
+      <Button title="最小化" name="最小化" class_name="mmui::XButton" auto_id="" handle="None" rect="(L1446, T92, R1503, B132)" depth="3" path=" → GroupBox[] → Toolbar[] → Button[最小化]" is_dynamic="False">
+        <GroupBox title="" name="" class_name="QWidget" auto_id="" handle="None" rect="(L1460, T97, R1490, B127)" depth="4" path=" → GroupBox[] → Toolbar[] → Button[最小化] → GroupBox[]">
+          <Button title="" name="" class_name="mmui::XImage" auto_id="" handle="None" rect="(L1460, T97, R1490, B127)" depth="5" path=" → GroupBox[] → Toolbar[] → Button[最小化] → GroupBox[] → Button[]" is_dynamic="False" />
+        </GroupBox>
+      </Button>
+      <Button title="最大化" name="最大化" class_name="mmui::XButton" auto_id="" handle="None" rect="(L1503, T92, R1560, B132)" depth="3" path=" → GroupBox[] → Toolbar[] → Button[最大化]" is_dynamic="False">
+        <GroupBox title="" name="" class_name="QWidget" auto_id="" handle="None" rect="(L1517, T97, R1547, B127)" depth="4" path=" → GroupBox[] → Toolbar[] → Button[最大化] → GroupBox[]">
+          <Button title="" name="" class_name="mmui::XImage" auto_id="" handle="None" rect="(L1517, T97, R1547, B127)" depth="5" path=" → GroupBox[] → Toolbar[] → Button[最大化] → GroupBox[] → Button[]" is_dynamic="False" />
+        </GroupBox>
+      </Button>
+      <Button title="关闭" name="关闭" class_name="mmui::XButton" auto_id="" handle="None" rect="(L1561, T92, R1618, B132)" depth="3" path=" → GroupBox[] → Toolbar[] → Button[关闭]" is_dynamic="False">
+        <GroupBox title="" name="" class_name="QWidget" auto_id="" handle="None" rect="(L1575, T97, R1605, B127)" depth="4" path=" → GroupBox[] → Toolbar[] → Button[关闭] → GroupBox[]">
+          <Button title="" name="" class_name="mmui::XImage" auto_id="" handle="None" rect="(L1575, T97, R1605, B127)" depth="5" path=" → GroupBox[] → Toolbar[] → Button[关闭] → GroupBox[] → Button[]" is_dynamic="False" />
+        </GroupBox>
+      </Button>
+    </Toolbar>
+    <GroupBox title="" name="" class_name="QWidget" auto_id="" handle="133950" rect="(L1617, T962, R1618, B963)" depth="2" path=" → GroupBox[] → GroupBox[]" />
+  </GroupBox>
+</Dialog>

@@ -1,6 +1,5 @@
 import logging
 import os
-import json
 from pywinauto.controls.uiawrapper import UIAWrapper
 import xml.etree.ElementTree as ET
 from datetime import datetime

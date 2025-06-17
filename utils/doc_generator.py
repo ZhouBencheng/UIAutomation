@@ -230,7 +230,7 @@ def convert_xml_to_appdoc(xml_dir, utg_path, output_yaml):
                 response = agent.chat.completions.create(
                     model=model,
                     messages=[
-                        {"role": "system", "content": "你是微信界面分析助手。"},
+                        {"role": "system", "content": "你是微信界面分析助手。注意：你只能返回一个控件的通用名称"},
                         {"role": "user", "content": prompt}
                     ]
                 )

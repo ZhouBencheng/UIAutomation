@@ -1,159 +1,158 @@
 pages:
-- page_name: 微信主界面
-  summary: 显示会话列表和聊天内容，并通过侧边栏导航至通讯录、收藏、朋友圈、小程序等模块，实现微信桌面版的主要信息交流与功能入口。
+- page_name: 主界面
+  summary: 展示微信的主导航和聊天会话列表，用户可以在此页面切换功能标签并浏览、进入各个聊天。
   controls:
-  - name: 微信主界面-微信
+  - name: 主界面-微信
     identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Toolbar[@auto_id="main_tabbar"]/Button[@title="微信"]
     description: ''
-  - name: 微信主界面-通讯录
+  - name: 主界面-通讯录
     identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Toolbar[@auto_id="main_tabbar"]/Button[@title="通讯录"]
-    description: 该控件的功能是：跳转到通讯录页以便查看和管理微信联系人、群聊及公众号。
-  - name: 微信主界面-收藏
+    description: 该控件用于切换到“通讯录”页面，便于用户查看和管理联系人及相关信息。
+  - name: 主界面-收藏
     identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Toolbar[@auto_id="main_tabbar"]/Button[@title="收藏"]
-    description: 该控件的功能是：进入收藏页，查看和管理微信中的收藏内容。
-  - name: 微信主界面-朋友圈
+    description: 该控件的功能是进入微信收藏页，方便用户浏览和管理自己收藏的内容。
+  - name: 主界面-朋友圈
     identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Toolbar[@auto_id="main_tabbar"]/Button[@title="朋友圈"]
-    description: 该控件的功能是跳转进入朋友圈模块，方便用户浏览和发布好友动态内容。
-  - name: 微信主界面-小程序面板
+    description: 该控件的功能是进入朋友圈页面，浏览和发布好友动态。
+  - name: 主界面-小程序面板
     identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Toolbar[@auto_id="main_tabbar"]/Button[@title="小程序面板"]
-    description: 该控件的功能可能是：跳转至“页面4”以访问或管理该模块相关的特定功能或信息。
-  - name: 微信主界面-手机
+    description: 该控件的功能是：进入小程序多标签页，方便用户同时管理和切换多个已打开的小程序。
+  - name: 主界面-手机
     identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Toolbar[@auto_id="main_tabbar"]/Button[@auto_id="main_tabbar.tabbar_handoff"]
-    description: 该控件的功能是：在电脑端查看并同步手机上正在浏览或微信浮窗中的内容。
-  - name: 微信主界面-更多
+    description: 该控件的功能是让用户快速进入多设备互通浮窗页面，以便查看和管理正在手机或电脑上浏览的内容，实现多设备间的内容无缝切换。
+  - name: 主界面-更多
     identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Toolbar[@auto_id="main_tabbar"]/Button[@auto_id="main_tabbar.tabbar_setting"]
-    description: 该控件的功能是：进入微信的收藏页，方便用户浏览和管理已收藏的内容。
-  - name: 微信主界面-Button0
+    description: 该控件的功能是进入收藏页面，方便用户查看和管理自己收藏的内容。
+  - name: 主界面-Button0
     identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Custom[@auto_id="main_window_splitter_view"]/GroupBox[0]/GroupBox[0]/GroupBox[0]/GroupBox[0]/Button[0]
-    description: 该控件的功能是：进入“收藏页”，以便用户浏览和管理微信中所有的收藏内容。
-  - name: 微信主界面-快捷操作
+    description: 该控件的功能是进入“收藏页”，方便用户浏览和管理自己的微信收藏内容。
+  - name: 主界面-快捷操作
     identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Custom[@auto_id="main_window_splitter_view"]/GroupBox[1]/GroupBox[0]/GroupBox[0]/GroupBox[0]/Button[@title="快捷操作"]
-    description: 该控件的功能是：进入收藏页以查看和管理微信中的全部收藏内容。
-  - name: 微信主界面-Button0
+    description: 该控件的功能是：进入收藏页，方便用户浏览和管理自己的微信收藏内容。
+  - name: 主界面-Button0
     identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Custom[@auto_id="main_window_splitter_view"]/GroupBox[1]/GroupBox[0]/GroupBox[0]/GroupBox[0]/GroupBox[0]/GroupBox[0]/Button[0]
-    description: 该控件的功能是：进入微信收藏页，方便用户查看和管理已收藏的内容。
-  - name: 微信主界面-搜索
+    description: 该控件的功能是：进入并管理用户已收藏的内容，包括文件、链接和图片等。
+  - name: 主界面-搜索
     identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Custom[@auto_id="main_window_splitter_view"]/GroupBox[1]/GroupBox[0]/GroupBox[0]/GroupBox[0]/GroupBox[0]/Edit[@name="搜索"]
-    description: 该控件的功能是：打开并管理微信状态或收藏内容，实现快捷进入“微信状态”页或“收藏”页。
-  - name: "微信主界面-通用名称示例：  \n聊天消息置顶通知控件\n\n抽象说明：  \n该名称能够概括展示在聊天界面中，用于标示某条消息、某个联系人或群组讨论已被置顶的动态控件。"
+    description: 该控件的功能是：打开并管理微信的收藏内容，例如文件、链接、图片等，并支持分类和搜索。
+  - name: 主界面-微信群聊会话列表项
     identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Custom[@auto_id="main_window_splitter_view"]/GroupBox[1]/GroupBox[0]/GroupBox[0]/GroupBox[1]/GroupBox[0]/GroupBox[0]/ListBox[@auto_id="session_list"]/ListItem[@auto_id="session_item"]
     description: ''
-  - name: 微信主界面-折叠置顶聊天
+  - name: 主界面-折叠置顶聊天
     identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Custom[@auto_id="main_window_splitter_view"]/GroupBox[1]/GroupBox[0]/GroupBox[0]/GroupBox[1]/GroupBox[0]/GroupBox[0]/Button[@auto_id="bottom_sticky_folder"]
     description: ''
-  - name: 微信主界面-最小化
+  - name: 主界面-最小化
     identifier: /Dialog/GroupBox[0]/Toolbar[0]/Button[@title="最小化"]
     description: ''
-  - name: 微信主界面-最大化
+  - name: 主界面-最大化
     identifier: /Dialog/GroupBox[0]/Toolbar[0]/Button[@title="最大化"]
     description: ''
-  - name: 微信主界面-关闭
+  - name: 主界面-关闭
     identifier: /Dialog/GroupBox[0]/Toolbar[0]/Button[@title="关闭"]
     description: ''
-- page_name: 通讯录页
-  summary: 显示并管理微信联系人、群聊、公众号等，支持搜索和分组浏览。
+- page_name: 通讯录
+  summary: 显示联系人、群聊、公众号等通讯录相关信息，并支持搜索和管理联系人。
   controls:
-  - name: 通讯录页-微信
+  - name: 通讯录-微信
     identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Toolbar[@auto_id="main_tabbar"]/Button[@title="微信"]
     description: ''
-  - name: 通讯录页-通讯录
+  - name: 通讯录-通讯录
     identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Toolbar[@auto_id="main_tabbar"]/Button[@title="通讯录"]
     description: ''
-  - name: 通讯录页-收藏
+  - name: 通讯录-收藏
     identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Toolbar[@auto_id="main_tabbar"]/Button[@title="收藏"]
     description: ''
-  - name: 通讯录页-朋友圈
+  - name: 通讯录-朋友圈
     identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Toolbar[@auto_id="main_tabbar"]/Button[@title="朋友圈"]
     description: ''
-  - name: 通讯录页-小程序面板
+  - name: 通讯录-小程序面板
     identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Toolbar[@auto_id="main_tabbar"]/Button[@title="小程序面板"]
     description: ''
-  - name: 通讯录页-手机
+  - name: 通讯录-手机
     identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Toolbar[@auto_id="main_tabbar"]/Button[@auto_id="main_tabbar.tabbar_handoff"]
     description: ''
-  - name: 通讯录页-更多
+  - name: 通讯录-更多
     identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Toolbar[@auto_id="main_tabbar"]/Button[@auto_id="main_tabbar.tabbar_setting"]
     description: ''
-  - name: 通讯录页-Button0
+  - name: 通讯录-Button0
     identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Custom[@auto_id="main_window_splitter_view"]/GroupBox[0]/GroupBox[0]/GroupBox[0]/Button[0]
     description: ''
-  - name: 通讯录页-Button0
+  - name: 通讯录-Button0
     identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Custom[@auto_id="main_window_splitter_view"]/GroupBox[1]/GroupBox[0]/GroupBox[0]/GroupBox[0]/GroupBox[0]/Button[0]
     description: ''
-  - name: 通讯录页-搜索
+  - name: 通讯录-搜索
     identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Custom[@auto_id="main_window_splitter_view"]/GroupBox[1]/GroupBox[0]/GroupBox[0]/GroupBox[0]/Edit[@name="搜索"]
     description: ''
-  - name: 通讯录页-ListItem0
+  - name: 通讯录-ListItem0
     identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Custom[@auto_id="main_window_splitter_view"]/GroupBox[1]/GroupBox[0]/GroupBox[@auto_id="primary_table_"]/ListBox[@auto_id="primary_table_.contact_list"]/ListItem[0]
     description: ''
-  - name: 通讯录页-新的朋友
+  - name: 通讯录-新的朋友
     identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Custom[@auto_id="main_window_splitter_view"]/GroupBox[1]/GroupBox[0]/GroupBox[@auto_id="primary_table_"]/ListBox[@auto_id="primary_table_.contact_list"]/ListItem[@title="新的朋友"]
     description: ''
-  - name: 通讯录页-群聊6
+  - name: 通讯录-群聊6
     identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Custom[@auto_id="main_window_splitter_view"]/GroupBox[1]/GroupBox[0]/GroupBox[@auto_id="primary_table_"]/ListBox[@auto_id="primary_table_.contact_list"]/ListItem[@title="群聊6"]
     description: ''
-  - name: 通讯录页-公众号128
+  - name: 通讯录-公众号128
     identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Custom[@auto_id="main_window_splitter_view"]/GroupBox[1]/GroupBox[0]/GroupBox[@auto_id="primary_table_"]/ListBox[@auto_id="primary_table_.contact_list"]/ListItem[@title="公众号128"]
     description: ''
-  - name: 通讯录页-服务号61
+  - name: 通讯录-服务号61
     identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Custom[@auto_id="main_window_splitter_view"]/GroupBox[1]/GroupBox[0]/GroupBox[@auto_id="primary_table_"]/ListBox[@auto_id="primary_table_.contact_list"]/ListItem[@title="服务号61"]
     description: ''
-  - name: 通讯录页-企业微信联系人7
+  - name: 通讯录-企业微信联系人7
     identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Custom[@auto_id="main_window_splitter_view"]/GroupBox[1]/GroupBox[0]/GroupBox[@auto_id="primary_table_"]/ListBox[@auto_id="primary_table_.contact_list"]/ListItem[@title="企业微信联系人7"]
     description: ''
-  - name: 通讯录页-联系人421
+  - name: 通讯录-联系人421
     identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Custom[@auto_id="main_window_splitter_view"]/GroupBox[1]/GroupBox[0]/GroupBox[@auto_id="primary_table_"]/ListBox[@auto_id="primary_table_.contact_list"]/ListItem[@title="联系人421"]
     description: ''
-  - name: 通讯录页-当然可以！请提供一个动态控件实例的name示例，我会帮你生成一个抽象的通用名称。
+  - name: 通讯录-请提供一个动态控件实例的 name 示例。
     identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Custom[@auto_id="main_window_splitter_view"]/GroupBox[1]/GroupBox[0]/GroupBox[@auto_id="primary_table_"]/ListBox[@auto_id="primary_table_.contact_list"]/ListItem[7]
     description: ''
-  - name: 通讯录页-最小化
+  - name: 通讯录-最小化
     identifier: /Dialog/GroupBox[0]/Toolbar[0]/Button[@title="最小化"]
     description: ''
-  - name: 通讯录页-最大化
+  - name: 通讯录-最大化
     identifier: /Dialog/GroupBox[0]/Toolbar[0]/Button[@title="最大化"]
     description: ''
-  - name: 通讯录页-关闭
+  - name: 通讯录-关闭
     identifier: /Dialog/GroupBox[0]/Toolbar[0]/Button[@title="关闭"]
     description: ''
 - page_name: 收藏页
-  summary: 展示和管理微信中的全部收藏内容，支持按类型筛选和搜索收藏项目。
+  summary: 展示和管理所有微信收藏内容，并支持按照类型（如文件、链接、图片等）进行分类浏览和搜索。
   controls:
   - name: 收藏页-微信
     identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Toolbar[@auto_id="main_tabbar"]/Button[@title="微信"]
     description: ''
   - name: 收藏页-通讯录
     identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Toolbar[@auto_id="main_tabbar"]/Button[@title="通讯录"]
-    description: 该控件的功能是：跳转至“通讯录页”，用于显示和管理微信联系人、群聊和公众号。
+    description: 该控件的功能是跳转至通讯录页面，方便用户在管理收藏内容时快速访问和查找联系人等通讯录信息。
   - name: 收藏页-收藏
     identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Toolbar[@auto_id="main_tabbar"]/Button[@title="收藏"]
     description: ''
   - name: 收藏页-朋友圈
     identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Toolbar[@auto_id="main_tabbar"]/Button[@title="朋友圈"]
-    description: 该控件的功能是：从收藏页跳转进入朋友圈页面，方便用户浏览和参与好友动态。
+    description: 该控件的功能是跳转进入朋友圈页面，方便用户浏览和互动好友的朋友圈动态。
   - name: 收藏页-小程序面板
     identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Toolbar[@auto_id="main_tabbar"]/Button[@title="小程序面板"]
-    description: 该控件的功能可能是“添加新的收藏内容”。
+    description: 该控件的功能很可能是：用于新建或添加新的收藏内容。
   - name: 收藏页-手机
     identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Toolbar[@auto_id="main_tabbar"]/Button[@auto_id="main_tabbar.tabbar_handoff"]
-    description: 该控件的功能是：同步并查看手机正在浏览或微信浮窗内的内容，实现电脑与手机之间的内容无缝衔接。
+    description: 该控件的功能是：支持在多设备之间无缝查看和管理正在浏览或浮窗的收藏内容，实现内容同步与切换。
   - name: 收藏页-更多
     identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Toolbar[@auto_id="main_tabbar"]/Button[@auto_id="main_tabbar.tabbar_setting"]
-    description: 该控件的功能是进入收藏内容的空间管理页面，查看已用和剩余空间。
+    description: 该控件的功能是：进入详细的收藏页面以浏览和管理所有已分类的收藏内容。
   - name: 收藏页-ListItem0
     identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Custom[@auto_id="main_window_splitter_view"]/GroupBox[0]/GroupBox[0]/GroupBox[1]/Custom[0]/Custom[0]/ListBox[@auto_id="fav_browser_list"]/ListItem[0]
     description: ''
-  - name: "收藏页-通用名称建议：  \n**内容推广动态卡片** 或 **推广信息动态控件**\n\n抽象理由：  \n你提供的name示例包含时间、机构、内容主题、品牌标识等多元信息。这类控件通常用于聚焦推送某一主题（如“2024保研详细要求汇总表”），并辅以来源、日期、推广意图等。\
-      \  \n因此，使用“内容推广动态卡片/控件”可涵盖通用用途与结构特点。\n\n如果内容主要是资讯/推广，也可以考虑：  \n- 资讯推广卡片  \n\
-      - 信息推送动态控件  \n- 主题推荐动态控件\n\n请结合实际产品用语自由选择。"
-    identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Custom[@auto_id="main_window_splitter_view"]/GroupBox[0]/GroupBox[0]/GroupBox[1]/Custom[0]/Custom[0]/ListBox[@auto_id="fav_browser_list"]/ListItem[@title="链接夏令营提前开始！2217条保研详细要求汇总表助你高效投递！2024保研详细要求汇总表来啦~ben保研岛3月10日"]
+  - name: 收藏页-文件消息
+    identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Custom[@auto_id="main_window_splitter_view"]/GroupBox[0]/GroupBox[0]/GroupBox[1]/Custom[0]/Custom[0]/ListBox[@auto_id="fav_browser_list"]/ListItem[@title="文件软件工程期末考试复习题及答案PDF
+      707.1KBUSTB hw开源社区4月21日"]
     description: ''
   - name: 收藏页-Button0
     identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Custom[@auto_id="main_window_splitter_view"]/GroupBox[1]/GroupBox[0]/GroupBox[0]/GroupBox[0]/GroupBox[0]/Button[0]
     description: ''
   - name: 收藏页-搜索
     identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Custom[@auto_id="main_window_splitter_view"]/GroupBox[1]/GroupBox[0]/GroupBox[0]/GroupBox[0]/Edit[@name="搜索"]
-    description: 该控件用于在收藏页中搜索收藏内容，并在无结果时显示相应提示。
+    description: 该控件的功能是触发收藏内容的搜索操作，根据用户输入（如“文件传输助手”）展示相应的搜索结果页面或提示无结果。
   - name: 收藏页-ListItem0
     identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Custom[@auto_id="main_window_splitter_view"]/GroupBox[1]/GroupBox[0]/ListBox[@auto_id="fav_navbar_list"]/ListItem[0]
     description: ''
@@ -180,51 +179,40 @@ pages:
     description: ''
   - name: 收藏页-最小化
     identifier: /Dialog/GroupBox[0]/Toolbar[0]/Button[@title="最小化"]
-    description: ''
+    description: 该控件的功能是刷新或重新加载收藏内容列表。
   - name: 收藏页-最大化
     identifier: /Dialog/GroupBox[0]/Toolbar[0]/Button[@title="最大化"]
-    description: ''
+    description: 该控件的功能是：进入收藏内容的分类浏览和搜索界面。
   - name: 收藏页-关闭
     identifier: /Dialog/GroupBox[0]/Toolbar[0]/Button[@title="关闭"]
     description: 该控件的功能是返回主界面。
 - page_name: 朋友圈
-  summary: 展示好友动态信息流，用户可浏览、评论并发表朋友圈内容。
+  summary: 展示好友发布的朋友圈动态，并支持刷新、发布新动态等操作
   controls:
-  - name: 朋友圈-当然，请提供你想要抽象概括的动态控件实例的 name 示例，我会根据你的示例为你生成通用名称。
+  - name: 朋友圈-请提供一个动态控件实例的name示例。
     identifier: /Dialog/GroupBox[0]/GroupBox[0]/Custom[0]/GroupBox[0]/Button[0]
     description: ''
   - name: 朋友圈-ListItem0
     identifier: /Dialog/GroupBox[0]/GroupBox[0]/Custom[0]/GroupBox[0]/ListBox[@auto_id="sns_list"]/ListItem[0]
     description: ''
-  - name: 朋友圈-王浩田我以后再也不乱喝冷饮，再也不乱吃凉的，再也不空调打低了[苦涩][苦涩][苦涩]4分钟前
-    identifier: /Dialog/GroupBox[0]/GroupBox[0]/Custom[0]/GroupBox[0]/ListBox[@auto_id="sns_list"]/ListItem[@title="王浩田我以后再也不乱喝冷饮，再也不乱吃凉的，再也不空调打低了[苦涩][苦涩][苦涩]4分钟前"]
-    description: ''
-  - name: 朋友圈-评论区
-    identifier: /Dialog/GroupBox[0]/GroupBox[0]/Custom[0]/GroupBox[0]/ListBox[@auto_id="sns_list"]/ListItem[@title="评论区"]
-    description: ''
-  - name: '朋友圈-保研岛段老师@保研岛🔥🔥🔥清北上交计算机合集！AI + 数据科学黄金赛道实战课来袭！
+  - name: '朋友圈-FFU19@迪卡侬Decathlon徒步党福利👟¥349.9神鞋免费试穿
 
-      ✅ 数据科学：回归聚类 + 马尔可夫链实战
+      NH 900 Aqua 溯溪鞋0⃣元测评
 
-      ✅ 大模型：拆 GPT 架构 + Python 微调 Prompt
+      超强抓地稳如钉👍湿滑山路健步如飞
 
-      ✅ NLP：LSTM 情感分析 + Transformer 聊天机器人
+      名额有限⏰6.17-6.23速冲
 
-      ✅ 计算机硬件：从信息技术到低碳能源，解析芯片性能飞跃关键
+      点击查看:#小程序://迪卡侬/免费测评/RDrBtNUeohFLtEB包含2张图片52分钟前'
+    identifier: '/Dialog/GroupBox[0]/GroupBox[0]/Custom[0]/GroupBox[0]/ListBox[@auto_id="sns_list"]/ListItem[@title="FFU19@迪卡侬Decathlon徒步党福利👟¥349.9神鞋免费试穿
 
-      #人工智能 #数据科学 #NLP #计算机硬件包含9张图片14分钟前'
-    identifier: '/Dialog/GroupBox[0]/GroupBox[0]/Custom[0]/GroupBox[0]/ListBox[@auto_id="sns_list"]/ListItem[@title="保研岛段老师@保研岛🔥🔥🔥清北上交计算机合集！AI
-      + 数据科学黄金赛道实战课来袭！
+      NH 900 Aqua 溯溪鞋0⃣元测评
 
-      ✅ 数据科学：回归聚类 + 马尔可夫链实战
+      超强抓地稳如钉👍湿滑山路健步如飞
 
-      ✅ 大模型：拆 GPT 架构 + Python 微调 Prompt
+      名额有限⏰6.17-6.23速冲
 
-      ✅ NLP：LSTM 情感分析 + Transformer 聊天机器人
-
-      ✅ 计算机硬件：从信息技术到低碳能源，解析芯片性能飞跃关键
-
-      #人工智能 #数据科学 #NLP #计算机硬件包含9张图片14分钟前"]'
+      点击查看:#小程序://迪卡侬/免费测评/RDrBtNUeohFLtEB包含2张图片52分钟前"]'
     description: ''
   - name: 朋友圈-消息
     identifier: /Dialog/GroupBox[0]/GroupBox[0]/Toolbar[@auto_id="sns_window_tool_bar"]/Button[@title="消息"]
@@ -241,321 +229,160 @@ pages:
   - name: 朋友圈-关闭
     identifier: /Dialog/GroupBox[0]/GroupBox[0]/Toolbar[@auto_id="sns_window_tool_bar"]/Button[@title="关闭"]
     description: ''
-- page_name: 页面4
-  summary: ''
+- page_name: 小程序多标签页
+  summary: 用于在微信中以多标签页形式管理和操作已打开的小程序，并可进行前进、后退、刷新等网页类操作。
   controls:
-  - name: 页面4-Minimize
+  - name: 小程序多标签页-Minimize
+    identifier: /Pane/Pane[@auto_id="555792"]/TitleBar[0]/Button[@title="Minimize"]
+    description: ''
+  - name: 小程序多标签页-Restore
+    identifier: /Pane/Pane[@auto_id="555792"]/TitleBar[0]/Button[@title="Restore"]
+    description: ''
+  - name: 小程序多标签页-Close
+    identifier: /Pane/Pane[@auto_id="555792"]/TitleBar[0]/Button[@title="Close"]
+    description: ''
+  - name: 小程序多标签页-Minimize
+    identifier: /Pane/Pane[@auto_id="555792"]/Button[@title="Minimize"]
+    description: ''
+  - name: 小程序多标签页-Restore
+    identifier: /Pane/Pane[@auto_id="555792"]/Button[@title="Restore"]
+    description: ''
+  - name: 小程序多标签页-Close
+    identifier: /Pane/Pane[@auto_id="555792"]/Button[@title="Close"]
+    description: ''
+  - name: 小程序多标签页-最小化
+    identifier: /Pane/Pane[@auto_id="555792"]/Pane[1]/Pane[0]/Pane[0]/Button[@title="最小化"]
+    description: ''
+  - name: 小程序多标签页-恢复
+    identifier: /Pane/Pane[@auto_id="555792"]/Pane[1]/Pane[0]/Pane[0]/Button[@title="恢复"]
+    description: ''
+  - name: 小程序多标签页-关闭
+    identifier: /Pane/Pane[@auto_id="555792"]/Pane[1]/Pane[0]/Pane[0]/Button[@title="关闭"]
+    description: ''
+  - name: 小程序多标签页-点按该按钮可前进，点按上下文菜单可查看历史记录
+    identifier: /Pane/Pane[@auto_id="555792"]/Pane[1]/Pane[0]/Pane[1]/Pane[1]/Button[@title="点按该按钮可前进，点按上下文菜单可查看历史记录"]
+    description: ''
+  - name: 小程序多标签页-点按该按钮可后退，点按上下文菜单可查看历史记录
+    identifier: /Pane/Pane[@auto_id="555792"]/Pane[1]/Pane[0]/Pane[1]/Pane[1]/Button[@title="点按该按钮可后退，点按上下文菜单可查看历史记录"]
+    description: ''
+  - name: 小程序多标签页-重新加载
+    identifier: /Pane/Pane[@auto_id="555792"]/Pane[1]/Pane[0]/Pane[1]/Pane[1]/Button[@title="重新加载"]
+    description: ''
+  - name: 小程序多标签页-关闭
+    identifier: /Pane/Pane[@auto_id="555792"]/Pane[1]/Pane[0]/Pane[1]/Pane[1]/TabControl[0]/Pane[0]/Pane[0]/Pane[0]/Pane[0]/Pane[0]/Pane[0]/TabItem[@title="小程序"]/Button[@title="关闭"]
+    description: ''
+  - name: 小程序多标签页-最小化
+    identifier: /Pane/Pane[@auto_id="555792"]/Pane[2]/Pane[0]/Button[@title="最小化"]
+    description: ''
+  - name: 小程序多标签页-恢复
+    identifier: /Pane/Pane[@auto_id="555792"]/Pane[2]/Pane[0]/Button[@title="恢复"]
+    description: ''
+  - name: 小程序多标签页-关闭
+    identifier: /Pane/Pane[@auto_id="555792"]/Pane[2]/Pane[0]/Button[@title="关闭"]
+    description: ''
+  - name: 小程序多标签页-点按该按钮可前进，点按上下文菜单可查看历史记录
+    identifier: /Pane/Pane[@auto_id="555792"]/Pane[2]/Pane[1]/Pane[1]/Button[@title="点按该按钮可前进，点按上下文菜单可查看历史记录"]
+    description: ''
+  - name: 小程序多标签页-点按该按钮可后退，点按上下文菜单可查看历史记录
+    identifier: /Pane/Pane[@auto_id="555792"]/Pane[2]/Pane[1]/Pane[1]/Button[@title="点按该按钮可后退，点按上下文菜单可查看历史记录"]
+    description: ''
+  - name: 小程序多标签页-重新加载
+    identifier: /Pane/Pane[@auto_id="555792"]/Pane[2]/Pane[1]/Pane[1]/Button[@title="重新加载"]
+    description: ''
+  - name: 小程序多标签页-关闭
+    identifier: /Pane/Pane[@auto_id="555792"]/Pane[2]/Pane[1]/Pane[1]/TabControl[0]/Pane[0]/Pane[0]/Pane[0]/Pane[0]/Pane[0]/Pane[0]/TabItem[@title="小程序"]/Button[@title="关闭"]
+    description: ''
+  - name: 小程序多标签页-Minimize
     identifier: /Pane/TitleBar[0]/Button[@title="Minimize"]
     description: ''
-  - name: 页面4-Restore
+  - name: 小程序多标签页-Restore
     identifier: /Pane/TitleBar[0]/Button[@title="Restore"]
     description: ''
-  - name: 页面4-Close
+  - name: 小程序多标签页-Close
     identifier: /Pane/TitleBar[0]/Button[@title="Close"]
     description: ''
-  - name: 页面4-最小化
-    identifier: /Pane/Pane[1]/Pane[0]/Pane[0]/Button[@title="最小化"]
+  - name: 小程序多标签页-最小化
+    identifier: /Pane/Pane[2]/Pane[0]/Pane[0]/Button[@title="最小化"]
     description: ''
-  - name: 页面4-恢复
-    identifier: /Pane/Pane[1]/Pane[0]/Pane[0]/Button[@title="恢复"]
+  - name: 小程序多标签页-恢复
+    identifier: /Pane/Pane[2]/Pane[0]/Pane[0]/Button[@title="恢复"]
     description: ''
-  - name: 页面4-关闭
-    identifier: /Pane/Pane[1]/Pane[0]/Pane[0]/Button[@title="关闭"]
+  - name: 小程序多标签页-关闭
+    identifier: /Pane/Pane[2]/Pane[0]/Pane[0]/Button[@title="关闭"]
     description: ''
-  - name: 页面4-点按该按钮可前进，点按上下文菜单可查看历史记录
-    identifier: /Pane/Pane[1]/Pane[0]/Pane[1]/Pane[1]/Button[@title="点按该按钮可前进，点按上下文菜单可查看历史记录"]
+  - name: 小程序多标签页-点按该按钮可前进，点按上下文菜单可查看历史记录
+    identifier: /Pane/Pane[2]/Pane[0]/Pane[1]/Pane[1]/Button[@title="点按该按钮可前进，点按上下文菜单可查看历史记录"]
     description: ''
-  - name: 页面4-点按该按钮可后退，点按上下文菜单可查看历史记录
-    identifier: /Pane/Pane[1]/Pane[0]/Pane[1]/Pane[1]/Button[@title="点按该按钮可后退，点按上下文菜单可查看历史记录"]
+  - name: 小程序多标签页-点按该按钮可后退，点按上下文菜单可查看历史记录
+    identifier: /Pane/Pane[2]/Pane[0]/Pane[1]/Pane[1]/Button[@title="点按该按钮可后退，点按上下文菜单可查看历史记录"]
     description: ''
-  - name: 页面4-重新加载
-    identifier: /Pane/Pane[1]/Pane[0]/Pane[1]/Pane[1]/Button[@title="重新加载"]
+  - name: 小程序多标签页-重新加载
+    identifier: /Pane/Pane[2]/Pane[0]/Pane[1]/Pane[1]/Button[@title="重新加载"]
     description: ''
-  - name: 页面4-关闭
-    identifier: /Pane/Pane[1]/Pane[0]/Pane[1]/Pane[1]/TabControl[0]/Pane[0]/Pane[0]/Pane[0]/Pane[0]/Pane[0]/Pane[0]/TabItem[@title="小程序"]/Button[@title="关闭"]
+  - name: 小程序多标签页-关闭
+    identifier: /Pane/Pane[2]/Pane[0]/Pane[1]/Pane[1]/TabControl[0]/Pane[0]/Pane[0]/Pane[0]/Pane[0]/Pane[0]/Pane[0]/TabItem[@title="小程序"]/Button[@title="关闭"]
     description: ''
-- page_name: 浮窗与浏览内容同步页
-  summary: 展示手机正在浏览和微信浮窗内的内容，实现电脑与手机内容的无缝同步查看
+- page_name: 多设备互通浮窗页
+  summary: 展示手机正在浏览和浮窗的内容，方便在电脑和手机之间无缝切换查看。
   controls:
-  - name: 浮窗与浏览内容同步页-ListItem0
+  - name: 多设备互通浮窗页-ListItem0
     identifier: /Dialog/GroupBox[0]/GroupBox[1]/ListItem[0]
     description: ''
-- page_name: 收藏页
-  summary: 展示和管理微信中收藏的内容，支持按照分类浏览、搜索、以及查看已用和剩余空间。
+- page_name: 收藏页面
+  summary: 展示并分类管理用户收藏的文件、链接、图片、视频等内容，支持搜索和查看详细收藏条目。
   controls:
-  - name: 收藏页-视频号直播伴侣
+  - name: 收藏页面-视频号直播伴侣
     identifier: /Dialog/Dialog[@title="Weixin"]/GroupBox[0]/Button[@title="视频号直播伴侣"]
     description: ''
-  - name: 收藏页-聊天文件
+  - name: 收藏页面-聊天文件
     identifier: /Dialog/Dialog[@title="Weixin"]/GroupBox[0]/Button[@title="聊天文件"]
     description: ''
-  - name: 收藏页-备份与迁移
+  - name: 收藏页面-备份与迁移
     identifier: /Dialog/Dialog[@title="Weixin"]/GroupBox[0]/Button[@title="备份与迁移"]
     description: ''
-  - name: 收藏页-锁定
+  - name: 收藏页面-锁定
     identifier: /Dialog/Dialog[@title="Weixin"]/GroupBox[0]/Button[@title="锁定"]
     description: ''
-  - name: 收藏页-意见反馈
+  - name: 收藏页面-意见反馈
     identifier: /Dialog/Dialog[@title="Weixin"]/GroupBox[0]/Button[@title="意见反馈"]
     description: ''
-  - name: 收藏页-设置
+  - name: 收藏页面-设置
     identifier: /Dialog/Dialog[@title="Weixin"]/GroupBox[0]/Button[@title="设置"]
-    description: ''
-  - name: 收藏页-微信
-    identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Toolbar[@auto_id="main_tabbar"]/Button[@title="微信"]
-    description: ''
-  - name: 收藏页-通讯录
-    identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Toolbar[@auto_id="main_tabbar"]/Button[@title="通讯录"]
-    description: ''
-  - name: 收藏页-收藏
-    identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Toolbar[@auto_id="main_tabbar"]/Button[@title="收藏"]
-    description: ''
-  - name: 收藏页-朋友圈
-    identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Toolbar[@auto_id="main_tabbar"]/Button[@title="朋友圈"]
-    description: ''
-  - name: 收藏页-小程序面板
-    identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Toolbar[@auto_id="main_tabbar"]/Button[@title="小程序面板"]
-    description: ''
-  - name: 收藏页-手机
-    identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Toolbar[@auto_id="main_tabbar"]/Button[@auto_id="main_tabbar.tabbar_handoff"]
-    description: ''
-  - name: 收藏页-更多
-    identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Toolbar[@auto_id="main_tabbar"]/Button[@auto_id="main_tabbar.tabbar_setting"]
-    description: ''
-  - name: 收藏页-ListItem0
-    identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Custom[@auto_id="main_window_splitter_view"]/GroupBox[0]/GroupBox[0]/GroupBox[1]/Custom[0]/Custom[0]/ListBox[@auto_id="fav_browser_list"]/ListItem[0]
-    description: ''
-  - name: "收藏页-通用名称：  \n**推广链接动态卡片**\n\n抽象概括说明：  \n该类控件一般包含带有标题、描述、统计信息（如浏览量/点赞数/评论数）和来源标识的动态信息，常用于微信推文、朋友圈、订阅号等内容流中的推广型链接展示。"
-    identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Custom[@auto_id="main_window_splitter_view"]/GroupBox[0]/GroupBox[0]/GroupBox[1]/Custom[0]/Custom[0]/ListBox[@auto_id="fav_browser_list"]/ListItem[@title="链接夏令营提前开始！2217条保研详细要求汇总表助你高效投递！2024保研详细要求汇总表来啦~ben保研岛3月10日"]
-    description: ''
-  - name: 收藏页-Button0
-    identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Custom[@auto_id="main_window_splitter_view"]/GroupBox[1]/GroupBox[0]/GroupBox[0]/GroupBox[0]/GroupBox[0]/Button[0]
-    description: ''
-  - name: 收藏页-搜索
-    identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Custom[@auto_id="main_window_splitter_view"]/GroupBox[1]/GroupBox[0]/GroupBox[0]/GroupBox[0]/Edit[@name="搜索"]
-    description: ''
-  - name: 收藏页-ListItem0
-    identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Custom[@auto_id="main_window_splitter_view"]/GroupBox[1]/GroupBox[0]/ListBox[@auto_id="fav_navbar_list"]/ListItem[0]
-    description: ''
-  - name: 收藏页-全部收藏
-    identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Custom[@auto_id="main_window_splitter_view"]/GroupBox[1]/GroupBox[0]/ListBox[@auto_id="fav_navbar_list"]/ListItem[@title="全部收藏"]
-    description: ''
-  - name: 收藏页-最近使用
-    identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Custom[@auto_id="main_window_splitter_view"]/GroupBox[1]/GroupBox[0]/ListBox[@auto_id="fav_navbar_list"]/ListItem[@title="最近使用"]
-    description: ''
-  - name: 收藏页-链接
-    identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Custom[@auto_id="main_window_splitter_view"]/GroupBox[1]/GroupBox[0]/ListBox[@auto_id="fav_navbar_list"]/ListItem[@title="链接"]
-    description: ''
-  - name: 收藏页-图片与视频
-    identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Custom[@auto_id="main_window_splitter_view"]/GroupBox[1]/GroupBox[0]/ListBox[@auto_id="fav_navbar_list"]/ListItem[@title="图片与视频"]
-    description: ''
-  - name: 收藏页-文件
-    identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Custom[@auto_id="main_window_splitter_view"]/GroupBox[1]/GroupBox[0]/ListBox[@auto_id="fav_navbar_list"]/ListItem[@title="文件"]
-    description: ''
-  - name: 收藏页-ListItem6
-    identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Custom[@auto_id="main_window_splitter_view"]/GroupBox[1]/GroupBox[0]/ListBox[@auto_id="fav_navbar_list"]/ListItem[6]
-    description: ''
-  - name: 收藏页-标签
-    identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Custom[@auto_id="main_window_splitter_view"]/GroupBox[1]/GroupBox[0]/ListBox[@auto_id="fav_navbar_list"]/ListItem[@title="标签"]
-    description: ''
-  - name: 收藏页-最小化
-    identifier: /Dialog/GroupBox[0]/Toolbar[0]/Button[@title="最小化"]
-    description: ''
-  - name: 收藏页-最大化
-    identifier: /Dialog/GroupBox[0]/Toolbar[0]/Button[@title="最大化"]
-    description: ''
-  - name: 收藏页-关闭
-    identifier: /Dialog/GroupBox[0]/Toolbar[0]/Button[@title="关闭"]
-    description: ''
-- page_name: 页面7
-  summary: ''
-  controls:
-  - name: "页面7-通用名称：城市名称控件\n\n解释：  \n你提供的示例“北京”是一个具体的城市名。为了抽象概括这类控件，建议使用“城市名称”作为通用描述。这适用于任何具体城市名称实例（如上海、广州、深圳等），常用于用户选择、显示、或输入城市位置相关的场景。"
-    identifier: /Pane/Document[@auto_id="14577328"]/ListItem[@auto_id="js_ip_wording_wrp"]
-    description: ''
-  - name: 页面7-Minimize
-    identifier: /Pane/TitleBar[0]/Button[@title="Minimize"]
-    description: ''
-  - name: 页面7-Restore
-    identifier: /Pane/TitleBar[0]/Button[@title="Restore"]
-    description: ''
-  - name: 页面7-Close
-    identifier: /Pane/TitleBar[0]/Button[@title="Close"]
-    description: ''
-  - name: 页面7-恢复
-    identifier: /Pane/Pane[1]/Pane[0]/Pane[0]/Pane[0]/Button[@title="恢复"]
-    description: ''
-  - name: 页面7-最小化
-    identifier: /Pane/Pane[1]/Pane[0]/Pane[0]/Button[@title="最小化"]
-    description: ''
-  - name: 页面7-恢复
-    identifier: /Pane/Pane[1]/Pane[0]/Pane[0]/Button[@title="恢复"]
-    description: ''
-  - name: 页面7-关闭
-    identifier: /Pane/Pane[1]/Pane[0]/Pane[0]/Button[@title="关闭"]
-    description: ''
-  - name: 页面7-点按该按钮可前进，点按上下文菜单可查看历史记录
-    identifier: /Pane/Pane[1]/Pane[0]/Pane[1]/Pane[1]/Button[@title="点按该按钮可前进，点按上下文菜单可查看历史记录"]
-    description: ''
-  - name: 页面7-点按该按钮可后退，点按上下文菜单可查看历史记录
-    identifier: /Pane/Pane[1]/Pane[0]/Pane[1]/Pane[1]/Button[@title="点按该按钮可后退，点按上下文菜单可查看历史记录"]
-    description: ''
-  - name: 页面7-重新加载
-    identifier: /Pane/Pane[1]/Pane[0]/Pane[1]/Pane[1]/Button[@title="重新加载"]
-    description: ''
-  - name: 页面7-关闭
-    identifier: /Pane/Pane[1]/Pane[0]/Pane[1]/Pane[1]/TabControl[0]/Pane[0]/Pane[0]/Pane[0]/Pane[0]/Pane[0]/Pane[0]/TabItem[@title="梆！一拳打破信息差，保研先人一大步"]/Button[@title="关闭"]
-    description: ''
-- page_name: 微信状态页
-  summary: 展示并管理用户的微信状态信息
-  controls: []
-- page_name: 收藏页搜索无结果
-  summary: 在微信收藏页面搜索“文件传输助手”时未找到相关内容，展示无结果提示。
-  controls:
-  - name: 收藏页搜索无结果-微信
-    identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Toolbar[@auto_id="main_tabbar"]/Button[@title="微信"]
-    description: ''
-  - name: 收藏页搜索无结果-通讯录
-    identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Toolbar[@auto_id="main_tabbar"]/Button[@title="通讯录"]
-    description: ''
-  - name: 收藏页搜索无结果-收藏
-    identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Toolbar[@auto_id="main_tabbar"]/Button[@title="收藏"]
-    description: ''
-  - name: 收藏页搜索无结果-朋友圈
-    identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Toolbar[@auto_id="main_tabbar"]/Button[@title="朋友圈"]
-    description: ''
-  - name: 收藏页搜索无结果-小程序面板
-    identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Toolbar[@auto_id="main_tabbar"]/Button[@title="小程序面板"]
-    description: ''
-  - name: 收藏页搜索无结果-手机
-    identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Toolbar[@auto_id="main_tabbar"]/Button[@auto_id="main_tabbar.tabbar_handoff"]
-    description: ''
-  - name: 收藏页搜索无结果-更多
-    identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Toolbar[@auto_id="main_tabbar"]/Button[@auto_id="main_tabbar.tabbar_setting"]
-    description: ''
-  - name: 收藏页搜索无结果-清空
-    identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Custom[@auto_id="main_window_splitter_view"]/GroupBox[1]/GroupBox[0]/GroupBox[0]/GroupBox[0]/Button[@title="清空"]
-    description: ''
-  - name: 收藏页搜索无结果-Button0
-    identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Custom[@auto_id="main_window_splitter_view"]/GroupBox[1]/GroupBox[0]/GroupBox[0]/GroupBox[0]/GroupBox[0]/Button[0]
-    description: ''
-  - name: 收藏页搜索无结果-搜索
-    identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Custom[@auto_id="main_window_splitter_view"]/GroupBox[1]/GroupBox[0]/GroupBox[0]/GroupBox[0]/Edit[@title="文件传输助手"]
-    description: ''
-  - name: 收藏页搜索无结果-ListItem0
-    identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Custom[@auto_id="main_window_splitter_view"]/GroupBox[1]/GroupBox[0]/ListBox[@auto_id="fav_navbar_list"]/ListItem[0]
-    description: ''
-  - name: 收藏页搜索无结果-全部收藏
-    identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Custom[@auto_id="main_window_splitter_view"]/GroupBox[1]/GroupBox[0]/ListBox[@auto_id="fav_navbar_list"]/ListItem[@title="全部收藏"]
-    description: ''
-  - name: 收藏页搜索无结果-最近使用
-    identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Custom[@auto_id="main_window_splitter_view"]/GroupBox[1]/GroupBox[0]/ListBox[@auto_id="fav_navbar_list"]/ListItem[@title="最近使用"]
-    description: ''
-  - name: 收藏页搜索无结果-链接
-    identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Custom[@auto_id="main_window_splitter_view"]/GroupBox[1]/GroupBox[0]/ListBox[@auto_id="fav_navbar_list"]/ListItem[@title="链接"]
-    description: ''
-  - name: 收藏页搜索无结果-图片与视频
-    identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Custom[@auto_id="main_window_splitter_view"]/GroupBox[1]/GroupBox[0]/ListBox[@auto_id="fav_navbar_list"]/ListItem[@title="图片与视频"]
-    description: ''
-  - name: 收藏页搜索无结果-文件
-    identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Custom[@auto_id="main_window_splitter_view"]/GroupBox[1]/GroupBox[0]/ListBox[@auto_id="fav_navbar_list"]/ListItem[@title="文件"]
-    description: ''
-  - name: 收藏页搜索无结果-ListItem6
-    identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Custom[@auto_id="main_window_splitter_view"]/GroupBox[1]/GroupBox[0]/ListBox[@auto_id="fav_navbar_list"]/ListItem[6]
-    description: ''
-  - name: 收藏页搜索无结果-标签
-    identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Custom[@auto_id="main_window_splitter_view"]/GroupBox[1]/GroupBox[0]/ListBox[@auto_id="fav_navbar_list"]/ListItem[@title="标签"]
-    description: ''
-  - name: 收藏页搜索无结果-最小化
-    identifier: /Dialog/GroupBox[0]/Toolbar[0]/Button[@title="最小化"]
-    description: ''
-  - name: 收藏页搜索无结果-最大化
-    identifier: /Dialog/GroupBox[0]/Toolbar[0]/Button[@title="最大化"]
-    description: ''
-  - name: 收藏页搜索无结果-关闭
-    identifier: /Dialog/GroupBox[0]/Toolbar[0]/Button[@title="关闭"]
-    description: ''
-- page_name: 主界面
-  summary: 微信应用的主窗口，用户可在此进入各项功能模块。
-  controls: []
-- page_name: 收藏页面
-  summary: 展示和分类管理微信中的收藏内容，包括文件、链接、图片与视频，并提供搜索与导航功能。
-  controls:
-  - name: 收藏页面-功能
-    identifier: /Dialog/Dialog[@title="Weixin"]/GroupBox[0]/ListBox[@auto_id="search_list"]/ListItem[@title="功能"]
-    description: ''
-  - name: 收藏页面-文件传输助手
-    identifier: /Dialog/Dialog[@title="Weixin"]/GroupBox[0]/ListBox[@auto_id="search_list"]/ListItem[@title="文件传输助手"]
-    description: ''
-  - name: 收藏页面-搜一搜
-    identifier: /Dialog/Dialog[@title="Weixin"]/GroupBox[0]/ListBox[@auto_id="search_list"]/ListItem[@title="搜一搜"]
-    description: ''
-  - name: 收藏页面-搜索
-    identifier: /Dialog/Dialog[@title="Weixin"]/GroupBox[0]/ListBox[@auto_id="search_list"]/ListItem[@title="搜索"]
-    description: ''
-  - name: 收藏页面-文件传输助手恢复历史记录
-    identifier: /Dialog/Dialog[@title="Weixin"]/GroupBox[0]/ListBox[@auto_id="search_list"]/ListItem[@title="文件传输助手恢复历史记录"]
-    description: ''
-  - name: 收藏页面-文件传输助手怎么开启
-    identifier: /Dialog/Dialog[@title="Weixin"]/GroupBox[0]/ListBox[@auto_id="search_list"]/ListItem[@title="文件传输助手怎么开启"]
-    description: ''
-  - name: 收藏页面-文件传输助手打开微信
-    identifier: /Dialog/Dialog[@title="Weixin"]/GroupBox[0]/ListBox[@auto_id="search_list"]/ListItem[@title="文件传输助手打开微信"]
-    description: ''
-  - name: 收藏页面-文件传输助手是干什么用的
-    identifier: /Dialog/Dialog[@title="Weixin"]/GroupBox[0]/ListBox[@auto_id="search_list"]/ListItem[@title="文件传输助手是干什么用的"]
-    description: ''
-  - name: 收藏页面-文件传输助手添加
-    identifier: /Dialog/Dialog[@title="Weixin"]/GroupBox[0]/ListBox[@auto_id="search_list"]/ListItem[@title="文件传输助手添加"]
-    description: ''
-  - name: 收藏页面-文件传输助手打开
-    identifier: /Dialog/Dialog[@title="Weixin"]/GroupBox[0]/ListBox[@auto_id="search_list"]/ListItem[@title="文件传输助手打开"]
-    description: ''
-  - name: 收藏页面-文件传输助手打开链接
-    identifier: /Dialog/Dialog[@title="Weixin"]/GroupBox[0]/ListBox[@auto_id="search_list"]/ListItem[@title="文件传输助手打开链接"]
-    description: ''
-  - name: 收藏页面-文件传输助手打开微信https阅续
-    identifier: /Dialog/Dialog[@title="Weixin"]/GroupBox[0]/ListBox[@auto_id="search_list"]/ListItem[@title="文件传输助手打开微信https阅续"]
-    description: ''
-  - name: 收藏页面-文件传输助手自动弹出是为什么
-    identifier: /Dialog/Dialog[@title="Weixin"]/GroupBox[0]/ListBox[@auto_id="search_list"]/ListItem[@title="文件传输助手自动弹出是为什么"]
     description: ''
   - name: 收藏页面-微信
     identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Toolbar[@auto_id="main_tabbar"]/Button[@title="微信"]
-    description: 该控件的功能是返回微信主界面。
+    description: ''
   - name: 收藏页面-通讯录
     identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Toolbar[@auto_id="main_tabbar"]/Button[@title="通讯录"]
-    description: 该控件的功能是：跳转到通讯录页面，方便用户查看和管理微信联系人、群聊及公众号等信息。
+    description: ''
   - name: 收藏页面-收藏
     identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Toolbar[@auto_id="main_tabbar"]/Button[@title="收藏"]
-    description: 该控件的功能是进入微信收藏内容的全部列表页面，方便用户查看和管理所有收藏项目。
+    description: ''
   - name: 收藏页面-朋友圈
     identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Toolbar[@auto_id="main_tabbar"]/Button[@title="朋友圈"]
-    description: 该控件的功能是：快速跳转至朋友圈页面，方便用户浏览和发布好友动态。
+    description: ''
   - name: 收藏页面-小程序面板
     identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Toolbar[@auto_id="main_tabbar"]/Button[@title="小程序面板"]
-    description: 该控件的功能可能是“添加新收藏”，用于将新的内容（如文件、链接、图片或视频）保存到收藏页面。
+    description: ''
   - name: 收藏页面-手机
     identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Toolbar[@auto_id="main_tabbar"]/Button[@auto_id="main_tabbar.tabbar_handoff"]
-    description: 该控件的功能是：同步并查看手机当前浏览和微信浮窗中的内容，实现手机与电脑间的内容无缝切换。
+    description: ''
   - name: 收藏页面-更多
     identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Toolbar[@auto_id="main_tabbar"]/Button[@auto_id="main_tabbar.tabbar_setting"]
-    description: 该控件的功能是进入收藏内容的管理和浏览界面。
+    description: ''
   - name: 收藏页面-ListItem0
     identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Custom[@auto_id="main_window_splitter_view"]/GroupBox[0]/GroupBox[0]/GroupBox[1]/Custom[0]/Custom[0]/ListBox[@auto_id="fav_browser_list"]/ListItem[0]
     description: ''
-  - name: "收藏页面-通用名称建议： 文件资源消息控件\n\n解释：  \n你提供的实例 \"文件软件工程期末考试复习题及答案pdf 707.1kbustb\
-      \ hw开源社区4月21日\" 是微信中典型的文件分享类型的动态控件，其内容包含文件名、类型、大小、来源群聊或公众号以及时间等信息。因此，\"文件资源消息控件\"\
-      能抽象表达这类控件的通用性质，适用于微信内所有以文件呈现并携带消息属性的控件场景。"
+  - name: 收藏页面-文件消息
     identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Custom[@auto_id="main_window_splitter_view"]/GroupBox[0]/GroupBox[0]/GroupBox[1]/Custom[0]/Custom[0]/ListBox[@auto_id="fav_browser_list"]/ListItem[@title="文件软件工程期末考试复习题及答案PDF
       707.1KBUSTB hw开源社区4月21日"]
     description: ''
   - name: 收藏页面-Button0
     identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Custom[@auto_id="main_window_splitter_view"]/GroupBox[1]/GroupBox[0]/GroupBox[0]/GroupBox[0]/GroupBox[0]/Button[0]
-    description: 该控件的功能是：进入“收藏页”，以浏览和管理微信中的全部收藏内容，并支持按类型筛选和搜索。
+    description: ''
   - name: 收藏页面-搜索
     identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Custom[@auto_id="main_window_splitter_view"]/GroupBox[1]/GroupBox[0]/GroupBox[0]/GroupBox[0]/Edit[@name="搜索"]
-    description: 该控件为“搜索框”，用于在收藏页面中搜索特定的收藏内容，如输入“文件传输助手”进行查找。
+    description: ''
   - name: 收藏页面-ListItem0
     identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Custom[@auto_id="main_window_splitter_view"]/GroupBox[1]/GroupBox[0]/ListBox[@auto_id="fav_navbar_list"]/ListItem[0]
     description: ''
@@ -582,155 +409,185 @@ pages:
     description: ''
   - name: 收藏页面-最小化
     identifier: /Dialog/GroupBox[0]/Toolbar[0]/Button[@title="最小化"]
-    description: 该控件的功能是进入包含全部收藏内容的页面，方便用户查看和管理所有收藏项目。
+    description: ''
   - name: 收藏页面-最大化
     identifier: /Dialog/GroupBox[0]/Toolbar[0]/Button[@title="最大化"]
-    description: 该控件的功能是进入“收藏页”，以便用户查看和管理微信中的全部收藏内容，支持按类型筛选和搜索收藏项目。
+    description: ''
   - name: 收藏页面-关闭
     identifier: /Dialog/GroupBox[0]/Toolbar[0]/Button[@title="关闭"]
-    description: 该控件的功能是返回主界面。
-- page_name: 搜一搜结果页
-  summary: 用于在微信中搜索关键词并展示相关的搜索结果内容
-  controls:
-  - name: 搜一搜结果页-Edit0
-    identifier: /Pane/Document[@auto_id="14555856"]/GroupBox[0]/Edit[@auto_id="weixin-search-input"]
     description: ''
-  - name: 搜一搜结果页-搜索
-    identifier: /Pane/Document[@auto_id="14555856"]/GroupBox[0]/Button[@title="搜索"]
-    description: ''
-  - name: 搜一搜结果页-Minimize
-    identifier: /Pane/TitleBar[0]/Button[@title="Minimize"]
-    description: ''
-  - name: 搜一搜结果页-Restore
-    identifier: /Pane/TitleBar[0]/Button[@title="Restore"]
-    description: ''
-  - name: 搜一搜结果页-Close
-    identifier: /Pane/TitleBar[0]/Button[@title="Close"]
-    description: ''
-  - name: 搜一搜结果页-最小化
-    identifier: /Pane/Pane[1]/Pane[0]/Pane[0]/Button[@title="最小化"]
-    description: ''
-  - name: 搜一搜结果页-恢复
-    identifier: /Pane/Pane[1]/Pane[0]/Pane[0]/Button[@title="恢复"]
-    description: ''
-  - name: 搜一搜结果页-关闭
-    identifier: /Pane/Pane[1]/Pane[0]/Pane[0]/Button[@title="关闭"]
-    description: ''
-  - name: 搜一搜结果页-点按该按钮可前进，点按上下文菜单可查看历史记录
-    identifier: /Pane/Pane[1]/Pane[0]/Pane[1]/Pane[1]/Button[@title="点按该按钮可前进，点按上下文菜单可查看历史记录"]
-    description: ''
-  - name: 搜一搜结果页-点按该按钮可后退，点按上下文菜单可查看历史记录
-    identifier: /Pane/Pane[1]/Pane[0]/Pane[1]/Pane[1]/Button[@title="点按该按钮可后退，点按上下文菜单可查看历史记录"]
-    description: ''
-  - name: 搜一搜结果页-重新加载
-    identifier: /Pane/Pane[1]/Pane[0]/Pane[1]/Pane[1]/Button[@title="重新加载"]
-    description: ''
-  - name: 搜一搜结果页-关闭
-    identifier: /Pane/Pane[1]/Pane[0]/Pane[1]/Pane[1]/TabControl[0]/Pane[0]/Pane[0]/Pane[0]/Pane[0]/Pane[0]/Pane[0]/TabItem[@title="文件传输助手怎么开启
-      - 搜一搜"]/Button[@title="关闭"]
-    description: ''
-- page_name: 页面13
+- page_name: 页面7
   summary: ''
   controls:
-  - name: 页面13-Minimize
+  - name: 页面7-Minimize
     identifier: /Pane/TitleBar[0]/Button[@title="Minimize"]
     description: ''
-  - name: 页面13-Restore
+  - name: 页面7-Restore
     identifier: /Pane/TitleBar[0]/Button[@title="Restore"]
     description: ''
-  - name: 页面13-Close
+  - name: 页面7-Close
     identifier: /Pane/TitleBar[0]/Button[@title="Close"]
     description: ''
-  - name: 页面13-最小化
+  - name: 页面7-最小化
     identifier: /Pane/Pane[1]/Pane[0]/Pane[0]/Button[@title="最小化"]
     description: ''
-  - name: 页面13-恢复
+  - name: 页面7-恢复
     identifier: /Pane/Pane[1]/Pane[0]/Pane[0]/Button[@title="恢复"]
     description: ''
-  - name: 页面13-关闭
+  - name: 页面7-关闭
     identifier: /Pane/Pane[1]/Pane[0]/Pane[0]/Button[@title="关闭"]
     description: ''
-  - name: 页面13-点按该按钮可前进，点按上下文菜单可查看历史记录
+  - name: 页面7-点按该按钮可前进，点按上下文菜单可查看历史记录
     identifier: /Pane/Pane[1]/Pane[0]/Pane[1]/Pane[1]/Button[@title="点按该按钮可前进，点按上下文菜单可查看历史记录"]
     description: ''
-  - name: 页面13-点按该按钮可后退，点按上下文菜单可查看历史记录
+  - name: 页面7-点按该按钮可后退，点按上下文菜单可查看历史记录
     identifier: /Pane/Pane[1]/Pane[0]/Pane[1]/Pane[1]/Button[@title="点按该按钮可后退，点按上下文菜单可查看历史记录"]
     description: ''
-  - name: 页面13-重新加载
+  - name: 页面7-重新加载
     identifier: /Pane/Pane[1]/Pane[0]/Pane[1]/Pane[1]/Button[@title="重新加载"]
     description: ''
-  - name: 页面13-关闭
+  - name: 页面7-关闭
     identifier: /Pane/Pane[1]/Pane[0]/Pane[1]/Pane[1]/TabControl[0]/Pane[0]/Pane[0]/Pane[0]/Pane[0]/Pane[0]/Pane[0]/TabItem[@title="小程序"]/Button[@title="关闭"]
     description: ''
-- page_name: 收藏页
-  summary: 展示微信中已收藏的链接、文件、图片等内容，并支持分类、搜索与管理收藏项。
+- page_name: 网页标签页
+  summary: 在微信内使用浏览器标签页查看和管理网页内容，支持前进、后退、重新加载和关闭标签等操作
   controls:
-  - name: 收藏页-联系人
-    identifier: /Dialog/Dialog[@title="Weixin"]/GroupBox[0]/ListBox[@auto_id="search_list"]/ListItem[@title="联系人"]
+  - name: 网页标签页-Minimize
+    identifier: /Pane/TitleBar[0]/Button[@title="Minimize"]
     description: ''
-  - name: '收藏页-通用名称示例：**联系人信息项**
-
-
-      分析说明：你提供的控件名称“陈相宇 微信号: d1234567891011l”包含了用户昵称与微信号，是用于展示单个微信联系人的信息。类似的控件实例通常用于通讯录列表、搜索结果或聊天详情页等处。抽象后的命名应避免具体人名和微信号，表达为某个联系人信息项。
-
-
-      其他通用命名备选：
-
-
-      - 用户资料条目
-
-      - 联系人列表项
-
-      - 个人信息展示
-
-
-      请根据你实际的业务需求选择最合适的通用控件名。'
-    identifier: '/Dialog/Dialog[@title="Weixin"]/GroupBox[0]/ListBox[@auto_id="search_list"]/ListItem[@title="陈相宇
-      微信号: d1234567891011l"]'
+  - name: 网页标签页-Restore
+    identifier: /Pane/TitleBar[0]/Button[@title="Restore"]
     description: ''
-  - name: 收藏页-群聊
-    identifier: /Dialog/Dialog[@title="Weixin"]/GroupBox[0]/ListBox[@auto_id="search_list"]/ListItem[@title="群聊"]
+  - name: 网页标签页-Close
+    identifier: /Pane/TitleBar[0]/Button[@title="Close"]
     description: ''
-  - name: 收藏页-展开全部 (11)
-    identifier: /Dialog/Dialog[@title="Weixin"]/GroupBox[0]/ListBox[@auto_id="search_list"]/ListItem[@title="展开全部
-      (11)"]
+  - name: 网页标签页-最小化
+    identifier: /Pane/Pane[1]/Pane[0]/Pane[0]/Button[@title="最小化"]
     description: ''
-  - name: 收藏页-服务号
-    identifier: /Dialog/Dialog[@title="Weixin"]/GroupBox[0]/ListBox[@auto_id="search_list"]/ListItem[@title="服务号"]
+  - name: 网页标签页-恢复
+    identifier: /Pane/Pane[1]/Pane[0]/Pane[0]/Button[@title="恢复"]
     description: ''
+  - name: 网页标签页-关闭
+    identifier: /Pane/Pane[1]/Pane[0]/Pane[0]/Button[@title="关闭"]
+    description: ''
+  - name: 网页标签页-点按该按钮可前进，点按上下文菜单可查看历史记录
+    identifier: /Pane/Pane[1]/Pane[0]/Pane[1]/Pane[1]/Button[@title="点按该按钮可前进，点按上下文菜单可查看历史记录"]
+    description: ''
+  - name: 网页标签页-点按该按钮可后退，点按上下文菜单可查看历史记录
+    identifier: /Pane/Pane[1]/Pane[0]/Pane[1]/Pane[1]/Button[@title="点按该按钮可后退，点按上下文菜单可查看历史记录"]
+    description: ''
+  - name: 网页标签页-重新加载
+    identifier: /Pane/Pane[1]/Pane[0]/Pane[1]/Pane[1]/Button[@title="重新加载"]
+    description: ''
+  - name: 网页标签页-关闭
+    identifier: /Pane/Pane[1]/Pane[0]/Pane[1]/Pane[1]/TabControl[0]/Pane[0]/Pane[0]/Pane[0]/Pane[0]/Pane[0]/Pane[0]/TabItem[@title="梆！一拳打破信息差，保研先人一大步"]/Button[@title="关闭"]
+    description: ''
+- page_name: 状态栏
+  summary: 展示当前微信的状态信息，如连接状态或提示消息
+  controls: []
+- page_name: 收藏-搜索结果页
+  summary: 显示在微信收藏页面中，针对'文件传输助手'的搜索结果（当前无结果），并可按类别浏览或管理收藏资源。
+  controls:
+  - name: 收藏-搜索结果页-微信
+    identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Toolbar[@auto_id="main_tabbar"]/Button[@title="微信"]
+    description: ''
+  - name: 收藏-搜索结果页-通讯录
+    identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Toolbar[@auto_id="main_tabbar"]/Button[@title="通讯录"]
+    description: ''
+  - name: 收藏-搜索结果页-收藏
+    identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Toolbar[@auto_id="main_tabbar"]/Button[@title="收藏"]
+    description: ''
+  - name: 收藏-搜索结果页-朋友圈
+    identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Toolbar[@auto_id="main_tabbar"]/Button[@title="朋友圈"]
+    description: ''
+  - name: 收藏-搜索结果页-小程序面板
+    identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Toolbar[@auto_id="main_tabbar"]/Button[@title="小程序面板"]
+    description: ''
+  - name: 收藏-搜索结果页-手机
+    identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Toolbar[@auto_id="main_tabbar"]/Button[@auto_id="main_tabbar.tabbar_handoff"]
+    description: ''
+  - name: 收藏-搜索结果页-更多
+    identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Toolbar[@auto_id="main_tabbar"]/Button[@auto_id="main_tabbar.tabbar_setting"]
+    description: ''
+  - name: 收藏-搜索结果页-清空
+    identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Custom[@auto_id="main_window_splitter_view"]/GroupBox[1]/GroupBox[0]/GroupBox[0]/GroupBox[0]/Button[@title="清空"]
+    description: ''
+  - name: 收藏-搜索结果页-Button0
+    identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Custom[@auto_id="main_window_splitter_view"]/GroupBox[1]/GroupBox[0]/GroupBox[0]/GroupBox[0]/GroupBox[0]/Button[0]
+    description: ''
+  - name: 收藏-搜索结果页-搜索
+    identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Custom[@auto_id="main_window_splitter_view"]/GroupBox[1]/GroupBox[0]/GroupBox[0]/GroupBox[0]/Edit[@title="文件传输助手"]
+    description: ''
+  - name: 收藏-搜索结果页-ListItem0
+    identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Custom[@auto_id="main_window_splitter_view"]/GroupBox[1]/GroupBox[0]/ListBox[@auto_id="fav_navbar_list"]/ListItem[0]
+    description: ''
+  - name: 收藏-搜索结果页-全部收藏
+    identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Custom[@auto_id="main_window_splitter_view"]/GroupBox[1]/GroupBox[0]/ListBox[@auto_id="fav_navbar_list"]/ListItem[@title="全部收藏"]
+    description: ''
+  - name: 收藏-搜索结果页-最近使用
+    identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Custom[@auto_id="main_window_splitter_view"]/GroupBox[1]/GroupBox[0]/ListBox[@auto_id="fav_navbar_list"]/ListItem[@title="最近使用"]
+    description: ''
+  - name: 收藏-搜索结果页-链接
+    identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Custom[@auto_id="main_window_splitter_view"]/GroupBox[1]/GroupBox[0]/ListBox[@auto_id="fav_navbar_list"]/ListItem[@title="链接"]
+    description: ''
+  - name: 收藏-搜索结果页-图片与视频
+    identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Custom[@auto_id="main_window_splitter_view"]/GroupBox[1]/GroupBox[0]/ListBox[@auto_id="fav_navbar_list"]/ListItem[@title="图片与视频"]
+    description: ''
+  - name: 收藏-搜索结果页-文件
+    identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Custom[@auto_id="main_window_splitter_view"]/GroupBox[1]/GroupBox[0]/ListBox[@auto_id="fav_navbar_list"]/ListItem[@title="文件"]
+    description: ''
+  - name: 收藏-搜索结果页-ListItem6
+    identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Custom[@auto_id="main_window_splitter_view"]/GroupBox[1]/GroupBox[0]/ListBox[@auto_id="fav_navbar_list"]/ListItem[6]
+    description: ''
+  - name: 收藏-搜索结果页-标签
+    identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Custom[@auto_id="main_window_splitter_view"]/GroupBox[1]/GroupBox[0]/ListBox[@auto_id="fav_navbar_list"]/ListItem[@title="标签"]
+    description: ''
+  - name: 收藏-搜索结果页-最小化
+    identifier: /Dialog/GroupBox[0]/Toolbar[0]/Button[@title="最小化"]
+    description: ''
+  - name: 收藏-搜索结果页-最大化
+    identifier: /Dialog/GroupBox[0]/Toolbar[0]/Button[@title="最大化"]
+    description: ''
+  - name: 收藏-搜索结果页-关闭
+    identifier: /Dialog/GroupBox[0]/Toolbar[0]/Button[@title="关闭"]
+    description: ''
+- page_name: 收藏页
+  summary: 展示和管理微信用户收藏的各种内容，包括文件、链接、图片视频等，支持分类浏览与搜索。
+  controls:
   - name: 收藏页-微信
     identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Toolbar[@auto_id="main_tabbar"]/Button[@title="微信"]
-    description: 该控件的功能是：将收藏项转发到聊天窗口，方便用户在会话中分享收藏的内容。
+    description: ''
   - name: 收藏页-通讯录
     identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Toolbar[@auto_id="main_tabbar"]/Button[@title="通讯录"]
-    description: 该控件的功能是跳转至通讯录页，方便用户查看和管理微信联系人等信息。
+    description: 该控件的功能是：便捷跳转到通讯录页面，以便用户快速访问和管理联系人等通讯录信息。
   - name: 收藏页-收藏
     identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Toolbar[@auto_id="main_tabbar"]/Button[@title="收藏"]
-    description: 该控件的功能是：进入一个支持按类型筛选和搜索的“全部收藏内容”管理页面。
+    description: ''
   - name: 收藏页-朋友圈
     identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Toolbar[@auto_id="main_tabbar"]/Button[@title="朋友圈"]
-    description: 该控件的功能是：跳转进入朋友圈，浏览和互动好友动态。
+    description: 该控件的功能是跳转并进入朋友圈，查看和互动好友发布的动态。
   - name: 收藏页-小程序面板
     identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Toolbar[@auto_id="main_tabbar"]/Button[@title="小程序面板"]
-    description: 该控件的功能是：新增收藏分类或编辑现有收藏分类。
+    description: 该控件的功能是：添加新的收藏分类或管理收藏分类。
   - name: 收藏页-手机
     identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Toolbar[@auto_id="main_tabbar"]/Button[@auto_id="main_tabbar.tabbar_handoff"]
-    description: 该控件的功能是：在电脑端查看并同步管理手机当前浏览内容和微信浮窗，实现内容的跨设备无缝查看。
+    description: 该控件的功能是：用于切换到多设备互通浮窗页，以便管理和查看手机当前浏览或浮窗的内容，实现手机与电脑之间的内容同步与无缝切换。
   - name: 收藏页-更多
     identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Toolbar[@auto_id="main_tabbar"]/Button[@auto_id="main_tabbar.tabbar_setting"]
-    description: 该控件功能：用于查看和管理微信收藏空间的使用情况，包括已用和剩余空间。
+    description: 该控件的功能是进入收藏内容的分类管理与浏览页面。
   - name: 收藏页-ListItem0
     identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Custom[@auto_id="main_window_splitter_view"]/GroupBox[0]/GroupBox[0]/GroupBox[1]/Custom[0]/Custom[0]/ListBox[@auto_id="fav_browser_list"]/ListItem[0]
     description: ''
-  - name: "收藏页-通用名称示例：  \n一站式保研信息链接卡\n\n说明：该名称抽象涵盖了原控件“链接梆！一拳打破信息差，保研先人一大步想要深造?快收下你的一站式保研攻略~学在贝壳2024年7月16日”的关键信息功能、目标用户和主要内容，用作类似动态控件实例的抽象命名模板。"
-    identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Custom[@auto_id="main_window_splitter_view"]/GroupBox[0]/GroupBox[0]/GroupBox[1]/Custom[0]/Custom[0]/ListBox[@auto_id="fav_browser_list"]/ListItem[@title="链接梆！一拳打破信息差，保研先人一大步想要深造?快收下你的一站式保研攻略~学在贝壳2024年7月16日"]
+  - name: 收藏页-文件消息
+    identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Custom[@auto_id="main_window_splitter_view"]/GroupBox[0]/GroupBox[0]/GroupBox[1]/Custom[0]/Custom[0]/ListBox[@auto_id="fav_browser_list"]/ListItem[@title="文件软件工程期末考试复习题及答案PDF
+      707.1KBUSTB hw开源社区4月21日"]
     description: ''
   - name: 收藏页-Button0
     identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Custom[@auto_id="main_window_splitter_view"]/GroupBox[1]/GroupBox[0]/GroupBox[0]/GroupBox[0]/GroupBox[0]/Button[0]
-    description: 该控件的功能是：进入展示和管理全部收藏内容的页面，支持类型筛选和搜索。
+    description: ''
   - name: 收藏页-搜索
     identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Custom[@auto_id="main_window_splitter_view"]/GroupBox[1]/GroupBox[0]/GroupBox[0]/GroupBox[0]/Edit[@name="搜索"]
-    description: 该控件用于在收藏页中通过关键词（如“文件传输助手”）搜索已收藏内容，并在无匹配结果时显示无结果提示。
+    description: 该控件的功能是用于在收藏页中进行内容搜索，并可根据搜索结果按类别浏览或管理收藏的资源。
   - name: 收藏页-ListItem0
     identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Custom[@auto_id="main_window_splitter_view"]/GroupBox[1]/GroupBox[0]/ListBox[@auto_id="fav_navbar_list"]/ListItem[0]
     description: ''
@@ -757,15 +614,453 @@ pages:
     description: ''
   - name: 收藏页-最小化
     identifier: /Dialog/GroupBox[0]/Toolbar[0]/Button[@title="最小化"]
-    description: 该控件的功能是：进入全部收藏内容的筛选和管理页面。
+    description: ''
   - name: 收藏页-最大化
     identifier: /Dialog/GroupBox[0]/Toolbar[0]/Button[@title="最大化"]
-    description: 该控件的功能是：进入“全部收藏”页面，按类型筛选和搜索管理所有收藏内容。
+    description: ''
   - name: 收藏页-关闭
     identifier: /Dialog/GroupBox[0]/Toolbar[0]/Button[@title="关闭"]
+    description: 该控件的功能是返回主界面。
+- page_name: 主界面
+  summary: 作为微信应用的主要窗口，展示和管理所有核心功能入口
+  controls: []
+- page_name: 收藏页面
+  summary: 展示并分类管理用户在微信中收藏的文件、链接、图片及标签，可进行搜索和浏览全部收藏内容。
+  controls:
+  - name: 收藏页面-视频号直播伴侣
+    identifier: /Dialog/Dialog[@title="Weixin"]/GroupBox[0]/Button[@title="视频号直播伴侣"]
+    description: ''
+  - name: 收藏页面-聊天文件
+    identifier: /Dialog/Dialog[@title="Weixin"]/GroupBox[0]/Button[@title="聊天文件"]
+    description: ''
+  - name: 收藏页面-备份与迁移
+    identifier: /Dialog/Dialog[@title="Weixin"]/GroupBox[0]/Button[@title="备份与迁移"]
+    description: ''
+  - name: 收藏页面-锁定
+    identifier: /Dialog/Dialog[@title="Weixin"]/GroupBox[0]/Button[@title="锁定"]
+    description: ''
+  - name: 收藏页面-意见反馈
+    identifier: /Dialog/Dialog[@title="Weixin"]/GroupBox[0]/Button[@title="意见反馈"]
+    description: ''
+  - name: 收藏页面-设置
+    identifier: /Dialog/Dialog[@title="Weixin"]/GroupBox[0]/Button[@title="设置"]
+    description: ''
+  - name: 收藏页面-微信
+    identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Toolbar[@auto_id="main_tabbar"]/Button[@title="微信"]
+    description: ''
+  - name: 收藏页面-通讯录
+    identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Toolbar[@auto_id="main_tabbar"]/Button[@title="通讯录"]
+    description: ''
+  - name: 收藏页面-收藏
+    identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Toolbar[@auto_id="main_tabbar"]/Button[@title="收藏"]
+    description: ''
+  - name: 收藏页面-朋友圈
+    identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Toolbar[@auto_id="main_tabbar"]/Button[@title="朋友圈"]
+    description: ''
+  - name: 收藏页面-小程序面板
+    identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Toolbar[@auto_id="main_tabbar"]/Button[@title="小程序面板"]
+    description: ''
+  - name: 收藏页面-手机
+    identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Toolbar[@auto_id="main_tabbar"]/Button[@auto_id="main_tabbar.tabbar_handoff"]
+    description: ''
+  - name: 收藏页面-更多
+    identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Toolbar[@auto_id="main_tabbar"]/Button[@auto_id="main_tabbar.tabbar_setting"]
+    description: ''
+  - name: 收藏页面-ListItem0
+    identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Custom[@auto_id="main_window_splitter_view"]/GroupBox[0]/GroupBox[0]/GroupBox[1]/Custom[0]/Custom[0]/ListBox[@auto_id="fav_browser_list"]/ListItem[0]
+    description: ''
+  - name: 收藏页面-文件消息
+    identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Custom[@auto_id="main_window_splitter_view"]/GroupBox[0]/GroupBox[0]/GroupBox[1]/Custom[0]/Custom[0]/ListBox[@auto_id="fav_browser_list"]/ListItem[@title="文件软件工程期末考试复习题及答案PDF
+      707.1KBUSTB hw开源社区4月21日"]
+    description: ''
+  - name: 收藏页面-Button0
+    identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Custom[@auto_id="main_window_splitter_view"]/GroupBox[1]/GroupBox[0]/GroupBox[0]/GroupBox[0]/GroupBox[0]/Button[0]
+    description: ''
+  - name: 收藏页面-搜索
+    identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Custom[@auto_id="main_window_splitter_view"]/GroupBox[1]/GroupBox[0]/GroupBox[0]/GroupBox[0]/Edit[@name="搜索"]
+    description: ''
+  - name: 收藏页面-ListItem0
+    identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Custom[@auto_id="main_window_splitter_view"]/GroupBox[1]/GroupBox[0]/ListBox[@auto_id="fav_navbar_list"]/ListItem[0]
+    description: ''
+  - name: 收藏页面-全部收藏
+    identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Custom[@auto_id="main_window_splitter_view"]/GroupBox[1]/GroupBox[0]/ListBox[@auto_id="fav_navbar_list"]/ListItem[@title="全部收藏"]
+    description: ''
+  - name: 收藏页面-最近使用
+    identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Custom[@auto_id="main_window_splitter_view"]/GroupBox[1]/GroupBox[0]/ListBox[@auto_id="fav_navbar_list"]/ListItem[@title="最近使用"]
+    description: ''
+  - name: 收藏页面-链接
+    identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Custom[@auto_id="main_window_splitter_view"]/GroupBox[1]/GroupBox[0]/ListBox[@auto_id="fav_navbar_list"]/ListItem[@title="链接"]
+    description: ''
+  - name: 收藏页面-图片与视频
+    identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Custom[@auto_id="main_window_splitter_view"]/GroupBox[1]/GroupBox[0]/ListBox[@auto_id="fav_navbar_list"]/ListItem[@title="图片与视频"]
+    description: ''
+  - name: 收藏页面-文件
+    identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Custom[@auto_id="main_window_splitter_view"]/GroupBox[1]/GroupBox[0]/ListBox[@auto_id="fav_navbar_list"]/ListItem[@title="文件"]
+    description: ''
+  - name: 收藏页面-ListItem6
+    identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Custom[@auto_id="main_window_splitter_view"]/GroupBox[1]/GroupBox[0]/ListBox[@auto_id="fav_navbar_list"]/ListItem[6]
+    description: ''
+  - name: 收藏页面-标签
+    identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Custom[@auto_id="main_window_splitter_view"]/GroupBox[1]/GroupBox[0]/ListBox[@auto_id="fav_navbar_list"]/ListItem[@title="标签"]
+    description: ''
+  - name: 收藏页面-最小化
+    identifier: /Dialog/GroupBox[0]/Toolbar[0]/Button[@title="最小化"]
+    description: ''
+  - name: 收藏页面-最大化
+    identifier: /Dialog/GroupBox[0]/Toolbar[0]/Button[@title="最大化"]
+    description: ''
+  - name: 收藏页面-关闭
+    identifier: /Dialog/GroupBox[0]/Toolbar[0]/Button[@title="关闭"]
+    description: ''
+- page_name: 页面14
+  summary: ''
+  controls:
+  - name: 页面14-城市名称
+    identifier: /Pane/Document[@auto_id="11033984"]/ListItem[@auto_id="js_ip_wording_wrp"]
+    description: ''
+  - name: 页面14-Tianzhu ， 北京 2024年7月16日 ， 精品好文👍表白我们越越编辑👏 ， 作者赞过 ，
+    identifier: /Pane/Document[@auto_id="11033984"]/Button[@title="Tianzhu ， 北京 2024年7月16日
+      ， 精品好文👍表白我们越越编辑👏 ， 作者赞过 ，"]
+    description: ''
+  - name: 页面14-赞
+    identifier: /Pane/Document[@auto_id="11033984"]/Button[@title="赞"]
+    description: ''
+  - name: 页面14-壹紋 ， 北京 2024年7月16日 ， [强] [强] [强] ， 作者赞过 ，
+    identifier: /Pane/Document[@auto_id="11033984"]/Button[@title="壹紋 ， 北京 2024年7月16日
+      ， [强] [强] [强] ， 作者赞过 ，"]
+    description: ''
+  - name: 页面14-赞
+    identifier: /Pane/Document[@auto_id="11033984"]/Button[@title="赞"]
+    description: ''
+  - name: 页面14-赞 119
+    identifier: /Pane/Document[@auto_id="11033984"]/Button[@title="赞 119"]
+    description: ''
+  - name: 页面14-分享 485
+    identifier: /Pane/Document[@auto_id="11033984"]/Button[@title="分享 485"]
+    description: ''
+  - name: 页面14-在看 56
+    identifier: /Pane/Document[@auto_id="11033984"]/Button[@auto_id="js_zaikan"]
+    description: ''
+  - name: 页面14-留言 2
+    identifier: /Pane/Document[@auto_id="11033984"]/Button[@title="留言 2"]
+    description: ''
+  - name: 页面14-Minimize
+    identifier: /Pane/TitleBar[0]/Button[@title="Minimize"]
+    description: ''
+  - name: 页面14-Restore
+    identifier: /Pane/TitleBar[0]/Button[@title="Restore"]
+    description: ''
+  - name: 页面14-Close
+    identifier: /Pane/TitleBar[0]/Button[@title="Close"]
+    description: ''
+  - name: 页面14-恢复
+    identifier: /Pane/Pane[1]/Pane[0]/Pane[0]/Pane[0]/Button[@title="恢复"]
+    description: ''
+  - name: 页面14-最小化
+    identifier: /Pane/Pane[1]/Pane[0]/Pane[0]/Button[@title="最小化"]
+    description: ''
+  - name: 页面14-恢复
+    identifier: /Pane/Pane[1]/Pane[0]/Pane[0]/Button[@title="恢复"]
+    description: ''
+  - name: 页面14-关闭
+    identifier: /Pane/Pane[1]/Pane[0]/Pane[0]/Button[@title="关闭"]
+    description: ''
+  - name: 页面14-点按该按钮可前进，点按上下文菜单可查看历史记录
+    identifier: /Pane/Pane[1]/Pane[0]/Pane[1]/Pane[1]/Button[@title="点按该按钮可前进，点按上下文菜单可查看历史记录"]
+    description: ''
+  - name: 页面14-点按该按钮可后退，点按上下文菜单可查看历史记录
+    identifier: /Pane/Pane[1]/Pane[0]/Pane[1]/Pane[1]/Button[@title="点按该按钮可后退，点按上下文菜单可查看历史记录"]
+    description: ''
+  - name: 页面14-重新加载
+    identifier: /Pane/Pane[1]/Pane[0]/Pane[1]/Pane[1]/Button[@title="重新加载"]
+    description: ''
+  - name: 页面14-关闭
+    identifier: /Pane/Pane[1]/Pane[0]/Pane[1]/Pane[1]/TabControl[0]/Pane[0]/Pane[0]/Pane[0]/Pane[0]/Pane[0]/Pane[0]/TabItem[@title="梆！一拳打破信息差，保研先人一大步"]/Button[@title="关闭"]
+    description: ''
+- page_name: 收藏夹
+  summary: 用于查看、分类和搜索已收藏的链接、图片、文件等各类内容。
+  controls:
+  - name: 收藏夹-功能
+    identifier: /Dialog/Dialog[@title="Weixin"]/GroupBox[0]/ListBox[@auto_id="search_list"]/ListItem[@title="功能"]
+    description: ''
+  - name: 收藏夹-文件传输助手
+    identifier: /Dialog/Dialog[@title="Weixin"]/GroupBox[0]/ListBox[@auto_id="search_list"]/ListItem[@title="文件传输助手"]
+    description: ''
+  - name: 收藏夹-搜一搜
+    identifier: /Dialog/Dialog[@title="Weixin"]/GroupBox[0]/ListBox[@auto_id="search_list"]/ListItem[@title="搜一搜"]
+    description: ''
+  - name: 收藏夹-搜索
+    identifier: /Dialog/Dialog[@title="Weixin"]/GroupBox[0]/ListBox[@auto_id="search_list"]/ListItem[@title="搜索"]
+    description: ''
+  - name: 收藏夹-文件传输助手恢复历史记录
+    identifier: /Dialog/Dialog[@title="Weixin"]/GroupBox[0]/ListBox[@auto_id="search_list"]/ListItem[@title="文件传输助手恢复历史记录"]
+    description: ''
+  - name: 收藏夹-文件传输助手怎么开启
+    identifier: /Dialog/Dialog[@title="Weixin"]/GroupBox[0]/ListBox[@auto_id="search_list"]/ListItem[@title="文件传输助手怎么开启"]
+    description: ''
+  - name: 收藏夹-文件传输助手打开微信
+    identifier: /Dialog/Dialog[@title="Weixin"]/GroupBox[0]/ListBox[@auto_id="search_list"]/ListItem[@title="文件传输助手打开微信"]
+    description: ''
+  - name: 收藏夹-文件传输助手是干什么用的
+    identifier: /Dialog/Dialog[@title="Weixin"]/GroupBox[0]/ListBox[@auto_id="search_list"]/ListItem[@title="文件传输助手是干什么用的"]
+    description: ''
+  - name: 收藏夹-文件传输助手添加
+    identifier: /Dialog/Dialog[@title="Weixin"]/GroupBox[0]/ListBox[@auto_id="search_list"]/ListItem[@title="文件传输助手添加"]
+    description: ''
+  - name: 收藏夹-文件传输助手打开
+    identifier: /Dialog/Dialog[@title="Weixin"]/GroupBox[0]/ListBox[@auto_id="search_list"]/ListItem[@title="文件传输助手打开"]
+    description: ''
+  - name: 收藏夹-文件传输助手打开微信https阅续
+    identifier: /Dialog/Dialog[@title="Weixin"]/GroupBox[0]/ListBox[@auto_id="search_list"]/ListItem[@title="文件传输助手打开微信https阅续"]
+    description: ''
+  - name: 收藏夹-文件传输助手自动弹出是为什么
+    identifier: /Dialog/Dialog[@title="Weixin"]/GroupBox[0]/ListBox[@auto_id="search_list"]/ListItem[@title="文件传输助手自动弹出是为什么"]
+    description: ''
+  - name: 收藏夹-文件传输助手打开链接
+    identifier: /Dialog/Dialog[@title="Weixin"]/GroupBox[0]/ListBox[@auto_id="search_list"]/ListItem[@title="文件传输助手打开链接"]
+    description: ''
+  - name: 收藏夹-微信
+    identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Toolbar[@auto_id="main_tabbar"]/Button[@title="微信"]
     description: 该控件的功能是返回微信主界面。
+  - name: 收藏夹-通讯录
+    identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Toolbar[@auto_id="main_tabbar"]/Button[@title="通讯录"]
+    description: 该控件的功能是：跳转到通讯录页面，方便用户查看和管理微信联系人及群聊等信息。
+  - name: 收藏夹-收藏
+    identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Toolbar[@auto_id="main_tabbar"]/Button[@title="收藏"]
+    description: 该控件的功能是：进入“收藏页”以集中展示和管理所有已收藏的内容。
+  - name: 收藏夹-朋友圈
+    identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Toolbar[@auto_id="main_tabbar"]/Button[@title="朋友圈"]
+    description: 该控件的功能是跳转进入朋友圈页面，方便用户从收藏夹快速访问并浏览好友的朋友圈动态。
+  - name: 收藏夹-小程序面板
+    identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Toolbar[@auto_id="main_tabbar"]/Button[@title="小程序面板"]
+    description: 该控件用于添加新的收藏内容。
+  - name: 收藏夹-手机
+    identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Toolbar[@auto_id="main_tabbar"]/Button[@auto_id="main_tabbar.tabbar_handoff"]
+    description: 该控件的功能是进入多设备互通浮窗页，实现手机与电脑之间收藏内容的同步和切换查看。
+  - name: 收藏夹-更多
+    identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Toolbar[@auto_id="main_tabbar"]/Button[@auto_id="main_tabbar.tabbar_setting"]
+    description: 该控件的功能是：进入“收藏页面”，以便用户分类浏览和管理所有已收藏的内容。
+  - name: 收藏夹-ListItem0
+    identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Custom[@auto_id="main_window_splitter_view"]/GroupBox[0]/GroupBox[0]/GroupBox[1]/Custom[0]/Custom[0]/ListBox[@auto_id="fav_browser_list"]/ListItem[0]
+    description: ''
+  - name: 收藏夹-文件消息
+    identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Custom[@auto_id="main_window_splitter_view"]/GroupBox[0]/GroupBox[0]/GroupBox[1]/Custom[0]/Custom[0]/ListBox[@auto_id="fav_browser_list"]/ListItem[@title="文件软件工程期末考试复习题及答案PDF
+      707.1KBUSTB hw开源社区4月21日"]
+    description: ''
+  - name: 收藏夹-Button0
+    identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Custom[@auto_id="main_window_splitter_view"]/GroupBox[1]/GroupBox[0]/GroupBox[0]/GroupBox[0]/GroupBox[0]/Button[0]
+    description: 该控件的功能是：跳转进入收藏页，方便用户管理和查看所有已收藏的内容。
+  - name: 收藏夹-搜索
+    identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Custom[@auto_id="main_window_splitter_view"]/GroupBox[1]/GroupBox[0]/GroupBox[0]/GroupBox[0]/Edit[@name="搜索"]
+    description: 该控件用于在收藏夹中搜索特定内容（如“文件传输助手”），并按类别展示或管理搜索结果。
+  - name: 收藏夹-ListItem0
+    identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Custom[@auto_id="main_window_splitter_view"]/GroupBox[1]/GroupBox[0]/ListBox[@auto_id="fav_navbar_list"]/ListItem[0]
+    description: ''
+  - name: 收藏夹-全部收藏
+    identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Custom[@auto_id="main_window_splitter_view"]/GroupBox[1]/GroupBox[0]/ListBox[@auto_id="fav_navbar_list"]/ListItem[@title="全部收藏"]
+    description: ''
+  - name: 收藏夹-最近使用
+    identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Custom[@auto_id="main_window_splitter_view"]/GroupBox[1]/GroupBox[0]/ListBox[@auto_id="fav_navbar_list"]/ListItem[@title="最近使用"]
+    description: ''
+  - name: 收藏夹-链接
+    identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Custom[@auto_id="main_window_splitter_view"]/GroupBox[1]/GroupBox[0]/ListBox[@auto_id="fav_navbar_list"]/ListItem[@title="链接"]
+    description: ''
+  - name: 收藏夹-图片与视频
+    identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Custom[@auto_id="main_window_splitter_view"]/GroupBox[1]/GroupBox[0]/ListBox[@auto_id="fav_navbar_list"]/ListItem[@title="图片与视频"]
+    description: ''
+  - name: 收藏夹-文件
+    identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Custom[@auto_id="main_window_splitter_view"]/GroupBox[1]/GroupBox[0]/ListBox[@auto_id="fav_navbar_list"]/ListItem[@title="文件"]
+    description: ''
+  - name: 收藏夹-ListItem6
+    identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Custom[@auto_id="main_window_splitter_view"]/GroupBox[1]/GroupBox[0]/ListBox[@auto_id="fav_navbar_list"]/ListItem[6]
+    description: ''
+  - name: 收藏夹-标签
+    identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Custom[@auto_id="main_window_splitter_view"]/GroupBox[1]/GroupBox[0]/ListBox[@auto_id="fav_navbar_list"]/ListItem[@title="标签"]
+    description: ''
+  - name: 收藏夹-最小化
+    identifier: /Dialog/GroupBox[0]/Toolbar[0]/Button[@title="最小化"]
+    description: 该控件的功能是：进入收藏页以浏览和管理已收藏的各类内容。
+  - name: 收藏夹-最大化
+    identifier: /Dialog/GroupBox[0]/Toolbar[0]/Button[@title="最大化"]
+    description: 该控件的功能是：进入收藏页，方便用户集中管理和浏览已收藏的各类内容。
+  - name: 收藏夹-关闭
+    identifier: /Dialog/GroupBox[0]/Toolbar[0]/Button[@title="关闭"]
+    description: 该控件的功能是返回微信主界面。
+- page_name: 页面16
+  summary: ''
+  controls:
+  - name: 页面16-Edit0
+    identifier: /Pane/Document[@auto_id="11053696"]/GroupBox[0]/Edit[@auto_id="weixin-search-input"]
+    description: ''
+  - name: 页面16-搜索
+    identifier: /Pane/Document[@auto_id="11053696"]/GroupBox[0]/Button[@title="搜索"]
+    description: ''
+  - name: 页面16-请提供你要分析的动态控件实例的name示例。
+    identifier: /Pane/Document[@auto_id="11053696"]/GroupBox[0]/ListItem[0]
+    description: ''
+  - name: 页面16-文件传输助手打开微信
+    identifier: /Pane/Document[@auto_id="11053696"]/GroupBox[1]/Button[@title="文件传输助手打开微信"]
+    description: ''
+  - name: 页面16-文件传输助手不见了
+    identifier: /Pane/Document[@auto_id="11053696"]/GroupBox[1]/Button[@title="文件传输助手不见了"]
+    description: ''
+  - name: 页面16-微信文件助手取消
+    identifier: /Pane/Document[@auto_id="11053696"]/GroupBox[1]/Button[@title="微信文件助手取消"]
+    description: ''
+  - name: 页面16-微信添加文件传输助手
+    identifier: /Pane/Document[@auto_id="11053696"]/GroupBox[1]/Button[@title="微信添加文件传输助手"]
+    description: ''
+  - name: 页面16-文件传输助手设置开关
+    identifier: /Pane/Document[@auto_id="11053696"]/GroupBox[1]/Button[@title="文件传输助手设置开关"]
+    description: ''
+  - name: 页面16-怎么恢复文件传输助手
+    identifier: /Pane/Document[@auto_id="11053696"]/GroupBox[1]/Button[@title="怎么恢复文件传输助手"]
+    description: ''
+  - name: 页面16-文件输入助手
+    identifier: /Pane/Document[@auto_id="11053696"]/GroupBox[1]/Button[@title="文件输入助手"]
+    description: ''
+  - name: 页面16-文件传输助手下载链接
+    identifier: /Pane/Document[@auto_id="11053696"]/GroupBox[1]/Button[@title="文件传输助手下载链接"]
+    description: ''
+  - name: 页面16-文件传输助手怎么关闭
+    identifier: /Pane/Document[@auto_id="11053696"]/GroupBox[1]/Button[@title="文件传输助手怎么关闭"]
+    description: ''
+  - name: 页面16-文件传输助手用来干嘛
+    identifier: /Pane/Document[@auto_id="11053696"]/GroupBox[1]/Button[@title="文件传输助手用来干嘛"]
+    description: ''
+  - name: 页面16-请提供你要分析的动态控件实例的name示例。
+    identifier: /Pane/Document[@auto_id="11053696"]/GroupBox[2]/ListBox[0]/ListItem[0]
+    description: ''
+  - name: 页面16-请提供动态控件实例的name示例，方便我为你生成通用名称。
+    identifier: /Pane/Document[@auto_id="11053696"]/GroupBox[2]/ListBox[1]/ListItem[0]
+    description: ''
+  - name: 页面16-视频动态卡片
+    identifier: /Pane/Document[@auto_id="11053696"]/GroupBox[2]/ListItem[@title="00:52
+      137 打开声音 智能手机微信如何打开文件传输助手#零基础学习使用智能手机#学习#文件传输助手 阿么学习日记 4个月前"]
+    description: ''
+  - name: 页面16-文章标题
+    identifier: /Pane/Document[@auto_id="11053696"]/GroupBox[2]/Button[@title="微信文件传输助手的正确使用方法"]
+    description: ''
+  - name: 页面16-Minimize
+    identifier: /Pane/TitleBar[0]/Button[@title="Minimize"]
+    description: ''
+  - name: 页面16-Restore
+    identifier: /Pane/TitleBar[0]/Button[@title="Restore"]
+    description: ''
+  - name: 页面16-Close
+    identifier: /Pane/TitleBar[0]/Button[@title="Close"]
+    description: ''
+  - name: 页面16-最小化
+    identifier: /Pane/Pane[1]/Pane[0]/Pane[0]/Button[@title="最小化"]
+    description: ''
+  - name: 页面16-恢复
+    identifier: /Pane/Pane[1]/Pane[0]/Pane[0]/Button[@title="恢复"]
+    description: ''
+  - name: 页面16-关闭
+    identifier: /Pane/Pane[1]/Pane[0]/Pane[0]/Button[@title="关闭"]
+    description: ''
+  - name: 页面16-点按该按钮可前进，点按上下文菜单可查看历史记录
+    identifier: /Pane/Pane[1]/Pane[0]/Pane[1]/Pane[1]/Button[@title="点按该按钮可前进，点按上下文菜单可查看历史记录"]
+    description: ''
+  - name: 页面16-点按该按钮可后退，点按上下文菜单可查看历史记录
+    identifier: /Pane/Pane[1]/Pane[0]/Pane[1]/Pane[1]/Button[@title="点按该按钮可后退，点按上下文菜单可查看历史记录"]
+    description: ''
+  - name: 页面16-重新加载
+    identifier: /Pane/Pane[1]/Pane[0]/Pane[1]/Pane[1]/Button[@title="重新加载"]
+    description: ''
+  - name: 页面16-关闭
+    identifier: /Pane/Pane[1]/Pane[0]/Pane[1]/Pane[1]/TabControl[0]/Pane[0]/Pane[0]/Pane[0]/Pane[0]/Pane[0]/Pane[0]/TabItem[@title="文件传输助手怎么开启
+      - 搜一搜"]/Button[@title="关闭"]
+    description: ''
+- page_name: 收藏页面
+  summary: 展示和管理微信用户的收藏内容，如文件、链接、图片视频等，并支持分类浏览和搜索功能。
+  controls:
+  - name: 收藏页面-联系人
+    identifier: /Dialog/Dialog[@title="Weixin"]/GroupBox[0]/ListBox[@auto_id="search_list"]/ListItem[@title="联系人"]
+    description: ''
+  - name: 收藏页面-微信联系人信息
+    identifier: '/Dialog/Dialog[@title="Weixin"]/GroupBox[0]/ListBox[@auto_id="search_list"]/ListItem[@title="陈相宇
+      微信号: d1234567891011l"]'
+    description: ''
+  - name: 收藏页面-群聊
+    identifier: /Dialog/Dialog[@title="Weixin"]/GroupBox[0]/ListBox[@auto_id="search_list"]/ListItem[@title="群聊"]
+    description: ''
+  - name: 收藏页面-展开全部 (11)
+    identifier: /Dialog/Dialog[@title="Weixin"]/GroupBox[0]/ListBox[@auto_id="search_list"]/ListItem[@title="展开全部
+      (11)"]
+    description: ''
+  - name: 收藏页面-服务号
+    identifier: /Dialog/Dialog[@title="Weixin"]/GroupBox[0]/ListBox[@auto_id="search_list"]/ListItem[@title="服务号"]
+    description: ''
+  - name: 收藏页面-微信
+    identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Toolbar[@auto_id="main_tabbar"]/Button[@title="微信"]
+    description: 该控件的功能是：将收藏内容转发到聊天窗口，方便与好友或群聊分享收藏的文件、链接或图片等内容。
+  - name: 收藏页面-通讯录
+    identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Toolbar[@auto_id="main_tabbar"]/Button[@title="通讯录"]
+    description: 该控件的功能是：便捷跳转至通讯录页面，以便用户快速访问和管理联系人信息。
+  - name: 收藏页面-收藏
+    identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Toolbar[@auto_id="main_tabbar"]/Button[@title="收藏"]
+    description: 该控件的功能是进入收藏内容的主页面，以便用户浏览和管理已收藏的文件、链接、图片、视频等内容。
+  - name: 收藏页面-朋友圈
+    identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Toolbar[@auto_id="main_tabbar"]/Button[@title="朋友圈"]
+    description: 该控件的功能是：跳转至朋友圈页面，方便用户浏览和管理好友的朋友圈动态。
+  - name: 收藏页面-小程序面板
+    identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Toolbar[@auto_id="main_tabbar"]/Button[@title="小程序面板"]
+    description: 该控件用于新建收藏标签或分类，用于管理和整理收藏内容。
+  - name: 收藏页面-手机
+    identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Toolbar[@auto_id="main_tabbar"]/Button[@auto_id="main_tabbar.tabbar_handoff"]
+    description: 该控件用于进入多设备互通入口，方便用户在手机和电脑间无缝切换查看正在浏览或收藏的内容。
+  - name: 收藏页面-更多
+    identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Toolbar[@auto_id="main_tabbar"]/Button[@auto_id="main_tabbar.tabbar_setting"]
+    description: 该控件的功能是：刷新或重新加载收藏内容列表，以确保展示最新的收藏条目。
+  - name: 收藏页面-ListItem0
+    identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Custom[@auto_id="main_window_splitter_view"]/GroupBox[0]/GroupBox[0]/GroupBox[1]/Custom[0]/Custom[0]/ListBox[@auto_id="fav_browser_list"]/ListItem[0]
+    description: ''
+  - name: 收藏页面-文件消息
+    identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Custom[@auto_id="main_window_splitter_view"]/GroupBox[0]/GroupBox[0]/GroupBox[1]/Custom[0]/Custom[0]/ListBox[@auto_id="fav_browser_list"]/ListItem[@title="文件软件工程期末考试复习题及答案PDF
+      707.1KBUSTB hw开源社区4月21日"]
+    description: ''
+  - name: 收藏页面-Button0
+    identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Custom[@auto_id="main_window_splitter_view"]/GroupBox[1]/GroupBox[0]/GroupBox[0]/GroupBox[0]/GroupBox[0]/Button[0]
+    description: 该控件的功能是进入微信收藏内容的主页面，便于用户浏览和管理所有已收藏的文件、链接、图片和视频等内容。
+  - name: 收藏页面-搜索
+    identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Custom[@auto_id="main_window_splitter_view"]/GroupBox[1]/GroupBox[0]/GroupBox[0]/GroupBox[0]/Edit[@name="搜索"]
+    description: 该控件的功能是用于在收藏页面中进行搜索，支持输入关键词（如“文件传输助手”）并展示对应的搜索结果。
+  - name: 收藏页面-ListItem0
+    identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Custom[@auto_id="main_window_splitter_view"]/GroupBox[1]/GroupBox[0]/ListBox[@auto_id="fav_navbar_list"]/ListItem[0]
+    description: ''
+  - name: 收藏页面-全部收藏
+    identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Custom[@auto_id="main_window_splitter_view"]/GroupBox[1]/GroupBox[0]/ListBox[@auto_id="fav_navbar_list"]/ListItem[@title="全部收藏"]
+    description: ''
+  - name: 收藏页面-最近使用
+    identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Custom[@auto_id="main_window_splitter_view"]/GroupBox[1]/GroupBox[0]/ListBox[@auto_id="fav_navbar_list"]/ListItem[@title="最近使用"]
+    description: ''
+  - name: 收藏页面-链接
+    identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Custom[@auto_id="main_window_splitter_view"]/GroupBox[1]/GroupBox[0]/ListBox[@auto_id="fav_navbar_list"]/ListItem[@title="链接"]
+    description: ''
+  - name: 收藏页面-图片与视频
+    identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Custom[@auto_id="main_window_splitter_view"]/GroupBox[1]/GroupBox[0]/ListBox[@auto_id="fav_navbar_list"]/ListItem[@title="图片与视频"]
+    description: ''
+  - name: 收藏页面-文件
+    identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Custom[@auto_id="main_window_splitter_view"]/GroupBox[1]/GroupBox[0]/ListBox[@auto_id="fav_navbar_list"]/ListItem[@title="文件"]
+    description: ''
+  - name: 收藏页面-ListItem6
+    identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Custom[@auto_id="main_window_splitter_view"]/GroupBox[1]/GroupBox[0]/ListBox[@auto_id="fav_navbar_list"]/ListItem[6]
+    description: ''
+  - name: 收藏页面-标签
+    identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Custom[@auto_id="main_window_splitter_view"]/GroupBox[1]/GroupBox[0]/ListBox[@auto_id="fav_navbar_list"]/ListItem[@title="标签"]
+    description: ''
+  - name: 收藏页面-最小化
+    identifier: /Dialog/GroupBox[0]/Toolbar[0]/Button[@title="最小化"]
+    description: 该控件的功能是进入“收藏页”，以便用户查看和管理已收藏的各种内容（如文件、链接、图片视频等），并支持分类浏览与搜索。
+  - name: 收藏页面-最大化
+    identifier: /Dialog/GroupBox[0]/Toolbar[0]/Button[@title="最大化"]
+    description: 该控件的功能是：刷新或重新加载收藏内容列表，以展示最新的收藏项目。
+  - name: 收藏页面-关闭
+    identifier: /Dialog/GroupBox[0]/Toolbar[0]/Button[@title="关闭"]
+    description: 该控件的功能是返回微信的主界面。
 - page_name: 聊天窗口
-  summary: 包含会话列表和当前群聊的聊天详情，用户可以查看和发送消息以及进行快捷操作。
+  summary: 用于浏览和发送群聊或单聊消息，并支持附件、表情、截图等多种聊天功能。
   controls:
   - name: 聊天窗口-微信
     identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Toolbar[@auto_id="main_tabbar"]/Button[@title="微信"]
@@ -821,8 +1116,7 @@ pages:
   - name: 聊天窗口-图片
     identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Custom[@auto_id="main_window_splitter_view"]/GroupBox[0]/GroupBox[0]/GroupBox[@auto_id="chat_message_page"]/Custom[0]/GroupBox[1]/ListBox[@auto_id="chat_message_list"]/ListItem[@auto_id="chat_message_list.qt_scrollarea_viewport.chat_bubble_item_view"]
     description: ''
-  - name: "聊天窗口-通用名称：  \n**“动态消息文本”** 或 **“聊天消息内容”**\n\n解释：  \n你提供的示例“现在这个咋进呀”是出现在微信聊天界面中，属于用户发送或收到的动态文本消息内容。因此可以归纳为如上通用名称，用于抽象描述此类控件。\n\
-      \n更多的通用名称建议还有：\n- 聊天气泡内容\n- 消息文本控件\n- 动态对话文本"
+  - name: 聊天窗口-聊天消息气泡
     identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Custom[@auto_id="main_window_splitter_view"]/GroupBox[0]/GroupBox[0]/GroupBox[@auto_id="chat_message_page"]/Custom[0]/GroupBox[1]/ListBox[@auto_id="chat_message_list"]/ListItem[@auto_id="chat_message_list.qt_scrollarea_viewport.chat_bubble_item_view"]
     description: ''
   - name: 聊天窗口-动画表情
@@ -837,7 +1131,7 @@ pages:
   - name: 聊天窗口-搜索
     identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Custom[@auto_id="main_window_splitter_view"]/GroupBox[1]/GroupBox[0]/GroupBox[0]/GroupBox[0]/GroupBox[0]/Edit[@name="搜索"]
     description: ''
-  - name: "聊天窗口-通用名称：  \n**课堂通知动态控件**  \n\n说明：  \n此名称能概括诸如“雨课堂 已置顶 作业提交提醒 星期四消息免打扰”这类关于课堂活动（如作业、通知、置顶状态、提醒等）动态变化的消息/提醒控件。"
+  - name: 聊天窗口-消息列表项
     identifier: /Dialog/GroupBox[0]/Custom[0]/GroupBox[0]/Custom[@auto_id="main_window_splitter_view"]/GroupBox[1]/GroupBox[0]/GroupBox[0]/GroupBox[1]/GroupBox[0]/GroupBox[0]/ListBox[@auto_id="session_list"]/ListItem[@auto_id="session_item"]
     description: ''
   - name: 聊天窗口-折叠置顶聊天
@@ -852,36 +1146,36 @@ pages:
   - name: 聊天窗口-关闭
     identifier: /Dialog/GroupBox[0]/Toolbar[0]/Button[@title="关闭"]
     description: ''
-- page_name: 页面16
+- page_name: 页面19
   summary: ''
   controls:
-  - name: 页面16-Minimize
+  - name: 页面19-Minimize
     identifier: /Pane/TitleBar[0]/Button[@title="Minimize"]
     description: ''
-  - name: 页面16-Restore
+  - name: 页面19-Restore
     identifier: /Pane/TitleBar[0]/Button[@title="Restore"]
     description: ''
-  - name: 页面16-Close
+  - name: 页面19-Close
     identifier: /Pane/TitleBar[0]/Button[@title="Close"]
     description: ''
-  - name: 页面16-最小化
+  - name: 页面19-最小化
     identifier: /Pane/Pane[1]/Pane[0]/Pane[0]/Button[@title="最小化"]
     description: ''
-  - name: 页面16-恢复
+  - name: 页面19-恢复
     identifier: /Pane/Pane[1]/Pane[0]/Pane[0]/Button[@title="恢复"]
     description: ''
-  - name: 页面16-关闭
+  - name: 页面19-关闭
     identifier: /Pane/Pane[1]/Pane[0]/Pane[0]/Button[@title="关闭"]
     description: ''
-  - name: 页面16-点按该按钮可前进，点按上下文菜单可查看历史记录
+  - name: 页面19-点按该按钮可前进，点按上下文菜单可查看历史记录
     identifier: /Pane/Pane[1]/Pane[0]/Pane[1]/Pane[1]/Button[@title="点按该按钮可前进，点按上下文菜单可查看历史记录"]
     description: ''
-  - name: 页面16-点按该按钮可后退，点按上下文菜单可查看历史记录
+  - name: 页面19-点按该按钮可后退，点按上下文菜单可查看历史记录
     identifier: /Pane/Pane[1]/Pane[0]/Pane[1]/Pane[1]/Button[@title="点按该按钮可后退，点按上下文菜单可查看历史记录"]
     description: ''
-  - name: 页面16-重新加载
+  - name: 页面19-重新加载
     identifier: /Pane/Pane[1]/Pane[0]/Pane[1]/Pane[1]/Button[@title="重新加载"]
     description: ''
-  - name: 页面16-关闭
+  - name: 页面19-关闭
     identifier: /Pane/Pane[1]/Pane[0]/Pane[1]/Pane[1]/TabControl[0]/Pane[0]/Pane[0]/Pane[0]/Pane[0]/Pane[0]/Pane[0]/TabItem[@title="小程序"]/Button[@title="关闭"]
     description: ''

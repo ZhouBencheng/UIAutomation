@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Dialog title="Weixin" name="Weixin" class_name="mmui::XPopover" auto_id="" handle="330596" rect="(L393, T653, R769, B903)" depth="0" path="">
+  <GroupBox title="" name="" class_name="mmui::HandoffListView" auto_id="" handle="None" rect="(L423, T683, R739, B873)" depth="1" path=" → GroupBox[]">
+    <GroupBox title="" name="" class_name="mmui::XView" auto_id="" handle="None" rect="(L423, T683, R739, B791)" depth="2" path=" → GroupBox[] → GroupBox[]">
+      <Static title="手机正在浏览和浮窗的内容将会在这里展示" name="手机正在浏览和浮窗的内容将会在这里展示" class_name="mmui::XTextView" auto_id="" handle="None" rect="(L438, T688, R723, B786)" depth="3" path=" → GroupBox[] → GroupBox[] → Static[手机正在浏览和浮窗的内容将会在这里展示]" />
+    </GroupBox>
+    <GroupBox title="" name="" class_name="mmui::XView" auto_id="" handle="None" rect="(L423, T792, R739, B873)" depth="2" path=" → GroupBox[] → GroupBox[]">
+      <GroupBox title="" name="" class_name="mmui::XView" auto_id="" handle="None" rect="(L433, T795, R729, B796)" depth="3" path=" → GroupBox[] → GroupBox[] → GroupBox[]">
+        <GroupBox title="" name="" class_name="mmui::XView" auto_id="" handle="None" rect="(L443, T795, R493, B796)" depth="4" path=" → GroupBox[] → GroupBox[] → GroupBox[] → GroupBox[]" />
+      </GroupBox>
+      <ListItem title="" name="" class_name="mmui::HandoffCellView" auto_id="" handle="None" rect="(L433, T798, R729, B868)" depth="3" path=" → GroupBox[] → GroupBox[] → ListItem[]" is_dynamic="False" />
+    </GroupBox>
+  </GroupBox>
+</Dialog>
