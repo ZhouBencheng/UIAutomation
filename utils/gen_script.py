@@ -30,11 +30,15 @@ class UIScriptGenerator:
             name = ctrl.get('name') or ctrl.get('id', '')
             xpath = ctrl.get('identifier', '')
             desc = ctrl.get('description', '')
-            self.controls.append({
+            ctrl_dict = {
                 'name': name,
                 'xpath': xpath,
                 'description': desc,
-            })
+            }
+            if ctrl.get('dynamic', '').lower() == 'true':
+                ctrl_dict['dynamic'] = True
+
+            self.controls.append(ctrl_dict)
 
     def similar(self, a: str, b: str) -> float:
         """计算两个字符串的相似度 (0-1)"""
@@ -68,7 +72,7 @@ class UIScriptGenerator:
         relevant_ctrls = self.find_relevant_controls(task_description)
         controls_info = ""
         for ctrl in relevant_ctrls:
-            controls_info += f"- 名称: {ctrl['name']}, 描述：{ctrl['description']}, XPath: {ctrl['xpath']}\n"
+            controls_info += f"- 名称: {ctrl['name']}, 描述：{ctrl['description']}, is_dynamic: {ctrl['dynamic'] if ctrl['dynamic'] else 'false'}, XPath: {ctrl['xpath']}\n"
 
         # 整理 UTG 状态转换信息为文本
         try:

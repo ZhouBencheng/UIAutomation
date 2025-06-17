@@ -22,7 +22,10 @@ if __name__ == '__main__':
         logger.info('Start generating documentation...')
         convert_xml_to_appdoc('doc/utg', 'doc/utg/UTG.yaml', 'doc/appdoc.yaml')
 
-    gr.Interface(fn=UIScriptGenerator.generate_script,
+    script_generator = UIScriptGenerator('doc/appdoc.yaml', 'doc/utg/UTG.yaml')
+
+    gr.Interface(fn=script_generator.generate_script,
                  inputs=gr.Textbox(label="Task Description", placeholder="Describe the task you want to automate..."),
-                 outputs=gr.Textbox(label="Generated Script"),
+                 outputs=gr.Markdown(label="Generated Script"),
+                 allow_flagging="never",
                  title="UI Automation Script Generator").launch()

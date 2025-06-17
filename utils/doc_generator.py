@@ -267,6 +267,8 @@ def convert_xml_to_appdoc(xml_dir, utg_path, output_yaml):
                 "identifier": identifier,
                 "description": description
             }
+            if elem.attrib.get('is_dynamic', '').lower() == 'true':
+                ctrl_entry["dynamic"] = str(True)
             page_entry["controls"].append(ctrl_entry)
             logger.debug(f"控件 {control_name}: 路径={identifier}, 描述={description}")
         appdoc["pages"].append(page_entry)
