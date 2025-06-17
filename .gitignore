@@ -1,6 +1,7 @@
 /gui_export/
 /.idea/
 __pycache__/
+knowledge_base/
 
 *.pyc
 *.log

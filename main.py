@@ -4,7 +4,7 @@ from utils import explorer
 from utils.logger_config import set_logger
 from utils.doc_generator import convert_xml_to_appdoc
 import gradio as gr
-from utils.gen_script import get_script
+from utils.gen_script import UIScriptGenerator
 
 if __name__ == '__main__':
     logger = set_logger()
@@ -22,7 +22,7 @@ if __name__ == '__main__':
         logger.info('Start generating documentation...')
         convert_xml_to_appdoc('doc/utg', 'doc/utg/UTG.yaml', 'doc/appdoc.yaml')
 
-    gr.Interface(fn=get_script,
+    gr.Interface(fn=UIScriptGenerator.generate_script,
                  inputs=gr.Textbox(label="Task Description", placeholder="Describe the task you want to automate..."),
                  outputs=gr.Textbox(label="Generated Script"),
                  title="UI Automation Script Generator").launch()
