@@ -4,7 +4,9 @@ from pywinauto.controls.uiawrapper import UIAWrapper
 import xml.etree.ElementTree as ET
 from datetime import datetime
 import utils.classifier as classifier
+# import classifier
 from utils.connector import get_wrapper_object, weixin_app_path, weixin_title
+# from connector import get_wrapper_object, weixin_app_path, weixin_title
 
 logger = logging.getLogger()
 

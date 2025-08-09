@@ -1,0 +1,159 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Pane title="微信" name="微信" class_name="Chrome_WidgetWin_0" auto_id="" handle="4001462" rect="(L0, T60, R1474, B1080)" depth="0" path="">
+  <Pane title="Chrome Legacy Window" name="Chrome Legacy Window" class_name="Chrome_RenderWidgetHostHWND" auto_id="269536" handle="593066" rect="(L9, T111, R1466, B1072)" depth="1" path=" → Pane[Chrome Legacy Window]">
+    <Pane title="" name="" class_name="Intermediate D3D Window" auto_id="" handle="69334" rect="(L9, T60, R1465, B1071)" depth="2" path=" → Pane[Chrome Legacy Window] → Pane[]" />
+    <TitleBar title="" name="" class_name="" auto_id="" handle="None" rect="(L0, T0, R0, B0)" depth="2" path=" → Pane[Chrome Legacy Window] → TitleBar[]" is_dynamic="False">
+      <Menu title="System" name="System" class_name="" auto_id="MenuBar" handle="None" rect="(L9, T69, R37, B97)" depth="3" path=" → Pane[Chrome Legacy Window] → TitleBar[] → Menu[System]" is_dynamic="False">
+        <MenuItem title="System" name="System" class_name="" auto_id="" handle="None" rect="(L9, T69, R37, B97)" depth="4" path=" → Pane[Chrome Legacy Window] → TitleBar[] → Menu[System] → MenuItem[System]" is_dynamic="False" />
+      </Menu>
+      <Button title="Minimize" name="Minimize" class_name="" auto_id="" handle="None" rect="(L0, T0, R0, B0)" depth="3" path=" → Pane[Chrome Legacy Window] → TitleBar[] → Button[Minimize]" is_dynamic="False" />
+      <Button title="Maximize" name="Maximize" class_name="" auto_id="" handle="None" rect="(L0, T0, R0, B0)" depth="3" path=" → Pane[Chrome Legacy Window] → TitleBar[] → Button[Maximize]" is_dynamic="False" />
+      <Button title="Close" name="Close" class_name="" auto_id="" handle="None" rect="(L0, T0, R0, B0)" depth="3" path=" → Pane[Chrome Legacy Window] → TitleBar[] → Button[Close]" is_dynamic="False" />
+    </TitleBar>
+    <Menu title="System" name="System" class_name="" auto_id="MenuBar" handle="None" rect="(L9, T69, R37, B97)" depth="2" path=" → Pane[Chrome Legacy Window] → Menu[System]" is_dynamic="False">
+      <MenuItem title="System" name="System" class_name="" auto_id="" handle="None" rect="(L9, T69, R37, B97)" depth="3" path=" → Pane[Chrome Legacy Window] → Menu[System] → MenuItem[System]" is_dynamic="False" />
+    </Menu>
+    <Button title="Minimize" name="Minimize" class_name="" auto_id="" handle="None" rect="(L0, T0, R0, B0)" depth="2" path=" → Pane[Chrome Legacy Window] → Button[Minimize]" is_dynamic="False" />
+    <Button title="Maximize" name="Maximize" class_name="" auto_id="" handle="None" rect="(L0, T0, R0, B0)" depth="2" path=" → Pane[Chrome Legacy Window] → Button[Maximize]" is_dynamic="False" />
+    <Button title="Close" name="Close" class_name="" auto_id="" handle="None" rect="(L0, T0, R0, B0)" depth="2" path=" → Pane[Chrome Legacy Window] → Button[Close]" is_dynamic="False" />
+    <Pane title="" name="" class_name="" auto_id="" handle="None" rect="(L8, T60, R1465, B1072)" depth="2" path=" → Pane[Chrome Legacy Window] → Pane[]">
+      <Pane title="" name="" class_name="" auto_id="" handle="None" rect="(L8, T60, R1465, B1072)" depth="3" path=" → Pane[Chrome Legacy Window] → Pane[] → Pane[]">
+        <Pane title="" name="" class_name="" auto_id="" handle="None" rect="(L1300, T61, R1465, B112)" depth="4" path=" → Pane[Chrome Legacy Window] → Pane[] → Pane[] → Pane[]">
+          <Pane title="" name="" class_name="" auto_id="" handle="None" rect="(L1300, T61, R1342, B112)" depth="5" path=" → Pane[Chrome Legacy Window] → Pane[] → Pane[] → Pane[] → Pane[]">
+            <MenuItem title="更多" name="更多" class_name="" auto_id="" handle="None" rect="(L1300, T61, R1342, B112)" depth="6" path=" → Pane[Chrome Legacy Window] → Pane[] → Pane[] → Pane[] → Pane[] → MenuItem[更多]" is_dynamic="False" />
+          </Pane>
+          <Button title="最小化" name="最小化" class_name="" auto_id="" handle="None" rect="(L1341, T61, R1383, B112)" depth="5" path=" → Pane[Chrome Legacy Window] → Pane[] → Pane[] → Pane[] → Button[最小化]" is_dynamic="False" />
+          <Button title="最大化" name="最大化" class_name="" auto_id="" handle="None" rect="(L1382, T61, R1424, B112)" depth="5" path=" → Pane[Chrome Legacy Window] → Pane[] → Pane[] → Pane[] → Button[最大化]" is_dynamic="False" />
+          <Button title="关闭" name="关闭" class_name="" auto_id="" handle="None" rect="(L1423, T61, R1465, B112)" depth="5" path=" → Pane[Chrome Legacy Window] → Pane[] → Pane[] → Pane[] → Button[关闭]" is_dynamic="False" />
+        </Pane>
+        <Pane title="" name="" class_name="" auto_id="" handle="None" rect="(L8, T61, R1465, B1072)" depth="4" path=" → Pane[Chrome Legacy Window] → Pane[] → Pane[] → Pane[]">
+          <Pane title="" name="" class_name="" auto_id="" handle="None" rect="(L8, T111, R1465, B1072)" depth="5" path=" → Pane[Chrome Legacy Window] → Pane[] → Pane[] → Pane[] → Pane[]" />
+          <Pane title="" name="" class_name="" auto_id="" handle="None" rect="(L18, T66, R1300, B112)" depth="5" path=" → Pane[Chrome Legacy Window] → Pane[] → Pane[] → Pane[] → Pane[]">
+            <Button title="点按该按钮可前进，点按上下文菜单可查看历史记录" name="点按该按钮可前进，点按上下文菜单可查看历史记录" class_name="" auto_id="" handle="None" rect="(L60, T70, R92, B102)" depth="6" path=" → Pane[Chrome Legacy Window] → Pane[] → Pane[] → Pane[] → Pane[] → Button[点按该按钮可前进，点按上下文菜单可查看历史记录]" is_dynamic="False" />
+            <Button title="点按该按钮可后退，点按上下文菜单可查看历史记录" name="点按该按钮可后退，点按上下文菜单可查看历史记录" class_name="" auto_id="" handle="None" rect="(L18, T70, R50, B102)" depth="6" path=" → Pane[Chrome Legacy Window] → Pane[] → Pane[] → Pane[] → Pane[] → Button[点按该按钮可后退，点按上下文菜单可查看历史记录]" is_dynamic="False" />
+            <Button title="重新加载" name="重新加载" class_name="" auto_id="" handle="None" rect="(L91, T70, R123, B102)" depth="6" path=" → Pane[Chrome Legacy Window] → Pane[] → Pane[] → Pane[] → Pane[] → Button[重新加载]" is_dynamic="False" />
+            <TabControl title="" name="" class_name="" auto_id="" handle="None" rect="(L122, T66, R1300, B109)" depth="6" path=" → Pane[Chrome Legacy Window] → Pane[] → Pane[] → Pane[] → Pane[] → TabControl[]" is_dynamic="False">
+              <Pane title="" name="" class_name="" auto_id="" handle="None" rect="(L127, T66, R413, B109)" depth="7" path=" → Pane[Chrome Legacy Window] → Pane[] → Pane[] → Pane[] → Pane[] → TabControl[] → Pane[]">
+                <Pane title="" name="" class_name="" auto_id="" handle="None" rect="(L127, T66, R413, B109)" depth="8" path=" → Pane[Chrome Legacy Window] → Pane[] → Pane[] → Pane[] → Pane[] → TabControl[] → Pane[] → Pane[]">
+                  <Pane title="" name="" class_name="" auto_id="" handle="None" rect="(L127, T66, R413, B109)" depth="9" path=" → Pane[Chrome Legacy Window] → Pane[] → Pane[] → Pane[] → Pane[] → TabControl[] → Pane[] → Pane[] → Pane[]">
+                    <Pane title="" name="" class_name="" auto_id="" handle="None" rect="(L127, T66, R413, B109)" depth="10" path=" → Pane[Chrome Legacy Window] → Pane[] → Pane[] → Pane[] → Pane[] → TabControl[] → Pane[] → Pane[] → Pane[] → Pane[]">
+                      <Pane title="" name="" class_name="" auto_id="" handle="None" rect="(L127, T66, R413, B107)" depth="11" path=" → Pane[Chrome Legacy Window] → Pane[] → Pane[] → Pane[] → Pane[] → TabControl[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[]">
+                        <Pane title="" name="" class_name="" auto_id="" handle="None" rect="(L127, T66, R413, B107)" depth="12" path=" → Pane[Chrome Legacy Window] → Pane[] → Pane[] → Pane[] → Pane[] → TabControl[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[]">
+                          <TabItem title="小程序" name="小程序" class_name="" auto_id="" handle="None" rect="(L127, T66, R413, B107)" depth="13" path=" → Pane[Chrome Legacy Window] → Pane[] → Pane[] → Pane[] → Pane[] → TabControl[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → TabItem[小程序]" is_dynamic="False">
+                            <Button title="关闭" name="关闭" class_name="" auto_id="" handle="None" rect="(L371, T71, R403, B103)" depth="14" path=" → Pane[Chrome Legacy Window] → Pane[] → Pane[] → Pane[] → Pane[] → TabControl[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → TabItem[小程序] → Button[关闭]" is_dynamic="False" />
+                          </TabItem>
+                        </Pane>
+                        <Pane title="" name="" class_name="" auto_id="" handle="None" rect="(L127, T66, R413, B107)" depth="12" path=" → Pane[Chrome Legacy Window] → Pane[] → Pane[] → Pane[] → Pane[] → TabControl[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[]" />
+                      </Pane>
+                    </Pane>
+                    <Pane title="" name="" class_name="" auto_id="" handle="None" rect="(L0, T0, R0, B0)" depth="10" path=" → Pane[Chrome Legacy Window] → Pane[] → Pane[] → Pane[] → Pane[] → TabControl[] → Pane[] → Pane[] → Pane[] → Pane[]" />
+                  </Pane>
+                </Pane>
+              </Pane>
+              <Pane title="" name="" class_name="" auto_id="" handle="None" rect="(L412, T66, R453, B107)" depth="7" path=" → Pane[Chrome Legacy Window] → Pane[] → Pane[] → Pane[] → Pane[] → TabControl[] → Pane[]" />
+              <Pane title="" name="" class_name="" auto_id="" handle="None" rect="(L452, T66, R1295, B109)" depth="7" path=" → Pane[Chrome Legacy Window] → Pane[] → Pane[] → Pane[] → Pane[] → TabControl[] → Pane[]" />
+            </TabControl>
+          </Pane>
+          <Pane title="" name="" class_name="" auto_id="" handle="None" rect="(L0, T0, R0, B0)" depth="5" path=" → Pane[Chrome Legacy Window] → Pane[] → Pane[] → Pane[] → Pane[]" />
+          <Pane title="" name="" class_name="" auto_id="" handle="None" rect="(L0, T0, R0, B0)" depth="5" path=" → Pane[Chrome Legacy Window] → Pane[] → Pane[] → Pane[] → Pane[]" />
+          <Pane title="" name="" class_name="" auto_id="" handle="None" rect="(L0, T0, R0, B0)" depth="5" path=" → Pane[Chrome Legacy Window] → Pane[] → Pane[] → Pane[] → Pane[]" />
+        </Pane>
+      </Pane>
+    </Pane>
+    <Pane title="" name="" class_name="" auto_id="" handle="None" rect="(L8, T60, R1465, B1072)" depth="2" path=" → Pane[Chrome Legacy Window] → Pane[]">
+      <Pane title="" name="" class_name="" auto_id="" handle="None" rect="(L1300, T61, R1465, B112)" depth="3" path=" → Pane[Chrome Legacy Window] → Pane[] → Pane[]">
+        <Pane title="" name="" class_name="" auto_id="" handle="None" rect="(L1300, T61, R1342, B112)" depth="4" path=" → Pane[Chrome Legacy Window] → Pane[] → Pane[] → Pane[]">
+          <MenuItem title="更多" name="更多" class_name="" auto_id="" handle="None" rect="(L1300, T61, R1342, B112)" depth="5" path=" → Pane[Chrome Legacy Window] → Pane[] → Pane[] → Pane[] → MenuItem[更多]" is_dynamic="False" />
+        </Pane>
+        <Button title="最小化" name="最小化" class_name="" auto_id="" handle="None" rect="(L1341, T61, R1383, B112)" depth="4" path=" → Pane[Chrome Legacy Window] → Pane[] → Pane[] → Button[最小化]" is_dynamic="False" />
+        <Button title="最大化" name="最大化" class_name="" auto_id="" handle="None" rect="(L1382, T61, R1424, B112)" depth="4" path=" → Pane[Chrome Legacy Window] → Pane[] → Pane[] → Button[最大化]" is_dynamic="False" />
+        <Button title="关闭" name="关闭" class_name="" auto_id="" handle="None" rect="(L1423, T61, R1465, B112)" depth="4" path=" → Pane[Chrome Legacy Window] → Pane[] → Pane[] → Button[关闭]" is_dynamic="False" />
+      </Pane>
+      <Pane title="" name="" class_name="" auto_id="" handle="None" rect="(L8, T61, R1465, B1072)" depth="3" path=" → Pane[Chrome Legacy Window] → Pane[] → Pane[]">
+        <Pane title="" name="" class_name="" auto_id="" handle="None" rect="(L8, T111, R1465, B1072)" depth="4" path=" → Pane[Chrome Legacy Window] → Pane[] → Pane[] → Pane[]" />
+        <Pane title="" name="" class_name="" auto_id="" handle="None" rect="(L18, T66, R1300, B112)" depth="4" path=" → Pane[Chrome Legacy Window] → Pane[] → Pane[] → Pane[]">
+          <Button title="点按该按钮可前进，点按上下文菜单可查看历史记录" name="点按该按钮可前进，点按上下文菜单可查看历史记录" class_name="" auto_id="" handle="None" rect="(L60, T70, R92, B102)" depth="5" path=" → Pane[Chrome Legacy Window] → Pane[] → Pane[] → Pane[] → Button[点按该按钮可前进，点按上下文菜单可查看历史记录]" is_dynamic="False" />
+          <Button title="点按该按钮可后退，点按上下文菜单可查看历史记录" name="点按该按钮可后退，点按上下文菜单可查看历史记录" class_name="" auto_id="" handle="None" rect="(L18, T70, R50, B102)" depth="5" path=" → Pane[Chrome Legacy Window] → Pane[] → Pane[] → Pane[] → Button[点按该按钮可后退，点按上下文菜单可查看历史记录]" is_dynamic="False" />
+          <Button title="重新加载" name="重新加载" class_name="" auto_id="" handle="None" rect="(L91, T70, R123, B102)" depth="5" path=" → Pane[Chrome Legacy Window] → Pane[] → Pane[] → Pane[] → Button[重新加载]" is_dynamic="False" />
+          <TabControl title="" name="" class_name="" auto_id="" handle="None" rect="(L122, T66, R1300, B109)" depth="5" path=" → Pane[Chrome Legacy Window] → Pane[] → Pane[] → Pane[] → TabControl[]" is_dynamic="False">
+            <Pane title="" name="" class_name="" auto_id="" handle="None" rect="(L127, T66, R413, B109)" depth="6" path=" → Pane[Chrome Legacy Window] → Pane[] → Pane[] → Pane[] → TabControl[] → Pane[]">
+              <Pane title="" name="" class_name="" auto_id="" handle="None" rect="(L127, T66, R413, B109)" depth="7" path=" → Pane[Chrome Legacy Window] → Pane[] → Pane[] → Pane[] → TabControl[] → Pane[] → Pane[]">
+                <Pane title="" name="" class_name="" auto_id="" handle="None" rect="(L127, T66, R413, B109)" depth="8" path=" → Pane[Chrome Legacy Window] → Pane[] → Pane[] → Pane[] → TabControl[] → Pane[] → Pane[] → Pane[]">
+                  <Pane title="" name="" class_name="" auto_id="" handle="None" rect="(L127, T66, R413, B109)" depth="9" path=" → Pane[Chrome Legacy Window] → Pane[] → Pane[] → Pane[] → TabControl[] → Pane[] → Pane[] → Pane[] → Pane[]">
+                    <Pane title="" name="" class_name="" auto_id="" handle="None" rect="(L127, T66, R413, B107)" depth="10" path=" → Pane[Chrome Legacy Window] → Pane[] → Pane[] → Pane[] → TabControl[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[]">
+                      <Pane title="" name="" class_name="" auto_id="" handle="None" rect="(L127, T66, R413, B107)" depth="11" path=" → Pane[Chrome Legacy Window] → Pane[] → Pane[] → Pane[] → TabControl[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[]">
+                        <TabItem title="小程序" name="小程序" class_name="" auto_id="" handle="None" rect="(L127, T66, R413, B107)" depth="12" path=" → Pane[Chrome Legacy Window] → Pane[] → Pane[] → Pane[] → TabControl[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → TabItem[小程序]" is_dynamic="False">
+                          <Button title="关闭" name="关闭" class_name="" auto_id="" handle="None" rect="(L371, T71, R403, B103)" depth="13" path=" → Pane[Chrome Legacy Window] → Pane[] → Pane[] → Pane[] → TabControl[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → TabItem[小程序] → Button[关闭]" is_dynamic="False" />
+                        </TabItem>
+                      </Pane>
+                      <Pane title="" name="" class_name="" auto_id="" handle="None" rect="(L127, T66, R413, B107)" depth="11" path=" → Pane[Chrome Legacy Window] → Pane[] → Pane[] → Pane[] → TabControl[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[]" />
+                    </Pane>
+                  </Pane>
+                  <Pane title="" name="" class_name="" auto_id="" handle="None" rect="(L0, T0, R0, B0)" depth="9" path=" → Pane[Chrome Legacy Window] → Pane[] → Pane[] → Pane[] → TabControl[] → Pane[] → Pane[] → Pane[] → Pane[]" />
+                </Pane>
+              </Pane>
+            </Pane>
+            <Pane title="" name="" class_name="" auto_id="" handle="None" rect="(L412, T66, R453, B107)" depth="6" path=" → Pane[Chrome Legacy Window] → Pane[] → Pane[] → Pane[] → TabControl[] → Pane[]" />
+            <Pane title="" name="" class_name="" auto_id="" handle="None" rect="(L452, T66, R1295, B109)" depth="6" path=" → Pane[Chrome Legacy Window] → Pane[] → Pane[] → Pane[] → TabControl[] → Pane[]" />
+          </TabControl>
+        </Pane>
+        <Pane title="" name="" class_name="" auto_id="" handle="None" rect="(L0, T0, R0, B0)" depth="4" path=" → Pane[Chrome Legacy Window] → Pane[] → Pane[] → Pane[]" />
+        <Pane title="" name="" class_name="" auto_id="" handle="None" rect="(L0, T0, R0, B0)" depth="4" path=" → Pane[Chrome Legacy Window] → Pane[] → Pane[] → Pane[]" />
+        <Pane title="" name="" class_name="" auto_id="" handle="None" rect="(L0, T0, R0, B0)" depth="4" path=" → Pane[Chrome Legacy Window] → Pane[] → Pane[] → Pane[]" />
+      </Pane>
+    </Pane>
+  </Pane>
+<Pane title="" name="" class_name="Intermediate D3D Window" auto_id="" handle="69334" rect="(L9, T60, R1465, B1071)" depth="1" path=" → Pane[]" />
+<TitleBar title="" name="" class_name="" auto_id="" handle="None" rect="(L0, T0, R0, B0)" depth="1" path=" → TitleBar[]" is_dynamic="False">
+    <Menu title="System" name="System" class_name="" auto_id="MenuBar" handle="None" rect="(L9, T69, R37, B97)" depth="2" path=" → TitleBar[] → Menu[System]" is_dynamic="False">
+      <MenuItem title="System" name="System" class_name="" auto_id="" handle="None" rect="(L9, T69, R37, B97)" depth="3" path=" → TitleBar[] → Menu[System] → MenuItem[System]" is_dynamic="False" />
+    </Menu>
+    <Button title="Minimize" name="Minimize" class_name="" auto_id="" handle="None" rect="(L0, T0, R0, B0)" depth="2" path=" → TitleBar[] → Button[Minimize]" is_dynamic="False" />
+    <Button title="Maximize" name="Maximize" class_name="" auto_id="" handle="None" rect="(L0, T0, R0, B0)" depth="2" path=" → TitleBar[] → Button[Maximize]" is_dynamic="False" />
+    <Button title="Close" name="Close" class_name="" auto_id="" handle="None" rect="(L0, T0, R0, B0)" depth="2" path=" → TitleBar[] → Button[Close]" is_dynamic="False" />
+  </TitleBar>
+<Pane title="" name="" class_name="" auto_id="" handle="None" rect="(L8, T60, R1465, B1072)" depth="1" path=" → Pane[]">
+    <Pane title="" name="" class_name="" auto_id="" handle="None" rect="(L8, T60, R1465, B1072)" depth="2" path=" → Pane[] → Pane[]">
+      <Pane title="" name="" class_name="" auto_id="" handle="None" rect="(L1300, T61, R1465, B112)" depth="3" path=" → Pane[] → Pane[] → Pane[]">
+        <Pane title="" name="" class_name="" auto_id="" handle="None" rect="(L1300, T61, R1342, B112)" depth="4" path=" → Pane[] → Pane[] → Pane[] → Pane[]">
+          <MenuItem title="更多" name="更多" class_name="" auto_id="" handle="None" rect="(L1300, T61, R1342, B112)" depth="5" path=" → Pane[] → Pane[] → Pane[] → Pane[] → MenuItem[更多]" is_dynamic="False" />
+        </Pane>
+        <Button title="最小化" name="最小化" class_name="" auto_id="" handle="None" rect="(L1341, T61, R1383, B112)" depth="4" path=" → Pane[] → Pane[] → Pane[] → Button[最小化]" is_dynamic="False" />
+        <Button title="最大化" name="最大化" class_name="" auto_id="" handle="None" rect="(L1382, T61, R1424, B112)" depth="4" path=" → Pane[] → Pane[] → Pane[] → Button[最大化]" is_dynamic="False" />
+        <Button title="关闭" name="关闭" class_name="" auto_id="" handle="None" rect="(L1423, T61, R1465, B112)" depth="4" path=" → Pane[] → Pane[] → Pane[] → Button[关闭]" is_dynamic="False" />
+      </Pane>
+      <Pane title="" name="" class_name="" auto_id="" handle="None" rect="(L8, T61, R1465, B1072)" depth="3" path=" → Pane[] → Pane[] → Pane[]">
+        <Pane title="" name="" class_name="" auto_id="" handle="None" rect="(L8, T111, R1465, B1072)" depth="4" path=" → Pane[] → Pane[] → Pane[] → Pane[]" />
+        <Pane title="" name="" class_name="" auto_id="" handle="None" rect="(L18, T66, R1300, B112)" depth="4" path=" → Pane[] → Pane[] → Pane[] → Pane[]">
+          <Button title="点按该按钮可前进，点按上下文菜单可查看历史记录" name="点按该按钮可前进，点按上下文菜单可查看历史记录" class_name="" auto_id="" handle="None" rect="(L60, T70, R92, B102)" depth="5" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Button[点按该按钮可前进，点按上下文菜单可查看历史记录]" is_dynamic="False" />
+          <Button title="点按该按钮可后退，点按上下文菜单可查看历史记录" name="点按该按钮可后退，点按上下文菜单可查看历史记录" class_name="" auto_id="" handle="None" rect="(L18, T70, R50, B102)" depth="5" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Button[点按该按钮可后退，点按上下文菜单可查看历史记录]" is_dynamic="False" />
+          <Button title="重新加载" name="重新加载" class_name="" auto_id="" handle="None" rect="(L91, T70, R123, B102)" depth="5" path=" → Pane[] → Pane[] → Pane[] → Pane[] → Button[重新加载]" is_dynamic="False" />
+          <TabControl title="" name="" class_name="" auto_id="" handle="None" rect="(L122, T66, R1300, B109)" depth="5" path=" → Pane[] → Pane[] → Pane[] → Pane[] → TabControl[]" is_dynamic="False">
+            <Pane title="" name="" class_name="" auto_id="" handle="None" rect="(L127, T66, R413, B109)" depth="6" path=" → Pane[] → Pane[] → Pane[] → Pane[] → TabControl[] → Pane[]">
+              <Pane title="" name="" class_name="" auto_id="" handle="None" rect="(L127, T66, R413, B109)" depth="7" path=" → Pane[] → Pane[] → Pane[] → Pane[] → TabControl[] → Pane[] → Pane[]">
+                <Pane title="" name="" class_name="" auto_id="" handle="None" rect="(L127, T66, R413, B109)" depth="8" path=" → Pane[] → Pane[] → Pane[] → Pane[] → TabControl[] → Pane[] → Pane[] → Pane[]">
+                  <Pane title="" name="" class_name="" auto_id="" handle="None" rect="(L127, T66, R413, B109)" depth="9" path=" → Pane[] → Pane[] → Pane[] → Pane[] → TabControl[] → Pane[] → Pane[] → Pane[] → Pane[]">
+                    <Pane title="" name="" class_name="" auto_id="" handle="None" rect="(L127, T66, R413, B107)" depth="10" path=" → Pane[] → Pane[] → Pane[] → Pane[] → TabControl[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[]">
+                      <Pane title="" name="" class_name="" auto_id="" handle="None" rect="(L127, T66, R413, B107)" depth="11" path=" → Pane[] → Pane[] → Pane[] → Pane[] → TabControl[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[]">
+                        <TabItem title="小程序" name="小程序" class_name="" auto_id="" handle="None" rect="(L127, T66, R413, B107)" depth="12" path=" → Pane[] → Pane[] → Pane[] → Pane[] → TabControl[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → TabItem[小程序]" is_dynamic="False">
+                          <Button title="关闭" name="关闭" class_name="" auto_id="" handle="None" rect="(L371, T71, R403, B103)" depth="13" path=" → Pane[] → Pane[] → Pane[] → Pane[] → TabControl[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → TabItem[小程序] → Button[关闭]" is_dynamic="False" />
+                        </TabItem>
+                      </Pane>
+                      <Pane title="" name="" class_name="" auto_id="" handle="None" rect="(L127, T66, R413, B107)" depth="11" path=" → Pane[] → Pane[] → Pane[] → Pane[] → TabControl[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[] → Pane[]" />
+                    </Pane>
+                  </Pane>
+                  <Pane title="" name="" class_name="" auto_id="" handle="None" rect="(L0, T0, R0, B0)" depth="9" path=" → Pane[] → Pane[] → Pane[] → Pane[] → TabControl[] → Pane[] → Pane[] → Pane[] → Pane[]" />
+                </Pane>
+              </Pane>
+            </Pane>
+            <Pane title="" name="" class_name="" auto_id="" handle="None" rect="(L412, T66, R453, B107)" depth="6" path=" → Pane[] → Pane[] → Pane[] → Pane[] → TabControl[] → Pane[]" />
+            <Pane title="" name="" class_name="" auto_id="" handle="None" rect="(L452, T66, R1295, B109)" depth="6" path=" → Pane[] → Pane[] → Pane[] → Pane[] → TabControl[] → Pane[]" />
+          </TabControl>
+        </Pane>
+        <Pane title="" name="" class_name="" auto_id="" handle="None" rect="(L0, T0, R0, B0)" depth="4" path=" → Pane[] → Pane[] → Pane[] → Pane[]" />
+        <Pane title="" name="" class_name="" auto_id="" handle="None" rect="(L0, T0, R0, B0)" depth="4" path=" → Pane[] → Pane[] → Pane[] → Pane[]" />
+        <Pane title="" name="" class_name="" auto_id="" handle="None" rect="(L0, T0, R0, B0)" depth="4" path=" → Pane[] → Pane[] → Pane[] → Pane[]" />
+      </Pane>
+    </Pane>
+  </Pane>
+</Pane>

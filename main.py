@@ -8,8 +8,8 @@ from utils.gen_script import UIScriptGenerator
 
 if __name__ == '__main__':
     logger = set_logger()
-    explorer_flag = False   # explorer开关
-    conversion_flag = False # conversion开关
+    explorer_flag = True   # explorer开关
+    conversion_flag = True # conversion开关
 
     if explorer_flag or not os.listdir('doc/utg'):
         logger.info('Start exploring...')
